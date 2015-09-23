@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monster Squad 0.0.0</title>
+  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <script src="data/monsters.js"></script>
+  <script src="bower_components/react/react.js"></script>
+  <script src="bower_components/react/JSXTransformer.js"></script>
+  <script src="bower_components/marked/marked.min.js"></script>
+<body>
+
+  <div id="mountpoint"></div>
+
+  <script type="text/jsx" src="src/js/score.js"></script>
+  <script type="text/jsx" src="src/js/monsterblock.js"></script>
+  <script type="text/jsx" src="src/js/monsterstat.js"></script>
+  <script type="text/jsx" src="src/js/monsterstage.js"></script>
+  <script type="text/jsx" src="src/js/monsterlist.js"></script>
+  <script type="text/jsx" src="src/js/app.js"></script>
+
+  <script type="text/jsx">
+    React.render(<App allMonsters={data} />, document.getElementById('mountpoint'));
+  </script>
+
+</body>
+</html>

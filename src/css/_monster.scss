@@ -1,0 +1,48 @@
+//typography
+.monster {
+  float: left;
+  width: 350px;
+  margin: 20px 0 20px 20px;
+  font-size: .875rem;
+  &-tag {
+    font-style: italic;
+  }
+  &-tactical,
+  &-skills {
+    color: $mmbrown;
+    p { margin-bottom: .5em; }
+  }
+  &-features,
+  &-actions,
+  &-reactions {
+    p {
+      margin-top: 1.5em;
+      line-height: 1.3;
+    }
+  }
+
+}
+//block
+.monster {
+  position: relative;
+  padding: .625rem;
+  background-color: $mmbg;
+  &:before,
+  &:after {
+    position: absolute;
+    left: -.5%;
+    width: 101%;
+    height: 5px;
+    border: 1px solid #000;
+    display: block;
+    background-color: $mmbar;
+    content: " ";
+  }
+  &:before { top: -4px; }
+  &:after { bottom: -4px; }
+}
+
+.score-table {
+  text-transform: uppercase;
+  color: $mmbrown;
+}

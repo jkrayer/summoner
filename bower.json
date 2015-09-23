@@ -1,0 +1,27 @@
+{
+  "name": "monster-squad",
+  "version": "0.0.0",
+  "authors": [
+    "jkrayer <jameskrayer@yahoo.com>"
+  ],
+  "description": "5e Stat block",
+  "main": "index.html",
+  "keywords": [
+    "react",
+    "dnd",
+    "5e"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marked": "~0.3.5",
+    "normalize-css": "normalize.css#~3.0.3",
+    "react": "~0.13.3"
+  }
+}

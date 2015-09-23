@@ -1,0 +1,17 @@
+// Reset Temporarily
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: Times, "Times New Roman", Georgia, serif;
+  font-weight: 300;
+  font-variant: small-caps;
+  letter-spacing: .05em;
+  color: $mmbrown;
+}
