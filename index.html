@@ -3,27 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Monster Squad 0.0.0</title>
-  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
-  <link rel="stylesheet" href="src/css/style.css" />
+  <link rel="stylesheet" href="node_modules/normalize-css/normalize.css" />
+  <link rel="stylesheet" href="dist/css/style.css" />
   <script src="data/monsters.js"></script>
-  <script src="bower_components/react/react.js"></script>
-  <script src="bower_components/react/JSXTransformer.js"></script>
-  <script src="bower_components/marked/marked.min.js"></script>
+  <script src="node_modules/react/dist/react.js"></script>
+  <script src="node_modules/react/dist/JSXTransformer.js"></script>
+  <script src="node_modules/marked/marked.min.js"></script>
 </head>
 <body>
 
   <div id="mountpoint"></div>
 
-  <script type="text/jsx" src="src/js/score.js"></script>
-  <script type="text/jsx" src="src/js/monsterblock.js"></script>
-  <script type="text/jsx" src="src/js/monsterstat.js"></script>
-  <script type="text/jsx" src="src/js/monsterstage.js"></script>
-  <script type="text/jsx" src="src/js/monsterlist.js"></script>
-  <script type="text/jsx" src="src/js/app.js"></script>
-
-  <script type="text/jsx">
-    React.render(<App allMonsters={data} />, document.getElementById('mountpoint'));
-  </script>
+  <script src="dist/js/score.js"></script>
+  <script src="dist/js/monsterblock.js"></script>
+  <script src="dist/js/monsterstat.js"></script>
+  <script src="dist/js/monsterstage.js"></script>
+  <script src="dist/js/monsterlist.js"></script>
+  <script src="dist/js/app.js"></script>
+  <script src="dist/js/myapp.js"></script>
 
 </body>
 </html>
