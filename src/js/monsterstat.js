@@ -2,7 +2,7 @@ var MonsterStat = React.createClass({
   proptypes: {
     monster: React.PropTypes.object.isRequired
   },
-  render () {
+  render: function () {
     var monster = this.props.monster;
     var reactions = monster.reactions ? <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" /> : '';
     return (

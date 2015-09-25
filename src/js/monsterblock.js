@@ -1,9 +1,9 @@
 var MonsterBlock = React.createClass({
-  protypes : {
+  protypes: {
     stats: React.PropTypes.array.isRequired,
     title: React.PropTypes.string
   },
-  render () {
+  render: function () {
     var className = 'monster-block ' + this.props.className;
     var header = this.props.title ? (<h2>{this.props.title}</h2>) : '';
     return (
