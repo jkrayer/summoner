@@ -1,0 +1,32 @@
+{
+  "name": "summoner",
+  "version": "0.0.0",
+  "description": "Manage 5e Statblocks",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkrayer/summoner.git"
+  },
+  "author": "Jim Krayer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkrayer/summoner/issues"
+  },
+  "homepage": "https://github.com/jkrayer/summoner#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-react": "^3.0.1",
+    "gulp-sass": "^2.0.4",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "marked": "^0.3.5",
+    "normalize-css": "^2.3.1",
+    "react": "^0.13.3"
+  }
+}
