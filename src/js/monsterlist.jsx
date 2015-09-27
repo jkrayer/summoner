@@ -8,12 +8,12 @@ var MonsterList = React.createClass({
     var theMonsters = this.props.allMonsters.map(function (monster, i){
       var icon = monster.selected ? '-' : '+';
       return (
-        <li key={i}>{monster.name}<button type="button" onClick={self.props.onToggleMonster.bind(null, i)}>{icon}</button></li>
+        <li key={i} onClick={self.props.onToggleMonster.bind(null, i)}><button type="button" className="button-reset"><span className="ctrl-icon">{icon}</span>{monster.name}</button></li>
       );
     });
     return (
       <div id="monster-list">
-        <ul>
+        <ul className="list-reset">
           {theMonsters}
         </ul>
       </div>
