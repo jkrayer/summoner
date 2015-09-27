@@ -16,7 +16,9 @@
     color: #fff;
     text-indent: -20px;
     text-align: left;
-    &:hover {
+    &:hover,
+    &.active {
+      border-bottom: 1px solid #292929;
       background-color: #1a1a1a;
     }
   }

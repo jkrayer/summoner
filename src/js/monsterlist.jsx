@@ -7,8 +7,9 @@ var MonsterList = React.createClass({
     var self = this;
     var theMonsters = this.props.allMonsters.map(function (monster, i){
       var icon = monster.selected ? '-' : '+';
+      var classNames = monster.selected ?  'button-reset active' : 'button-reset';
       return (
-        <li key={i} onClick={self.props.onToggleMonster.bind(null, i)}><button type="button" className="button-reset"><span className="ctrl-icon">{icon}</span>{monster.name}</button></li>
+        <li key={i} onClick={self.props.onToggleMonster.bind(null, i)}><button type="button" className={classNames}><span className="ctrl-icon">{icon}</span>{monster.name}</button></li>
       );
     });
     return (
