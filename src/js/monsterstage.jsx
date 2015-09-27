@@ -5,7 +5,7 @@ var MonsterStage = React.createClass({
   render: function () {
     var theMonsters = this.props.allMonsters.map(function (monster, index) {
       if (monster.selected) {
-        return (<MonsterStat monster={monster} key={index} />);
+        return (<Monster monster={monster} key={index} />);
       }
       return null;
     });

@@ -1,4 +1,4 @@
-var MonsterStat = React.createClass({
+var Monster = React.createClass({
   proptypes: {
     monster: React.PropTypes.object.isRequired
   },
