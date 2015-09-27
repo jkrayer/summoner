@@ -1,0 +1,23 @@
+//#monster-list
+#monster-list {
+  box-sizing: border-box;
+  width: 20%;
+  height: 100vh;
+  background-color: #292929;
+  color: #fff;
+  button {
+    width: 100%;
+    padding: 25px 15px;
+    padding-left: 35px;
+    border-bottom: 1px solid #1a1a1a;
+    color: #fff;
+    text-indent: -20px;
+    text-align: left;
+    &:hover {
+      background-color: #1a1a1a;
+    }
+  }
+  .ctrl-icon {
+    padding-right: 10px;
+  }
+}
