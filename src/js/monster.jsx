@@ -38,6 +38,7 @@ var Monster = React.createClass({
         <MonsterBlock className="monster-features" stats={monster.features} />
         <MonsterBlock className="monster-actions" stats={monster.actions} title="Actions" />
         {reactions}
+        <MonsterControl monster={this.props.monster} />
       </article>
     );
   }
