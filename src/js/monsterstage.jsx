@@ -1,9 +1,11 @@
-var MonsterStage = React.createClass({
+'use strict';
+
+let MonsterStage = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired
   },
   render: function () {
-    var theMonsters = this.props.allMonsters.map(function (monster, index) {
+    let theMonsters = this.props.allMonsters.map(function (monster, index) {
       if (monster.selected) {
         return (<Monster monster={monster} key={index} />);
       }

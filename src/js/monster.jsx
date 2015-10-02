@@ -1,10 +1,12 @@
-var Monster = React.createClass({
+'use strict';
+
+let Monster = React.createClass({
   proptypes: {
     monster: React.PropTypes.object.isRequired
   },
-  render: function () {
-    var monster = this.props.monster;
-    var reactions = monster.reactions ? <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" /> : '';
+  render () {
+    let monster = this.props.monster;
+    let reactions = monster.reactions ? <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" /> : '';
     return (
       <article className="monster">
         <header>

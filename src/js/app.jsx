@@ -1,13 +1,15 @@
-var App = React.createClass({
+'use strict';
+
+let App = React.createClass ({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired
   },
-  getInitialState: function () {
+  getInitialState () {
     return {
       allMonsters: this.props.allMonsters
     };
   },
-  render: function () {
+  render () {
     return (
       <div>
         <MonsterList allMonsters={this.state.allMonsters} onToggleMonster={this.toggleMonster} />
@@ -15,20 +17,18 @@ var App = React.createClass({
       </div>
     );
   },
-  toggleMonster: function (arrayKey) {
-    var allMonsters = this.state.allMonsters;
-
+  toggleMonster (arrayKey) {
+    let allMonsters = this.state.allMonsters;
     if (this.state.allMonsters[arrayKey].hasOwnProperty('selected')) {
       this.state.allMonsters[arrayKey].selected = !this.state.allMonsters[arrayKey].selected;
     } else {
       this.state.allMonsters[arrayKey].selected = true;
     }
-
     this.setState({
       allMonsters: allMonsters
     });
   },
-  clearSlected: function () {
+  clearSlected () {
     this.setState({
       selectedMonsters: []
     });
