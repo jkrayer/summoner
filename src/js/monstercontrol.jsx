@@ -49,31 +49,38 @@ var HPBlock = React.createClass({
   },
   getInitialState: function () {
     return {
-      hitpoints: this.props.hitpoints
+      hitpoints: this.props.hitpoints,
+      value: ''
     };
   },
   render: function () {
     return (
       <div>
         <span>{this.state.hitpoints}</span>
-        <input type="text" ref="pointcounter" />
+        <input type="text" ref="pointcounter" value={this.state.value} onChange={this.changeHandler} />
         <button type="button" onClick={this.handlePlus}>+</button>
         <button type="button" onClick={this.handleMinus}>-</button>
       </div>
     );
   },
-  handleMinus: function (event) {
-    var value = parseInt(React.findDOMNode(this.refs.pointcounter).value, 10);
-    var newValue = this.state.hitpoints - value;
+  changeHandler: function (event) {
     this.setState({
-      hitpoints: newValue
+      value: parseInt(event.target.value, 10)
+    });
+  },
+  handleMinus: function (event) {
+    var newValue = this.state.hitpoints - this.state.value;
+    this.setState({
+      hitpoints: newValue,
+      value: ''
     });
   },
   handlePlus: function (event) {
-    var value = parseInt(React.findDOMNode(this.refs.pointcounter).value, 10);
-    var newValue = this.state.hitpoints + value;
+    var newValue = this.state.hitpoints + this.state.value;
+    newValue = (newValue > this.props.hitpoints) ? this.props.hitpoints : newValue;
     this.setState({
-      hitpoints: newValue
+      hitpoints: newValue,
+      value: ''
     });
   }
 });
