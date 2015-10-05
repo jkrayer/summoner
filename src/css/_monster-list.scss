@@ -8,6 +8,18 @@
   height: 100vh;
   background-color: #292929;
   color: #fff;
+  li {
+    border-bottom: 1px solid #1a1a1a;
+    &:hover {
+      cursor: pointer;
+    }
+    &:hover,
+    &.active {
+      border-bottom: 1px solid #292929;
+      background-color: #1a1a1a;
+    }
+  }
+  /*
   button {
     width: 100%;
     padding: 25px 15px;
@@ -24,5 +36,25 @@
   }
   .ctrl-icon {
     padding-right: 10px;
+  }
+  */
+}
+.control-wrapper {
+  position: relative;
+  padding: 15px;
+}
+.button-tray {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  padding: 15px;
+  background-color: #ccc;
+  button {
+    width: 100%;
+  }
+  &.active {
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
