@@ -27,18 +27,18 @@ let MonsterControl = React.createClass({
 
     return (
       <form>
-        <input type="text" value={this.state.count} onChange={this.handleChange} disabled={this.state.disabled} />
-        <button type="button" onClick={this.handleClick}>{buttonText}</button>
+        <input type="text" value={this.state.count} onChange={this._handleChange} disabled={this.state.disabled} />
+        <button type="button" onClick={this._handleClick}>{buttonText}</button>
         {hpBlocks}
       </form>
     );
   },
-  handleChange (event) {
+  _handleChange (event) {
     this.setState({
       count: parseInt(event.target.value, 10)
     });
   },
-  handleClick (event) {
+  _handleClick (event) {
     this.setState({
       disabled: !this.state.disabled
     });

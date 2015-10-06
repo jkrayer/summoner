@@ -14,25 +14,25 @@ let HPBlock = React.createClass({
     return (
       <div>
         <span>{this.state.hitpoints}</span>
-        <input type="text" ref="pointcounter" value={this.state.value} onChange={this.changeHandler} />
-        <button type="button" onClick={this.handlePlus}>+</button>
-        <button type="button" onClick={this.handleMinus}>-</button>
+        <input type="text" ref="pointcounter" value={this.state.value} onChange={this._changeHandler} />
+        <button type="button" onClick={this._handlePlus}>+</button>
+        <button type="button" onClick={this._handleMinus}>-</button>
       </div>
     );
   },
-  changeHandler (event) {
+  _changeHandler (event) {
     this.setState({
       value: parseInt(event.target.value, 10)
     });
   },
-  handleMinus (event) {
+  _handleMinus (event) {
     let newValue = this.state.hitpoints - this.state.value;
     this.setState({
       hitpoints: newValue,
       value: ''
     });
   },
-  handlePlus (event) {
+  _handlePlus (event) {
     let newValue = this.state.hitpoints + this.state.value;
     newValue = (newValue > this.props.hitpoints) ? this.props.hitpoints : newValue;
     this.setState({
