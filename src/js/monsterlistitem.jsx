@@ -2,7 +2,8 @@
 
 let MonsterListItem = React.createClass({
   propTypes: {
-    monster: React.PropTypes.object.isRequired
+    monster: React.PropTypes.object.isRequired,
+    toggleView: React.PropTypes.func.isRequired
   },
   getInitialState () {
     return {
