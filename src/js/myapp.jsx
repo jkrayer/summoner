@@ -1,3 +1,3 @@
 'use strict';
 
-React.render(<App allMonsters={data} />, document.getElementById('mountpoint'));
+ReactDOM.render(<App allMonsters={data} />, document.getElementById('mountpoint'));
