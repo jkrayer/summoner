@@ -1,6 +1,7 @@
-'use strict';
+import React from 'react';
+import HPBlock from './hpblock';
 
-let MonsterControl = React.createClass({
+const MonsterControl = React.createClass({
   proptypes: {
     monster: React.PropTypes.object.isRequired
   },
@@ -44,3 +45,5 @@ let MonsterControl = React.createClass({
     });
   }
 });
+
+export default MonsterControl;

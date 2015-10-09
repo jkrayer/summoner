@@ -1,10 +1,11 @@
-'use strict';
+import React from 'react';
+import Monster from './monster';
 
-let MonsterStage = React.createClass({
+const MonsterStage = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired
   },
-  render: function () {
+  render () {
     let theMonsters = this.props.allMonsters.map(function (monster, index) {
       if (monster.selected) {
         return (<Monster monster={monster} key={index} />);
@@ -18,3 +19,5 @@ let MonsterStage = React.createClass({
     );
   }
 });
+
+export default MonsterStage;

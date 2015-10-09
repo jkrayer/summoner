@@ -1,6 +1,7 @@
-'use strict';
+import React from 'react';
+import MonsterListItem from './monsterlistitem';
 
-let MonsterList = React.createClass({
+const MonsterList = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired,
     onToggleMonster: React.PropTypes.func.isRequired
@@ -10,11 +11,15 @@ let MonsterList = React.createClass({
     return (
       <div id="monster-list">
         <ul className="list-reset">
-          {this.props.allMonsters.map((monster, index) => {
+        {
+          this.props.allMonsters.map(function (monster, index) {
             return (<MonsterListItem monster={monster} key={index} toggleView={self.props.onToggleMonster.bind(null, index)} />);
-          })}
+          })
+        }
         </ul>
       </div>
     );
   }
 });
+
+export default MonsterList;

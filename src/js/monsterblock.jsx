@@ -1,6 +1,6 @@
-'use strict';
+import React from 'react';
 
-let MonsterBlock = React.createClass({
+const MonsterBlock = React.createClass({
   protypes: {
     stats: React.PropTypes.array.isRequired,
     title: React.PropTypes.string
@@ -21,3 +21,5 @@ let MonsterBlock = React.createClass({
     );
   }
 });
+
+export default MonsterBlock;

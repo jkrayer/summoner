@@ -1,6 +1,7 @@
-'use strict';
+import React from 'react';
+import MonsterListControl from './monsterlistcontrol';
 
-let MonsterListItem = React.createClass({
+const MonsterListItem = React.createClass({
   propTypes: {
     monster: React.PropTypes.object.isRequired,
     toggleView: React.PropTypes.func.isRequired
@@ -26,3 +27,5 @@ let MonsterListItem = React.createClass({
     });
   }
 });
+
+export default MonsterListItem;

@@ -1,6 +1,6 @@
-'use strict';
+import React from 'react';
 
-let Score = React.createClass({
+const Score = React.createClass({
   proptypes: {
     value: React.PropTypes.number.isRequired
   },
@@ -17,3 +17,5 @@ let Score = React.createClass({
     return ' (' + operator + val + ')';
   }
 });
+
+export default Score;

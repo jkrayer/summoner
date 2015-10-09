@@ -1,6 +1,6 @@
-'use strict';
+import React from 'react';
 
-let MonsterListControl = React.createClass({
+const MonsterListControl = React.createClass({
   proptTypes: {
     selected: React.PropTypes.bool.isRequired,
     viewHandler: React.PropTypes.func.isRequired,
@@ -26,3 +26,5 @@ let MonsterListControl = React.createClass({
     });
   }
 });
+
+export default MonsterListControl;

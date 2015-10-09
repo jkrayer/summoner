@@ -1,6 +1,6 @@
-'use strict';
+import React from 'react';
 
-let HPBlock = React.createClass({
+const HPBlock = React.createClass({
   proptypes: {
     hitpoints: React.PropTypes.number.isRequired
   },
@@ -41,3 +41,5 @@ let HPBlock = React.createClass({
     });
   }
 });
+
+export default HPBlock;

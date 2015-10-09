@@ -1,6 +1,8 @@
-'use strict';
+import React from 'react';
+import MonsterList from './monsterlist';
+import MonsterStage from './monsterstage';
 
-let App = React.createClass ({
+const App = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired
   },
@@ -29,3 +31,7 @@ let App = React.createClass ({
     });
   }
 });
+
+export default App;
+
+

@@ -1,6 +1,9 @@
-'use strict';
+import React from 'react';
+import MonsterBlock from './monsterblock';
+import Score from './score';
+import MonsterControl from './monstercontrol';
 
-let Monster = React.createClass({
+const Monster = React.createClass({
   proptypes: {
     monster: React.PropTypes.object.isRequired
   },
@@ -45,3 +48,5 @@ let Monster = React.createClass({
     );
   }
 });
+
+export default Monster;
