@@ -17,13 +17,10 @@
   },
   "homepage": "https://github.com/jkrayer/summoner#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-babel": "^5.2.1",
-    "gulp-jshint": "^1.11.2",
-    "gulp-minify-css": "^1.2.1",
-    "gulp-react": "^3.0.1",
-    "gulp-sass": "^2.0.4",
-    "require-dir": "^0.3.0"
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "require-dir": "^0.3.0",
+    "webpack": "^1.12.2"
   },
   "dependencies": {
     "marked": "^0.3.5",
