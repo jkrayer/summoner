@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
 import App from './app';
-import Data from '../../../data/monsters';
-
+import summonerApp from '../redux/reducers';
 import "../css/style";
 
-ReactDOM.render(<App allMonsters={Data} />, document.getElementById('mountpoint'));
+let store = createStore(summonerApp);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('mountpoint')
+);
