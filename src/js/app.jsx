@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { showMonster } from '../redux/actions';
 import MonsterList from './monsterlist';
 import MonsterStage from './monsterstage';
 
@@ -6,32 +8,25 @@ const App = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired
   },
-  getInitialState () {
-    return {
-      allMonsters: this.props.allMonsters
-    };
-  },
   render () {
+//<MonsterStage allMonsters={this.props.visibleStatBlock} />
     return (
       <div>
-        <MonsterList allMonsters={this.state.allMonsters} onToggleMonster={this._toggleMonster} />
-        <MonsterStage allMonsters={this.state.allMonsters} />
+        <MonsterList allMonsters={this.props.allMonsters} onToggleMonster={this._toggleMonster} />
       </div>
     );
   },
   _toggleMonster (arrayKey) {
-    let allMonsters = this.state.allMonsters;
-    if (this.state.allMonsters[arrayKey].hasOwnProperty('selected')) {
-      this.state.allMonsters[arrayKey].selected = !this.state.allMonsters[arrayKey].selected;
-    } else {
-      this.state.allMonsters[arrayKey].selected = true;
-    }
-    this.setState({
-      allMonsters: allMonsters
-    });
+    this.props.dispatch({type:'SHOW_MONSTER', key:arrayKey});
   }
 });
 
-export default App;
+function select(state) {
+  return {
+    allMonsters: state.monsters,
+    visibleStatBlock: state.visibleStatBlock
+  };
+}
 
-
+// Wrap the component to inject dispatch and state into it
+export default connect(select)(App);
