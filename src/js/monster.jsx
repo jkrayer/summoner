@@ -45,7 +45,6 @@ const Monster = React.createClass({
           <MonsterBlock className="monster-features" stats={monster.features} />
           {actions}
           {reactions}
-          <MonsterControl monster={this.props.monster} />
         </article>
       </div>
     );
