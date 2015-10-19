@@ -6,7 +6,8 @@ import Monster from './monster'
 
 const App = React.createClass({
   propTypes: {
-    allMonsters: React.PropTypes.array.isRequired
+    allMonsters: React.PropTypes.array.isRequired,
+    visibleStatBlock: React.PropTypes.object
   },
   render () {
     let monster = this.props.visibleStatBlock ? <Monster monster={this.props.visibleStatBlock} /> : null;
@@ -23,10 +24,7 @@ const App = React.createClass({
 });
 
 function select(state) {
-  return {
-    allMonsters: state.allMonsters,
-    visibleStatBlock: state.visibleStatBlock
-  };
+  return state;
 }
 
 // Wrap the component to inject dispatch and state into it
