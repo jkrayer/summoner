@@ -3,7 +3,7 @@ import Data from '../../../data/monsters';
 
 const initialState = {
   monsters: Data,
-  visibleStatBlock: {}
+  visibleStatBlock: null
 };
 
 function summonerApp(state = initialState, action) {
