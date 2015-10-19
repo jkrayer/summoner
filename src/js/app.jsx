@@ -2,17 +2,18 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { showMonster } from '../redux/actions';
 import MonsterList from './monsterlist';
-import MonsterStage from './monsterstage';
+import Monster from './monster'
 
 const App = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired
   },
   render () {
-//<MonsterStage allMonsters={this.props.visibleStatBlock} />
+    let monster = this.props.visibleStatBlock ? <Monster monster={this.props.visibleStatBlock} /> : null;
     return (
       <div>
         <MonsterList allMonsters={this.props.allMonsters} onToggleMonster={this._toggleMonster} />
+        {monster}
       </div>
     );
   },
