@@ -20,7 +20,8 @@ const MonsterListControl = React.createClass({
     );
   },
   _clickHandler () {
-    this.props.toggleStatBlock(this.props.monsterID);
+    let theId = (this.state.copy === 'Hide') ? -1 : this.props.monsterID;
+    this.props.toggleStatBlock(theId);
     this.setState({
       copy: (this.state.copy === 'Show') ? 'Hide' : 'Show'
     });
