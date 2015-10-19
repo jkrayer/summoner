@@ -24,7 +24,7 @@ const App = React.createClass({
 
 function select(state) {
   return {
-    allMonsters: state.monsters,
+    allMonsters: state.allMonsters,
     visibleStatBlock: state.visibleStatBlock
   };
 }
