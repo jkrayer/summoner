@@ -4,7 +4,8 @@ import MonsterListItem from './monsterlistitem';
 const MonsterList = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired,
-    toggleStatBlock: React.PropTypes.func.isRequired
+    toggleStatBlock: React.PropTypes.func.isRequired,
+    visibleId: React.PropTypes.number.isRequired
   },
   render () {
     //=> elimintae self
@@ -14,7 +15,7 @@ const MonsterList = React.createClass({
         <ul className="list-reset">
         {
           this.props.allMonsters.map(function (monster, index) {
-            return (<MonsterListItem key={index} monster={monster} toggleStatBlock={self.props.toggleStatBlock} />);
+            return (<MonsterListItem key={index} monster={monster} toggleStatBlock={self.props.toggleStatBlock} visibleId={self.props.visibleId} />);
           })
         }
         </ul>
