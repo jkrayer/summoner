@@ -6,7 +6,8 @@ import Monster from './monster';
 const App = React.createClass({
   propTypes: {
     allMonsters: React.PropTypes.array.isRequired,
-    visibleStatBlock: React.PropTypes.object
+    visibleStatBlock: React.PropTypes.object,
+    dispatch: React.PropTypes.func.isRequired
   },
   render () {
     let monster = this.props.visibleStatBlock ? <Monster monster={this.props.visibleStatBlock} /> : null;
