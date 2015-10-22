@@ -13,13 +13,10 @@ const App = React.createClass({
     let visibleId = (this.props.visibleStatBlock) ? this.props.visibleStatBlock.id : -1;
     return (
       <div>
-        <MonsterList allMonsters={this.props.allMonsters} toggleStatBlock={this._toggleStatBlock} visibleId={visibleId} />
+        <MonsterList allMonsters={this.props.allMonsters} dispatch={this.props.dispatch} visibleId={visibleId} />
         {monster}
       </div>
     );
-  },
-  _toggleStatBlock (id) {
-    this.props.dispatch({type:'SHOW_MONSTER', id:id});
   }
 });
 

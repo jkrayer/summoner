@@ -4,7 +4,7 @@ import MonsterListControl from './monsterlistcontrol';
 const MonsterListItem = React.createClass({
   propTypes: {
     monster: React.PropTypes.object.isRequired,
-    toggleStatBlock: React.PropTypes.func.isRequired,
+    dispatch: React.PropTypes.func.isRequired,
     visibleId: React.PropTypes.number.isRequired
   },
   getInitialState () {
@@ -16,7 +16,7 @@ const MonsterListItem = React.createClass({
     return (
       <li onMouseEnter={this._hoverHandler} onMouseLeave={this._hoverHandler}>
         <div className="control-wrapper">
-          <MonsterListControl showControls={this.state.showControls} toggleStatBlock={this.props.toggleStatBlock} monsterID={this.props.monster.id} visibleId={this.props.visibleId} />
+          <MonsterListControl showControls={this.state.showControls} dispatch={this.props.dispatch} monsterID={this.props.monster.id} visibleId={this.props.visibleId} />
           {this.props.monster.name}
         </div>
       </li>

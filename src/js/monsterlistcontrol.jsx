@@ -3,7 +3,7 @@ import React from 'react';
 const MonsterListControl = React.createClass({
   proptTypes: {
     showControls: React.PropTypes.bool.isRequired,
-    toggleStatBlock: React.PropTypes.func.isRequired,
+    dispatch: React.PropTypes.func.isRequired,
     monsterID: React.PropTypes.number.isRequired,
     visibleId: React.PropTypes.number.isRequired
   },
@@ -18,7 +18,7 @@ const MonsterListControl = React.createClass({
   },
   _clickHandler () {
     let theId = (this.props.monsterID === this.props.visibleId) ? -1 : this.props.monsterID;
-    this.props.toggleStatBlock(theId);
+    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
   }
 });
 
