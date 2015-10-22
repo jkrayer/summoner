@@ -1,9 +1,11 @@
 import { SHOW_MONSTER } from './actions';
+import { USE_MONSTER } from './actions';
 import Data from '../../../data/monsters';
 
 const initialState = {
   allMonsters: Data,
-  visibleStatBlock: null
+  visibleStatBlock: null,
+  usedMonsters: []
 };
 
 function getById (array, id) {
@@ -16,9 +18,14 @@ function getById (array, id) {
 }
 
 function summonerApp(state = initialState, action) {
+  var usedMonsters;
   switch(action.type) {
     case SHOW_MONSTER:
       return Object.assign({}, state, {visibleStatBlock: getById(state.allMonsters, action.id)});
+    break;
+    case USE_MONSTER:
+      usedMonsters = state.usedMonsters.concat([getById(state.allMonsters, action.id)]);
+      return Object.assign({}, state, {usedMonsters: usedMonsters});
     break;
     default:
       return state;
