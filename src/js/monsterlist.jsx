@@ -8,14 +8,12 @@ const MonsterList = React.createClass({
     visibleId: React.PropTypes.number.isRequired
   },
   render () {
-    //=> elimintae self
-    let self = this;
     return (
       <div id="monster-list">
         <ul className="list-reset">
         {
-          this.props.allMonsters.map(function (monster, index) {
-            return (<MonsterListItem key={index} monster={monster} dispatch={self.props.dispatch} visibleId={self.props.visibleId} />);
+          this.props.allMonsters.map( (monster, index) => {
+            return (<MonsterListItem key={index} monster={monster} dispatch={this.props.dispatch} visibleId={this.props.visibleId} />);
           })
         }
         </ul>
