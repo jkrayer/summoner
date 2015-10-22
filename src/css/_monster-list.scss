@@ -47,10 +47,15 @@
   position: absolute;
   top: 0;
   left: -100%;
-  padding: 15px;
-  background-color: #ccc;
   button {
-    width: 100%;
+    width: 50%;
+    padding: 15px;
+    font-weight: 500;
+    background-color: #ccc;
+    &:hover {
+      background-color: #999;
+      color: #fff;
+    }
   }
   &.active {
     right: 0;
