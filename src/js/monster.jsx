@@ -1,7 +1,6 @@
 import React from 'react';
 import MonsterBlock from './monsterblock';
 import Score from './score';
-import MonsterControl from './monstercontrol';
 
 const Monster = React.createClass({
   proptypes: {
