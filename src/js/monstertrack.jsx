@@ -1,4 +1,5 @@
 import React from 'react';
+import MonsterTrackControl from './monstertrackcontrol';
 
 const MonsterTrack = React.createClass({
   propTypes: {
@@ -16,7 +17,7 @@ const MonsterTrack = React.createClass({
   _renderMonsterBlocks (monster, index) {
     return (
       <article key={index}>
-        (Remove)(Show)(Add)
+        <MonsterTrackControl dispatch={this.props.dispatch} monsterId={monster.id}/>
         <header>
           <h1>{monster.name}</h1>
         </header>
