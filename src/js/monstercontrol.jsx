@@ -7,41 +7,39 @@ const MonsterControl = React.createClass({
   },
   getInitialState () {
     return {
-      count: null,
-      disabled: false
+      numberOfMonsters: null,
+      hpOfMonsters: null
     };
   },
   render () {
-    let buttonText = this.state.disabled ? 'Un-Set' : 'Set';
-    let self = this;
-    let n = [];
-    let hpBlocks;
+    let monster = this.props.monster;
 
-    if (this.state.count) {
-      for (let i = 0; i < this.state.count; i++) {
-        n.push(i);
+    if (this.state.numberOfMonsters) {
+      let modules = [];
+      let i = 0;
+      while (i < this.state.numberOfMonsters) {
+        modules.push((<HPBlock hitpoints={this.state.hpOfMonsters} key={i}/>));
+        i++;
       }
-      hpBlocks = n.map(function (num, index) {
-        return (<HPBlock hitpoints={self.props.monster.hitpoints} key={index}/>);
-      });
+      return(
+        <form>
+          {modules}
+        </form>
+      );
+    } else {
+      return (
+        <form>
+          <input type="number" value={this.state.numberOfMonsters} placeholder="#" ref="numberOfMonsters" /> @
+          <input type="number" value={this.state.hpOfMonsters} placeholder={monster.hitpoints + '-' + monster.maxHitpoints} ref="hpOfMonsters" />
+          <button type="button" onClick={this._setPoints}>Set</button>
+        </form>
+      );
     }
-
-    return (
-      <form>
-        <input type="text" value={this.state.count} onChange={this._handleChange} disabled={this.state.disabled} />
-        <button type="button" onClick={this._handleClick}>{buttonText}</button>
-        {hpBlocks}
-      </form>
-    );
   },
-  _handleChange (event) {
+  _setPoints () {
     this.setState({
-      count: parseInt(event.target.value, 10)
-    });
-  },
-  _handleClick (event) {
-    this.setState({
-      disabled: !this.state.disabled
+      numberOfMonsters: parseInt(this.refs.numberOfMonsters.value, 10),
+      hpOfMonsters: parseInt(this.refs.hpOfMonsters.value, 10)
     });
   }
 });
