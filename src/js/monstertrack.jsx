@@ -1,5 +1,6 @@
 import React from 'react';
 import MonsterTrackControl from './monstertrackcontrol';
+import MonsterControl from './monstercontrol';
 
 const MonsterTrack = React.createClass({
   propTypes: {
@@ -42,7 +43,7 @@ const MonsterTrack = React.createClass({
         <header>
           <h1>{monster.name}</h1>
         </header>
-        {blocks}
+        <MonsterControl monster={this.props.monsters} />
       </article>
     );
   },
