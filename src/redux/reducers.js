@@ -1,5 +1,6 @@
 import { SHOW_MONSTER } from './actions';
 import { USE_MONSTER } from './actions';
+import { REMOVE_MONSTER } from './actions';
 import Data from '../../../data/monsters';
 
 const initialState = {
@@ -17,6 +18,18 @@ function getById (array, id) {
   return null;
 }
 
+function deleteById (array, id) {
+  let i = 0;
+  let length = array.length;
+  let newArray = [];
+  for (i; i < length; i++) {
+    if (array[i].id === id) { continue; }
+    newArray.push(array[i]);
+  }
+  return newArray;
+}
+
+
 function summonerApp(state = initialState, action) {
   var usedMonsters;
   switch(action.type) {
@@ -25,6 +38,10 @@ function summonerApp(state = initialState, action) {
     break;
     case USE_MONSTER:
       usedMonsters = state.usedMonsters.concat([getById(state.allMonsters, action.id)]);
+      return Object.assign({}, state, {usedMonsters: usedMonsters});
+    break;
+    case REMOVE_MONSTER:
+      usedMonsters = deleteById(state.usedMonsters, action.id);
       return Object.assign({}, state, {usedMonsters: usedMonsters});
     break;
     default:
