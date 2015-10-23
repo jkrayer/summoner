@@ -63,3 +63,16 @@
     left: 0;
   }
 }
+
+
+#monster-track {
+  position: fixed;
+  top: 0;
+  left: 20%;
+  box-sizing: border-box;
+  width: 20%;
+  height: 100vh;
+  border-left: 1px solid #808080;
+  background-color: #404040;
+  color: #fff;
+}
