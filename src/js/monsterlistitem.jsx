@@ -4,18 +4,19 @@ import MonsterListControl from './monsterlistcontrol';
 const MonsterListItem = React.createClass({
   propTypes: {
     monster: React.PropTypes.object.isRequired,
-    toggleView: React.PropTypes.func.isRequired
+    dispatch: React.PropTypes.func.isRequired,
+    visibleId: React.PropTypes.number.isRequired
   },
   getInitialState () {
     return {
-      show: false
+      showControls: false
     };
   },
   render() {
     return (
       <li onMouseEnter={this._hoverHandler} onMouseLeave={this._hoverHandler}>
         <div className="control-wrapper">
-          <MonsterListControl selected={this.props.monster.selected} show={this.state.show} toggleView={this.props.toggleView} />
+          <MonsterListControl showControls={this.state.showControls} dispatch={this.props.dispatch} monsterID={this.props.monster.id} visibleId={this.props.visibleId} />
           {this.props.monster.name}
         </div>
       </li>
@@ -23,7 +24,7 @@ const MonsterListItem = React.createClass({
   },
   _hoverHandler () {
     this.setState({
-      show: !this.state.show
+      showControls: !this.state.showControls
     });
   }
 });

@@ -14,7 +14,7 @@ const MonsterBlock = React.createClass({
         {this.props.stats.map(function(stat, index) {
           let markup = marked(stat, {sanitize: false});
           return (
-            <p key={index} dangerouslySetInnerHTML={{__html: markup}} />
+            <div key={index} dangerouslySetInnerHTML={{__html: markup}} />
           );
         })}
       </section>

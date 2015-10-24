@@ -2,28 +2,27 @@ import React from 'react';
 
 const MonsterListControl = React.createClass({
   proptTypes: {
-    selected: React.PropTypes.bool.isRequired,
-    viewHandler: React.PropTypes.func.isRequired,
-    show: React.PropTypes.bool.isRequired
-  },
-  getInitialState () {
-    return {
-      copy: 'Show'
-    };
+    showControls: React.PropTypes.bool.isRequired,
+    dispatch: React.PropTypes.func.isRequired,
+    monsterID: React.PropTypes.number.isRequired,
+    visibleId: React.PropTypes.number.isRequired
   },
   render () {
-    let classes = (this.props.show) ? 'button-tray active' : 'button-tray';
+    let classes = (this.props.showControls) ? 'button-tray active' : 'button-tray';
+    let copy = (this.props.monsterID === this.props.visibleId) ? 'Hide' : 'Show';
     return (
       <div className={classes}>
-        <button type="button" className="button-reset" onClick={this._clickHandler}>{this.state.copy}</button>
+        <button type="button" className="button-reset" onClick={this._showHandler}>{copy}</button>
+        <button type="button" className="button-reset" onClick={this._useHandler}>Use</button>
       </div>
     );
   },
-  _clickHandler () {
-    this.props.toggleView();
-    this.setState({
-      copy: (this.state.copy === 'Show') ? 'Hide' : 'Show'
-    });
+  _showHandler () {
+    let theId = (this.props.monsterID === this.props.visibleId) ? -1 : this.props.monsterID;
+    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
+  },
+  _useHandler () {
+    this.props.dispatch({type:'USE_MONSTER', id:this.props.monsterID});
   }
 });
 

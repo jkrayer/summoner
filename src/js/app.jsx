@@ -1,37 +1,33 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import MonsterList from './monsterlist';
-import MonsterStage from './monsterstage';
+import Monster from './monster';
+import MonsterTrack from './monstertrack';
 
 const App = React.createClass({
   propTypes: {
-    allMonsters: React.PropTypes.array.isRequired
-  },
-  getInitialState () {
-    return {
-      allMonsters: this.props.allMonsters
-    };
+    allMonsters: React.PropTypes.array.isRequired,
+    visibleStatBlock: React.PropTypes.object,
+    usedMonsters: React.PropTypes.array.isRequired,
+    dispatch: React.PropTypes.func.isRequired
   },
   render () {
+    let usedMonster = this.props.usedMonsters.length ? <MonsterTrack monsters={this.props.usedMonsters} dispatch={this.props.dispatch} /> : null;
+    let monster = this.props.visibleStatBlock ? <Monster monster={this.props.visibleStatBlock} /> : null;
+    let visibleId = (this.props.visibleStatBlock) ? this.props.visibleStatBlock.id : -1;
     return (
       <div>
-        <MonsterList allMonsters={this.state.allMonsters} onToggleMonster={this._toggleMonster} />
-        <MonsterStage allMonsters={this.state.allMonsters} />
+        <MonsterList allMonsters={this.props.allMonsters} dispatch={this.props.dispatch} visibleId={visibleId} />
+        {usedMonster}
+        {monster}
       </div>
     );
-  },
-  _toggleMonster (arrayKey) {
-    let allMonsters = this.state.allMonsters;
-    if (this.state.allMonsters[arrayKey].hasOwnProperty('selected')) {
-      this.state.allMonsters[arrayKey].selected = !this.state.allMonsters[arrayKey].selected;
-    } else {
-      this.state.allMonsters[arrayKey].selected = true;
-    }
-    this.setState({
-      allMonsters: allMonsters
-    });
   }
 });
 
-export default App;
+function select(state) {
+  return state;
+}
 
-
+// Wrap the component to inject dispatch and state into it
+export default connect(select)(App);
