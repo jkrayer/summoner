@@ -4,21 +4,26 @@ import React from 'react';
 const MonsterTrackControl = React.createClass({
   propTypes: {
     monsterId: React.PropTypes.number.isRequired,
-    dispatch: React.PropTypes.func.isRequired
+    dispatch: React.PropTypes.func.isRequired,
+    visibleId: React.PropTypes.number.isRequired
   },
   render () {
+    let viewIcon = (this.props.monsterId === this.props.visibleId) ? "fa fa-eye-slash" : "fa fa-eye";
     return(
       <div className="monster-track-control">
-        <button type="button" className="button-reset" onClick={this._showHandler}><i className="fa fa-eye"></i></button>
+        <button type="button" className="button-reset" onClick={this._showHandler}><i className={viewIcon}></i></button>
         <button type="button" className="button-reset" onClick={this._removeHandler}><i className="fa fa-close"></i></button>
       </div>
     );
   },
   _showHandler () {
-    this.props.dispatch({type:'SHOW_MONSTER', id:this.props.monsterId});
+    let theId = (this.props.monsterId === this.props.visibleId) ? -1 : this.props.monsterId;
+    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
   },
   _removeHandler () {
     this.props.dispatch({type:'REMOVE_MONSTER', id:this.props.monsterId});
+    let theId = (this.props.monsterId === this.props.visibleId) ? -1 : this.props.monsterId;
+    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
   }
 });
 

@@ -5,7 +5,8 @@ import MonsterControl from './monstercontrol';
 const MonsterTrack = React.createClass({
   propTypes: {
     monsters: React.PropTypes.array.isRequired,
-    dispatch: React.PropTypes.func.isRequired
+    dispatch: React.PropTypes.func.isRequired,
+    visibleId: React.PropTypes.number.isRequired
   },
   getInitialState () {
     return {
@@ -24,7 +25,7 @@ const MonsterTrack = React.createClass({
   _renderMonsterBlocks (monster, index) {
     return (
       <article className="monster-used" key={index}>
-        <MonsterTrackControl dispatch={this.props.dispatch} monsterId={monster.id}/>
+        <MonsterTrackControl dispatch={this.props.dispatch} monsterId={monster.id} visibleId={this.props.visibleId} />
         <header>
           <h1>{monster.name}</h1>
         </header>

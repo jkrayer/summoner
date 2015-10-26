@@ -12,9 +12,9 @@ const App = React.createClass({
     dispatch: React.PropTypes.func.isRequired
   },
   render () {
-    let usedMonster = this.props.usedMonsters.length ? <MonsterTrack monsters={this.props.usedMonsters} dispatch={this.props.dispatch} /> : null;
     let monster = this.props.visibleStatBlock ? <Monster monster={this.props.visibleStatBlock} /> : null;
     let visibleId = (this.props.visibleStatBlock) ? this.props.visibleStatBlock.id : -1;
+    let usedMonster = this.props.usedMonsters.length ? <MonsterTrack monsters={this.props.usedMonsters} dispatch={this.props.dispatch} visibleId={visibleId} /> : null;
     return (
       <div>
         <MonsterList allMonsters={this.props.allMonsters} dispatch={this.props.dispatch} visibleId={visibleId} />
