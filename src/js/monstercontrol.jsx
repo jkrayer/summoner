@@ -13,7 +13,6 @@ const MonsterControl = React.createClass({
   },
   render () {
     let monster = this.props.monster;
-
     if (this.state.numberOfMonsters) {
       let modules = [];
       let i = 0;

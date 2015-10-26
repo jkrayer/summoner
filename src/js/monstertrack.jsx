@@ -36,7 +36,6 @@ const MonsterTrack = React.createClass({
   _setPoints (event) {
     let numberOfMonsters = parseInt(this.refs.numOfMonsters.value, 10);
     let hpOfMonsters = parseInt(this.refs.hpOfMonsters.value, 10);
-
     this.setState({
       numberOfMonsters: numberOfMonsters,
       hpOfMonsters: hpOfMonsters
