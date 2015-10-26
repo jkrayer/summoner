@@ -6,39 +6,36 @@ const HPBlock = React.createClass({
   },
   getInitialState () {
     return {
-      hitpoints: this.props.hitpoints,
-      value: ''
+      hitpoints: this.props.hitpoints
     };
   },
   render () {
     return (
       <div className="hp-block">
         <span>{this.state.hitpoints}</span>
-        <input type="text" ref="pointcounter" value={this.state.value} onChange={this._changeHandler} />
+        <input type="text" ref="pointcounter" />
         <button type="button" onClick={this._handlePlus}>+</button>
         <button type="button" onClick={this._handleMinus}>-</button>
       </div>
     );
   },
-  _changeHandler (event) {
-    this.setState({
-      value: parseInt(event.target.value, 10)
-    });
+  _handleMinus() {
+   this._math('-');
   },
-  _handleMinus (event) {
-    let newValue = this.state.hitpoints - this.state.value;
-    this.setState({
-      hitpoints: newValue,
-      value: ''
-    });
+  _handlePlus () {
+    this._math('+');
   },
-  _handlePlus (event) {
-    let newValue = this.state.hitpoints + this.state.value;
-    newValue = (newValue > this.props.hitpoints) ? this.props.hitpoints : newValue;
+  _math (operator) {
+    let newValue = parseInt(this.refs.pointcounter.value, 10);
+    let newHP = (operator === '+') ? this.state.hitpoints + newValue : this.state.hitpoints - newValue;
+    if (isNaN(newValue)) {
+      return;
+    }
+    newHP = (newHP > this.props.hitpoints) ? this.props.hitpoints : newHP;
     this.setState({
-      hitpoints: newValue,
-      value: ''
+      hitpoints: newHP
     });
+    this.refs.pointcounter.value = '';
   }
 });
 
