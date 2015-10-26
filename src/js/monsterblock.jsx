@@ -7,7 +7,7 @@ const MonsterBlock = React.createClass({
   },
   render () {
     let className = 'monster-block ' + this.props.className;
-    let header = this.props.title ? (<h2>{this.props.title}</h2>) : '';
+    let header = this.props.title ? (<h2>{this.props.title}</h2>) : null;
     return (
       <section className={className}>
         {header}
