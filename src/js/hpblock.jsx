@@ -12,7 +12,7 @@ const HPBlock = React.createClass({
   },
   render () {
     return (
-      <div>
+      <div className="hp-block">
         <span>{this.state.hitpoints}</span>
         <input type="text" ref="pointcounter" value={this.state.value} onChange={this._changeHandler} />
         <button type="button" onClick={this._handlePlus}>+</button>

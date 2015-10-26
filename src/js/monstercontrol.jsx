@@ -22,14 +22,14 @@ const MonsterControl = React.createClass({
         i++;
       }
       return(
-        <form>
+        <form className="monster-hp-control">
           {modules}
         </form>
       );
     } else {
       return (
-        <form>
-          <input type="number" value={this.state.numberOfMonsters} placeholder="#" ref="numberOfMonsters" /> @
+        <form className="monster-control">
+          <input type="number" value={this.state.numberOfMonsters} placeholder="#" ref="numberOfMonsters" /><span> @ </span>
           <input type="number" value={this.state.hpOfMonsters} placeholder={monster.hitpoints + '-' + monster.maxHitpoints} ref="hpOfMonsters" />
           <button type="button" onClick={this._setPoints}>Set</button>
         </form>

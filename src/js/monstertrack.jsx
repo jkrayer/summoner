@@ -23,7 +23,7 @@ const MonsterTrack = React.createClass({
   },
   _renderMonsterBlocks (monster, index) {
     return (
-      <article key={index}>
+      <article className="monster-used" key={index}>
         <MonsterTrackControl dispatch={this.props.dispatch} monsterId={monster.id}/>
         <header>
           <h1>{monster.name}</h1>

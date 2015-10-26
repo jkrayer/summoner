@@ -8,7 +8,7 @@ const MonsterTrackControl = React.createClass({
   },
   render () {
     return(
-      <div>
+      <div className="monster-track-control">
         <button type="button" className="button-reset" onClick={this._showHandler}><i className="fa fa-eye"></i></button>
         <button type="button" className="button-reset" onClick={this._removeHandler}><i className="fa fa-close"></i></button>
       </div>
