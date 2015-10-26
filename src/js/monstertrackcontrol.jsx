@@ -17,13 +17,15 @@ const MonsterTrackControl = React.createClass({
     );
   },
   _showHandler () {
-    let theId = (this.props.monsterId === this.props.visibleId) ? -1 : this.props.monsterId;
-    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
+    if (this.props.monsterId === this.props.visibleId) {
+      this.props.dispatch({type:'HIDE_MONSTER'});
+    } else {
+      this.props.dispatch({type:'SHOW_MONSTER', id:this.props.monsterId});
+    }
   },
   _removeHandler () {
     this.props.dispatch({type:'REMOVE_MONSTER', id:this.props.monsterId});
-    let theId = (this.props.monsterId === this.props.visibleId) ? -1 : this.props.monsterId;
-    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
+    this.props.dispatch({type:'HIDE_MONSTER'});
   }
 });
 

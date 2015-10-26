@@ -1,4 +1,5 @@
 import { SHOW_MONSTER } from './actions';
+import { HIDE_MONSTER } from './actions';
 import { USE_MONSTER } from './actions';
 import { REMOVE_MONSTER } from './actions';
 import Data from '../../../data/monsters';
@@ -35,6 +36,9 @@ function summonerApp(state = initialState, action) {
   switch(action.type) {
     case SHOW_MONSTER:
       return Object.assign({}, state, {visibleStatBlock: getById(state.allMonsters, action.id)});
+    break;
+    case HIDE_MONSTER:
+      return Object.assign({}, state, {visibleStatBlock: null});
     break;
     case USE_MONSTER:
       usedMonsters = state.usedMonsters.concat([getById(state.allMonsters, action.id)]);

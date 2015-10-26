@@ -18,8 +18,11 @@ const MonsterListControl = React.createClass({
     );
   },
   _showHandler () {
-    let theId = (this.props.monsterID === this.props.visibleId) ? -1 : this.props.monsterID;
-    this.props.dispatch({type:'SHOW_MONSTER', id:theId});
+    if (this.props.monsterID === this.props.visibleId) {
+      this.props.dispatch({type:'HIDE_MONSTER'});
+    } else {
+      this.props.dispatch({type:'SHOW_MONSTER', id:this.props.monsterID});
+    }
   },
   _useHandler () {
     this.props.dispatch({type:'USE_MONSTER', id:this.props.monsterID});
