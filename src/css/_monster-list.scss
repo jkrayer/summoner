@@ -101,11 +101,19 @@
   input { width: 45%; }
   input:first-of-type { width: 15%; }
   button { margin-left: 10px; }
+  input,
+  button {
+    color: initial;
+  }
 }
 .monster-hp-control {
   input {
     margin: 0 10px;
     width: 55%;
+  }
+  input,
+  button {
+    color: initial;
   }
 }
 .hp-block {
