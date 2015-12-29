@@ -10,13 +10,15 @@ const MonsterList = React.createClass({
   render () {
     return (
       <div id="monster-list">
-        <ul className="list-reset">
-        {
-          this.props.allMonsters.map( (monster, index) => {
-            return (<MonsterListItem key={index} monster={monster} dispatch={this.props.dispatch} visibleId={this.props.visibleId} />);
-          })
-        }
-        </ul>
+        <div className="inner-scroll">
+          <ul className="list-reset">
+          {
+            this.props.allMonsters.map( (monster, index) => {
+              return (<MonsterListItem key={index} monster={monster} dispatch={this.props.dispatch} visibleId={this.props.visibleId} />);
+            })
+          }
+          </ul>
+        </div>
       </div>
     );
   }
