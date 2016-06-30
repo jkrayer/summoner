@@ -1,0 +1,4 @@
+{
+  // http://eslint.org/docs/user-guide/configuring
+  "extends": "trustpilot"
+}
