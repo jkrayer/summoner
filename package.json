@@ -6,7 +6,7 @@
   "scripts": {
     "browserify": "browserify src/app/main.jsx -o public/assets/js/bundle.js -t [babelify]",
     "build": "npm run mkdirs && npm run cp:static && npm run browserify && npm run compile:sass",
-    "compile:sass": "node-sass src/css/style.scss public/assets/css/style.css",
+    "compile:sass": "node-sass --source-map true --output-style compressed src/css/style.scss public/assets/css/style.css",
     "cp:static": "cp src/static/index.html public/index.html",
     "mkdirs": "mkdir -p public/assets/css && mkdir -p public/assets/js"
   },
