@@ -21,15 +21,21 @@
   },
   "homepage": "https://github.com/jkrayer/summoner#readme",
   "devDependencies": {
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.11.1",
+    "babelify": "7.3.0",
+    "browserify": "13.0.1",
     "node-sass": "3.8.0",
+    "normalize-css": "2.3.1",
     "redux-devtools": "3.3.1"
   },
   "dependencies": {
     "marked": "0.3.5",
-    "normalize-css": "2.3.1",
     "react": "15.1.0",
     "react-dom": "15.1.0",
     "react-redux": "4.4.5",
+    "react-router": "2.5.1",
+    "react-router-redux": "4.0.5",
     "redux": "3.5.2"
   }
 }
