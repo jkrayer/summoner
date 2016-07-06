@@ -10,6 +10,7 @@ const Monster = React.createClass({
     let monster = this.props.monster;
     let actions = monster.actions ? <MonsterBlock className="monster-actions" stats={monster.actions} title="Actions" /> : null;
     let reactions = monster.reactions ? <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" /> : null;
+    let bonusactions = monster.bonusactions ? <MonsterBlock className="monster-reactions" stats={monster.bonusactions} title="Bonus Actions" /> : null;
     return (
       <div id="monster-stage">
         <article className="monster">
@@ -44,6 +45,7 @@ const Monster = React.createClass({
           <MonsterBlock className="monster-features" stats={monster.features} />
           {actions}
           {reactions}
+          {bonusactions}
         </article>
       </div>
     );
