@@ -2,9 +2,9 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app.jsx';
+import AppContainer from './components/app-container.jsx';
 
 ReactDOM.render(
-  <App />,
+  <AppContainer />,
   document.getElementById('mountpoint')
 );
