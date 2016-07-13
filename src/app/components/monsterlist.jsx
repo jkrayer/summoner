@@ -10,13 +10,15 @@ const MonsterList = React.createClass({
       <div id="monster-list">
         <ul className="list-reset">
         {
-          monsters.map( monster => {
-            <MonsterListItem
-              dispatch={dispatch}
-              key={monster.id}
-              monster={monster}
-              visibleStatBlockId={visibleStatBlockId}
-            />
+          monsters.map( (monster) => {
+            return (
+              <MonsterListItem
+                dispatch={dispatch}
+                key={monster.id}
+                monster={monster}
+                visibleStatBlockId={visibleStatBlockId}
+              />
+            );
           })
         }
         </ul>
