@@ -1,12 +1,9 @@
+'use strict';
+
 import React from 'react';
-import MonsterListControl from './monsterlistcontrol';
+import MonsterListControl from './monsterlistcontrol.jsx';
 
 const MonsterListItem = React.createClass({
-  propTypes: {
-    monster: React.PropTypes.object.isRequired,
-    dispatch: React.PropTypes.func.isRequired,
-    visibleId: React.PropTypes.number.isRequired
-  },
   getInitialState () {
     return {
       showControls: false
@@ -16,7 +13,12 @@ const MonsterListItem = React.createClass({
     return (
       <li onMouseEnter={this._hoverHandler} onMouseLeave={this._hoverHandler}>
         <div className="control-wrapper">
-          <MonsterListControl showControls={this.state.showControls} dispatch={this.props.dispatch} monsterID={this.props.monster.id} visibleId={this.props.visibleId} />
+          <MonsterListControl
+            dispatch={this.props.dispatch}
+            monsterID={this.props.monster.id}
+            showControls={this.state.showControls}
+            visibleId={this.props.visibleId}
+          />
           {this.props.monster.name}
         </div>
       </li>

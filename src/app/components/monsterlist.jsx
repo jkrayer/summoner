@@ -1,19 +1,23 @@
+'use strict';
+
 import React from 'react';
-import MonsterListItem from './monsterlistitem';
+import MonsterListItem from './monsterlistitem.jsx';
 
 const MonsterList = React.createClass({
-  propTypes: {
-    allMonsters: React.PropTypes.array.isRequired,
-    dispatch: React.PropTypes.func.isRequired,
-    visibleId: React.PropTypes.number.isRequired
-  },
   render () {
     return (
       <div id="monster-list">
         <ul className="list-reset">
         {
-          this.props.allMonsters.map( (monster, index) => {
-            return (<MonsterListItem key={index} monster={monster} dispatch={this.props.dispatch} visibleId={this.props.visibleId} />);
+          this.props.monsters.map( (monster, index) => {
+            return (
+              <MonsterListItem
+                dispatch={this.props.dispatch}
+                key={monster.id}
+                monster={monster}
+                visibleId={this.props.visibleId}
+              />
+            );
           })
         }
         </ul>
