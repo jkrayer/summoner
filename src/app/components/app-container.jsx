@@ -2,31 +2,19 @@
 
 import React from 'react';
 import App from './app.jsx';
+import { connect } from 'react-redux';
 import InitialData from './../data/initial-data.json';
 
 const AppContainer = React.createClass({
-  getInitialState () {
-    return {
-      monsters: null
-    };
-  },
-  getDefaultProps () {
-    return {
-      initialData: InitialData
-    };
-  },
-  handleLoadData () {},
+  //on mounting check localData and use 
   handleSampleData () {
-    this.setState({
-      monsters: this.props.initialData
-    });
+    this.props.dispatch({type: 'LOAD_DATA', monsters: InitialData});
   },
   render () {
+    let { monsters } = this.props;
     let app;
-    let { monsters } = this.state;
-
-    if (monsters) {
-      app = (<App monsters={monsters} />);
+    if (monsters.length > 0) {
+      app = (<App {...this.props} />);
     }
     else {
       // options use sample data
@@ -37,9 +25,15 @@ const AppContainer = React.createClass({
         </div>
       );
     }
-
     return app;
   }
 });
 
-export default AppContainer;
+//export default AppContainer;
+
+function select(state) {
+  return state;
+}
+
+// Wrap the component to inject dispatch and state into it
+export default connect(select)(AppContainer);
