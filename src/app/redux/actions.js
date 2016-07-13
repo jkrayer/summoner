@@ -6,8 +6,8 @@ export const HIDE_MONSTER = 'HIDE_MONSTER';
 export const USE_MONSTER = 'USE_MONSTER';
 export const REMOVE_MONSTER = 'REMOVE_MONSTER';
 
-export function loadData(array) {
-  return { type: LOAD_DATA, array };
+export function loadData(object) {
+  return { type: LOAD_DATA, object };
 }
 
 export function showMonster(object) {
