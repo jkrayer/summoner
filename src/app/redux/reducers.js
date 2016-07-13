@@ -37,9 +37,6 @@ function summonerApp(state = initialState, action) {
     case SHOW_MONSTER:
       return Object.assign({}, state, {visibleStatBlock: getById(state.allMonsters, action.id)});
     break;
-    case HIDE_MONSTER:
-      return Object.assign({}, state, {visibleStatBlock: null});
-    break;
     case USE_MONSTER:
       usedMonsters = state.usedMonsters.concat([getById(state.allMonsters, action.id)]);
       return Object.assign({}, state, {usedMonsters: usedMonsters});
