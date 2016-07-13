@@ -1,10 +1,13 @@
 'use strict';
 
 import React from 'react';
+import MonsterList from './monsterlist.jsx';
 
 const App = React.createClass({
   render () {
-    return (<h1>{"Hello World!"}</h1>);
+    return (
+      <MonsterList {...this.props} />
+    );
   }
 });
 
