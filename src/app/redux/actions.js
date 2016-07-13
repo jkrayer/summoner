@@ -1,7 +1,14 @@
+'use strict';
+
+export const LOAD_DATA = 'LOAD_DATA';
 export const SHOW_MONSTER = 'SHOW_MONSTER';
 export const HIDE_MONSTER = 'HIDE_MONSTER';
 export const USE_MONSTER = 'USE_MONSTER';
 export const REMOVE_MONSTER = 'REMOVE_MONSTER';
+
+export function loadData(array) {
+  return { type: LOAD_DATA, array };
+}
 
 export function showMonster(object) {
   return { type: SHOW_MONSTER, object };

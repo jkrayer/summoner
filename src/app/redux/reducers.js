@@ -1,7 +1,6 @@
-import { SHOW_MONSTER } from './actions';
-import { HIDE_MONSTER } from './actions';
-import { USE_MONSTER } from './actions';
-import { REMOVE_MONSTER } from './actions';
+'use strict';
+
+import { LOAD_DATA, SHOW_MONSTER, HIDE_MONSTER, USE_MONSTER, REMOVE_MONSTER } from './actions';
 
 const initialState = {
   allMonsters: [],
@@ -29,10 +28,12 @@ function deleteById (array, id) {
   return newArray;
 }
 
-
 function summonerApp(state = initialState, action) {
   var usedMonsters;
   switch(action.type) {
+    case LOAD_DATA:
+      return Object.assign({}, state, { allMonsters: [] });
+    break;
     case SHOW_MONSTER:
       return Object.assign({}, state, {visibleStatBlock: getById(state.allMonsters, action.id)});
     break;
