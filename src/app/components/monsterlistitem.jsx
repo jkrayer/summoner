@@ -10,16 +10,15 @@ const MonsterListItem = React.createClass({
     };
   },
   render() {
+    let { monster } = this.props;
     return (
       <li onMouseEnter={this._hoverHandler} onMouseLeave={this._hoverHandler}>
         <div className="control-wrapper">
           <MonsterListControl
-            dispatch={this.props.dispatch}
-            monsterID={this.props.monster.id}
+            {...this.props}
             showControls={this.state.showControls}
-            visibleId={this.props.visibleId}
           />
-          {this.props.monster.name}
+          {monster.name}
         </div>
       </li>
     );

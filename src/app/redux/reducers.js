@@ -5,6 +5,7 @@ import { LOAD_DATA, SHOW_MONSTER, HIDE_MONSTER, USE_MONSTER, REMOVE_MONSTER } fr
 const initialState = {
   monsters: [],
   visibleStatBlock: null,
+  visibleStatBlockId: -1,
   usedMonsters: []
 };
 
@@ -35,7 +36,7 @@ function summonerApp(state = initialState, action) {
       return Object.assign({}, state, { monsters: action.monsters });
     break;
     case SHOW_MONSTER:
-      return Object.assign({}, state, {visibleStatBlock: getById(state.allMonsters, action.id)});
+      return Object.assign({}, state, { visibleStatBlock: action.visibleStatBlock, visibleStatBlockId: action.visibleStatBlockId });
     break;
     case USE_MONSTER:
       usedMonsters = state.usedMonsters.concat([getById(state.allMonsters, action.id)]);

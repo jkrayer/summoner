@@ -5,19 +5,18 @@ import MonsterListItem from './monsterlistitem.jsx';
 
 const MonsterList = React.createClass({
   render () {
+    let { dispatch, monsters, visibleStatBlockId } = this.props;
     return (
       <div id="monster-list">
         <ul className="list-reset">
         {
-          this.props.monsters.map( (monster, index) => {
-            return (
-              <MonsterListItem
-                dispatch={this.props.dispatch}
-                key={monster.id}
-                monster={monster}
-                visibleId={this.props.visibleId}
-              />
-            );
+          monsters.map( monster => {
+            <MonsterListItem
+              dispatch={dispatch}
+              key={monster.id}
+              monster={monster}
+              visibleStatBlockId={visibleStatBlockId}
+            />
           })
         }
         </ul>
