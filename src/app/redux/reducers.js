@@ -2,10 +2,9 @@ import { SHOW_MONSTER } from './actions';
 import { HIDE_MONSTER } from './actions';
 import { USE_MONSTER } from './actions';
 import { REMOVE_MONSTER } from './actions';
-import Data from '../../../data/monsters';
 
 const initialState = {
-  allMonsters: Data,
+  allMonsters: [],
   visibleStatBlock: null,
   usedMonsters: []
 };
