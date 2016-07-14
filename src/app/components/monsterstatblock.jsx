@@ -1,15 +1,17 @@
+'use strict';
+
 import React from 'react';
-import MonsterBlock from './monsterblock';
-import Score from './score';
+import MonsterBlock from './monsterblock.jsx';
+import Score from './score.jsx';
 
 const Monster = React.createClass({
-  proptypes: {
-    monster: React.PropTypes.object.isRequired
-  },
   render () {
-    let monster = this.props.monster;
-    let actions = monster.actions ? <MonsterBlock className="monster-actions" stats={monster.actions} title="Actions" /> : null;
-    let reactions = monster.reactions ? <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" /> : null;
+    let { monster } = this.props;
+
+    if (monster === null) {
+      return null;
+    }
+
     return (
       <div id="monster-stage">
         <article className="monster">
@@ -42,8 +44,8 @@ const Monster = React.createClass({
           </table>
           <MonsterBlock className="monster-skills" stats={monster.skills} />
           <MonsterBlock className="monster-features" stats={monster.features} />
-          {actions}
-          {reactions}
+          <MonsterBlock className="monster-actions" stats={monster.actions} title="Actions" />
+          <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" />
         </article>
       </div>
     );
