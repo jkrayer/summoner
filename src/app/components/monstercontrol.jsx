@@ -1,10 +1,9 @@
+'use strict';
+
 import React from 'react';
-import HPBlock from './hpblock';
+import HPBlock from './hpblock.jsx';
 
 const MonsterControl = React.createClass({
-  proptypes: {
-    monster: React.PropTypes.object.isRequired
-  },
   getInitialState () {
     return {
       numberOfMonsters: null,
@@ -12,12 +11,14 @@ const MonsterControl = React.createClass({
     };
   },
   render () {
-    let monster = this.props.monster;
-    if (this.state.numberOfMonsters) {
+    let { monster } = this.props;
+    let { numberOfMonsters, hpOfMonsters } = this.state;
+
+    if (numberOfMonsters) {
       let modules = [];
       let i = 0;
-      while (i < this.state.numberOfMonsters) {
-        modules.push((<HPBlock hitpoints={this.state.hpOfMonsters} key={i}/>));
+      while (i < numberOfMonsters) {
+        modules.push((<HPBlock hitpoints={hpOfMonsters} key={i}/>));
         i++;
       }
       return(
@@ -28,17 +29,34 @@ const MonsterControl = React.createClass({
     } else {
       return (
         <form className="monster-control">
-          <input type="number" value={this.state.numberOfMonsters} placeholder="#" ref="numberOfMonsters" /><span> @ </span>
-          <input type="number" value={this.state.hpOfMonsters} placeholder={monster.hitpoints + '-' + monster.maxHitpoints} ref="hpOfMonsters" />
-          <button type="button" onClick={this._setPoints}>Set</button>
+          <input
+            placeholder="#"
+            ref="numberOfMonsters"
+            type="number"
+            value={numberOfMonsters}
+          />
+          <span> @ </span>
+          <input
+            placeholder={monster.hitpoints + '-' + monster.maxHitpoints}
+            ref="hpOfMonsters"
+            type="number"
+            value={hpOfMonsters}
+          />
+          <button
+            onClick={this._setPoints}
+            type="button">
+            {"Set"}
+          </button>
         </form>
       );
     }
   },
   _setPoints () {
+    let { hpOfMonsters, numberOfMonsters } = this.refs;
+
     this.setState({
-      numberOfMonsters: parseInt(this.refs.numberOfMonsters.value, 10),
-      hpOfMonsters: parseInt(this.refs.hpOfMonsters.value, 10)
+      numberOfMonsters: parseInt(numberOfMonsters.value, 10),
+      hpOfMonsters: parseInt(hpOfMonsters.value, 10)
     });
   }
 });

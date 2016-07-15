@@ -1,13 +1,10 @@
+'use strict';
+
 import React from 'react';
-import MonsterTrackControl from './monstertrackcontrol';
-import MonsterControl from './monstercontrol';
+import MonsterTrackControl from './monstertrackcontrol.jsx';
+import MonsterControl from './monstercontrol.jsx';
 
 const MonsterTrack = React.createClass({
-  propTypes: {
-    monsters: React.PropTypes.array.isRequired,
-    dispatch: React.PropTypes.func.isRequired,
-    visibleId: React.PropTypes.number.isRequired
-  },
   getInitialState () {
     return {
       numberOfMonsters: null,
@@ -15,31 +12,34 @@ const MonsterTrack = React.createClass({
     };
   },
   render () {
-    let monsterBlocks = this.props.monsters.map(this._renderMonsterBlocks);
+    let { dispatch, usedMonsters, visibleStatBlockId } = this.props;
+
+    if (usedMonsters.length < 1) {
+      return null;
+    }
+
     return(
       <div id="monster-track">
-        {monsterBlocks}
+        {
+          usedMonsters.map( (monster) => {
+            return (
+              <article className="monster-used" key={monster.id}>
+                <MonsterTrackControl
+                  dispatch={dispatch}
+                  monster={monster}
+                  visibleStatBlockId={visibleStatBlockId}
+                />
+                <header>
+                  <h1>{monster.name}</h1>
+                </header>
+                <MonsterControl monster={monster} />
+              </article>
+            );
+          })
+        }
       </div>
     );
-  },
-  _renderMonsterBlocks (monster, index) {
-    return (
-      <article className="monster-used" key={index}>
-        <MonsterTrackControl dispatch={this.props.dispatch} monsterId={monster.id} visibleId={this.props.visibleId} />
-        <header>
-          <h1>{monster.name}</h1>
-        </header>
-        <MonsterControl monster={monster} />
-      </article>
-    );
-  },
-  _setPoints (event) {
-    let numberOfMonsters = parseInt(this.refs.numOfMonsters.value, 10);
-    let hpOfMonsters = parseInt(this.refs.hpOfMonsters.value, 10);
-    this.setState({
-      numberOfMonsters: numberOfMonsters,
-      hpOfMonsters: hpOfMonsters
-    });
+
   }
 });
 

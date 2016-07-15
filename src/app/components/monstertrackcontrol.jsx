@@ -1,31 +1,54 @@
+'use strict';
+
 import React from 'react';
 
-// (Remove)(Show)(Add)
 const MonsterTrackControl = React.createClass({
-  propTypes: {
-    monsterId: React.PropTypes.number.isRequired,
-    dispatch: React.PropTypes.func.isRequired,
-    visibleId: React.PropTypes.number.isRequired
-  },
   render () {
-    let viewIcon = (this.props.monsterId === this.props.visibleId) ? "fa fa-eye-slash" : "fa fa-eye";
+    let { monster, visibleStatBlockId } = this.props;
+    let viewIcon = (monster.id === visibleStatBlockId) ? "fa fa-eye-slash" : "fa fa-eye";
+
     return(
       <div className="monster-track-control">
-        <button type="button" className="button-reset" onClick={this._showHandler}><i className={viewIcon}></i></button>
-        <button type="button" className="button-reset" onClick={this._removeHandler}><i className="fa fa-close"></i></button>
+        <button
+          className="button-reset"
+          onClick={this._showHandler}
+          type="button"
+        >
+          <i className={viewIcon}></i>
+        </button>
+        <button
+          className="button-reset"
+          onClick={this._removeHandler}
+          type="button"
+        >
+          <i className="fa fa-close"></i>
+        </button>
       </div>
     );
   },
-  _showHandler () {
-    if (this.props.monsterId === this.props.visibleId) {
-      this.props.dispatch({type:'HIDE_MONSTER'});
-    } else {
-      this.props.dispatch({type:'SHOW_MONSTER', id:this.props.monsterId});
+  _showHandler (hide) {
+    let { dispatch, monster, visibleStatBlockId } = this.props;
+    let visibleStatBlock = null;
+    let nextVisibleStatBlockId = -1;
+
+    if (monster.id !== visibleStatBlockId && !hide) {
+        visibleStatBlock = monster;
+        nextVisibleStatBlockId = monster.id;
     }
+
+    dispatch({
+      type: 'SHOW_MONSTER',
+      visibleStatBlock,
+      visibleStatBlockId: nextVisibleStatBlockId
+    });
   },
   _removeHandler () {
-    this.props.dispatch({type:'REMOVE_MONSTER', id:this.props.monsterId});
-    this.props.dispatch({type:'HIDE_MONSTER'});
+    let { dispatch, monster } = this.props;
+    dispatch({
+      type: 'REMOVE_MONSTER',
+      id: monster.id
+    });
+    this._showHandler(true);
   }
 });
 

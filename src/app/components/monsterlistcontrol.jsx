@@ -15,7 +15,7 @@ const MonsterListControl = React.createClass({
     );
   },
   _showHandler () {
-    let { monster, visibleId } = this.props;
+    let { dispatch, monster, visibleId } = this.props;
     let visibleStatBlock = null;
     let visibleStatBlockId = -1;
 
@@ -24,14 +24,19 @@ const MonsterListControl = React.createClass({
         visibleStatBlockId = monster.id;
     }
 
-    this.props.dispatch({
+    dispatch({
       type: 'SHOW_MONSTER',
       visibleStatBlock,
       visibleStatBlockId
     });
   },
   _useHandler () {
-    this.props.dispatch({type:'USE_MONSTER', id:this.props.monsterID});
+    let { dispatch, monster } = this.props;
+
+    dispatch({
+      type: 'USE_MONSTER',
+      monster
+    });
   }
 });
 
