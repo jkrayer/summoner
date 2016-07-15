@@ -39,7 +39,7 @@ function summonerApp(state = initialState, action) {
       return Object.assign({}, state, { visibleStatBlock: action.visibleStatBlock, visibleStatBlockId: action.visibleStatBlockId });
     break;
     case USE_MONSTER:
-      usedMonsters = state.usedMonsters.concat([getById(state.allMonsters, action.id)]);
+      usedMonsters = state.usedMonsters.concat([action.monster]);
       return Object.assign({}, state, {usedMonsters: usedMonsters});
     break;
     case REMOVE_MONSTER:
