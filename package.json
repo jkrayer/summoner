@@ -8,7 +8,7 @@
     "build": "npm run mkdirs && npm run cp:static && npm run browserify && npm run compile:sass",
     "compile:sass": "node-sass --source-map true --output-style compressed src/css/style.scss public/assets/css/style.css",
     "cp:static": "cp src/static/index.html public/index.html",
-    "lint":"eslint --plugin react --ext .js --ext .jsx src/app/",
+    "lint": "eslint --plugin react --ext .js --ext .jsx src/app/",
     "mkdirs": "mkdir -p public/assets/css && mkdir -p public/assets/js"
   },
   "repository": {
@@ -22,14 +22,17 @@
   },
   "homepage": "https://github.com/jkrayer/summoner#readme",
   "devDependencies": {
-    "babel-eslint": "^6.1.0",
+    "babel-eslint": "6.1.0",
     "babel-preset-es2015": "6.9.0",
     "babel-preset-react": "6.11.1",
     "babelify": "7.3.0",
     "browserify": "13.0.1",
-    "eslint-config-trustpilot": "^1.6.0",
+    "eslint": "3.0.1",
+    "eslint-config-airbnb": "9.0.1",
     "eslint-plugin-babel": "3.2.0",
     "eslint-plugin-html": "1.4.0",
+    "eslint-plugin-import": "1.10.3",
+    "eslint-plugin-jsx-a11y": "2.0.1",
     "eslint-plugin-react": "5.0.1",
     "node-sass": "3.8.0",
     "normalize-css": "2.3.1",
