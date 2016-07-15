@@ -1,6 +1,4 @@
-'use strict';
-
-import { LOAD_DATA, SHOW_MONSTER, HIDE_MONSTER, USE_MONSTER, REMOVE_MONSTER } from './actions';
+import { LOAD_DATA, SHOW_MONSTER, USE_MONSTER, REMOVE_MONSTER } from './actions';
 
 const initialState = {
   monsters: [],
@@ -9,19 +7,10 @@ const initialState = {
   usedMonsters: []
 };
 
-function getById (array, id) {
+function deleteById(array, id) {
+  const length = array.length;
+  const newArray = [];
   let i = 0;
-  let length = array.length;
-  for (i; i < length; i++) {
-    if (array[i].id === id) { return array[i]; }
-  }
-  return null;
-}
-
-function deleteById (array, id) {
-  let i = 0;
-  let length = array.length;
-  let newArray = [];
   for (i; i < length; i++) {
     if (array[i].id === id) { continue; }
     newArray.push(array[i]);
@@ -30,26 +19,25 @@ function deleteById (array, id) {
 }
 
 function summonerApp(state = initialState, action) {
-  var usedMonsters;
-  switch(action.type) {
+  const object = {};
+  switch (action.type) {
     case LOAD_DATA:
-      return Object.assign({}, state, { monsters: action.monsters });
-    break;
+      object.monsters = action.monsters;
+      break;
     case SHOW_MONSTER:
-      return Object.assign({}, state, { visibleStatBlock: action.visibleStatBlock, visibleStatBlockId: action.visibleStatBlockId });
-    break;
+      object.visibleStatBlock = action.visibleStatBlock;
+      object.visibleStatBlockId = action.visibleStatBlockId;
+      break;
     case USE_MONSTER:
-      usedMonsters = state.usedMonsters.concat([action.monster]);
-      return Object.assign({}, state, {usedMonsters: usedMonsters});
-    break;
+      object.usedMonsters = state.usedMonsters.concat([action.monster]);
+      break;
     case REMOVE_MONSTER:
-      usedMonsters = deleteById(state.usedMonsters, action.id);
-      return Object.assign({}, state, {usedMonsters: usedMonsters});
-    break;
+      object.usedMonsters = deleteById(state.usedMonsters, action.id);
+      break;
     default:
-      return state;
-    break;
-  };
+      break;
+  }
+  return Object.assign({}, state, object);
 }
 
 export default summonerApp;
