@@ -8,6 +8,7 @@
     "build": "npm run mkdirs && npm run cp:static && npm run browserify && npm run compile:sass",
     "compile:sass": "node-sass --source-map true --output-style compressed src/css/style.scss public/assets/css/style.css",
     "cp:static": "cp src/static/index.html public/index.html",
+    "lint":"eslint --plugin react --ext .js --ext .jsx src/app/",
     "mkdirs": "mkdir -p public/assets/css && mkdir -p public/assets/js"
   },
   "repository": {
