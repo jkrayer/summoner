@@ -1,39 +1,19 @@
 import React from 'react';
 import App from './app.jsx';
+import LoadData from './load-data.jsx';
 import { connect } from 'react-redux';
-import InitialData from './../data/initial-data.json';
 
 class AppContainer extends React.Component {
   constructor(props) {
     super(props);
-    this.handleSampleData = this.handleSampleData.bind(this);
-  }
-  // on mounting check localData and use
-  handleSampleData() {
-    this.props.dispatch({
-      type: 'LOAD_DATA',
-      monsters: InitialData
-    });
   }
   render() {
-    const { monsters } = this.props;
+    const { dispatch, monsters } = this.props;
     let app;
     if (monsters.length > 0) {
       app = (<App {...this.props} />);
     } else {
-      // options use sample data
-      // load local data - <button type="button" className="btn btn-primary"
-      // onClick={this.handleLoadData}>{"Load Local Data"}</button>
-      app = (
-        <div className="">
-          <button
-            className="btn"
-            onClick={this.handleSampleData}
-            type="button"
-          >{"Use Sample Data"}
-          </button>
-        </div>
-      );
+      app = (<LoadData dispatch={dispatch} />);
     }
     return app;
   }
