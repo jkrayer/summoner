@@ -6,12 +6,12 @@ export default class MonsterTrackControl extends React.Component {
     this.handleShow = this.handleShow.bind(this);
     this.handleRemove = this.handleRemove.bind(this);
   }
-  handleShow(hide) {
+  handleShow() {
     const { dispatch, monster, visibleStatBlockId } = this.props;
     let visibleStatBlock = null;
     let nextVisibleStatBlockId = -1;
 
-    if (monster.id !== visibleStatBlockId && !hide) {
+    if (monster.id !== visibleStatBlockId) {
       visibleStatBlock = monster;
       nextVisibleStatBlockId = monster.id;
     }
@@ -29,7 +29,11 @@ export default class MonsterTrackControl extends React.Component {
       type: 'REMOVE_MONSTER',
       id: monster.id
     });
-    this.handleShow(true);
+    dispatch({
+      type: 'SHOW_MONSTER',
+      visibleStatBlock: null,
+      visibleStatBlockId: -1
+    });
   }
   render() {
     const { monster, visibleStatBlockId } = this.props;

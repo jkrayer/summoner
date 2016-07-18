@@ -7,19 +7,19 @@ export default class MonsterListControl extends React.Component {
     this.handleUse = this.handleUse.bind(this);
   }
   handleShow() {
-    const { dispatch, monster, visibleId } = this.props;
+    const { dispatch, monster, visibleStatBlockId } = this.props;
     let visibleStatBlock = null;
-    let visibleStatBlockId = -1;
+    let nextVisibleStatBlockId = -1;
 
-    if (monster.id !== visibleId) {
+    if (monster.id !== visibleStatBlockId) {
       visibleStatBlock = monster;
-      visibleStatBlockId = monster.id;
+      nextVisibleStatBlockId = monster.id;
     }
 
     dispatch({
       type: 'SHOW_MONSTER',
       visibleStatBlock,
-      visibleStatBlockId
+      visibleStatBlockId: nextVisibleStatBlockId
     });
   }
   handleUse() {

@@ -4,6 +4,10 @@ import { connect } from 'react-redux';
 import InitialData from './../data/initial-data.json';
 
 class AppContainer extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleSampleData = this.handleSampleData.bind(this);
+  }
   // on mounting check localData and use
   handleSampleData() {
     this.props.dispatch({
