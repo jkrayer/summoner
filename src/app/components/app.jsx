@@ -1,13 +1,16 @@
-'use strict';
-
 import React from 'react';
 import MonsterList from './monsterlist.jsx';
 import MonsterTrack from './monstertrack.jsx';
 import MonsterStatBlock from './monsterstatblock.jsx';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 
-const App = React.createClass({
-  render () {
-    let { monster, visibleStatBlock } = this.props;
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
+  }
+  render() {
+    const { visibleStatBlock } = this.props;
     return (
       <div>
         <MonsterList {...this.props} />
@@ -16,6 +19,8 @@ const App = React.createClass({
       </div>
     );
   }
-});
+}
 
-export default App;
+App.propTypes = {
+  visibleStatBlock: React.PropTypes.shape({})
+};

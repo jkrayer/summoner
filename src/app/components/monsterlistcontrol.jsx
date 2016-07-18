@@ -1,27 +1,19 @@
-'use strict';
-
 import React from 'react';
 
-const MonsterListControl = React.createClass({
-  render () {
-    let { monster, showControls, visibleStatBlockId } = this.props;
-    let classes = (showControls) ? 'button-tray active' : 'button-tray';
-    let copy = (monster.id === visibleStatBlockId) ? 'Hide' : 'Show';
-    return (
-      <div className={classes}>
-        <button type="button" className="button-reset" onClick={this._showHandler}>{copy}</button>
-        <button type="button" className="button-reset" onClick={this._useHandler}>{"Use"}</button>
-      </div>
-    );
-  },
-  _showHandler () {
-    let { dispatch, monster, visibleId } = this.props;
+export default class MonsterListControl extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleUse = this.handleUse.bind(this);
+  }
+  handleShow() {
+    const { dispatch, monster, visibleId } = this.props;
     let visibleStatBlock = null;
     let visibleStatBlockId = -1;
 
     if (monster.id !== visibleId) {
-        visibleStatBlock = monster;
-        visibleStatBlockId = monster.id;
+      visibleStatBlock = monster;
+      visibleStatBlockId = monster.id;
     }
 
     dispatch({
@@ -29,15 +21,40 @@ const MonsterListControl = React.createClass({
       visibleStatBlock,
       visibleStatBlockId
     });
-  },
-  _useHandler () {
-    let { dispatch, monster } = this.props;
+  }
+  handleUse() {
+    const { dispatch, monster } = this.props;
 
     dispatch({
       type: 'USE_MONSTER',
       monster
     });
   }
-});
+  render() {
+    const { monster, showControls, visibleStatBlockId } = this.props;
+    const classes = (showControls) ? 'button-tray active' : 'button-tray';
+    const copy = (monster.id === visibleStatBlockId) ? 'Hide' : 'Show';
+    return (
+      <div className={classes}>
+        <button
+          className="button-reset"
+          onClick={this.handleShow}
+          type="button"
+        >{copy}</button>
+        <button
+          className="button-reset"
+          onClick={this.handleUse}
+          type="button"
+        >{'Use'}</button>
+      </div>
+    );
+  }
+}
 
-export default MonsterListControl;
+MonsterListControl.propTypes = {
+  dispatch: React.PropTypes.func,
+  monster: React.PropTypes.shape({}),
+  showControls: React.PropTypes.bool,
+  visibleId: React.PropTypes.number,
+  visibleStatBlockId: React.PropTypes.number
+};

@@ -1,33 +1,41 @@
-'use strict';
-
 import React from 'react';
 import marked from 'marked';
 
-const MonsterBlock = React.createClass({
-  render () {
-    let { stats } = this.props;
+export default class MonsterBlock extends React.Component {
+  render() {
+    const { className, stats, title } = this.props;
+    const header = title ? (<h2>{this.props.title}</h2>) : null;
 
     if (stats === null) {
       return null;
     }
 
-    let className = 'monster-block ' + this.props.className || '';
-    let header = this.props.title ? (<h2>{this.props.title}</h2>) : null;
-
     return (
-      <section className={className}>
+      <section className={['monster-block', className].join(' ')}>
         {header}
         {
-          stats.map(function(stat, index) {
-            let markup = marked(stat, {sanitize: false});
+          stats.map((stat, index) => {
+            const markup = marked(stat, { sanitize: false });
             return (
-              <div key={index} dangerouslySetInnerHTML={{__html: markup}} />
+              <div
+                dangerouslySetInnerHTML={{ __html: markup }}
+                key={index}
+              />
             );
           })
         }
       </section>
     );
   }
-});
+}
 
-export default MonsterBlock;
+MonsterBlock.propTypes = {
+  stats: React.PropTypes.arrayOf(React.PropTypes.string),
+  className: React.PropTypes.string,
+  title: React.PropTypes.string
+};
+
+MonsterBlock.defaultProps = {
+  className: '',
+  title: null
+};

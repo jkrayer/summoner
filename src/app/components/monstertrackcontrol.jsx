@@ -1,39 +1,19 @@
-'use strict';
-
 import React from 'react';
 
-const MonsterTrackControl = React.createClass({
-  render () {
-    let { monster, visibleStatBlockId } = this.props;
-    let viewIcon = (monster.id === visibleStatBlockId) ? "fa fa-eye-slash" : "fa fa-eye";
-
-    return(
-      <div className="monster-track-control">
-        <button
-          className="button-reset"
-          onClick={this._showHandler}
-          type="button"
-        >
-          <i className={viewIcon}></i>
-        </button>
-        <button
-          className="button-reset"
-          onClick={this._removeHandler}
-          type="button"
-        >
-          <i className="fa fa-close"></i>
-        </button>
-      </div>
-    );
-  },
-  _showHandler (hide) {
-    let { dispatch, monster, visibleStatBlockId } = this.props;
+export default class MonsterTrackControl extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleRemove = this.handleRemove.bind(this);
+  }
+  handleShow(hide) {
+    const { dispatch, monster, visibleStatBlockId } = this.props;
     let visibleStatBlock = null;
     let nextVisibleStatBlockId = -1;
 
     if (monster.id !== visibleStatBlockId && !hide) {
-        visibleStatBlock = monster;
-        nextVisibleStatBlockId = monster.id;
+      visibleStatBlock = monster;
+      nextVisibleStatBlockId = monster.id;
     }
 
     dispatch({
@@ -41,15 +21,39 @@ const MonsterTrackControl = React.createClass({
       visibleStatBlock,
       visibleStatBlockId: nextVisibleStatBlockId
     });
-  },
-  _removeHandler () {
-    let { dispatch, monster } = this.props;
+  }
+  handleRemove() {
+    const { dispatch, monster } = this.props;
+
     dispatch({
       type: 'REMOVE_MONSTER',
       id: monster.id
     });
-    this._showHandler(true);
+    this.handleShow(true);
   }
-});
+  render() {
+    const { monster, visibleStatBlockId } = this.props;
+    let viewIcon = (monster.id === visibleStatBlockId) ? 'fa fa-eye-slash' : 'fa fa-eye';
 
-export default MonsterTrackControl;
+    return (
+      <div className="monster-track-control">
+        <button
+          className="button-reset"
+          onClick={this.handleShow}
+          type="button"
+        ><i className={viewIcon}></i></button>
+        <button
+          className="button-reset"
+          onClick={this.handleRemove}
+          type="button"
+        ><i className="fa fa-close"></i></button>
+      </div>
+    );
+  }
+}
+
+MonsterTrackControl.propTypes = {
+  dispatch: React.PropTypes.func,
+  monster: React.PropTypes.shape({}),
+  visibleStatBlockId: React.PropTypes.number
+};

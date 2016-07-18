@@ -1,20 +1,29 @@
-'use strict';
-
 import React from 'react';
 
-const Score = React.createClass({
-  render () {
+export default class Score extends React.Component {
+  setModifier() {
+    const val = Math.floor(this.props.value / 2 - 5);
+    let operator = '';
+
+    if (val !== 0) {
+      if (val > 0) {
+        operator = '+';
+      } else {
+        operator = '-';
+      }
+    }
+
+    return [' (', operator, val, ')'].join('');
+  }
+  render() {
     return (
       <span>
-        {this.props.value + this._setModifier()}
+        {this.props.value + this.setModifier()}
       </span>
     );
-  },
-  _setModifier () {
-    let val = Math.floor(this.props.value/2 - 5);
-    let operator = val === 0 ? '' : val > 0 ? '+' : '-';
-    return ' (' + operator + val + ')';
   }
-});
+}
 
-export default Score;
+Score.propTypes = {
+  value: React.PropTypes.number
+};

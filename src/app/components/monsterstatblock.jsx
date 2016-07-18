@@ -1,12 +1,10 @@
-'use strict';
-
 import React from 'react';
 import MonsterBlock from './monsterblock.jsx';
 import Score from './score.jsx';
 
-const Monster = React.createClass({
-  render () {
-    let { monster } = this.props;
+export default class Monster extends React.Component {
+  render() {
+    const { monster } = this.props;
 
     if (monster === null) {
       return null;
@@ -19,16 +17,19 @@ const Monster = React.createClass({
             <h1 className="monster-name">{monster.name}</h1>
             <p className="monster-tag">{monster.tag}</p>
           </header>
-          <MonsterBlock className="monster-tactical" stats={monster.tactical} />
+          <MonsterBlock
+            className="monster-tactical"
+            stats={monster.tactical}
+          />
           <table className="table score-table">
             <thead>
               <tr>
-                <th><abbr title="Strength">Str</abbr></th>
-                <th><abbr title="Dexterity">Dex</abbr></th>
-                <th><abbr title="Constitution">Con</abbr></th>
-                <th><abbr title="Intelligence">Int</abbr></th>
-                <th><abbr title="Wisdom">Wis</abbr></th>
-                <th><abbr title="Charisma">Cha</abbr></th>
+                <th><abbr title="Strength">{'Str'}</abbr></th>
+                <th><abbr title="Dexterity">{'Dex'}</abbr></th>
+                <th><abbr title="Constitution">{'Con'}</abbr></th>
+                <th><abbr title="Intelligence">{'Int'}</abbr></th>
+                <th><abbr title="Wisdom">{'Wis'}</abbr></th>
+                <th><abbr title="Charisma">{'Cha'}</abbr></th>
               </tr>
             </thead>
             <tbody>
@@ -42,14 +43,29 @@ const Monster = React.createClass({
               </tr>
             </tbody>
           </table>
-          <MonsterBlock className="monster-skills" stats={monster.skills} />
-          <MonsterBlock className="monster-features" stats={monster.features} />
-          <MonsterBlock className="monster-actions" stats={monster.actions} title="Actions" />
-          <MonsterBlock className="monster-reactions" stats={monster.reactions} title="Reactions" />
+          <MonsterBlock
+            className="monster-skills"
+            stats={monster.skills}
+          />
+          <MonsterBlock
+            className="monster-features"
+            stats={monster.features}
+          />
+          <MonsterBlock
+            className="monster-actions"
+            stats={monster.actions} title="Actions"
+          />
+          <MonsterBlock
+            className="monster-reactions"
+            stats={monster.reactions}
+            title={'Reactions'}
+          />
         </article>
       </div>
     );
   }
-});
+}
 
-export default Monster;
+Monster.propTypes = {
+  monster: React.PropTypes.shape({})
+};

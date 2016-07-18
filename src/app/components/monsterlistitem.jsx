@@ -1,18 +1,21 @@
-'use strict';
-
 import React from 'react';
 import MonsterListControl from './monsterlistcontrol.jsx';
 
-const MonsterListItem = React.createClass({
-  getInitialState () {
-    return {
-      showControls: false
-    };
-  },
+export default class MonsterListItem extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { showControls: false };
+    this.handleHover = this.handleHover.bind(this);
+  }
+  handleHover() {
+    this.setState({
+      showControls: !this.state.showControls
+    });
+  }
   render() {
-    let { monster } = this.props;
+    const { monster } = this.props;
     return (
-      <li onMouseEnter={this._hoverHandler} onMouseLeave={this._hoverHandler}>
+      <li onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
         <div className="control-wrapper">
           <MonsterListControl
             {...this.props}
@@ -22,12 +25,9 @@ const MonsterListItem = React.createClass({
         </div>
       </li>
     );
-  },
-  _hoverHandler () {
-    this.setState({
-      showControls: !this.state.showControls
-    });
   }
-});
+}
 
-export default MonsterListItem;
+MonsterListItem.propTypes = {
+  monster: React.PropTypes.shape({})
+};
