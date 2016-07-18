@@ -1,0 +1,16 @@
+//temp
+body,
+html {
+  font-family: 'Open Sans', 'Helvetic Neue', Arial, sans-serif;
+}
+
+.list-reset,
+.button-reset {
+  margin: 0;
+  padding: 0;
+}
+.list-reset { list-style: none; }
+.button-reset {
+  border: none;
+  background-color: transparent;
+}
