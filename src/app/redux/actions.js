@@ -1,5 +1,3 @@
-'use strict';
-
 export const LOAD_DATA = 'LOAD_DATA';
 export const SHOW_MONSTER = 'SHOW_MONSTER';
 export const USE_MONSTER = 'USE_MONSTER';
