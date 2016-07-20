@@ -16,8 +16,8 @@ export function useMonster(object) {
   return { type: USE_MONSTER, object };
 }
 
-export function removeMonster(id) {
-  return { type: REMOVE_MONSTER, id };
+export function removeMonster(object) {
+  return { type: REMOVE_MONSTER, object };
 }
 
 export function updateMonster(object) {
