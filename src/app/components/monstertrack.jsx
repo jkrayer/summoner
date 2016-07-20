@@ -28,7 +28,10 @@ export default class MonsterTrack extends React.Component {
               <header>
                 <h1>{monster.name}</h1>
               </header>
-              <MonsterControl monster={monster} />
+              <MonsterControl
+                dispatch={dispatch}
+                monster={monster}
+              />
             </article>
             )
           )

@@ -2,6 +2,7 @@ export const LOAD_DATA = 'LOAD_DATA';
 export const SHOW_MONSTER = 'SHOW_MONSTER';
 export const USE_MONSTER = 'USE_MONSTER';
 export const REMOVE_MONSTER = 'REMOVE_MONSTER';
+export const UPDATE_MONSTER = 'UPDATE_MONSTER';
 
 export function loadData(object) {
   return { type: LOAD_DATA, object };
@@ -17,4 +18,8 @@ export function useMonster(object) {
 
 export function removeMonster(id) {
   return { type: REMOVE_MONSTER, id };
+}
+
+export function updateMonster(object) {
+  return { type: UPDATE_MONSTER, object };
 }

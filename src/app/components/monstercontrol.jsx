@@ -10,25 +10,29 @@ export default class MonsterControl extends React.Component {
   setPoints() {
     let numberOfMonsters = parseInt(this.refs.numberOfMonsters.value, 10);
     let hpOfMonsters = parseInt(this.refs.hpOfMonsters.value, 10);
+    let { dispatch, monster } = this.props;
     let arr = [];
 
     for (let i = 0; i < numberOfMonsters; i++) {
       arr.push(hpOfMonsters);
     }
 
-    this.setState({
-      hpBlocks: arr
+    monster.hpBlocks = arr;
+
+    dispatch({
+      type: 'UPDATE_MONSTER',
+      monster
     });
   }
   render() {
     const { monster } = this.props;
     const { hpBlocks, hpOfMonsters, numberOfMonsters } = this.state;
 
-    if (hpBlocks.length) {
+    if (monster.hpBlocks && monster.hpBlocks.length) {
       return (
         <form className="monster-hp-control">
           {
-            hpBlocks.map((hp, index) => {
+            monster.hpBlocks.map((hp, index) => {
               return (
                 <HPBlock
                   hitpoints={hp}
@@ -66,5 +70,6 @@ export default class MonsterControl extends React.Component {
 }
 
 MonsterControl.propTypes = {
+  dispatch: React.PropTypes.func,
   monster: React.PropTypes.shape({})
 };
