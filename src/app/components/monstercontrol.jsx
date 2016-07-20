@@ -2,36 +2,45 @@ import React from 'react';
 import HPBlock from './hpblock.jsx';
 
 export default class MonsterControl extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { numberOfMonsters: null, hpOfMonsters: null };
+  constructor() {
+    super();
+    this.state = { hpBlocks: [], hpOfMonsters: null, numberOfMonsters: null };
     this.setPoints = this.setPoints.bind(this);
   }
   setPoints() {
-    const { hpOfMonsters, numberOfMonsters } = this.refs;
+    let numberOfMonsters = parseInt(this.refs.numberOfMonsters.value, 10);
+    let hpOfMonsters = parseInt(this.refs.hpOfMonsters.value, 10);
+    let arr = [];
+
+    for (let i = 0; i < numberOfMonsters; i++) {
+      arr.push(hpOfMonsters);
+    }
 
     this.setState({
-      numberOfMonsters: parseInt(numberOfMonsters.value, 10),
-      hpOfMonsters: parseInt(hpOfMonsters.value, 10)
+      hpBlocks: arr
     });
   }
   render() {
     const { monster } = this.props;
-    const { numberOfMonsters, hpOfMonsters } = this.state;
+    const { hpBlocks, hpOfMonsters, numberOfMonsters } = this.state;
 
-    if (numberOfMonsters) {
-      let modules = [];
-      let i = 0;
-      while (i < numberOfMonsters) {
-        modules.push((<HPBlock hitpoints={hpOfMonsters} key={i} />));
-        i++;
-      }
+    if (hpBlocks.length) {
       return (
         <form className="monster-hp-control">
-          {modules}
+          {
+            hpBlocks.map((hp, index) => {
+              return (
+                <HPBlock
+                  hitpoints={hp}
+                  key={index}
+                />
+              );
+            })
+          }
         </form>
       );
     }
+
     return (
       <form className="monster-control">
         <input
