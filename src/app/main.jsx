@@ -11,11 +11,11 @@ function LocalStorageInterface(defaultState, storeName) {
   this.storeName = storeName;
 }
 
-LocalStorageInterface.prototype.getSavedState = function() {
+LocalStorageInterface.prototype.getSavedState = function getSavedState() {
   return JSON.parse(localStorage.getItem(this.storeName)) || this.defaultState;
 };
 
-LocalStorageInterface.prototype.setSavedState = function(state) {
+LocalStorageInterface.prototype.setSavedState = function setSavedState(state) {
   localStorage.setItem(this.storeName, JSON.stringify(state));
 };
 
@@ -23,8 +23,8 @@ const LS = new LocalStorageInterface(InitialState, 'summonerApp');
 
 let store = createStore(summonerApp, LS.getSavedState());
 
-store.subscribe(function() {
-  LS.setSavedState(store.getState())
+store.subscribe(() => {
+  LS.setSavedState(store.getState());
 });
 
 ReactDOM.render(

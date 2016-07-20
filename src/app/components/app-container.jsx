@@ -4,9 +4,6 @@ import LoadData from './load-data.jsx';
 import { connect } from 'react-redux';
 
 class AppContainer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { dispatch, monsters } = this.props;
     let app;

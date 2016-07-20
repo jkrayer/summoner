@@ -19,12 +19,12 @@ export default class LoadData extends React.Component {
     const file = files[0];
     const reader = new FileReader();
 
-    reader.onload = function() {
+    reader.onload = function onload() {
       dispatch({
         type: 'LOAD_DATA',
         monsters: JSON.parse(this.result)
       });
-    }
+    };
     reader.readAsText(file);
   }
   render() {
@@ -35,10 +35,10 @@ export default class LoadData extends React.Component {
           onClick={this.handleSampleData}
           type="button"
         >{"Use Sample Data"}</button>
-      <input
-        onChange={this.handleLoadFile}
-        type="file"
-      />
+        <input
+          onChange={this.handleLoadFile}
+          type="file"
+        />
       </div>
     );
   }
