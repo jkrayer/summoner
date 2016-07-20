@@ -6,6 +6,7 @@ export default class MonsterControl extends React.Component {
     super();
     this.state = { hpBlocks: [], hpOfMonsters: null, numberOfMonsters: null };
     this.setPoints = this.setPoints.bind(this);
+    this.func = this.func.bind(this);
   }
   setPoints() {
     let numberOfMonsters = parseInt(this.refs.numberOfMonsters.value, 10);
@@ -24,8 +25,18 @@ export default class MonsterControl extends React.Component {
       monster
     });
   }
+  func (index) {
+    const { dispatch, monster } = this.props;
+    return function (newTotal)  {
+      monster.hpBlocks[index] = newTotal;
+      dispatch({
+        type: 'UPDATE_MONSTER',
+        monster
+      });
+    }
+  }
   render() {
-    const { monster } = this.props;
+    const { dispatch, monster } = this.props;
     const { hpBlocks, hpOfMonsters, numberOfMonsters } = this.state;
 
     if (monster.hpBlocks && monster.hpBlocks.length) {
@@ -37,6 +48,7 @@ export default class MonsterControl extends React.Component {
                 <HPBlock
                   hitpoints={hp}
                   key={index}
+                  hpupdate={this.func(index)}
                 />
               );
             })

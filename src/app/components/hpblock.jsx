@@ -14,6 +14,7 @@ export default class HPBlock extends React.Component {
     this.math('+');
   }
   math(operator) {
+    const { hpupdate } = this.props;
     const newValue = parseInt(this.refs.pointcounter.value, 10);
     let newHP = (operator === '+')
               ? this.state.hitpoints + newValue
@@ -22,9 +23,12 @@ export default class HPBlock extends React.Component {
       return;
     }
     newHP = (newHP > this.props.hitpoints) ? this.props.hitpoints : newHP;
-    this.setState({
-      hitpoints: newHP
-    });
+
+    //this.setState({
+    //  hitpoints: newHP
+    //});
+    hpupdate(newHP);
+
     this.refs.pointcounter.value = '';
   }
   render() {
@@ -49,5 +53,6 @@ export default class HPBlock extends React.Component {
 }
 
 HPBlock.propTypes = {
-  hitpoints: React.PropTypes.number.isRequired
+  hitpoints: React.PropTypes.number.isRequired,
+  hpupdate: React.PropTypes.func
 };
