@@ -51,14 +51,12 @@ export default class MonsterControl extends React.Component {
           placeholder="#"
           ref="numberOfMonsters"
           type="number"
-          value={numberOfMonsters}
         />
         <span> @ </span>
         <input
           placeholder={[monster.hitpoints, '-', monster.maxHitpoints].join('')}
           ref="hpOfMonsters"
           type="number"
-          value={hpOfMonsters}
         />
         <button
           onClick={this.setPoints}
