@@ -1,12 +1,5 @@
 import { LOAD_DATA, SHOW_MONSTER, USE_MONSTER, REMOVE_MONSTER } from './actions';
 
-const initialState = {
-  monsters: [],
-  visibleStatBlock: null,
-  visibleStatBlockId: -1,
-  usedMonsters: []
-};
-
 function deleteById(array, id) {
   const length = array.length;
   const newArray = [];
@@ -18,7 +11,7 @@ function deleteById(array, id) {
   return newArray;
 }
 
-function summonerApp(state = initialState, action) {
+function summonerApp(state, action) {
   const object = {};
   switch (action.type) {
     case LOAD_DATA:
