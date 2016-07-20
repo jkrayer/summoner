@@ -6,14 +6,26 @@ import { createStore } from 'redux';
 import summonerApp from './redux/reducers';
 import InitialState from './redux/initial-state';
 
-// initialData = localstorage.get(dataID) || {};
-// let store = createStore(summonerApp, initialData, middleware());
-// function middleware() {
-//   on each event localstorage.save()
-// }
+function LocalStorageInterface(defaultState, storeName) {
+  this.defaultState = defaultState;
+  this.storeName = storeName;
+}
 
-// might be the proper place to set initial data, rather than app-container
-let store = createStore(summonerApp, InitialState);
+LocalStorageInterface.prototype.getSavedState = function() {
+  return JSON.parse(localStorage.getItem(this.storeName)) || this.defaultState;
+};
+
+LocalStorageInterface.prototype.setSavedState = function(state) {
+  localStorage.setItem(this.storeName, JSON.stringify(state));
+};
+
+const LS = new LocalStorageInterface(InitialState, 'summonerApp');
+
+let store = createStore(summonerApp, LS.getSavedState());
+
+store.subscribe(function() {
+  LS.setSavedState(store.getState())
+});
 
 ReactDOM.render(
   <Provider store={store}>
