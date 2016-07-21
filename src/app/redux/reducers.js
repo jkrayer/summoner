@@ -17,6 +17,7 @@ function replaceById (array, monster) {
   for (let i = 0; i < length; i++) {
     if (array[i].id === monster.id) {
       newArray.push(monster);
+      continue;
     }
     newArray.push(array[i]);
   }
