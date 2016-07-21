@@ -6,7 +6,7 @@ export default class MonsterControl extends React.Component {
     super();
     this.state = { hpBlocks: [], hpOfMonsters: null, numberOfMonsters: null };
     this.setPoints = this.setPoints.bind(this);
-    this.func = this.func.bind(this);
+    this.handleHpUpdate = this.handleHpUpdate.bind(this);
   }
   setPoints() {
     let numberOfMonsters = parseInt(this.refs.numberOfMonsters.value, 10);
@@ -18,17 +18,20 @@ export default class MonsterControl extends React.Component {
       arr.push(hpOfMonsters);
     }
 
-    monster.hpBlocks = arr;
+    monster.hpBlocks = {
+      maxHitpoints: hpOfMonsters,
+      blocks: arr
+    };
 
     dispatch({
       type: 'UPDATE_MONSTER',
       monster
     });
   }
-  func (index) {
+  handleHpUpdate (index) {
     const { dispatch, monster } = this.props;
-    return function (newTotal)  {
-      monster.hpBlocks[index] = newTotal;
+    return function (newTotal) {
+      monster.hpBlocks.blocks[index] = newTotal;
       dispatch({
         type: 'UPDATE_MONSTER',
         monster
@@ -39,16 +42,17 @@ export default class MonsterControl extends React.Component {
     const { dispatch, monster } = this.props;
     const { hpBlocks, hpOfMonsters, numberOfMonsters } = this.state;
 
-    if (monster.hpBlocks && monster.hpBlocks.length) {
+    if (monster.hpBlocks && monster.hpBlocks.blocks && monster.hpBlocks.blocks.length) {
       return (
         <form className="monster-hp-control">
           {
-            monster.hpBlocks.map((hp, index) => {
+            monster.hpBlocks.blocks.map((hp, index) => {
               return (
                 <HPBlock
                   hitpoints={hp}
+                  hpupdate={this.handleHpUpdate(index)}
                   key={index}
-                  hpupdate={this.func(index)}
+                  maxhitpoints={monster.hpBlocks.maxHitpoints}
                 />
               );
             })
