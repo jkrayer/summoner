@@ -27,7 +27,7 @@ export default class MonsterTrackControl extends React.Component {
 
     dispatch({
       type: 'REMOVE_MONSTER',
-      id: monster.id
+      monster
     });
     dispatch({
       type: 'SHOW_MONSTER',
