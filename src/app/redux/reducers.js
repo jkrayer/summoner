@@ -23,6 +23,10 @@ function replaceById (array, monster) {
   return newArray;
 }
 
+function copy(object) {
+  return JSON.parse(JSON.stringify(object));
+}
+
 function summonerApp(state, action) {
   const object = {};
   switch (action.type) {
@@ -34,7 +38,7 @@ function summonerApp(state, action) {
       object.visibleStatBlockId = action.visibleStatBlockId;
       break;
     case USE_MONSTER:
-      object.usedMonsters = state.usedMonsters.concat([action.monster]);
+      object.usedMonsters = state.usedMonsters.concat([copy(action.monster)]);
       break;
     case REMOVE_MONSTER:
       object.usedMonsters = deleteById(state.usedMonsters, action.monster);
