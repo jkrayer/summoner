@@ -33,6 +33,9 @@ function summonerApp(state, action) {
   switch (action.type) {
     case LOAD_DATA:
       object.monsters = action.monsters;
+      object.visibleStatBlock = null;
+      object.visibleStatBlockId = -1;
+      object.usedMonsters = [];
       break;
     case SHOW_MONSTER:
       object.visibleStatBlock = action.visibleStatBlock;
