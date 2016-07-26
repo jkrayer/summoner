@@ -39,7 +39,7 @@ export default class LoadData extends React.Component {
           onChange={this.handleLoadFile}
           type="file"
         />
-    </span>
+      </span>
     );
   }
 }

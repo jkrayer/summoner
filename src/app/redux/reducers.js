@@ -11,7 +11,7 @@ function deleteById(array, monster) {
   return newArray;
 }
 
-function replaceById (array, monster) {
+function replaceById(array, monster) {
   const length = array.length;
   const newArray = [];
   for (let i = 0; i < length; i++) {

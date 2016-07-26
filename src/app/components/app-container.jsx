@@ -1,9 +1,14 @@
 import React from 'react';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
 import App from './app.jsx';
 import AppControlBar from './app-control-bar.jsx';
 import { connect } from 'react-redux';
 
 class AppContainer extends React.Component {
+  constructor() {
+    super();
+    this.shouldComponentUpdate = PureRenderMixin.shouldComponentUpdate.bind(this);
+  }
   render() {
     const { dispatch } = this.props;
     return (

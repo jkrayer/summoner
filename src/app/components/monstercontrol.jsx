@@ -9,10 +9,10 @@ export default class MonsterControl extends React.Component {
     this.handleHpUpdate = this.handleHpUpdate.bind(this);
   }
   setPoints() {
-    let numberOfMonsters = parseInt(this.refs.numberOfMonsters.value, 10);
-    let hpOfMonsters = parseInt(this.refs.hpOfMonsters.value, 10);
-    let { dispatch, monster } = this.props;
-    let arr = [];
+    const numberOfMonsters = parseInt(this.refs.numberOfMonsters.value, 10);
+    const hpOfMonsters = parseInt(this.refs.hpOfMonsters.value, 10);
+    const { dispatch, monster } = this.props;
+    const arr = [];
 
     for (let i = 0; i < numberOfMonsters; i++) {
       arr.push(hpOfMonsters);
@@ -28,34 +28,33 @@ export default class MonsterControl extends React.Component {
       monster
     });
   }
-  handleHpUpdate (index) {
+  handleHpUpdate(index) {
     const { dispatch, monster } = this.props;
-    return function (newTotal) {
+    return function hpUpdate(newTotal) {
       monster.hpBlocks.blocks[index] = newTotal;
       dispatch({
         type: 'UPDATE_MONSTER',
         monster
       });
-    }
+    };
   }
   render() {
-    const { dispatch, monster } = this.props;
-    const { hpBlocks, hpOfMonsters, numberOfMonsters } = this.state;
+    const { monster } = this.props;
 
     if (monster.hpBlocks && monster.hpBlocks.blocks && monster.hpBlocks.blocks.length) {
       return (
         <form className="monster-hp-control">
           {
-            monster.hpBlocks.blocks.map((hp, index) => {
-              return (
-                <HPBlock
-                  hitpoints={hp}
-                  hpupdate={this.handleHpUpdate(index)}
-                  key={index}
-                  maxhitpoints={monster.hpBlocks.maxHitpoints}
-                />
-              );
-            })
+            monster.hpBlocks.blocks.map((hp, index) =>
+              (
+              <HPBlock
+                hitpoints={hp}
+                hpupdate={this.handleHpUpdate(index)}
+                key={index}
+                maxhitpoints={monster.hpBlocks.maxHitpoints}
+              />
+              )
+            )
           }
         </form>
       );
