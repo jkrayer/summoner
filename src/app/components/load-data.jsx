@@ -29,7 +29,7 @@ export default class LoadData extends React.Component {
   }
   render() {
     return (
-      <div>
+      <span>
         <button
           className="btn"
           onClick={this.handleSampleData}
@@ -39,7 +39,7 @@ export default class LoadData extends React.Component {
           onChange={this.handleLoadFile}
           type="file"
         />
-      </div>
+    </span>
     );
   }
 }
