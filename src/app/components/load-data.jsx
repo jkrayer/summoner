@@ -33,8 +33,9 @@ export default class LoadData extends React.Component {
         <button
           className="btn"
           onClick={this.handleSampleData}
+          ref="btnSample"
           type="button"
-        >{"Use Sample Data"}</button>
+        >{"Load Sample Data"}</button>
         <input
           onChange={this.handleLoadFile}
           type="file"
