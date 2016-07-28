@@ -20,6 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/jkrayer/summoner.git"
   },
+  "engines":{
+    "node":"5.6.0",
+    "npm":"3.6.0"
+  },
   "author": "Jim Krayer",
   "license": "MIT",
   "bugs": {
