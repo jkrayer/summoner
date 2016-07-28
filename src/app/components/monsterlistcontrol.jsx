@@ -55,6 +55,5 @@ MonsterListControl.propTypes = {
   dispatch: React.PropTypes.func,
   monster: React.PropTypes.shape({}),
   showControls: React.PropTypes.bool,
-  visibleId: React.PropTypes.number,
   visibleStatBlockId: React.PropTypes.number
 };
