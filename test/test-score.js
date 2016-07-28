@@ -4,7 +4,7 @@ import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import Score from '../src/app/components/score.jsx';
 
-describe('Test Score Component', function () {
+describe('Test Score', function () {
   let el;
   let elTwo;
   let elThree;
