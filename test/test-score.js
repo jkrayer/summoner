@@ -24,15 +24,19 @@ describe('Test Score', function () {
   it('Should be a Composite Component', function () {
     assert.equal(TestUtils.isCompositeComponent(el), true);
   });
+
   it('Should render a SPAN tag', function () {
     assert.equal(tag.tagName, 'SPAN');
   });
+
   it('Should render a score with modifier in parenthesis', function () {
     assert.equal(tag.innerHTML, '10 (0)');
   });
+
   it('Should render a score with a negative modifier with the minus symbol', function () {
     assert.equal(tagTwo.innerHTML, '7 (-2)');
   });
+
   it('Should render a score with a positive modifier with the plus symbol', function () {
     assert.equal(tagThree.innerHTML, '16 (+3)');
   });

@@ -17,13 +17,16 @@ describe('Test Monster List Item', function () {
   it('Should be a Composite Component', function () {
     assert.equal(TestUtils.isCompositeComponent(el), true);
   });
+
   it('Should render a List Item', function () {
     assert.equal(tag.tagName, 'LI');
   });
+
   it('Should show controls on mouse enter', function () {
     TestUtils.Simulate.mouseEnter(tag);
     assert.equal(el.state.showControls, true);
   });
+
   it('Should hide controls on mouse leave', function () {
     TestUtils.Simulate.mouseEnter(tag);
     TestUtils.Simulate.mouseLeave(tag);

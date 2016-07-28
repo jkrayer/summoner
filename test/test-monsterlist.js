@@ -19,6 +19,7 @@ describe('Test Monster List', function () {
   it('Should be a Composite Component', function () {
     assert.equal(TestUtils.isCompositeComponent(el), true);
   });
+
   it('Should render an Unordered List', function () {
     assert.equal(tag.tagName, 'UL');
   });
