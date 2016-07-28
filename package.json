@@ -11,7 +11,7 @@
     "mkdirs": "mkdir -p public/assets/css && mkdir -p public/assets/js",
     "start": "npm run mkdirs && npm run cp:static && npm run compile:react && npm run compile:sass && open public/index.html  && npm run watch",
     "test": "mocha --compilers js:babel-register",
-    "watch": "npm run watch:sass & npm run watch:lint & npm run watch:test & watch:react",
+    "watch": "npm run watch:sass & npm run watch:lint & npm run watch:test & npm run watch:react",
     "watch:lint": "esw -w --plugin react --ext .js --ext .jsx src/app/",
     "watch:react": "watchify -dv -t [babelify] --extension=.jsx src/app/main.jsx -o public/assets/js/bundle.js",
     "watch:sass": "npm run compile:sass -- -w",
