@@ -4,14 +4,17 @@
   "description": "Manage 5e Statblocks",
   "main": "index.html",
   "scripts": {
-    "browserify": "browserify src/app/main.jsx -o public/assets/js/bundle.js -t [babelify]",
-    "build": "npm run mkdirs && npm run cp:static && npm run browserify && npm run compile:sass",
+    "compile:react": "browserify src/app/main.jsx -o public/assets/js/bundle.js -t [babelify]",
     "compile:sass": "node-sass --source-map true --output-style compressed src/css/style.scss public/assets/css/style.css",
     "cp:static": "cp src/static/index.html public/index.html",
     "lint": "eslint --plugin react --ext .js --ext .jsx src/app/",
     "mkdirs": "mkdir -p public/assets/css && mkdir -p public/assets/js",
-    "test": "mocha --compilers js:babel-register && npm run lint",
-    "watch:test": "mocha --compilers js:babel-register -w"
+    "start": "npm run mkdirs && npm run cp:static && npm run compile:react && npm run compile:sass && open public/index.html  && npm run watch",
+    "test": "mocha --compilers js:babel-register",
+    "watch":"npm run watch:sass & npm run watch:lint & npm run watch:test",
+    "watch:lint": "esw -w --plugin react --ext .js --ext .jsx src/app/",
+    "watch:sass": "npm run compile:sass -- -w",
+    "watch:test": "npm run test -- -w"
   },
   "repository": {
     "type": "git",
@@ -39,6 +42,7 @@
     "eslint-plugin-import": "1.10.3",
     "eslint-plugin-jsx-a11y": "2.0.1",
     "eslint-plugin-react": "5.0.1",
+    "eslint-watch": "2.1.14",
     "jsdom": "9.4.1",
     "mocha": "2.5.3",
     "node-sass": "3.8.0",
