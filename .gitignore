@@ -29,5 +29,5 @@ node_modules
 # MAC Hidden Files
 *.DS*
 
-# 
-public
+#
+build
