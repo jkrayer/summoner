@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "copy:static": "cp src/static/index.html build/index.html",
-    "start": "webpack && npm copy:static",
+    "start": "webpack && npm run copy:static",
     "test": "mocha --compilers js:babel-register"
   },
   "repository": {
