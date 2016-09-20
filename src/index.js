@@ -1,16 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './components/app.jsx';
-
-class App extends React.Component {
-  render () {
-    return (
-      <h1>{"JIM"}</h1>
-    );
-  }
-}
+import data from './data/5e-SRD-Monsters';
+import App from './components/app.jsx';
 
 ReactDOM.render(
-  <App />,
+  <App data={data} />,
   document.getElementById('mountpoint')
 );
