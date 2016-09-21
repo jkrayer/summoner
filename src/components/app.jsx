@@ -1,4 +1,5 @@
 import React from 'react';
+import Toc from './toc.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -6,11 +7,10 @@ export default class App extends React.Component {
   }
   render() {
     const { data } = this.props;
-    const lis = data.map( monster => (monster.name ? <li>{monster.name}</li> : null) );
     return (
-      <ol>
-        {lis}
-      </ol>
+      <div>
+        <Toc data={data} />
+      </div>
     );
   }
 }
