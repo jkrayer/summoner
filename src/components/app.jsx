@@ -4,6 +4,13 @@ import Toc from './toc.jsx';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { selectedMonster: null };
+    this.setSelectedMonster = this.setSelectedMonster.bind(this);
+  }
+  setSelectedMonster(key) {
+    this.setState({
+      selectedMonster: this.props.data[key] || null
+    });
   }
   render() {
     const { data } = this.props;
