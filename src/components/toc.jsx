@@ -4,12 +4,16 @@ import Button from './button.jsx';
 export default class Toc extends React.Component {
   constructor(props) {
     super(props);
-    // state object with selected stat block
   }
   render() {
     const { data } = this.props;
     const lis = data.map( (monster, index) =>
-      (monster.name ? <li key={index}><Button>{monster.name}</Button></li> : null)
+      !monster.name ? null :
+        <li key={index}>
+          <Button event={this.props.buttonEvent.bind(null, index)}>
+            {monster.name}
+          </Button>
+        </li>
     );
     return (
       <ol>
