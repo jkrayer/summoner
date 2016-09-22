@@ -9,12 +9,6 @@ export default [
     "hit_points": 135,
     "hit_dice": "18d10",
     "speed": "10 ft., swim 40 ft.",
-    "strength": 21,
-    "dexterity": 9,
-    "constitution": 15,
-    "intelligence": 18,
-    "wisdom": 15,
-    "charisma": 18,
     "constitution_save": 6,
     "intelligence_save": 8,
     "wisdom_save": 6,
@@ -86,7 +80,15 @@ export default [
         "desc": "One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 9,
+      "constitution": 15,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 18
+    }
   },
   {
     "name": "Acolyte",
@@ -98,12 +100,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 14,
-    "charisma": 11,
     "medicine": 4,
     "religion": 2,
     "damage_vulnerabilities": "",
@@ -127,7 +123,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 14,
+      "charisma": 11
+    }
   },
   {
     "name": "Adult Black Dragon",
@@ -139,12 +143,6 @@ export default [
     "hit_points": 195,
     "hit_dice": "17d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 23,
-    "dexterity": 14,
-    "constitution": 21,
-    "intelligence": 14,
-    "wisdom": 13,
-    "charisma": 17,
     "dexterity_save": 7,
     "constitution_save": 10,
     "wisdom_save": 6,
@@ -225,7 +223,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 14,
+      "constitution": 21,
+      "intelligence": 14,
+      "wisdom": 13,
+      "charisma": 17
+    }
   },
   {
     "name": "Adult Blue Dracolich",
@@ -237,12 +243,6 @@ export default [
     "hit_points": 225,
     "hit_dice": "18d12",
     "speed": "40 ft., burrow 30 ft., fly 80 ft.",
-    "strength": 25,
-    "dexterity": 10,
-    "constitution": 23,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 19,
     "perception": 12,
     "damage_vulnerabilities": "",
     "damage_resistances": "necrotic",
@@ -318,7 +318,15 @@ export default [
         "desc": "The dracolich beats its tattered wings. Each creature within 10 ft. of the dracolich must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. After beating its wings this way, the dracolich can fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 25,
+      "dexterity": 10,
+      "constitution": 23,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 19
+    }
   },
   {
     "name": "Adult Blue Dragon",
@@ -330,12 +338,6 @@ export default [
     "hit_points": 225,
     "hit_dice": "18d12",
     "speed": "40 ft., burrow 30 ft., fly 80 ft.",
-    "strength": 25,
-    "dexterity": 10,
-    "constitution": 23,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 19,
     "dexterity_save": 5,
     "constitution_save": 11,
     "wisdom_save": 7,
@@ -411,7 +413,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 25,
+      "dexterity": 10,
+      "constitution": 23,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 19
+    }
   },
   {
     "name": "Adult Brass Dragon",
@@ -423,12 +433,6 @@ export default [
     "hit_points": 172,
     "hit_dice": "15d12",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "strength": 23,
-    "dexterity": 10,
-    "constitution": 21,
-    "intelligence": 14,
-    "wisdom": 13,
-    "charisma": 17,
     "dexterity_save": 5,
     "constitution_save": 10,
     "wisdom_save": 6,
@@ -489,7 +493,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "13d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 10,
+      "constitution": 21,
+      "intelligence": 14,
+      "wisdom": 13,
+      "charisma": 17
+    }
   },
   {
     "name": "Adult Bronze Dragon",
@@ -501,12 +513,6 @@ export default [
     "hit_points": 212,
     "hit_dice": "17d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 25,
-    "dexterity": 10,
-    "constitution": 23,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 19,
     "dexterity_save": 5,
     "constitution_save": 11,
     "wisdom_save": 7,
@@ -588,7 +594,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 25,
+      "dexterity": 10,
+      "constitution": 23,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 19
+    }
   },
   {
     "name": "Adult Copper Dragon",
@@ -600,12 +614,6 @@ export default [
     "hit_points": 184,
     "hit_dice": "16d12",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "strength": 23,
-    "dexterity": 12,
-    "constitution": 21,
-    "intelligence": 18,
-    "wisdom": 15,
-    "charisma": 17,
     "dexterity_save": 6,
     "constitution_save": 10,
     "wisdom_save": 7,
@@ -682,7 +690,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 12,
+      "constitution": 21,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 17
+    }
   },
   {
     "name": "Adult Gold Dragon",
@@ -694,12 +710,6 @@ export default [
     "hit_points": 256,
     "hit_dice": "19d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 27,
-    "dexterity": 14,
-    "constitution": 25,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 24,
     "dexterity_save": 8,
     "constitution_save": 13,
     "wisdom_save": 8,
@@ -782,7 +792,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 14,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 24
+    }
   },
   {
     "name": "Adult Green Dragon",
@@ -794,12 +812,6 @@ export default [
     "hit_points": 207,
     "hit_dice": "18d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 23,
-    "dexterity": 12,
-    "constitution": 21,
-    "intelligence": 18,
-    "wisdom": 15,
-    "charisma": 17,
     "dexterity_save": 6,
     "constitution_save": 10,
     "wisdom_save": 7,
@@ -883,7 +895,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 12,
+      "constitution": 21,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 17
+    }
   },
   {
     "name": "Adult Red Dragon",
@@ -895,12 +915,6 @@ export default [
     "hit_points": 256,
     "hit_dice": "19d12",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "strength": 27,
-    "dexterity": 10,
-    "constitution": 25,
-    "intelligence": 16,
-    "wisdom": 13,
-    "charisma": 21,
     "dexterity_save": 6,
     "constitution_save": 13,
     "wisdom_save": 7,
@@ -982,7 +996,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 21
+    }
   },
   {
     "name": "Adult Silver Dragon",
@@ -994,12 +1016,6 @@ export default [
     "hit_points": 243,
     "hit_dice": "18d12",
     "speed": "40 ft., fly 80 ft.",
-    "strength": 27,
-    "dexterity": 10,
-    "constitution": 25,
-    "intelligence": 16,
-    "wisdom": 13,
-    "charisma": 21,
     "dexterity_save": 5,
     "constitution_save": 12,
     "wisdom_save": 6,
@@ -1077,7 +1093,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 21
+    }
   },
   {
     "name": "Adult White Dragon",
@@ -1089,12 +1113,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d12",
     "speed": "40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
-    "strength": 22,
-    "dexterity": 10,
-    "constitution": 22,
-    "intelligence": 8,
-    "wisdom": 12,
-    "charisma": 12,
     "dexterity_save": 5,
     "constitution_save": 11,
     "wisdom_save": 6,
@@ -1175,7 +1193,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 10 ft. of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 10,
+      "constitution": 22,
+      "intelligence": 8,
+      "wisdom": 12,
+      "charisma": 12
+    }
   },
   {
     "name": "Air Elemental",
@@ -1187,12 +1213,6 @@ export default [
     "hit_points": 90,
     "hit_dice": "12d10",
     "speed": "fly 90 ft. (hover)",
-    "strength": 14,
-    "dexterity": 20,
-    "constitution": 14,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "lightning; thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "poison",
@@ -1225,7 +1245,15 @@ export default [
         "desc": "Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.\nIf the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 20,
+      "constitution": 14,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 6
+    }
   },
   {
     "name": "Ancient Black Dragon",
@@ -1237,12 +1265,6 @@ export default [
     "hit_points": 367,
     "hit_dice": "21d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 27,
-    "dexterity": 14,
-    "constitution": 25,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 19,
     "dexterity_save": 9,
     "constitution_save": 14,
     "wisdom_save": 9,
@@ -1327,7 +1349,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 14,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 19
+    }
   },
   {
     "name": "Ancient Blue Dragon",
@@ -1339,12 +1369,6 @@ export default [
     "hit_points": 481,
     "hit_dice": "26d20",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "strength": 29,
-    "dexterity": 10,
-    "constitution": 27,
-    "intelligence": 18,
-    "wisdom": 17,
-    "charisma": 21,
     "dexterity_save": 7,
     "constitution_save": 15,
     "wisdom_save": 10,
@@ -1413,7 +1437,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 29,
+      "dexterity": 10,
+      "constitution": 27,
+      "intelligence": 18,
+      "wisdom": 17,
+      "charisma": 21
+    }
   },
   {
     "name": "Ancient Brass Dragon",
@@ -1425,12 +1457,6 @@ export default [
     "hit_points": 297,
     "hit_dice": "17d20",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "strength": 27,
-    "dexterity": 10,
-    "constitution": 25,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 19,
     "dexterity_save": 6,
     "constitution_save": 13,
     "wisdom_save": 8,
@@ -1513,7 +1539,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 25,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 19
+    }
   },
   {
     "name": "Ancient Bronze Dragon",
@@ -1525,12 +1559,6 @@ export default [
     "hit_points": 444,
     "hit_dice": "24d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 29,
-    "dexterity": 10,
-    "constitution": 27,
-    "intelligence": 18,
-    "wisdom": 17,
-    "charisma": 21,
     "dexterity_save": 7,
     "constitution_save": 15,
     "wisdom_save": 10,
@@ -1617,7 +1645,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 29,
+      "dexterity": 10,
+      "constitution": 27,
+      "intelligence": 18,
+      "wisdom": 17,
+      "charisma": 21
+    }
   },
   {
     "name": "Ancient Copper Dragon",
@@ -1629,12 +1665,6 @@ export default [
     "hit_points": 350,
     "hit_dice": "20d20",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "strength": 27,
-    "dexterity": 12,
-    "constitution": 25,
-    "intelligence": 20,
-    "wisdom": 17,
-    "charisma": 19,
     "dexterity_save": 8,
     "constitution_save": 14,
     "wisdom_save": 10,
@@ -1716,7 +1746,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 12,
+      "constitution": 25,
+      "intelligence": 20,
+      "wisdom": 17,
+      "charisma": 19
+    }
   },
   {
     "name": "Ancient Gold Dragon",
@@ -1728,12 +1766,6 @@ export default [
     "hit_points": 546,
     "hit_dice": "28d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 30,
-    "dexterity": 14,
-    "constitution": 29,
-    "intelligence": 18,
-    "wisdom": 17,
-    "charisma": 28,
     "dexterity_save": 9,
     "constitution_save": 16,
     "wisdom_save": 10,
@@ -1821,7 +1853,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 30,
+      "dexterity": 14,
+      "constitution": 29,
+      "intelligence": 18,
+      "wisdom": 17,
+      "charisma": 28
+    }
   },
   {
     "name": "Ancient Green Dragon",
@@ -1833,12 +1873,6 @@ export default [
     "hit_points": 385,
     "hit_dice": "22d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 27,
-    "dexterity": 12,
-    "constitution": 25,
-    "intelligence": 20,
-    "wisdom": 17,
-    "charisma": 19,
     "dexterity_save": 8,
     "constitution_save": 14,
     "wisdom_save": 10,
@@ -1922,7 +1956,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 12,
+      "constitution": 25,
+      "intelligence": 20,
+      "wisdom": 17,
+      "charisma": 19
+    }
   },
   {
     "name": "Ancient Red Dragon",
@@ -1934,12 +1976,6 @@ export default [
     "hit_points": 546,
     "hit_dice": "28d20",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "strength": 30,
-    "dexterity": 10,
-    "constitution": 29,
-    "intelligence": 18,
-    "wisdom": 15,
-    "charisma": 23,
     "dexterity_save": 7,
     "constitution_save": 16,
     "wisdom_save": 9,
@@ -2015,7 +2051,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 30,
+      "dexterity": 10,
+      "constitution": 29,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 23
+    }
   },
   {
     "name": "Ancient Silver Dragon",
@@ -2027,12 +2071,6 @@ export default [
     "hit_points": 487,
     "hit_dice": "25d20",
     "speed": "40 ft., fly 80 ft.",
-    "strength": 30,
-    "dexterity": 10,
-    "constitution": 29,
-    "intelligence": 18,
-    "wisdom": 15,
-    "charisma": 23,
     "dexterity_save": 7,
     "constitution_save": 16,
     "wisdom_save": 9,
@@ -2115,7 +2153,15 @@ export default [
         "desc": "The dragon beats its wings. Each creature within 15 ft. of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 30,
+      "dexterity": 10,
+      "constitution": 29,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 23
+    }
   },
   {
     "name": "Ancient White Dragon",
@@ -2127,12 +2173,6 @@ export default [
     "hit_points": 333,
     "hit_dice": "18d20",
     "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 26,
-    "dexterity": 10,
-    "constitution": 26,
-    "intelligence": 10,
-    "wisdom": 13,
-    "charisma": 14,
     "dexterity_save": 6,
     "constitution_save": 14,
     "wisdom_save": 7,
@@ -2196,7 +2236,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "16d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 26,
+      "dexterity": 10,
+      "constitution": 26,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 14
+    }
   },
   {
     "name": "Androsphinx",
@@ -2208,12 +2256,6 @@ export default [
     "hit_points": 199,
     "hit_dice": "19d10",
     "speed": "40 ft., fly 60 ft.",
-    "strength": 22,
-    "dexterity": 10,
-    "constitution": 20,
-    "intelligence": 16,
-    "wisdom": 18,
-    "charisma": 23,
     "dexterity_save": 6,
     "constitution_save": 11,
     "intelligence_save": 9,
@@ -2280,7 +2322,15 @@ export default [
         "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 10,
+      "constitution": 20,
+      "intelligence": 16,
+      "wisdom": 18,
+      "charisma": 23
+    }
   },
   {
     "name": "Animated Armor",
@@ -2292,12 +2342,6 @@ export default [
     "hit_points": 33,
     "hit_dice": "6d8",
     "speed": "25 ft.",
-    "strength": 14,
-    "dexterity": 11,
-    "constitution": 13,
-    "intelligence": 1,
-    "wisdom": 3,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison, psychic",
@@ -2330,7 +2374,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 11,
+      "constitution": 13,
+      "intelligence": 1,
+      "wisdom": 3,
+      "charisma": 1
+    }
   },
   {
     "name": "Ankheg",
@@ -2342,12 +2394,6 @@ export default [
     "hit_points": 39,
     "hit_dice": "6d10",
     "speed": "30 ft., burrow 10 ft.",
-    "strength": 17,
-    "dexterity": 11,
-    "constitution": 13,
-    "intelligence": 1,
-    "wisdom": 13,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2369,7 +2415,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "3d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 11,
+      "constitution": 13,
+      "intelligence": 1,
+      "wisdom": 13,
+      "charisma": 6
+    }
   },
   {
     "name": "Ape",
@@ -2381,12 +2435,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d8",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 16,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 6,
-    "wisdom": 12,
-    "charisma": 7,
     "athletics": 5,
     "perception": 3,
     "damage_vulnerabilities": "",
@@ -2416,7 +2464,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 6,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Archmage",
@@ -2428,12 +2484,6 @@ export default [
     "hit_points": 99,
     "hit_dice": "18d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 20,
-    "wisdom": 15,
-    "charisma": 16,
     "intelligence_save": 9,
     "wisdom_save": 6,
     "arcana": 13,
@@ -2465,7 +2515,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 20,
+      "wisdom": 15,
+      "charisma": 16
+    }
   },
   {
     "name": "Assassin",
@@ -2477,12 +2535,6 @@ export default [
     "hit_points": 78,
     "hit_dice": "12d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 16,
-    "constitution": 14,
-    "intelligence": 13,
-    "wisdom": 11,
-    "charisma": 10,
     "dexterity_save": 6,
     "intelligence_save": 4,
     "acrobatics": 6,
@@ -2534,7 +2586,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 13,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Awakened Shrub",
@@ -2546,12 +2606,6 @@ export default [
     "hit_points": 10,
     "hit_dice": "3d6",
     "speed": "20 ft.",
-    "strength": 3,
-    "dexterity": 8,
-    "constitution": 11,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 6,
     "damage_vulnerabilities": "fire",
     "damage_resistances": "piercing",
     "damage_immunities": "",
@@ -2574,7 +2628,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": -1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 8,
+      "constitution": 11,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 6
+    }
   },
   {
     "name": "Awakened Tree",
@@ -2586,12 +2648,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d12",
     "speed": "20 ft.",
-    "strength": 19,
-    "dexterity": 6,
-    "constitution": 15,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 7,
     "damage_vulnerabilities": "fire",
     "damage_resistances": "bludgeoning, piercing",
     "damage_immunities": "",
@@ -2614,7 +2670,15 @@ export default [
         "damage_dice": "3d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 6,
+      "constitution": 15,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 7
+    }
   },
   {
     "name": "Axe Beak",
@@ -2626,12 +2690,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "50 ft.",
-    "strength": 14,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2647,7 +2705,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Azer",
@@ -2659,12 +2725,6 @@ export default [
     "hit_points": 39,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "strength": 17,
-    "dexterity": 12,
-    "constitution": 15,
-    "intelligence": 12,
-    "wisdom": 13,
-    "charisma": 10,
     "constitution_save": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -2699,7 +2759,15 @@ export default [
         "damage_dice": "1d8 + 1d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 12,
+      "wisdom": 13,
+      "charisma": 10
+    }
   },
   {
     "name": "Baboon",
@@ -2711,12 +2779,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 8,
-    "dexterity": 14,
-    "constitution": 11,
-    "intelligence": 4,
-    "wisdom": 12,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2739,7 +2801,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": -1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 4,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Badger",
@@ -2751,12 +2821,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d4",
     "speed": "20 ft., burrow 5 ft.",
-    "strength": 4,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2778,7 +2842,15 @@ export default [
         "attack_bonus": 2,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 4,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Balor",
@@ -2790,12 +2862,6 @@ export default [
     "hit_points": 262,
     "hit_dice": "21d12",
     "speed": "40 ft., fly 80 ft.",
-    "strength": 26,
-    "dexterity": 15,
-    "constitution": 22,
-    "intelligence": 20,
-    "wisdom": 16,
-    "charisma": 22,
     "strength_save": 14,
     "constitution_save": 12,
     "wisdom_save": 9,
@@ -2861,7 +2927,15 @@ export default [
         "desc": "The demon chooses what to summon and attempts a magical summoning.\nA balor has a 50 percent chance of summoning 1d8 vrocks, 1d6 hezrous, 1d4 glabrezus, 1d3 nalfeshnees, 1d2 mariliths, or one goristro.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 26,
+      "dexterity": 15,
+      "constitution": 22,
+      "intelligence": 20,
+      "wisdom": 16,
+      "charisma": 22
+    }
   },
   {
     "name": "Bandit",
@@ -2873,12 +2947,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2901,7 +2969,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10
+    }
   },
   {
     "name": "Bandit Captain",
@@ -2913,12 +2989,6 @@ export default [
     "hit_points": 65,
     "hit_dice": "10d8",
     "speed": "30 ft.",
-    "strength": 15,
-    "dexterity": 16,
-    "constitution": 14,
-    "intelligence": 14,
-    "wisdom": 11,
-    "charisma": 14,
     "strength_save": 4,
     "dexterity_save": 5,
     "wisdom_save": 2,
@@ -2958,7 +3028,15 @@ export default [
         "desc": "The captain adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 14
+    }
   },
   {
     "name": "Barbed Devil",
@@ -2970,12 +3048,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 17,
-    "constitution": 18,
-    "intelligence": 12,
-    "wisdom": 14,
-    "charisma": 14,
     "strength_save": 6,
     "constitution_save": 7,
     "wisdom_save": 5,
@@ -3034,7 +3106,15 @@ export default [
         "attack_bonus": 5,
         "damage_dice": "3d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 17,
+      "constitution": 18,
+      "intelligence": 12,
+      "wisdom": 14,
+      "charisma": 14
+    }
   },
   {
     "name": "Basilisk",
@@ -3046,12 +3126,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "20 ft.",
-    "strength": 16,
-    "dexterity": 8,
-    "constitution": 15,
-    "intelligence": 2,
-    "wisdom": 8,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3074,7 +3148,15 @@ export default [
         "damage_dice": "2d6 + 2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 8,
+      "charisma": 7
+    }
   },
   {
     "name": "Bat",
@@ -3086,12 +3168,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "5 ft., fly 30 ft.",
-    "strength": 2,
-    "dexterity": 15,
-    "constitution": 8,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3118,7 +3194,15 @@ export default [
         "attack_bonus": 0,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 15,
+      "constitution": 8,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 4
+    }
   },
   {
     "name": "Bearded Devil",
@@ -3130,12 +3214,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 9,
-    "wisdom": 11,
-    "charisma": 11,
     "strength_save": 5,
     "constitution_save": 4,
     "wisdom_save": 2,
@@ -3183,7 +3261,15 @@ export default [
         "damage_dice": "1d10",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 9,
+      "wisdom": 11,
+      "charisma": 11
+    }
   },
   {
     "name": "Behir",
@@ -3195,12 +3281,6 @@ export default [
     "hit_points": 168,
     "hit_dice": "16d12",
     "speed": "50 ft., climb 40 ft.",
-    "strength": 23,
-    "dexterity": 16,
-    "constitution": 18,
-    "intelligence": 7,
-    "wisdom": 14,
-    "charisma": 12,
     "perception": 6,
     "stealth": 7,
     "damage_vulnerabilities": "",
@@ -3242,7 +3322,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "6d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 16,
+      "constitution": 18,
+      "intelligence": 7,
+      "wisdom": 14,
+      "charisma": 12
+    }
   },
   {
     "name": "Berserker",
@@ -3254,12 +3342,6 @@ export default [
     "hit_points": 67,
     "hit_dice": "9d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 12,
-    "constitution": 17,
-    "intelligence": 9,
-    "wisdom": 11,
-    "charisma": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3282,7 +3364,15 @@ export default [
         "damage_dice": "1d12",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 9,
+      "wisdom": 11,
+      "charisma": 9
+    }
   },
   {
     "name": "Black Bear",
@@ -3294,12 +3384,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d8",
     "speed": "40 ft., climb 30 ft.",
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 14,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3334,7 +3418,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Black Dragon Wyrmling",
@@ -3346,12 +3438,6 @@ export default [
     "hit_points": 33,
     "hit_dice": "6d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "strength": 15,
-    "dexterity": 14,
-    "constitution": 13,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 13,
     "dexterity_save": 4,
     "constitution_save": 3,
     "wisdom_save": 2,
@@ -3386,7 +3472,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "5d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 13
+    }
   },
   {
     "name": "Black Pudding",
@@ -3398,12 +3492,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "10d10",
     "speed": "20 ft., climb 20 ft.",
-    "strength": 16,
-    "dexterity": 5,
-    "constitution": 16,
-    "intelligence": 1,
-    "wisdom": 6,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid, cold, lightning, slashing",
@@ -3444,7 +3532,15 @@ export default [
         "desc": "When a pudding that is Medium or larger is subjected to lightning or slashing damage, it splits into two new puddings if it has at least 10 hit points. Each new pudding has hit points equal to half the original pudding's, rounded down. New puddings are one size smaller than the original pudding.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 5,
+      "constitution": 16,
+      "intelligence": 1,
+      "wisdom": 6,
+      "charisma": 1
+    }
   },
   {
     "name": "Blink Dog",
@@ -3456,12 +3552,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "40 ft.",
-    "strength": 12,
-    "dexterity": 17,
-    "constitution": 12,
-    "intelligence": 10,
-    "wisdom": 13,
-    "charisma": 11,
     "perception": 3,
     "stealth": 5,
     "damage_vulnerabilities": "",
@@ -3491,7 +3581,15 @@ export default [
         "desc": "The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 11
+    }
   },
   {
     "name": "Blood Hawk",
@@ -3503,12 +3601,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d6",
     "speed": "10 ft., fly 60 ft.",
-    "strength": 6,
-    "dexterity": 14,
-    "constitution": 10,
-    "intelligence": 3,
-    "wisdom": 14,
-    "charisma": 5,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -3537,7 +3629,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 3,
+      "wisdom": 14,
+      "charisma": 5
+    }
   },
   {
     "name": "Blue Dragon Wyrmling",
@@ -3549,12 +3649,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "30 ft., burrow 15 ft., fly 60 ft.",
-    "strength": 17,
-    "dexterity": 10,
-    "constitution": 15,
-    "intelligence": 12,
-    "wisdom": 11,
-    "charisma": 15,
     "dexterity_save": 2,
     "constitution_save": 4,
     "wisdom_save": 2,
@@ -3582,7 +3676,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "4d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 12,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Boar",
@@ -3594,12 +3696,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "strength": 13,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 9,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3628,7 +3724,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 9,
+      "charisma": 5
+    }
   },
   {
     "name": "Bone Devil",
@@ -3640,12 +3744,6 @@ export default [
     "hit_points": 142,
     "hit_dice": "15d10",
     "speed": "40 ft., fly 40 ft.",
-    "strength": 18,
-    "dexterity": 16,
-    "constitution": 18,
-    "intelligence": 13,
-    "wisdom": 14,
-    "charisma": 16,
     "intelligence_save": 5,
     "wisdom_save": 6,
     "charisma_save": 7,
@@ -3709,7 +3807,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 16,
+      "constitution": 18,
+      "intelligence": 13,
+      "wisdom": 14,
+      "charisma": 16
+    }
   },
   {
     "name": "Brass Dragon Wyrmling",
@@ -3721,12 +3827,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d8",
     "speed": "30 ft., burrow 15 ft., fly 60 ft.",
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 13,
     "dexterity_save": 2,
     "constitution_save": 3,
     "wisdom_save": 2,
@@ -3754,7 +3854,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "4d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 13
+    }
   },
   {
     "name": "Bronze Dragon Wyrmling",
@@ -3766,12 +3874,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "strength": 17,
-    "dexterity": 10,
-    "constitution": 15,
-    "intelligence": 12,
-    "wisdom": 11,
-    "charisma": 15,
     "dexterity_save": 2,
     "constitution_save": 4,
     "wisdom_save": 2,
@@ -3806,7 +3908,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "3d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 12,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Brown Bear",
@@ -3818,12 +3928,6 @@ export default [
     "hit_points": 34,
     "hit_dice": "4d10",
     "speed": "40 ft., climb 30 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 16,
-    "intelligence": 2,
-    "wisdom": 13,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -3859,7 +3963,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 7
+    }
   },
   {
     "name": "Bugbear",
@@ -3871,12 +3983,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "strength": 15,
-    "dexterity": 14,
-    "constitution": 13,
-    "intelligence": 8,
-    "wisdom": 11,
-    "charisma": 9,
     "stealth": 6,
     "survival": 2,
     "damage_vulnerabilities": "",
@@ -3914,7 +4020,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 9
+    }
   },
   {
     "name": "Bulette",
@@ -3926,12 +4040,6 @@ export default [
     "hit_points": 94,
     "hit_dice": "9d10",
     "speed": "40 ft., burrow 40 ft.",
-    "strength": 19,
-    "dexterity": 11,
-    "constitution": 21,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "perception": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -3960,7 +4068,15 @@ export default [
         "desc": "If the bulette jumps at least 15 ft. as part of its movement, it can then use this action to land on its ft. in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 ft. out of the bulette's space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the bulette's space.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 11,
+      "constitution": 21,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Camel",
@@ -3972,12 +4088,6 @@ export default [
     "hit_points": 15,
     "hit_dice": "2d10",
     "speed": "50 ft.",
-    "strength": 16,
-    "dexterity": 8,
-    "constitution": 14,
-    "intelligence": 2,
-    "wisdom": 8,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3992,7 +4102,15 @@ export default [
         "attack_bonus": 5,
         "damage_dice": "1d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 8,
+      "charisma": 5
+    }
   },
   {
     "name": "Carrion Crawler",
@@ -4004,12 +4122,6 @@ export default [
     "hit_points": 51,
     "hit_dice": "6d10",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 14,
-    "dexterity": 13,
-    "constitution": 16,
-    "intelligence": 1,
-    "wisdom": 12,
-    "charisma": 5,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4050,7 +4162,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 1,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Cat",
@@ -4062,12 +4182,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "40 ft., climb 30 ft.",
-    "strength": 3,
-    "dexterity": 15,
-    "constitution": 10,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -4091,7 +4205,15 @@ export default [
         "attack_bonus": 0,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Cave Bear",
@@ -4103,12 +4225,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d10",
     "speed": "40 ft., swim 30 ft.",
-    "strength": 20,
-    "dexterity": 10,
-    "constitution": 16,
-    "intelligence": 2,
-    "wisdom": 13,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4144,7 +4260,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 7
+    }
   },
   {
     "name": "Centaur",
@@ -4156,12 +4280,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "50 ft.",
-    "strength": 18,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 9,
-    "wisdom": 13,
-    "charisma": 11,
     "athletics": 6,
     "perception": 3,
     "survival": 3,
@@ -4207,7 +4325,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 9,
+      "wisdom": 13,
+      "charisma": 11
+    }
   },
   {
     "name": "Chain Devil",
@@ -4219,12 +4345,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "10d8",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 18,
-    "intelligence": 11,
-    "wisdom": 12,
-    "charisma": 14,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
     "damage_immunities": "fire, poison",
@@ -4269,7 +4389,15 @@ export default [
         "desc": "When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature's departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 11,
+      "wisdom": 12,
+      "charisma": 14
+    }
   },
   {
     "name": "Chimera",
@@ -4281,12 +4409,6 @@ export default [
     "hit_points": 114,
     "hit_dice": "12d10",
     "speed": "30 ft., fly 60 ft.",
-    "strength": 19,
-    "dexterity": 11,
-    "constitution": 19,
-    "intelligence": 3,
-    "wisdom": 14,
-    "charisma": 10,
     "perception": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4328,7 +4450,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "7d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 11,
+      "constitution": 19,
+      "intelligence": 3,
+      "wisdom": 14,
+      "charisma": 10
+    }
   },
   {
     "name": "Chuul",
@@ -4340,12 +4470,6 @@ export default [
     "hit_points": 93,
     "hit_dice": "11d10",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 16,
-    "intelligence": 5,
-    "wisdom": 11,
-    "charisma": 5,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4384,7 +4508,15 @@ export default [
         "desc": "One creature grappled by the chuul must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 5,
+      "wisdom": 11,
+      "charisma": 5
+    }
   },
   {
     "name": "Clay Golem",
@@ -4396,12 +4528,6 @@ export default [
     "hit_points": 133,
     "hit_dice": "14d10",
     "speed": "20 ft.",
-    "strength": 20,
-    "dexterity": 9,
-    "constitution": 18,
-    "intelligence": 3,
-    "wisdom": 8,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
@@ -4454,7 +4580,15 @@ export default [
         "desc": "Until the end of its next turn, the golem magically gains a +2 bonus to its AC, has advantage on Dexterity saving throws, and can use its slam attack as a bonus action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 9,
+      "constitution": 18,
+      "intelligence": 3,
+      "wisdom": 8,
+      "charisma": 1
+    }
   },
   {
     "name": "Cloaker",
@@ -4466,12 +4600,6 @@ export default [
     "hit_points": 78,
     "hit_dice": "12d10",
     "speed": "10 ft., fly 40 ft.",
-    "strength": 17,
-    "dexterity": 15,
-    "constitution": 12,
-    "intelligence": 13,
-    "wisdom": 12,
-    "charisma": 14,
     "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4527,7 +4655,15 @@ export default [
         "desc": "The cloaker magically creates three illusory duplicates of itself if it isn't in bright light. The duplicates move with it and mimic its actions, shifting position so as to make it impossible to track which cloaker is the real one. If the cloaker is ever in an area of bright light, the duplicates disappear.\nWhenever any creature targets the cloaker with an attack or a harmful spell while a duplicate remains, that creature rolls randomly to determine whether it targets the cloaker or one of the duplicates. A creature is unaffected by this magical effect if it can't see or if it relies on senses other than sight.\nA duplicate has the cloaker's AC and uses its saving throws. If an attack hits a duplicate, or if a duplicate fails a saving throw against an effect that deals damage, the duplicate disappears.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 13,
+      "wisdom": 12,
+      "charisma": 14
+    }
   },
   {
     "name": "Cloud Giant",
@@ -4539,12 +4675,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d12",
     "speed": "40 ft.",
-    "strength": 27,
-    "dexterity": 10,
-    "constitution": 22,
-    "intelligence": 12,
-    "wisdom": 16,
-    "charisma": 16,
     "constitution_save": 10,
     "wisdom_save": 7,
     "charisma_save": 7,
@@ -4589,7 +4719,15 @@ export default [
         "damage_dice": "4d10",
         "damage_bonus": 8
       }
-    ]
+    ],
+    "scores": {
+      "strength": 27,
+      "dexterity": 10,
+      "constitution": 22,
+      "intelligence": 12,
+      "wisdom": 16,
+      "charisma": 16
+    }
   },
   {
     "name": "Cockatrice",
@@ -4601,12 +4739,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "6d6",
     "speed": "20 ft., fly 40 ft.",
-    "strength": 6,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 13,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4622,7 +4754,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 5
+    }
   },
   {
     "name": "Commoner",
@@ -4634,12 +4774,6 @@ export default [
     "hit_points": 4,
     "hit_dice": "1d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 10,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4654,7 +4788,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 10
+    }
   },
   {
     "name": "Constrictor Snake",
@@ -4666,12 +4808,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "2d10",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 15,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4694,7 +4830,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Copper Dragon Wyrmling",
@@ -4706,12 +4850,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "30 ft., climb 30 ft., fly 60 ft.",
-    "strength": 15,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 14,
-    "wisdom": 11,
-    "charisma": 13,
     "dexterity_save": 3,
     "constitution_save": 3,
     "wisdom_save": 2,
@@ -4739,7 +4877,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "4d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 13
+    }
   },
   {
     "name": "Couatl",
@@ -4751,12 +4897,6 @@ export default [
     "hit_points": 97,
     "hit_dice": "13d8",
     "speed": "30 ft., fly 90 ft.",
-    "strength": 16,
-    "dexterity": 20,
-    "constitution": 17,
-    "intelligence": 18,
-    "wisdom": 20,
-    "charisma": 18,
     "constitution_save": 5,
     "wisdom_save": 7,
     "charisma_save": 6,
@@ -4804,7 +4944,15 @@ export default [
         "desc": "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).\nIn a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 20,
+      "constitution": 17,
+      "intelligence": 18,
+      "wisdom": 20,
+      "charisma": 18
+    }
   },
   {
     "name": "Crab",
@@ -4816,12 +4964,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "20 ft., swim 20 ft.",
-    "strength": 2,
-    "dexterity": 11,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 8,
-    "charisma": 2,
     "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4844,7 +4986,15 @@ export default [
         "attack_bonus": 0,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 11,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 8,
+      "charisma": 2
+    }
   },
   {
     "name": "Crocodile",
@@ -4856,12 +5006,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "20 ft., swim 20 ft.",
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -4885,7 +5029,15 @@ export default [
         "damage_dice": "1d10",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Cult Fanatic",
@@ -4897,12 +5049,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 10,
-    "wisdom": 13,
-    "charisma": 14,
     "deception": 4,
     "persuasion": 4,
     "religion": 2,
@@ -4938,7 +5084,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 14
+    }
   },
   {
     "name": "Cultist",
@@ -4950,12 +5104,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 12,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 10,
     "deception": 2,
     "religion": 2,
     "damage_vulnerabilities": "",
@@ -4980,7 +5128,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Darkmantle",
@@ -4992,12 +5148,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d6",
     "speed": "10 ft., fly 30 ft.",
-    "strength": 16,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -5031,7 +5181,15 @@ export default [
         "desc": "A 15-foot radius of magical darkness extends out from the darkmantle, moves with it, and spreads around corners. The darkness lasts as long as the darkmantle maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can't penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Death Dog",
@@ -5043,12 +5201,6 @@ export default [
     "hit_points": 39,
     "hit_dice": "6d8",
     "speed": "40 ft.",
-    "strength": 15,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 3,
-    "wisdom": 13,
-    "charisma": 6,
     "perception": 5,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -5078,7 +5230,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 3,
+      "wisdom": 13,
+      "charisma": 6
+    }
   },
   {
     "name": "Deep Gnome (Svirfneblin)",
@@ -5090,12 +5250,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d6",
     "speed": "20 ft.",
-    "strength": 15,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 12,
-    "wisdom": 10,
-    "charisma": 9,
     "investigation": 3,
     "perception": 2,
     "stealth": 4,
@@ -5138,7 +5292,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 9
+    }
   },
   {
     "name": "Deer",
@@ -5150,12 +5312,6 @@ export default [
     "hit_points": 4,
     "hit_dice": "1d8",
     "speed": "50 ft.",
-    "strength": 11,
-    "dexterity": 16,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 14,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5170,7 +5326,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 14,
+      "charisma": 5
+    }
   },
   {
     "name": "Deva",
@@ -5182,12 +5346,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d8",
     "speed": "30 ft., fly 90 ft.",
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 17,
-    "wisdom": 20,
-    "charisma": 20,
     "wisdom_save": 9,
     "charisma_save": 9,
     "insight": 9,
@@ -5239,7 +5397,15 @@ export default [
         "desc": "The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice).\nIn a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 17,
+      "wisdom": 20,
+      "charisma": 20
+    }
   },
   {
     "name": "Dire Wolf",
@@ -5251,12 +5417,6 @@ export default [
     "hit_points": 37,
     "hit_dice": "5d10",
     "speed": "50 ft.",
-    "strength": 17,
-    "dexterity": 15,
-    "constitution": 15,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -5286,7 +5446,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Djinni",
@@ -5298,12 +5466,6 @@ export default [
     "hit_points": 161,
     "hit_dice": "14d10",
     "speed": "30 ft., fly 90 ft.",
-    "strength": 21,
-    "dexterity": 15,
-    "constitution": 22,
-    "intelligence": 15,
-    "wisdom": 16,
-    "charisma": 20,
     "dexterity_save": 6,
     "wisdom_save": 7,
     "charisma_save": 9,
@@ -5349,7 +5511,15 @@ export default [
         "desc": "A 5-foot-radius, 30-foot-tall cylinder of swirling air magically forms on a point the djinni can see within 120 feet of it. The whirlwind lasts as long as the djinni maintains concentration (as if concentrating on a spell). Any creature but the djinni that enters the whirlwind must succeed on a DC 18 Strength saving throw or be restrained by it. The djinni can move the whirlwind up to 60 feet as an action, and creatures restrained by the whirlwind move with it. The whirlwind ends if the djinni loses sight of it.\nA creature can use its action to free a creature restrained by the whirlwind, including itself, by succeeding on a DC 18 Strength check. If the check succeeds, the creature is no longer restrained and moves to the nearest space outside the whirlwind.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 15,
+      "constitution": 22,
+      "intelligence": 15,
+      "wisdom": 16,
+      "charisma": 20
+    }
   },
   {
     "name": "Doppelganger",
@@ -5361,12 +5531,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 18,
-    "constitution": 14,
-    "intelligence": 11,
-    "wisdom": 12,
-    "charisma": 14,
     "deception": 6,
     "insight": 3,
     "damage_vulnerabilities": "",
@@ -5412,7 +5576,15 @@ export default [
         "desc": "The doppelganger magically reads the surface thoughts of one creature within 60 ft. of it. The effect can penetrate barriers, but 3 ft. of wood or dirt, 2 ft. of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's concentration isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 18,
+      "constitution": 14,
+      "intelligence": 11,
+      "wisdom": 12,
+      "charisma": 14
+    }
   },
   {
     "name": "Draft Horse",
@@ -5424,12 +5596,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "40 ft.",
-    "strength": 18,
-    "dexterity": 10,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 11,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5445,7 +5611,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 7
+    }
   },
   {
     "name": "Dragon Turtle",
@@ -5457,12 +5631,6 @@ export default [
     "hit_points": 341,
     "hit_dice": "22d20",
     "speed": "20 ft., swim 40 ft.",
-    "strength": 25,
-    "dexterity": 10,
-    "constitution": 20,
-    "intelligence": 10,
-    "wisdom": 12,
-    "charisma": 12,
     "dexterity_save": 6,
     "constitution_save": 11,
     "wisdom_save": 7,
@@ -5513,7 +5681,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "15d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 25,
+      "dexterity": 10,
+      "constitution": 20,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 12
+    }
   },
   {
     "name": "Dretch",
@@ -5525,12 +5701,6 @@ export default [
     "hit_points": 18,
     "hit_dice": "4d6",
     "speed": "20 ft.",
-    "strength": 11,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 5,
-    "wisdom": 8,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold, fire, lightning",
     "damage_immunities": "poison",
@@ -5561,7 +5731,15 @@ export default [
         "desc": "A 10-foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can't take reactions.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 5,
+      "wisdom": 8,
+      "charisma": 3
+    }
   },
   {
     "name": "Drider",
@@ -5573,12 +5751,6 @@ export default [
     "hit_points": 123,
     "hit_dice": "13d10",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 18,
-    "intelligence": 13,
-    "wisdom": 14,
-    "charisma": 12,
     "perception": 5,
     "stealth": 9,
     "damage_vulnerabilities": "",
@@ -5642,7 +5814,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 18,
+      "intelligence": 13,
+      "wisdom": 14,
+      "charisma": 12
+    }
   },
   {
     "name": "Drow",
@@ -5654,12 +5834,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 14,
-    "constitution": 10,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 12,
     "perception": 2,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -5701,7 +5875,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 12
+    }
   },
   {
     "name": "Druid",
@@ -5713,12 +5895,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 12,
-    "wisdom": 15,
-    "charisma": 11,
     "medicine": 4,
     "nature": 3,
     "perception": 4,
@@ -5743,7 +5919,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 12,
+      "wisdom": 15,
+      "charisma": 11
+    }
   },
   {
     "name": "Dryad",
@@ -5755,12 +5939,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 12,
-    "constitution": 11,
-    "intelligence": 14,
-    "wisdom": 15,
-    "charisma": 18,
     "perception": 4,
     "stealth": 5,
     "damage_vulnerabilities": "",
@@ -5804,7 +5982,15 @@ export default [
         "desc": "The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.\nEach time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.\nThe dryad can have no more than one humanoid and up to three beasts charmed at a time.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 14,
+      "wisdom": 15,
+      "charisma": 18
+    }
   },
   {
     "name": "Duergar",
@@ -5816,12 +6002,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d8",
     "speed": "25 ft.",
-    "strength": 14,
-    "dexterity": 11,
-    "constitution": 14,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "poison",
     "damage_immunities": "",
@@ -5866,7 +6046,15 @@ export default [
         "desc": "The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it .",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 9
+    }
   },
   {
     "name": "Dust Mephit",
@@ -5878,12 +6066,6 @@ export default [
     "hit_points": 17,
     "hit_dice": "5d6",
     "speed": "30 ft., fly 30 ft.",
-    "strength": 5,
-    "dexterity": 14,
-    "constitution": 10,
-    "intelligence": 9,
-    "wisdom": 11,
-    "charisma": 10,
     "perception": 2,
     "stealth": 4,
     "damage_vulnerabilities": "fire",
@@ -5923,7 +6105,15 @@ export default [
         "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 5,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 9,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Eagle",
@@ -5935,12 +6125,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "10 ft., fly 60 ft.",
-    "strength": 6,
-    "dexterity": 15,
-    "constitution": 10,
-    "intelligence": 2,
-    "wisdom": 14,
-    "charisma": 7,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -5964,7 +6148,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 2,
+      "wisdom": 14,
+      "charisma": 7
+    }
   },
   {
     "name": "Earth Elemental",
@@ -5976,12 +6168,6 @@ export default [
     "hit_points": 126,
     "hit_dice": "12d10",
     "speed": "30 ft., burrow 30 ft.",
-    "strength": 20,
-    "dexterity": 8,
-    "constitution": 20,
-    "intelligence": 5,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "thunder",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "poison",
@@ -6014,7 +6200,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 8,
+      "constitution": 20,
+      "intelligence": 5,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Efreeti",
@@ -6026,12 +6220,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 60 ft.",
-    "strength": 22,
-    "dexterity": 12,
-    "constitution": 24,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 16,
     "intelligence_save": 7,
     "wisdom_save": 6,
     "charisma_save": 7,
@@ -6078,7 +6266,15 @@ export default [
         "attack_bonus": 7,
         "damage_dice": "5d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 12,
+      "constitution": 24,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 16
+    }
   },
   {
     "name": "Elephant",
@@ -6090,12 +6286,6 @@ export default [
     "hit_points": 76,
     "hit_dice": "8d12",
     "speed": "40 ft.",
-    "strength": 22,
-    "dexterity": 9,
-    "constitution": 17,
-    "intelligence": 3,
-    "wisdom": 11,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6125,7 +6315,15 @@ export default [
         "damage_dice": "3d10",
         "damage_bonus": 6
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 9,
+      "constitution": 17,
+      "intelligence": 3,
+      "wisdom": 11,
+      "charisma": 6
+    }
   },
   {
     "name": "Elk",
@@ -6137,12 +6335,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "2d10",
     "speed": "50 ft.",
-    "strength": 16,
-    "dexterity": 10,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6169,7 +6361,15 @@ export default [
         "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one prone creature. Hit: 8 (2d4 + 3) bludgeoning damage.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 6
+    }
   },
   {
     "name": "Erinyes",
@@ -6181,12 +6381,6 @@ export default [
     "hit_points": 153,
     "hit_dice": "18d8",
     "speed": "30 ft., fly 60 ft.",
-    "strength": 18,
-    "dexterity": 16,
-    "constitution": 18,
-    "intelligence": 14,
-    "wisdom": 14,
-    "charisma": 18,
     "dexterity_save": 7,
     "constitution_save": 8,
     "wisdom_save": 6,
@@ -6242,7 +6436,15 @@ export default [
         "desc": "The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 16,
+      "constitution": 18,
+      "intelligence": 14,
+      "wisdom": 14,
+      "charisma": 18
+    }
   },
   {
     "name": "Ettercap",
@@ -6254,12 +6456,6 @@ export default [
     "hit_points": 44,
     "hit_dice": "8d8",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 14,
-    "dexterity": 15,
-    "constitution": 13,
-    "intelligence": 7,
-    "wisdom": 12,
-    "charisma": 8,
     "perception": 3,
     "stealth": 4,
     "survival": 3,
@@ -6319,7 +6515,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 7,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Ettin",
@@ -6331,12 +6535,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "10d10",
     "speed": "40 ft.",
-    "strength": 21,
-    "dexterity": 8,
-    "constitution": 17,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 8,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -6377,7 +6575,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 8,
+      "constitution": 17,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 8
+    }
   },
   {
     "name": "Fire Elemental",
@@ -6389,12 +6595,6 @@ export default [
     "hit_points": 102,
     "hit_dice": "12d10",
     "speed": "50 ft.",
-    "strength": 10,
-    "dexterity": 17,
-    "constitution": 16,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "fire, poison",
@@ -6433,7 +6633,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 17,
+      "constitution": 16,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 7
+    }
   },
   {
     "name": "Fire Giant",
@@ -6445,12 +6653,6 @@ export default [
     "hit_points": 162,
     "hit_dice": "13d12",
     "speed": "30 ft.",
-    "strength": 25,
-    "dexterity": 9,
-    "constitution": 23,
-    "intelligence": 10,
-    "wisdom": 14,
-    "charisma": 13,
     "dexterity_save": 3,
     "constitution_save": 10,
     "charisma_save": 5,
@@ -6483,7 +6685,15 @@ export default [
         "damage_dice": "4d10",
         "damage_bonus": 7
       }
-    ]
+    ],
+    "scores": {
+      "strength": 25,
+      "dexterity": 9,
+      "constitution": 23,
+      "intelligence": 10,
+      "wisdom": 14,
+      "charisma": 13
+    }
   },
   {
     "name": "Flesh Golem",
@@ -6495,12 +6705,6 @@ export default [
     "hit_points": 93,
     "hit_dice": "11d8",
     "speed": "30 ft.",
-    "strength": 19,
-    "dexterity": 9,
-    "constitution": 18,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning, poison; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
@@ -6553,7 +6757,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 9,
+      "constitution": 18,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Flying Snake",
@@ -6565,12 +6777,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "2d4",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "strength": 4,
-    "dexterity": 18,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6592,7 +6798,15 @@ export default [
         "attack_bonus": 6,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 4,
+      "dexterity": 18,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Flying Sword",
@@ -6604,12 +6818,6 @@ export default [
     "hit_points": 17,
     "hit_dice": "5d6",
     "speed": "0 ft., fly 50 ft. It can hover.",
-    "strength": 12,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 1,
-    "wisdom": 5,
-    "charisma": 1,
     "dexterity_save": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -6638,7 +6846,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 5,
+      "charisma": 1
+    }
   },
   {
     "name": "Frog",
@@ -6650,12 +6866,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "20 ft., swim 20 ft.",
-    "strength": 1,
-    "dexterity": 13,
-    "constitution": 8,
-    "intelligence": 1,
-    "wisdom": 8,
-    "charisma": 3,
     "perception": 1,
     "stealth": 3,
     "damage_vulnerabilities": "",
@@ -6676,7 +6886,15 @@ export default [
         "desc": "The frog's long jump is up to 10 ft. and its high jump is up to 5 ft., with or without a running start.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 1,
+      "dexterity": 13,
+      "constitution": 8,
+      "intelligence": 1,
+      "wisdom": 8,
+      "charisma": 3
+    }
   },
   {
     "name": "Frost Giant",
@@ -6688,12 +6906,6 @@ export default [
     "hit_points": 138,
     "hit_dice": "12d12",
     "speed": "40 ft.",
-    "strength": 23,
-    "dexterity": 9,
-    "constitution": 21,
-    "intelligence": 9,
-    "wisdom": 10,
-    "charisma": 12,
     "constitution_save": 8,
     "wisdom_save": 3,
     "charisma_save": 4,
@@ -6726,7 +6938,15 @@ export default [
         "damage_dice": "4d10",
         "damage_bonus": 6
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 9,
+      "constitution": 21,
+      "intelligence": 9,
+      "wisdom": 10,
+      "charisma": 12
+    }
   },
   {
     "name": "Gargoyle",
@@ -6738,12 +6958,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "7d8",
     "speed": "30 ft., fly 60 ft.",
-    "strength": 15,
-    "dexterity": 11,
-    "constitution": 16,
-    "intelligence": 6,
-    "wisdom": 11,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
     "damage_immunities": "poison",
@@ -6778,7 +6992,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 11,
+      "constitution": 16,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 7
+    }
   },
   {
     "name": "Gelatinous Cube",
@@ -6790,12 +7012,6 @@ export default [
     "hit_points": 84,
     "hit_dice": "8d10",
     "speed": "15 ft.",
-    "strength": 14,
-    "dexterity": 3,
-    "constitution": 20,
-    "intelligence": 1,
-    "wisdom": 6,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6827,7 +7043,15 @@ export default [
         "desc": "The cube moves up to its speed. While doing so, it can enter Large or smaller creatures' spaces. Whenever the cube enters a creature's space, the creature must make a DC 12 Dexterity saving throw.\nOn a successful save, the creature can choose to be pushed 5 feet back or to the side of the cube. A creature that chooses not to be pushed suffers the consequences of a failed saving throw.\nOn a failed save, the cube enters the creature's space, and the creature takes 10 (3d6) acid damage and is engulfed. The engulfed creature can't breathe, is restrained, and takes 21 (6d6) acid damage at the start of each of the cube's turns. When the cube moves, the engulfed creature moves with it.\nAn engulfed creature can try to escape by taking an action to make a DC 12 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the cube.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 3,
+      "constitution": 20,
+      "intelligence": 1,
+      "wisdom": 6,
+      "charisma": 1
+    }
   },
   {
     "name": "Ghast",
@@ -6839,12 +7063,6 @@ export default [
     "hit_points": 36,
     "hit_dice": "8d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 17,
-    "constitution": 10,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "necrotic",
@@ -6879,7 +7097,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 17,
+      "constitution": 10,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 8
+    }
   },
   {
     "name": "Ghost",
@@ -6891,12 +7117,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "10d8",
     "speed": "0 ft., fly 40 ft. It can hover.",
-    "strength": 7,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 12,
-    "charisma": 17,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "cold, necrotic, poison",
@@ -6939,7 +7159,15 @@ export default [
         "desc": "One humanoid that the ghost can see within 5 ft. of it must succeed on a DC 13 Charisma saving throw or be possessed by the ghost; the ghost then disappears, and the target is incapacitated and loses control of its body. The ghost now controls the body but doesn't deprive the target of awareness. The ghost can't be targeted by any attack, spell, or other effect, except ones that turn undead, and it retains its alignment, Intelligence, Wisdom, Charisma, and immunity to being charmed and frightened. It otherwise uses the possessed target's statistics, but doesn't gain access to the target's knowledge, class features, or proficiencies.\nThe possession lasts until the body drops to 0 hit points, the ghost ends it as a bonus action, or the ghost is turned or forced out by an effect like the dispel evil and good spell. When the possession ends, the ghost reappears in an unoccupied space within 5 ft. of the body. The target is immune to this ghost's Possession for 24 hours after succeeding on the saving throw or after the possession ends.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 17
+    }
   },
   {
     "name": "Ghoul",
@@ -6951,12 +7179,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "strength": 13,
-    "dexterity": 15,
-    "constitution": 10,
-    "intelligence": 7,
-    "wisdom": 10,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6977,7 +7199,15 @@ export default [
         "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage. If the target is a creature other than an elf or undead, it must succeed on a DC 10 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 7,
+      "wisdom": 10,
+      "charisma": 6
+    }
   },
   {
     "name": "Giant Ape",
@@ -6989,12 +7219,6 @@ export default [
     "hit_points": 157,
     "hit_dice": "15d12",
     "speed": "40 ft., climb 40 ft.",
-    "strength": 23,
-    "dexterity": 14,
-    "constitution": 18,
-    "intelligence": 7,
-    "wisdom": 12,
-    "charisma": 7,
     "athletics": 9,
     "perception": 4,
     "damage_vulnerabilities": "",
@@ -7024,7 +7248,15 @@ export default [
         "damage_dice": "7d6",
         "damage_bonus": 6
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 14,
+      "constitution": 18,
+      "intelligence": 7,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Giant Badger",
@@ -7036,12 +7268,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "2d8",
     "speed": "30 ft., burrow 10 ft.",
-    "strength": 13,
-    "dexterity": 10,
-    "constitution": 15,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7076,7 +7302,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Giant Bat",
@@ -7088,12 +7322,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d10",
     "speed": "10 ft., fly 60 ft.",
-    "strength": 15,
-    "dexterity": 16,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7121,7 +7349,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Giant Boar",
@@ -7133,12 +7369,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d10",
     "speed": "40 ft.",
-    "strength": 17,
-    "dexterity": 10,
-    "constitution": 16,
-    "intelligence": 2,
-    "wisdom": 7,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7167,7 +7397,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 7,
+      "charisma": 5
+    }
   },
   {
     "name": "Giant Centipede",
@@ -7179,12 +7417,6 @@ export default [
     "hit_points": 4,
     "hit_dice": "1d6",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 5,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7200,7 +7432,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 5,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Constrictor Snake",
@@ -7212,12 +7452,6 @@ export default [
     "hit_points": 60,
     "hit_dice": "8d12",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 19,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 3,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7241,7 +7475,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Crab",
@@ -7253,12 +7495,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 13,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 1,
-    "wisdom": 9,
-    "charisma": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7282,7 +7518,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 9,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Crocodile",
@@ -7294,12 +7538,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "9d12",
     "speed": "30 ft., swim 50 ft.",
-    "strength": 21,
-    "dexterity": 9,
-    "constitution": 17,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 7,
     "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7335,7 +7573,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 9,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 7
+    }
   },
   {
     "name": "Giant Eagle",
@@ -7347,12 +7593,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "10 ft., fly 80 ft.",
-    "strength": 16,
-    "dexterity": 17,
-    "constitution": 13,
-    "intelligence": 8,
-    "wisdom": 14,
-    "charisma": 10,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7388,7 +7628,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 8,
+      "wisdom": 14,
+      "charisma": 10
+    }
   },
   {
     "name": "Giant Elk",
@@ -7400,12 +7648,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d12",
     "speed": "60 ft.",
-    "strength": 19,
-    "dexterity": 16,
-    "constitution": 14,
-    "intelligence": 7,
-    "wisdom": 14,
-    "charisma": 10,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7437,7 +7679,15 @@ export default [
         "damage_dice": "4d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 7,
+      "wisdom": 14,
+      "charisma": 10
+    }
   },
   {
     "name": "Giant Fire Beetle",
@@ -7449,12 +7699,6 @@ export default [
     "hit_points": 4,
     "hit_dice": "1d6",
     "speed": "30 ft.",
-    "strength": 8,
-    "dexterity": 10,
-    "constitution": 12,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7477,7 +7721,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": -1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Frog",
@@ -7489,12 +7741,6 @@ export default [
     "hit_points": 18,
     "hit_dice": "4d8",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 12,
-    "dexterity": 13,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 3,
     "perception": 2,
     "stealth": 3,
     "damage_vulnerabilities": "",
@@ -7529,7 +7775,15 @@ export default [
         "desc": "The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the frog, and it takes 5 (2d4) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 ft. of movement, exiting prone.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Goat",
@@ -7541,12 +7795,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "40 ft.",
-    "strength": 17,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7575,7 +7823,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Giant Hyena",
@@ -7587,12 +7843,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "50 ft.",
-    "strength": 16,
-    "dexterity": 14,
-    "constitution": 14,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7616,7 +7866,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Giant Lizard",
@@ -7628,12 +7886,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 15,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7661,7 +7913,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Giant Octopus",
@@ -7673,12 +7933,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d10",
     "speed": "10 ft., swim 60 ft.",
-    "strength": 17,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 4,
-    "wisdom": 10,
-    "charisma": 4,
     "perception": 4,
     "stealth": 5,
     "damage_vulnerabilities": "",
@@ -7718,7 +7972,15 @@ export default [
         "desc": "A 20-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 4,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Giant Owl",
@@ -7730,12 +7992,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "5 ft., fly 60 ft.",
-    "strength": 13,
-    "dexterity": 15,
-    "constitution": 12,
-    "intelligence": 8,
-    "wisdom": 13,
-    "charisma": 10,
     "perception": 5,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -7765,7 +8021,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 8,
+      "wisdom": 13,
+      "charisma": 10
+    }
   },
   {
     "name": "Giant Poisonous Snake",
@@ -7777,12 +8041,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 10,
-    "dexterity": 18,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 3,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -7799,7 +8057,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 18,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Rat",
@@ -7811,12 +8077,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d6",
     "speed": "30 ft.",
-    "strength": 7,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7844,7 +8104,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Giant Rat (Diseased)",
@@ -7856,12 +8124,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d6",
     "speed": "30 ft.",
-    "strength": 7,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7877,7 +8139,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Giant Scorpion",
@@ -7889,12 +8159,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "7d10",
     "speed": "40 ft.",
-    "strength": 15,
-    "dexterity": 13,
-    "constitution": 15,
-    "intelligence": 1,
-    "wisdom": 9,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7922,7 +8186,15 @@ export default [
         "damage_dice": "1d10",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 1,
+      "wisdom": 9,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Sea Horse",
@@ -7934,12 +8206,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d10",
     "speed": "0 ft., swim 40 ft.",
-    "strength": 12,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7968,7 +8234,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Giant Shark",
@@ -7980,12 +8254,6 @@ export default [
     "hit_points": 126,
     "hit_dice": "11d12",
     "speed": "swim 50 ft.",
-    "strength": 23,
-    "dexterity": 11,
-    "constitution": 21,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 5,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -8014,7 +8282,15 @@ export default [
         "damage_dice": "3d10",
         "damage_bonus": 6
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 11,
+      "constitution": 21,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Giant Spider",
@@ -8026,12 +8302,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 14,
-    "dexterity": 16,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 11,
-    "charisma": 4,
     "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -8070,7 +8340,15 @@ export default [
         "desc": "Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).",
         "attack_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 16,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 4
+    }
   },
   {
     "name": "Giant Toad",
@@ -8082,12 +8360,6 @@ export default [
     "hit_points": 39,
     "hit_dice": "6d10",
     "speed": "20 ft., swim 40 ft.",
-    "strength": 15,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8120,7 +8392,15 @@ export default [
         "desc": "The toad makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at the start of each of the toad's turns. The toad can have only one target swallowed at a time.\nIf the toad dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 5 feet of movement, exiting prone.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Vulture",
@@ -8132,12 +8412,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "3d10",
     "speed": "10 ft., fly 60 ft.",
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 15,
-    "intelligence": 6,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -8178,7 +8452,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Giant Wasp",
@@ -8190,12 +8472,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "10 ft., fly 50 ft., swim 50 ft.",
-    "strength": 10,
-    "dexterity": 14,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8211,7 +8487,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Giant Weasel",
@@ -8223,12 +8507,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "strength": 11,
-    "dexterity": 16,
-    "constitution": 10,
-    "intelligence": 4,
-    "wisdom": 12,
-    "charisma": 5,
     "perception": 3,
     "stealth": 5,
     "damage_vulnerabilities": "",
@@ -8253,7 +8531,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 10,
+      "intelligence": 4,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Giant Wolf Spider",
@@ -8265,12 +8551,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft., climb 40 ft.",
-    "strength": 12,
-    "dexterity": 16,
-    "constitution": 13,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 4,
     "perception": 3,
     "stealth": 7,
     "damage_vulnerabilities": "",
@@ -8305,7 +8585,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 13,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 4
+    }
   },
   {
     "name": "Gibbering Mouther",
@@ -8317,12 +8605,6 @@ export default [
     "hit_points": 67,
     "hit_dice": "9d8",
     "speed": "10 ft., swim 10 ft.",
-    "strength": 10,
-    "dexterity": 8,
-    "constitution": 16,
-    "intelligence": 3,
-    "wisdom": 10,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8359,7 +8641,15 @@ export default [
         "desc": "The mouther spits a chemical glob at a point it can see within 15 feet of it. The glob explodes in a blinding flash of light on impact. Each creature within 5 feet of the flash must succeed on a DC 13 Dexterity saving throw or be blinded until the end of the mouther's next turn.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 8,
+      "constitution": 16,
+      "intelligence": 3,
+      "wisdom": 10,
+      "charisma": 6
+    }
   },
   {
     "name": "Glabrezu",
@@ -8371,12 +8661,6 @@ export default [
     "hit_points": 157,
     "hit_dice": "15d10",
     "speed": "40 ft.",
-    "strength": 20,
-    "dexterity": 15,
-    "constitution": 21,
-    "intelligence": 19,
-    "wisdom": 17,
-    "charisma": 16,
     "strength_save": 9,
     "constitution_save": 9,
     "wisdom_save": 7,
@@ -8425,7 +8709,15 @@ export default [
         "desc": "The demon chooses what to summon and attempts a magical summoning.\nA glabrezu has a 30 percent chance of summoning 1d3 vrocks, 1d2 hezrous, or one glabrezu.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 15,
+      "constitution": 21,
+      "intelligence": 19,
+      "wisdom": 17,
+      "charisma": 16
+    }
   },
   {
     "name": "Gladiator",
@@ -8437,12 +8729,6 @@ export default [
     "hit_points": 112,
     "hit_dice": "15d8",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 10,
-    "wisdom": 12,
-    "charisma": 15,
     "strength_save": 7,
     "dexterity_save": 5,
     "constitution_save": 6,
@@ -8494,7 +8780,15 @@ export default [
         "desc": "The gladiator adds 3 to its AC against one melee attack that would hit it. To do so, the gladiator must see the attacker and be wielding a melee weapon.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 15
+    }
   },
   {
     "name": "Gnoll",
@@ -8506,12 +8800,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "strength": 14,
-    "dexterity": 12,
-    "constitution": 11,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8548,7 +8836,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 7
+    }
   },
   {
     "name": "Goat",
@@ -8560,12 +8856,6 @@ export default [
     "hit_points": 4,
     "hit_dice": "1d8",
     "speed": "40 ft.",
-    "strength": 12,
-    "dexterity": 10,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8594,7 +8884,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Goblin",
@@ -8606,12 +8904,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d6",
     "speed": "30 ft.",
-    "strength": 8,
-    "dexterity": 14,
-    "constitution": 10,
-    "intelligence": 10,
-    "wisdom": 8,
-    "charisma": 8,
     "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -8642,7 +8934,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 10,
+      "wisdom": 8,
+      "charisma": 8
+    }
   },
   {
     "name": "Gold Dragon Wyrmling",
@@ -8654,12 +8954,6 @@ export default [
     "hit_points": 60,
     "hit_dice": "8d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "strength": 19,
-    "dexterity": 14,
-    "constitution": 17,
-    "intelligence": 14,
-    "wisdom": 11,
-    "charisma": 16,
     "dexterity_save": 4,
     "constitution_save": 5,
     "wisdom_save": 2,
@@ -8694,7 +8988,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "4d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 14,
+      "constitution": 17,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 16
+    }
   },
   {
     "name": "Gorgon",
@@ -8706,12 +9008,6 @@ export default [
     "hit_points": 114,
     "hit_dice": "12d10",
     "speed": "40 ft.",
-    "strength": 20,
-    "dexterity": 11,
-    "constitution": 18,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -8747,7 +9043,15 @@ export default [
         "desc": "The gorgon exhales petrifying gas in a 30-foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw. On a failed save, a target begins to turn to stone and is restrained. The restrained target must repeat the saving throw at the end of its next turn. On a success, the effect ends on the target. On a failure, the target is petrified until freed by the greater restoration spell or other magic.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 11,
+      "constitution": 18,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Gray Ooze",
@@ -8759,12 +9063,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "3d8",
     "speed": "10 ft., climb 10 ft.",
-    "strength": 12,
-    "dexterity": 6,
-    "constitution": 16,
-    "intelligence": 1,
-    "wisdom": 6,
-    "charisma": 2,
     "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid, cold, fire",
@@ -8798,7 +9096,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 6,
+      "constitution": 16,
+      "intelligence": 1,
+      "wisdom": 6,
+      "charisma": 2
+    }
   },
   {
     "name": "Green Dragon Wyrmling",
@@ -8810,12 +9116,6 @@ export default [
     "hit_points": 38,
     "hit_dice": "7d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "strength": 15,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 14,
-    "wisdom": 11,
-    "charisma": 13,
     "dexterity_save": 3,
     "constitution_save": 3,
     "wisdom_save": 2,
@@ -8850,7 +9150,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "6d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 13
+    }
   },
   {
     "name": "Green Hag",
@@ -8862,12 +9170,6 @@ export default [
     "hit_points": 82,
     "hit_dice": "11d8",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 12,
-    "constitution": 16,
-    "intelligence": 13,
-    "wisdom": 14,
-    "charisma": 14,
     "arcana": 3,
     "deception": 4,
     "perception": 4,
@@ -8929,7 +9231,15 @@ export default [
         "desc": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 13,
+      "wisdom": 14,
+      "charisma": 14
+    }
   },
   {
     "name": "Grick",
@@ -8941,12 +9251,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "6d8",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 14,
-    "dexterity": 14,
-    "constitution": 11,
-    "intelligence": 3,
-    "wisdom": 14,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, and slashing damage from nonmagical weapons",
     "damage_immunities": "",
@@ -8981,7 +9285,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 3,
+      "wisdom": 14,
+      "charisma": 5
+    }
   },
   {
     "name": "Griffon",
@@ -8993,12 +9305,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "30 ft., fly 80 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 2,
-    "wisdom": 13,
-    "charisma": 8,
     "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9034,7 +9340,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 8
+    }
   },
   {
     "name": "Grimlock",
@@ -9046,12 +9360,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 9,
-    "wisdom": 8,
-    "charisma": 6,
     "athletics": 5,
     "perception": 3,
     "stealth": 3,
@@ -9087,7 +9395,15 @@ export default [
         "damage_dice": "1d4 + 1d4",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 9,
+      "wisdom": 8,
+      "charisma": 6
+    }
   },
   {
     "name": "Guard",
@@ -9099,12 +9415,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 13,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 10,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9121,7 +9431,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Guardian Naga",
@@ -9133,12 +9451,6 @@ export default [
     "hit_points": 127,
     "hit_dice": "15d10",
     "speed": "40 ft.",
-    "strength": 19,
-    "dexterity": 18,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 19,
-    "charisma": 18,
     "dexterity_save": 8,
     "constitution_save": 7,
     "intelligence_save": 7,
@@ -9177,7 +9489,15 @@ export default [
         "attack_bonus": 8,
         "damage_dice": "10d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 18,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 19,
+      "charisma": 18
+    }
   },
   {
     "name": "Gynosphinx",
@@ -9189,12 +9509,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 60 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 18,
-    "wisdom": 18,
-    "charisma": 18,
     "arcana": 12,
     "history": 12,
     "perception": 8,
@@ -9253,7 +9567,15 @@ export default [
         "desc": "The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 18,
+      "wisdom": 18,
+      "charisma": 18
+    }
   },
   {
     "name": "Half-Red Dragon Veteran",
@@ -9265,12 +9587,6 @@ export default [
     "hit_points": 65,
     "hit_dice": "10d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 13,
-    "constitution": 14,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 10,
     "damage_vulnerabilities": "",
     "damage_resistances": "fire",
     "damage_immunities": "",
@@ -9311,7 +9627,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "7d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Harpy",
@@ -9323,12 +9647,6 @@ export default [
     "hit_points": 38,
     "hit_dice": "7d8",
     "speed": "20 ft., fly 40 ft.",
-    "strength": 12,
-    "dexterity": 13,
-    "constitution": 12,
-    "intelligence": 7,
-    "wisdom": 10,
-    "charisma": 13,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9361,7 +9679,15 @@ export default [
         "desc": "The harpy sings a magical melody. Every humanoid and giant within 300 ft. of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is incapacitated.\nWhile charmed by the harpy, a target is incapacitated and ignores the songs of other harpies. If the charmed target is more than 5 ft. away from the harpy, the must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.\nA target that successfully saves is immune to this harpy's song for the next 24 hours.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 7,
+      "wisdom": 10,
+      "charisma": 13
+    }
   },
   {
     "name": "Hawk",
@@ -9373,12 +9699,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 60 ft.",
-    "strength": 5,
-    "dexterity": 16,
-    "constitution": 8,
-    "intelligence": 2,
-    "wisdom": 14,
-    "charisma": 6,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9401,7 +9721,15 @@ export default [
         "attack_bonus": 5,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 5,
+      "dexterity": 16,
+      "constitution": 8,
+      "intelligence": 2,
+      "wisdom": 14,
+      "charisma": 6
+    }
   },
   {
     "name": "Hell Hound",
@@ -9413,12 +9741,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "7d8",
     "speed": "50 ft.",
-    "strength": 17,
-    "dexterity": 12,
-    "constitution": 14,
-    "intelligence": 6,
-    "wisdom": 13,
-    "charisma": 6,
     "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9453,7 +9775,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "6d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 6,
+      "wisdom": 13,
+      "charisma": 6
+    }
   },
   {
     "name": "Hezrou",
@@ -9465,12 +9795,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "13d10",
     "speed": "30 ft.",
-    "strength": 19,
-    "dexterity": 17,
-    "constitution": 20,
-    "intelligence": 5,
-    "wisdom": 12,
-    "charisma": 13,
     "strength_save": 7,
     "constitution_save": 8,
     "wisdom_save": 4,
@@ -9518,7 +9842,15 @@ export default [
         "desc": "The demon chooses what to summon and attempts a magical summoning.\nA hezrou has a 30 percent chance of summoning 2d6 dretches or one hezrou.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 17,
+      "constitution": 20,
+      "intelligence": 5,
+      "wisdom": 12,
+      "charisma": 13
+    }
   },
   {
     "name": "Hill Giant",
@@ -9530,12 +9862,6 @@ export default [
     "hit_points": 105,
     "hit_dice": "10d12",
     "speed": "40 ft.",
-    "strength": 21,
-    "dexterity": 8,
-    "constitution": 19,
-    "intelligence": 5,
-    "wisdom": 9,
-    "charisma": 6,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9564,7 +9890,15 @@ export default [
         "damage_dice": "3d10",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 8,
+      "constitution": 19,
+      "intelligence": 5,
+      "wisdom": 9,
+      "charisma": 6
+    }
   },
   {
     "name": "Hippogriff",
@@ -9576,12 +9910,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "40 ft, fly 60 ft.",
-    "strength": 17,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 8,
     "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9617,7 +9945,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Hobgoblin",
@@ -9629,12 +9965,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 13,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9665,7 +9995,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 9
+    }
   },
   {
     "name": "Homunculus",
@@ -9677,12 +10015,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "2d4",
     "speed": "20 ft., fly 40 ft.",
-    "strength": 4,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -9704,7 +10036,15 @@ export default [
         "attack_bonus": 4,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 4,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 7
+    }
   },
   {
     "name": "Horned Devil",
@@ -9716,12 +10056,6 @@ export default [
     "hit_points": 148,
     "hit_dice": "17d10",
     "speed": "20 ft., fly 60 ft.",
-    "strength": 22,
-    "dexterity": 17,
-    "constitution": 21,
-    "intelligence": 12,
-    "wisdom": 16,
-    "charisma": 17,
     "strength_save": 10,
     "dexterity_save": 7,
     "wisdom_save": 7,
@@ -9771,7 +10105,15 @@ export default [
         "attack_bonus": 7,
         "damage_dice": "4d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 17,
+      "constitution": 21,
+      "intelligence": 12,
+      "wisdom": 16,
+      "charisma": 17
+    }
   },
   {
     "name": "Hunter Shark",
@@ -9783,12 +10125,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "swim 40 ft.",
-    "strength": 18,
-    "dexterity": 13,
-    "constitution": 15,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 4,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9817,7 +10153,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Hydra",
@@ -9829,12 +10173,6 @@ export default [
     "hit_points": 172,
     "hit_dice": "15d12",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 20,
-    "dexterity": 12,
-    "constitution": 20,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 7,
     "perception": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9878,7 +10216,15 @@ export default [
         "damage_dice": "1d10",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 12,
+      "constitution": 20,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 7
+    }
   },
   {
     "name": "Hyena",
@@ -9890,12 +10236,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "1d8",
     "speed": "50 ft.",
-    "strength": 11,
-    "dexterity": 13,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 5,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -9918,7 +10258,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Ice Devil",
@@ -9930,12 +10278,6 @@ export default [
     "hit_points": 180,
     "hit_dice": "19d10",
     "speed": "40 ft.",
-    "strength": 21,
-    "dexterity": 14,
-    "constitution": 18,
-    "intelligence": 18,
-    "wisdom": 15,
-    "charisma": 18,
     "dexterity_save": 7,
     "constitution_save": 9,
     "wisdom_save": 7,
@@ -9991,7 +10333,15 @@ export default [
         "desc": "The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it's a hemispherical dome up to 20 feet in diameter.\nWhen the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is incapacitated. The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold damage on a failed save, or half as much damage on a successful one.\nThe wall lasts for 1 minute or until the devil is incapacitated or dies. The wall can be damaged and breached; each 10-foot section has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 14,
+      "constitution": 18,
+      "intelligence": 18,
+      "wisdom": 15,
+      "charisma": 18
+    }
   },
   {
     "name": "Ice Mephit",
@@ -10003,12 +10353,6 @@ export default [
     "hit_points": 21,
     "hit_dice": "6d6",
     "speed": "30 ft., fly 30 ft.",
-    "strength": 7,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 9,
-    "wisdom": 11,
-    "charisma": 12,
     "perception": 2,
     "stealth": 3,
     "damage_vulnerabilities": "bludgeoning, fire",
@@ -10054,7 +10398,15 @@ export default [
         "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 9,
+      "wisdom": 11,
+      "charisma": 12
+    }
   },
   {
     "name": "Imp",
@@ -10066,12 +10418,6 @@ export default [
     "hit_points": 10,
     "hit_dice": "3d4",
     "speed": "20 ft., fly 40 ft.",
-    "strength": 6,
-    "dexterity": 17,
-    "constitution": 13,
-    "intelligence": 11,
-    "wisdom": 12,
-    "charisma": 14,
     "deception": 4,
     "insight": 3,
     "persuasion": 4,
@@ -10118,7 +10464,15 @@ export default [
         "desc": "The imp magically turns invisible until it attacks, or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 11,
+      "wisdom": 12,
+      "charisma": 14
+    }
   },
   {
     "name": "Invisible Stalker",
@@ -10130,12 +10484,6 @@ export default [
     "hit_points": 104,
     "hit_dice": "16d8",
     "speed": "50 ft., fly 50 ft. (hover)",
-    "strength": 16,
-    "dexterity": 19,
-    "constitution": 14,
-    "intelligence": 10,
-    "wisdom": 15,
-    "charisma": 11,
     "perception": 8,
     "stealth": 10,
     "damage_vulnerabilities": "",
@@ -10170,7 +10518,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 19,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 15,
+      "charisma": 11
+    }
   },
   {
     "name": "Iron Golem",
@@ -10182,12 +10538,6 @@ export default [
     "hit_points": 210,
     "hit_dice": "20d10",
     "speed": "30 ft.",
-    "strength": 24,
-    "dexterity": 9,
-    "constitution": 20,
-    "intelligence": 3,
-    "wisdom": 11,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
@@ -10243,7 +10593,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "10d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 24,
+      "dexterity": 9,
+      "constitution": 20,
+      "intelligence": 3,
+      "wisdom": 11,
+      "charisma": 1
+    }
   },
   {
     "name": "Jackal",
@@ -10255,12 +10613,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "40 ft.",
-    "strength": 8,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 6,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -10289,7 +10641,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": -1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Killer Whale",
@@ -10301,12 +10661,6 @@ export default [
     "hit_points": 90,
     "hit_dice": "12d12",
     "speed": "swim 60 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -10338,7 +10692,15 @@ export default [
         "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 21 (5d6 + 4) piercing damage.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Knight",
@@ -10350,12 +10712,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 11,
-    "constitution": 14,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 15,
     "constitution_save": 4,
     "wisdom_save": 2,
     "damage_vulnerabilities": "",
@@ -10403,7 +10759,15 @@ export default [
         "desc": "The knight adds 2 to its AC against one melee attack that would hit it. To do so, the knight must see the attacker and be wielding a melee weapon.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Kobold",
@@ -10415,12 +10779,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "2d6",
     "speed": "30 ft.",
-    "strength": 7,
-    "dexterity": 15,
-    "constitution": 9,
-    "intelligence": 8,
-    "wisdom": 7,
-    "charisma": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10455,7 +10813,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 15,
+      "constitution": 9,
+      "intelligence": 8,
+      "wisdom": 7,
+      "charisma": 8
+    }
   },
   {
     "name": "Kraken",
@@ -10467,12 +10833,6 @@ export default [
     "hit_points": 472,
     "hit_dice": "27d20",
     "speed": "20 ft., swim 60 ft.",
-    "strength": 30,
-    "dexterity": 11,
-    "constitution": 25,
-    "intelligence": 22,
-    "wisdom": 18,
-    "charisma": 20,
     "strength_save": 17,
     "dexterity_save": 7,
     "constitution_save": 14,
@@ -10550,7 +10910,15 @@ export default [
         "desc": "While underwater, the kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a DC 23 Constitution saving throw, taking 16 (3d10) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 30,
+      "dexterity": 11,
+      "constitution": 25,
+      "intelligence": 22,
+      "wisdom": 18,
+      "charisma": 20
+    }
   },
   {
     "name": "Lamia",
@@ -10562,12 +10930,6 @@ export default [
     "hit_points": 97,
     "hit_dice": "13d10",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 13,
-    "constitution": 15,
-    "intelligence": 14,
-    "wisdom": 15,
-    "charisma": 16,
     "deception": 7,
     "insight": 4,
     "stealth": 3,
@@ -10610,7 +10972,15 @@ export default [
         "desc": "Melee Spell Attack: +5 to hit, reach 5 ft., one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 14,
+      "wisdom": 15,
+      "charisma": 16
+    }
   },
   {
     "name": "Lemure",
@@ -10622,12 +10992,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "15 ft.",
-    "strength": 10,
-    "dexterity": 5,
-    "constitution": 11,
-    "intelligence": 1,
-    "wisdom": 11,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold",
     "damage_immunities": "fire, poison",
@@ -10654,7 +11018,15 @@ export default [
         "attack_bonus": 3,
         "damage_dice": "1d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 5,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 11,
+      "charisma": 3
+    }
   },
   {
     "name": "Lich",
@@ -10666,12 +11038,6 @@ export default [
     "hit_points": 135,
     "hit_dice": "18d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 20,
-    "wisdom": 14,
-    "charisma": 16,
     "constitution_save": 10,
     "intelligence_save": 12,
     "wisdom_save": 9,
@@ -10738,7 +11104,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "6d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 20,
+      "wisdom": 14,
+      "charisma": 16
+    }
   },
   {
     "name": "Lion",
@@ -10750,12 +11124,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "50 ft.",
-    "strength": 17,
-    "dexterity": 15,
-    "constitution": 13,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 8,
     "perception": 3,
     "stealth": 6,
     "damage_vulnerabilities": "",
@@ -10802,7 +11170,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Lizard",
@@ -10814,12 +11190,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "20 ft., climb 20 ft.",
-    "strength": 2,
-    "dexterity": 11,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 8,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10834,7 +11204,15 @@ export default [
         "attack_bonus": 0,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 11,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 8,
+      "charisma": 3
+    }
   },
   {
     "name": "Lizardfolk",
@@ -10846,12 +11224,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 7,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "stealth": 4,
     "survival": 5,
@@ -10903,7 +11275,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 7,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Mage",
@@ -10915,12 +11295,6 @@ export default [
     "hit_points": 40,
     "hit_dice": "9d8",
     "speed": "30 ft.",
-    "strength": 9,
-    "dexterity": 14,
-    "constitution": 11,
-    "intelligence": 17,
-    "wisdom": 12,
-    "charisma": 11,
     "intelligence_save": 6,
     "wisdom_save": 4,
     "arcana": 6,
@@ -10947,7 +11321,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 9,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 17,
+      "wisdom": 12,
+      "charisma": 11
+    }
   },
   {
     "name": "Magma Mephit",
@@ -10959,12 +11341,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d6",
     "speed": "30 ft., fly 30 ft.",
-    "strength": 8,
-    "dexterity": 12,
-    "constitution": 12,
-    "intelligence": 7,
-    "wisdom": 10,
-    "charisma": 10,
     "stealth": 3,
     "damage_vulnerabilities": "cold",
     "damage_resistances": "",
@@ -11009,7 +11385,15 @@ export default [
         "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 7,
+      "wisdom": 10,
+      "charisma": 10
+    }
   },
   {
     "name": "Magmin",
@@ -11021,12 +11405,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d6",
     "speed": "30 ft.",
-    "strength": 7,
-    "dexterity": 15,
-    "constitution": 12,
-    "intelligence": 8,
-    "wisdom": 11,
-    "charisma": 10,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "fire",
@@ -11054,7 +11432,15 @@ export default [
         "attack_bonus": 4,
         "damage_dice": "2d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Mammoth",
@@ -11066,12 +11452,6 @@ export default [
     "hit_points": 126,
     "hit_dice": "11d12",
     "speed": "40 ft.",
-    "strength": 24,
-    "dexterity": 9,
-    "constitution": 21,
-    "intelligence": 3,
-    "wisdom": 11,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11101,7 +11481,15 @@ export default [
         "damage_dice": "4d10",
         "damage_bonus": 7
       }
-    ]
+    ],
+    "scores": {
+      "strength": 24,
+      "dexterity": 9,
+      "constitution": 21,
+      "intelligence": 3,
+      "wisdom": 11,
+      "charisma": 6
+    }
   },
   {
     "name": "Manticore",
@@ -11113,12 +11501,6 @@ export default [
     "hit_points": 68,
     "hit_dice": "8d10",
     "speed": "30 ft., fly 50 ft.",
-    "strength": 17,
-    "dexterity": 16,
-    "constitution": 17,
-    "intelligence": 7,
-    "wisdom": 12,
-    "charisma": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11160,7 +11542,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 16,
+      "constitution": 17,
+      "intelligence": 7,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Marilith",
@@ -11172,12 +11562,6 @@ export default [
     "hit_points": 189,
     "hit_dice": "18d10",
     "speed": "40 ft.",
-    "strength": 18,
-    "dexterity": 20,
-    "constitution": 20,
-    "intelligence": 18,
-    "wisdom": 16,
-    "charisma": 20,
     "strength_save": 9,
     "constitution_save": 10,
     "wisdom_save": 8,
@@ -11243,7 +11627,15 @@ export default [
         "desc": "The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 20,
+      "constitution": 20,
+      "intelligence": 18,
+      "wisdom": 16,
+      "charisma": 20
+    }
   },
   {
     "name": "Mastiff",
@@ -11255,12 +11647,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "1d8",
     "speed": "40 ft.",
-    "strength": 13,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -11284,7 +11670,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Medusa",
@@ -11296,12 +11690,6 @@ export default [
     "hit_points": 127,
     "hit_dice": "17d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 12,
-    "wisdom": 13,
-    "charisma": 15,
     "deception": 5,
     "insight": 4,
     "perception": 4,
@@ -11346,7 +11734,15 @@ export default [
         "attack_bonus": 5,
         "damage_dice": "2d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 12,
+      "wisdom": 13,
+      "charisma": 15
+    }
   },
   {
     "name": "Merfolk",
@@ -11358,12 +11754,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "10 ft., swim 40 ft.",
-    "strength": 10,
-    "dexterity": 13,
-    "constitution": 12,
-    "intelligence": 11,
-    "wisdom": 11,
-    "charisma": 12,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -11386,7 +11776,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 11,
+      "wisdom": 11,
+      "charisma": 12
+    }
   },
   {
     "name": "Merrow",
@@ -11398,12 +11796,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "10 ft., swim 40 ft.",
-    "strength": 18,
-    "dexterity": 10,
-    "constitution": 15,
-    "intelligence": 8,
-    "wisdom": 10,
-    "charisma": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11445,7 +11837,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 8,
+      "wisdom": 10,
+      "charisma": 9
+    }
   },
   {
     "name": "Mimic",
@@ -11457,12 +11857,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "15 ft.",
-    "strength": 17,
-    "dexterity": 12,
-    "constitution": 15,
-    "intelligence": 5,
-    "wisdom": 13,
-    "charisma": 8,
     "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -11508,7 +11902,15 @@ export default [
         "damage_dice": "1d8 + 1d8",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 5,
+      "wisdom": 13,
+      "charisma": 8
+    }
   },
   {
     "name": "Minotaur",
@@ -11520,12 +11922,6 @@ export default [
     "hit_points": 76,
     "hit_dice": "9d10",
     "speed": "40 ft.",
-    "strength": 18,
-    "dexterity": 11,
-    "constitution": 16,
-    "intelligence": 6,
-    "wisdom": 16,
-    "charisma": 9,
     "perception": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -11567,7 +11963,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 11,
+      "constitution": 16,
+      "intelligence": 6,
+      "wisdom": 16,
+      "charisma": 9
+    }
   },
   {
     "name": "Minotaur Skeleton",
@@ -11579,12 +11983,6 @@ export default [
     "hit_points": 67,
     "hit_dice": "9d10",
     "speed": "40 ft.",
-    "strength": 18,
-    "dexterity": 11,
-    "constitution": 15,
-    "intelligence": 6,
-    "wisdom": 8,
-    "charisma": 5,
     "damage_vulnerabilities": "bludgeoning",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -11615,7 +12013,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 11,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 8,
+      "charisma": 5
+    }
   },
   {
     "name": "Mule",
@@ -11627,12 +12033,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "strength": 14,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11660,7 +12060,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Mummy",
@@ -11672,12 +12080,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "20 ft.",
-    "strength": 16,
-    "dexterity": 8,
-    "constitution": 15,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 12,
     "wisdom_save": 2,
     "damage_vulnerabilities": "fire",
     "damage_resistances": "",
@@ -11704,7 +12106,15 @@ export default [
         "desc": "The mummy targets one creature it can see within 60 ft. of it. If the target can see the mummy, it must succeed on a DC 11 Wisdom saving throw against this magic or become frightened until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies (but not mummy lords) for the next 24 hours.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 12
+    }
   },
   {
     "name": "Mummy Lord",
@@ -11716,12 +12126,6 @@ export default [
     "hit_points": 97,
     "hit_dice": "13d8",
     "speed": "20 ft.",
-    "strength": 18,
-    "dexterity": 10,
-    "constitution": 17,
-    "intelligence": 11,
-    "wisdom": 18,
-    "charisma": 16,
     "constitution_save": 8,
     "intelligence_save": 5,
     "wisdom_save": 9,
@@ -11797,7 +12201,15 @@ export default [
         "desc": "The mummy lord magically transforms into a whirlwind of sand, moves up to 60 feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can't be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 11,
+      "wisdom": 18,
+      "charisma": 16
+    }
   },
   {
     "name": "Nalfeshnee",
@@ -11809,12 +12221,6 @@ export default [
     "hit_points": 184,
     "hit_dice": "16d10",
     "speed": "20 ft., fly 30 ft.",
-    "strength": 21,
-    "dexterity": 10,
-    "constitution": 22,
-    "intelligence": 19,
-    "wisdom": 12,
-    "charisma": 15,
     "constitution_save": 11,
     "intelligence_save": 9,
     "wisdom_save": 6,
@@ -11868,7 +12274,15 @@ export default [
         "desc": "The demon chooses what to summon and attempts a magical summoning.\nA nalfeshnee has a 50 percent chance of summoning 1d4 vrocks, 1d3 hezrous, 1d2 glabrezus, or one nalfeshnee.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 10,
+      "constitution": 22,
+      "intelligence": 19,
+      "wisdom": 12,
+      "charisma": 15
+    }
   },
   {
     "name": "Night Hag",
@@ -11880,12 +12294,6 @@ export default [
     "hit_points": 112,
     "hit_dice": "15d8",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 16,
-    "wisdom": 14,
-    "charisma": 16,
     "deception": 7,
     "insight": 6,
     "perception": 6,
@@ -11952,7 +12360,15 @@ export default [
         "desc": "While on the Ethereal Plane, the hag magically touches a sleeping humanoid on the Material Plane. A protection from evil and good spell cast on the target prevents this contact, as does a magic circle. As long as the contact persists, the target has dreadful visions. If these visions last for at least 1 hour, the target gains no benefit from its rest, and its hit point maximum is reduced by 5 (1d10). If this effect reduces the target's hit point maximum to 0, the target dies, and if the target was evil, its soul is trapped in the hag's soul bag. The reduction to the target's hit point maximum lasts until removed by the greater restoration spell or similar magic.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 16,
+      "wisdom": 14,
+      "charisma": 16
+    }
   },
   {
     "name": "Nightmare",
@@ -11964,12 +12380,6 @@ export default [
     "hit_points": 68,
     "hit_dice": "8d10",
     "speed": "60 ft., fly 90 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 10,
-    "wisdom": 13,
-    "charisma": 15,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -12002,7 +12412,15 @@ export default [
         "desc": "The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 15
+    }
   },
   {
     "name": "Noble",
@@ -12014,12 +12432,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 12,
-    "constitution": 11,
-    "intelligence": 12,
-    "wisdom": 14,
-    "charisma": 16,
     "deception": 5,
     "insight": 4,
     "persuasion": 5,
@@ -12045,7 +12457,15 @@ export default [
         "desc": "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 12,
+      "wisdom": 14,
+      "charisma": 16
+    }
   },
   {
     "name": "Ochre Jelly",
@@ -12057,12 +12477,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "10 ft., climb 10 ft.",
-    "strength": 15,
-    "dexterity": 6,
-    "constitution": 14,
-    "intelligence": 2,
-    "wisdom": 6,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid",
     "damage_immunities": "lightning, slashing",
@@ -12097,7 +12511,15 @@ export default [
         "desc": "When a jelly that is Medium or larger is subjected to lightning or slashing damage, it splits into two new jellies if it has at least 10 hit points. Each new jelly has hit points equal to half the original jelly's, rounded down. New jellies are one size smaller than the original jelly.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 6,
+      "constitution": 14,
+      "intelligence": 2,
+      "wisdom": 6,
+      "charisma": 1
+    }
   },
   {
     "name": "Octopus",
@@ -12109,12 +12531,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "5 ft., swim 30 ft.",
-    "strength": 4,
-    "dexterity": 15,
-    "constitution": 11,
-    "intelligence": 3,
-    "wisdom": 10,
-    "charisma": 4,
     "perception": 2,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -12153,7 +12569,15 @@ export default [
         "desc": "A 5-foot-radius cloud of ink extends all around the octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the octopus can use the Dash action as a bonus action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 4,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 3,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Ogre",
@@ -12165,12 +12589,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "40 ft.",
-    "strength": 19,
-    "dexterity": 8,
-    "constitution": 16,
-    "intelligence": 5,
-    "wisdom": 7,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12193,7 +12611,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 8,
+      "constitution": 16,
+      "intelligence": 5,
+      "wisdom": 7,
+      "charisma": 7
+    }
   },
   {
     "name": "Ogre Zombie",
@@ -12205,12 +12631,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "9d10",
     "speed": "30 ft.",
-    "strength": 19,
-    "dexterity": 6,
-    "constitution": 18,
-    "intelligence": 3,
-    "wisdom": 6,
-    "charisma": 5,
     "wisdom_save": 0,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -12234,7 +12654,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 6,
+      "constitution": 18,
+      "intelligence": 3,
+      "wisdom": 6,
+      "charisma": 5
+    }
   },
   {
     "name": "Oni",
@@ -12246,12 +12674,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d10",
     "speed": "30 ft., fly 30 ft.",
-    "strength": 19,
-    "dexterity": 11,
-    "constitution": 16,
-    "intelligence": 14,
-    "wisdom": 12,
-    "charisma": 15,
     "dexterity_save": 3,
     "constitution_save": 6,
     "wisdom_save": 4,
@@ -12308,7 +12730,15 @@ export default [
         "desc": "The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 11,
+      "constitution": 16,
+      "intelligence": 14,
+      "wisdom": 12,
+      "charisma": 15
+    }
   },
   {
     "name": "Orc",
@@ -12320,12 +12750,6 @@ export default [
     "hit_points": 15,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 12,
-    "constitution": 16,
-    "intelligence": 7,
-    "wisdom": 11,
-    "charisma": 10,
     "intimidation": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -12356,7 +12780,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 7,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Otyugh",
@@ -12368,12 +12800,6 @@ export default [
     "hit_points": 114,
     "hit_dice": "12d10",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 11,
-    "constitution": 19,
-    "intelligence": 6,
-    "wisdom": 13,
-    "charisma": 6,
     "constitution_save": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -12414,7 +12840,15 @@ export default [
         "desc": "The otyugh slams creatures grappled by it into each other or a solid surface. Each creature must succeed on a DC 14 Constitution saving throw or take 10 (2d6 + 3) bludgeoning damage and be stunned until the end of the otyugh's next turn. On a successful save, the target takes half the bludgeoning damage and isn't stunned.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 11,
+      "constitution": 19,
+      "intelligence": 6,
+      "wisdom": 13,
+      "charisma": 6
+    }
   },
   {
     "name": "Owl",
@@ -12426,12 +12860,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "5 ft., fly 60 ft.",
-    "strength": 3,
-    "dexterity": 13,
-    "constitution": 8,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "stealth": 3,
     "damage_vulnerabilities": "",
@@ -12460,7 +12888,15 @@ export default [
         "attack_bonus": 3,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 13,
+      "constitution": 8,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Owlbear",
@@ -12472,12 +12908,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "40 ft.",
-    "strength": 20,
-    "dexterity": 12,
-    "constitution": 17,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -12513,7 +12943,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Panther",
@@ -12525,12 +12963,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "50 ft., climb 40 ft.",
-    "strength": 14,
-    "dexterity": 15,
-    "constitution": 10,
-    "intelligence": 3,
-    "wisdom": 14,
-    "charisma": 7,
     "perception": 4,
     "stealth": 6,
     "damage_vulnerabilities": "",
@@ -12567,7 +12999,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 3,
+      "wisdom": 14,
+      "charisma": 7
+    }
   },
   {
     "name": "Pegasus",
@@ -12579,12 +13019,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "60 ft., fly 90 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 10,
-    "wisdom": 15,
-    "charisma": 13,
     "dexterity_save": 4,
     "wisdom_save": 4,
     "charisma_save": 3,
@@ -12604,7 +13038,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 15,
+      "charisma": 13
+    }
   },
   {
     "name": "Phase Spider",
@@ -12616,12 +13058,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d10",
     "speed": "30 ft., climb 30 ft.",
-    "strength": 15,
-    "dexterity": 15,
-    "constitution": 12,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 6,
     "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -12655,7 +13091,15 @@ export default [
         "damage_dice": "1d10",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 6
+    }
   },
   {
     "name": "Pit Fiend",
@@ -12667,12 +13111,6 @@ export default [
     "hit_points": 300,
     "hit_dice": "24d10",
     "speed": "30 ft., fly 60 ft.",
-    "strength": 26,
-    "dexterity": 14,
-    "constitution": 24,
-    "intelligence": 22,
-    "wisdom": 18,
-    "charisma": 24,
     "dexterity_save": 8,
     "constitution_save": 13,
     "wisdom_save": 10,
@@ -12739,7 +13177,15 @@ export default [
         "damage_dice": "3d10",
         "damage_bonus": 8
       }
-    ]
+    ],
+    "scores": {
+      "strength": 26,
+      "dexterity": 14,
+      "constitution": 24,
+      "intelligence": 22,
+      "wisdom": 18,
+      "charisma": 24
+    }
   },
   {
     "name": "Planetar",
@@ -12751,12 +13197,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 120 ft.",
-    "strength": 24,
-    "dexterity": 20,
-    "constitution": 24,
-    "intelligence": 19,
-    "wisdom": 22,
-    "charisma": 25,
     "constitution_save": 12,
     "wisdom_save": 11,
     "charisma_save": 12,
@@ -12808,7 +13248,15 @@ export default [
         "desc": "The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 24,
+      "dexterity": 20,
+      "constitution": 24,
+      "intelligence": 19,
+      "wisdom": 22,
+      "charisma": 25
+    }
   },
   {
     "name": "Plesiosaurus",
@@ -12820,12 +13268,6 @@ export default [
     "hit_points": 68,
     "hit_dice": "8d10",
     "speed": "20 ft., swim 40 ft.",
-    "strength": 18,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 5,
     "perception": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -12850,7 +13292,15 @@ export default [
         "damage_dice": "3d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 5
+    }
   },
   {
     "name": "Poisonous Snake",
@@ -12862,12 +13312,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 2,
-    "dexterity": 16,
-    "constitution": 11,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12882,7 +13326,15 @@ export default [
         "attack_bonus": 5,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Polar Bear",
@@ -12894,12 +13346,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d10",
     "speed": "40 ft., swim 30 ft.",
-    "strength": 20,
-    "dexterity": 10,
-    "constitution": 16,
-    "intelligence": 2,
-    "wisdom": 13,
-    "charisma": 7,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -12935,7 +13381,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 20,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 7
+    }
   },
   {
     "name": "Pony",
@@ -12947,12 +13401,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "strength": 15,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 11,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12968,7 +13416,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 7
+    }
   },
   {
     "name": "Priest",
@@ -12980,12 +13436,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "25 ft.",
-    "strength": 10,
-    "dexterity": 10,
-    "constitution": 12,
-    "intelligence": 13,
-    "wisdom": 16,
-    "charisma": 13,
     "medicine": 7,
     "persuasion": 3,
     "religion": 4,
@@ -13016,7 +13466,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 13,
+      "wisdom": 16,
+      "charisma": 13
+    }
   },
   {
     "name": "Pseudodragon",
@@ -13028,12 +13486,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d4",
     "speed": "15 ft., fly 60 ft.",
-    "strength": 6,
-    "dexterity": 15,
-    "constitution": 13,
-    "intelligence": 10,
-    "wisdom": 12,
-    "charisma": 10,
     "perception": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -13080,7 +13532,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 10
+    }
   },
   {
     "name": "Purple Worm",
@@ -13092,12 +13552,6 @@ export default [
     "hit_points": 247,
     "hit_dice": "15d20",
     "speed": "50 ft., burrow 30 ft.",
-    "strength": 28,
-    "dexterity": 7,
-    "constitution": 22,
-    "intelligence": 1,
-    "wisdom": 8,
-    "charisma": 4,
     "constitution_save": 11,
     "wisdom_save": 4,
     "damage_vulnerabilities": "",
@@ -13134,7 +13588,15 @@ export default [
         "damage_dice": "3d6",
         "damage_bonus": 9
       }
-    ]
+    ],
+    "scores": {
+      "strength": 28,
+      "dexterity": 7,
+      "constitution": 22,
+      "intelligence": 1,
+      "wisdom": 8,
+      "charisma": 4
+    }
   },
   {
     "name": "Quasit",
@@ -13146,12 +13608,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "3d4",
     "speed": "40 ft.",
-    "strength": 5,
-    "dexterity": 17,
-    "constitution": 10,
-    "intelligence": 7,
-    "wisdom": 10,
-    "charisma": 10,
     "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
@@ -13195,7 +13651,15 @@ export default [
         "desc": "The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 5,
+      "dexterity": 17,
+      "constitution": 10,
+      "intelligence": 7,
+      "wisdom": 10,
+      "charisma": 10
+    }
   },
   {
     "name": "Quipper",
@@ -13207,12 +13671,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "swim 40 ft.",
-    "strength": 2,
-    "dexterity": 16,
-    "constitution": 9,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13239,7 +13697,15 @@ export default [
         "attack_bonus": 5,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 16,
+      "constitution": 9,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 2
+    }
   },
   {
     "name": "Rakshasa",
@@ -13251,12 +13717,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d8",
     "speed": "40 ft.",
-    "strength": 14,
-    "dexterity": 17,
-    "constitution": 18,
-    "intelligence": 13,
-    "wisdom": 16,
-    "charisma": 20,
     "deception": 10,
     "insight": 8,
     "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures",
@@ -13291,7 +13751,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 17,
+      "constitution": 18,
+      "intelligence": 13,
+      "wisdom": 16,
+      "charisma": 20
+    }
   },
   {
     "name": "Rat",
@@ -13303,12 +13771,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "20 ft.",
-    "strength": 2,
-    "dexterity": 11,
-    "constitution": 9,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13330,7 +13792,15 @@ export default [
         "attack_bonus": 0,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 11,
+      "constitution": 9,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Raven",
@@ -13342,12 +13812,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 50 ft.",
-    "strength": 2,
-    "dexterity": 14,
-    "constitution": 8,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 6,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -13369,7 +13833,15 @@ export default [
         "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 14,
+      "constitution": 8,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Red Dragon Wyrmling",
@@ -13381,12 +13853,6 @@ export default [
     "hit_points": 75,
     "hit_dice": "10d8",
     "speed": "30 ft., climb 30 ft., fly 60 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 17,
-    "intelligence": 12,
-    "wisdom": 11,
-    "charisma": 15,
     "dexterity_save": 2,
     "constitution_save": 5,
     "wisdom_save": 2,
@@ -13414,7 +13880,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "7d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 12,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Reef Shark",
@@ -13426,12 +13900,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "swim 40 ft.",
-    "strength": 14,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 4,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -13460,7 +13928,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 4
+    }
   },
   {
     "name": "Remorhaz",
@@ -13472,12 +13948,6 @@ export default [
     "hit_points": 195,
     "hit_dice": "17d12",
     "speed": "30 ft., burrow 20 ft.",
-    "strength": 24,
-    "dexterity": 13,
-    "constitution": 21,
-    "intelligence": 4,
-    "wisdom": 10,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold, fire",
@@ -13506,7 +13976,15 @@ export default [
         "desc": "The remorhaz makes one bite attack against a Medium or smaller creature it is grappling. If the attack hits, that creature takes the bite's damage and is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the remorhaz, and it takes 21 (6d6) acid damage at the start of each of the remorhaz's turns.\nIf the remorhaz takes 30 damage or more on a single turn from a creature inside it, the remorhaz must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet oft he remorhaz. If the remorhaz dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 15 feet of movement, exiting prone.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 24,
+      "dexterity": 13,
+      "constitution": 21,
+      "intelligence": 4,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Rhinoceros",
@@ -13518,12 +13996,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "40 ft.",
-    "strength": 21,
-    "dexterity": 8,
-    "constitution": 15,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13547,7 +14019,15 @@ export default [
         "damage_dice": "2d8",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Riding Horse",
@@ -13559,12 +14039,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "2d10",
     "speed": "60 ft.",
-    "strength": 16,
-    "dexterity": 10,
-    "constitution": 12,
-    "intelligence": 2,
-    "wisdom": 11,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13580,7 +14054,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 7
+    }
   },
   {
     "name": "Roc",
@@ -13592,12 +14074,6 @@ export default [
     "hit_points": 248,
     "hit_dice": "16d20",
     "speed": "20 ft., fly 120 ft.",
-    "strength": 28,
-    "dexterity": 10,
-    "constitution": 20,
-    "intelligence": 3,
-    "wisdom": 10,
-    "charisma": 9,
     "dexterity_save": 4,
     "constitution_save": 9,
     "wisdom_save": 4,
@@ -13637,7 +14113,15 @@ export default [
         "damage_dice": "4d6",
         "damage_bonus": 9
       }
-    ]
+    ],
+    "scores": {
+      "strength": 28,
+      "dexterity": 10,
+      "constitution": 20,
+      "intelligence": 3,
+      "wisdom": 10,
+      "charisma": 9
+    }
   },
   {
     "name": "Roper",
@@ -13649,12 +14133,6 @@ export default [
     "hit_points": 93,
     "hit_dice": "11d10",
     "speed": "10 ft., climb 10 ft.",
-    "strength": 18,
-    "dexterity": 8,
-    "constitution": 17,
-    "intelligence": 7,
-    "wisdom": 16,
-    "charisma": 6,
     "perception": 6,
     "stealth": 5,
     "damage_vulnerabilities": "",
@@ -13704,7 +14182,15 @@ export default [
         "desc": "The roper pulls each creature grappled by it up to 25 ft. straight toward it.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 8,
+      "constitution": 17,
+      "intelligence": 7,
+      "wisdom": 16,
+      "charisma": 6
+    }
   },
   {
     "name": "Rug of Smothering",
@@ -13716,12 +14202,6 @@ export default [
     "hit_points": 33,
     "hit_dice": "6d10",
     "speed": "10 ft.",
-    "strength": 17,
-    "dexterity": 14,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 3,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison, psychic",
@@ -13754,7 +14234,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 3,
+      "charisma": 1
+    }
   },
   {
     "name": "Rust Monster",
@@ -13766,12 +14254,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "40 ft.",
-    "strength": 13,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 13,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13804,7 +14286,15 @@ export default [
         "desc": "The rust monster corrodes a nonmagical ferrous metal object it can see within 5 feet of it. If the object isn't being worn or carried, the touch destroys a 1-foot cube of it. If the object is being worn or carried by a creature, the creature can make a DC 11 Dexterity saving throw to avoid the rust monster's touch.\nIf the object touched is either metal armor or a metal shield being worn or carried, its takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. If the object touched is a held metal weapon, it rusts as described in the Rust Metal trait.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 13,
+      "charisma": 6
+    }
   },
   {
     "name": "Saber-Toothed Tiger",
@@ -13816,12 +14306,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "7d10",
     "speed": "40 ft.",
-    "strength": 18,
-    "dexterity": 14,
-    "constitution": 15,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 8,
     "perception": 3,
     "stealth": 6,
     "damage_vulnerabilities": "",
@@ -13858,7 +14342,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 5
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Sahuagin",
@@ -13870,12 +14362,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "30 ft., swim 40 ft.",
-    "strength": 13,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 12,
-    "wisdom": 13,
-    "charisma": 9,
     "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -13928,7 +14414,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 12,
+      "wisdom": 13,
+      "charisma": 9
+    }
   },
   {
     "name": "Salamander",
@@ -13940,12 +14434,6 @@ export default [
     "hit_points": 90,
     "hit_dice": "12d10",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 14,
-    "constitution": 15,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 12,
     "damage_vulnerabilities": "cold",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "fire",
@@ -13986,7 +14474,15 @@ export default [
         "damage_dice": "2d6 + 2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 12
+    }
   },
   {
     "name": "Satyr",
@@ -13998,12 +14494,6 @@ export default [
     "hit_points": 31,
     "hit_dice": "7d8",
     "speed": "40 ft.",
-    "strength": 12,
-    "dexterity": 16,
-    "constitution": 11,
-    "intelligence": 12,
-    "wisdom": 10,
-    "charisma": 14,
     "perception": 2,
     "performance": 6,
     "stealth": 5,
@@ -14048,7 +14538,15 @@ export default [
         "desc": "Gentle Lullaby. The creature falls asleep and is unconscious for 1 minute. The effect ends if the creature takes damage or if someone takes an action to shake the creature awake.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 12,
+      "wisdom": 10,
+      "charisma": 14
+    }
   },
   {
     "name": "Scorpion",
@@ -14060,12 +14558,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "10 ft.",
-    "strength": 2,
-    "dexterity": 11,
-    "constitution": 8,
-    "intelligence": 1,
-    "wisdom": 8,
-    "charisma": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14080,7 +14572,15 @@ export default [
         "attack_bonus": 2,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 11,
+      "constitution": 8,
+      "intelligence": 1,
+      "wisdom": 8,
+      "charisma": 2
+    }
   },
   {
     "name": "Scout",
@@ -14092,12 +14592,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d8",
     "speed": "30 ft.",
-    "strength": 11,
-    "dexterity": 14,
-    "constitution": 12,
-    "intelligence": 11,
-    "wisdom": 13,
-    "charisma": 11,
     "nature": 4,
     "perception": 5,
     "stealth": 6,
@@ -14136,7 +14630,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 11,
+      "wisdom": 13,
+      "charisma": 11
+    }
   },
   {
     "name": "Sea Hag",
@@ -14148,12 +14650,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "7d8",
     "speed": "30 ft., swim 40 ft.",
-    "strength": 16,
-    "dexterity": 13,
-    "constitution": 16,
-    "intelligence": 12,
-    "wisdom": 12,
-    "charisma": 13,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14206,7 +14702,15 @@ export default [
         "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies.\nThe changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 12,
+      "wisdom": 12,
+      "charisma": 13
+    }
   },
   {
     "name": "Sea Horse",
@@ -14218,12 +14722,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "swim 20 ft.",
-    "strength": 1,
-    "dexterity": 12,
-    "constitution": 8,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14237,7 +14735,15 @@ export default [
         "desc": "The sea horse can breathe only underwater.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 1,
+      "dexterity": 12,
+      "constitution": 8,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 2
+    }
   },
   {
     "name": "Shadow",
@@ -14249,12 +14755,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d8",
     "speed": "40 ft.",
-    "strength": 6,
-    "dexterity": 14,
-    "constitution": 13,
-    "intelligence": 6,
-    "wisdom": 10,
-    "charisma": 8,
     "stealth": 4,
     "damage_vulnerabilities": "radiant",
     "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
@@ -14288,7 +14788,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 6,
+      "wisdom": 10,
+      "charisma": 8
+    }
   },
   {
     "name": "Shambling Mound",
@@ -14300,12 +14808,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d10",
     "speed": "20 ft., swim 20 ft.",
-    "strength": 18,
-    "dexterity": 8,
-    "constitution": 16,
-    "intelligence": 5,
-    "wisdom": 10,
-    "charisma": 5,
     "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold, fire",
@@ -14339,7 +14841,15 @@ export default [
         "desc": "The shambling mound engulfs a Medium or smaller creature grappled by it. The engulfed target is blinded, restrained, and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (2d8 + 4) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 8,
+      "constitution": 16,
+      "intelligence": 5,
+      "wisdom": 10,
+      "charisma": 5
+    }
   },
   {
     "name": "Shield Guardian",
@@ -14351,12 +14861,6 @@ export default [
     "hit_points": 142,
     "hit_dice": "15d10",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 8,
-    "constitution": 18,
-    "intelligence": 7,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -14401,7 +14905,15 @@ export default [
         "desc": "When a creature makes an attack against the wearer of the guardian's amulet, the guardian grants a +2 bonus to the wearer's AC if the guardian is within 5 feet of the wearer.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 8,
+      "constitution": 18,
+      "intelligence": 7,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Shrieker",
@@ -14413,12 +14925,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "0 ft.",
-    "strength": 1,
-    "dexterity": 1,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 3,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14439,7 +14945,15 @@ export default [
         "desc": "When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for 1d4 of the shrieker's turns afterward",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 3,
+      "charisma": 1
+    }
   },
   {
     "name": "Silver Dragon Wyrmling",
@@ -14451,12 +14965,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d8",
     "speed": "30 ft., fly 60 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 17,
-    "intelligence": 12,
-    "wisdom": 11,
-    "charisma": 15,
     "dexterity_save": 2,
     "constitution_save": 5,
     "wisdom_save": 2,
@@ -14484,7 +14992,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "4d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 12,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Skeleton",
@@ -14496,12 +15012,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 14,
-    "constitution": 15,
-    "intelligence": 6,
-    "wisdom": 8,
-    "charisma": 5,
     "damage_vulnerabilities": "bludgeoning",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14524,7 +15034,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 6,
+      "wisdom": 8,
+      "charisma": 5
+    }
   },
   {
     "name": "Solar",
@@ -14536,12 +15054,6 @@ export default [
     "hit_points": 243,
     "hit_dice": "18d10",
     "speed": "50 ft., fly 150 ft.",
-    "strength": 26,
-    "dexterity": 22,
-    "constitution": 26,
-    "intelligence": 25,
-    "wisdom": 25,
-    "charisma": 30,
     "intelligence_save": 14,
     "wisdom_save": 14,
     "charisma_save": 17,
@@ -14622,7 +15134,15 @@ export default [
         "desc": "The solar targets one creature it can see within 30 ft. of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 26,
+      "dexterity": 22,
+      "constitution": 26,
+      "intelligence": 25,
+      "wisdom": 25,
+      "charisma": 30
+    }
   },
   {
     "name": "Specter",
@@ -14634,12 +15154,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "0 ft., fly 50 ft. (hover)",
-    "strength": 1,
-    "dexterity": 14,
-    "constitution": 11,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 11,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "necrotic, poison",
@@ -14666,7 +15180,15 @@ export default [
         "attack_bonus": 4,
         "damage_dice": "3d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 1,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 11
+    }
   },
   {
     "name": "Spider",
@@ -14678,12 +15200,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "20 ft., climb 20 ft.",
-    "strength": 2,
-    "dexterity": 14,
-    "constitution": 8,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 2,
     "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -14716,7 +15232,15 @@ export default [
         "attack_bonus": 4,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 2,
+      "dexterity": 14,
+      "constitution": 8,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 2
+    }
   },
   {
     "name": "Spirit Naga",
@@ -14728,12 +15252,6 @@ export default [
     "hit_points": 75,
     "hit_dice": "10d10",
     "speed": "40 ft.",
-    "strength": 18,
-    "dexterity": 17,
-    "constitution": 14,
-    "intelligence": 16,
-    "wisdom": 15,
-    "charisma": 16,
     "dexterity_save": 6,
     "constitution_save": 5,
     "wisdom_save": 5,
@@ -14765,7 +15283,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 16,
+      "wisdom": 15,
+      "charisma": 16
+    }
   },
   {
     "name": "Sprite",
@@ -14777,12 +15303,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 40 ft.",
-    "strength": 3,
-    "dexterity": 18,
-    "constitution": 10,
-    "intelligence": 14,
-    "wisdom": 13,
-    "charisma": 11,
     "perception": 3,
     "stealth": 8,
     "damage_vulnerabilities": "",
@@ -14815,7 +15335,15 @@ export default [
         "desc": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 18,
+      "constitution": 10,
+      "intelligence": 14,
+      "wisdom": 13,
+      "charisma": 11
+    }
   },
   {
     "name": "Spy",
@@ -14827,12 +15355,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 15,
-    "constitution": 10,
-    "intelligence": 12,
-    "wisdom": 14,
-    "charisma": 16,
     "deception": 5,
     "insight": 4,
     "investigation": 5,
@@ -14879,7 +15401,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 12,
+      "wisdom": 14,
+      "charisma": 16
+    }
   },
   {
     "name": "Steam Mephit",
@@ -14891,12 +15421,6 @@ export default [
     "hit_points": 21,
     "hit_dice": "6d6",
     "speed": "30 ft., fly 30 ft.",
-    "strength": 5,
-    "dexterity": 11,
-    "constitution": 10,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 12,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire, poison",
@@ -14934,7 +15458,15 @@ export default [
         "desc": "The mephit has a 25 percent chance of summoning 1d4 mephits of its kind. A summoned mephit appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other mephits. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 5,
+      "dexterity": 11,
+      "constitution": 10,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 12
+    }
   },
   {
     "name": "Stirge",
@@ -14946,12 +15478,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 40 ft.",
-    "strength": 4,
-    "dexterity": 16,
-    "constitution": 11,
-    "intelligence": 2,
-    "wisdom": 8,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14967,7 +15493,15 @@ export default [
         "damage_dice": "1d4",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 4,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 2,
+      "wisdom": 8,
+      "charisma": 6
+    }
   },
   {
     "name": "Stone Giant",
@@ -14979,12 +15513,6 @@ export default [
     "hit_points": 126,
     "hit_dice": "11d12",
     "speed": "40 ft.",
-    "strength": 23,
-    "dexterity": 15,
-    "constitution": 20,
-    "intelligence": 10,
-    "wisdom": 12,
-    "charisma": 9,
     "dexterity_save": 5,
     "constitution_save": 8,
     "wisdom_save": 4,
@@ -15031,7 +15559,15 @@ export default [
         "desc": "If a rock or similar object is hurled at the giant, the giant can, with a successful DC 10 Dexterity saving throw, catch the missile and take no bludgeoning damage from it.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 15,
+      "constitution": 20,
+      "intelligence": 10,
+      "wisdom": 12,
+      "charisma": 9
+    }
   },
   {
     "name": "Stone Golem",
@@ -15043,12 +15579,6 @@ export default [
     "hit_points": 178,
     "hit_dice": "17d10",
     "speed": "30 ft.",
-    "strength": 22,
-    "dexterity": 9,
-    "constitution": 20,
-    "intelligence": 3,
-    "wisdom": 11,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison, psychic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't adamantine",
@@ -15091,7 +15621,15 @@ export default [
         "desc": "The golem targets one or more creatures it can see within 10 ft. of it. Each target must make a DC 17 Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 9,
+      "constitution": 20,
+      "intelligence": 3,
+      "wisdom": 11,
+      "charisma": 1
+    }
   },
   {
     "name": "Storm Giant",
@@ -15103,12 +15641,6 @@ export default [
     "hit_points": 230,
     "hit_dice": "20d12",
     "speed": "50 ft., swim 50 ft.",
-    "strength": 29,
-    "dexterity": 14,
-    "constitution": 20,
-    "intelligence": 16,
-    "wisdom": 18,
-    "charisma": 18,
     "strength_save": 14,
     "constitution_save": 10,
     "wisdom_save": 9,
@@ -15162,7 +15694,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "12d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 29,
+      "dexterity": 14,
+      "constitution": 20,
+      "intelligence": 16,
+      "wisdom": 18,
+      "charisma": 18
+    }
   },
   {
     "name": "Succubus/Incubus",
@@ -15174,12 +15714,6 @@ export default [
     "hit_points": 66,
     "hit_dice": "12d8",
     "speed": "30 ft., fly 60 ft.",
-    "strength": 8,
-    "dexterity": 17,
-    "constitution": 13,
-    "intelligence": 15,
-    "wisdom": 12,
-    "charisma": 20,
     "deception": 9,
     "insight": 5,
     "perception": 5,
@@ -15229,7 +15763,15 @@ export default [
         "desc": "The fiend magically enters the Ethereal Plane from the Material Plane, or vice versa.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 15,
+      "wisdom": 12,
+      "charisma": 20
+    }
   },
   {
     "name": "Swarm of Bats",
@@ -15241,12 +15783,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "0 ft., fly 30 ft.",
-    "strength": 5,
-    "dexterity": 15,
-    "constitution": 10,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15278,7 +15814,15 @@ export default [
         "attack_bonus": 4,
         "damage_dice": "2d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 5,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 4
+    }
   },
   {
     "name": "Swarm of Beetles",
@@ -15290,12 +15834,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "20 ft., burrow 5 ft., climb 20 ft.",
-    "strength": 3,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15317,7 +15855,15 @@ export default [
         "attack_bonus": 3,
         "damage_dice": "4d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 1
+    }
   },
   {
     "name": "Swarm of Centipedes",
@@ -15329,12 +15875,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "20 ft., climb 20 ft.",
-    "strength": 3,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15356,7 +15896,15 @@ export default [
         "attack_bonus": 3,
         "damage_dice": "4d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 1
+    }
   },
   {
     "name": "Swarm of Insects",
@@ -15368,12 +15916,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "20 ft., climb 20 ft.",
-    "strength": 3,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15395,7 +15937,15 @@ export default [
         "attack_bonus": 3,
         "damage_dice": "4d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 1
+    }
   },
   {
     "name": "Swarm of Poisonous Snakes",
@@ -15407,12 +15957,6 @@ export default [
     "hit_points": 36,
     "hit_dice": "8d8",
     "speed": "30 ft., swim 30 ft.",
-    "strength": 8,
-    "dexterity": 18,
-    "constitution": 11,
-    "intelligence": 1,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15434,7 +15978,15 @@ export default [
         "attack_bonus": 6,
         "damage_dice": "2d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 8,
+      "dexterity": 18,
+      "constitution": 11,
+      "intelligence": 1,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Swarm of Quippers",
@@ -15446,12 +15998,6 @@ export default [
     "hit_points": 28,
     "hit_dice": "8d8",
     "speed": "0 ft., swim 40 ft.",
-    "strength": 13,
-    "dexterity": 16,
-    "constitution": 9,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15483,7 +16029,15 @@ export default [
         "attack_bonus": 5,
         "damage_dice": "4d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 16,
+      "constitution": 9,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 2
+    }
   },
   {
     "name": "Swarm of Rats",
@@ -15495,12 +16049,6 @@ export default [
     "hit_points": 24,
     "hit_dice": "7d8",
     "speed": "30 ft.",
-    "strength": 9,
-    "dexterity": 11,
-    "constitution": 9,
-    "intelligence": 2,
-    "wisdom": 10,
-    "charisma": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15527,7 +16075,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "2d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 9,
+      "dexterity": 11,
+      "constitution": 9,
+      "intelligence": 2,
+      "wisdom": 10,
+      "charisma": 3
+    }
   },
   {
     "name": "Swarm of Ravens",
@@ -15539,12 +16095,6 @@ export default [
     "hit_points": 24,
     "hit_dice": "7d8",
     "speed": "10 ft., fly 50 ft.",
-    "strength": 6,
-    "dexterity": 14,
-    "constitution": 8,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15566,7 +16116,15 @@ export default [
         "attack_bonus": 4,
         "damage_dice": "2d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 14,
+      "constitution": 8,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Swarm of Spiders",
@@ -15578,12 +16136,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "20 ft., climb 20 ft.",
-    "strength": 3,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15620,7 +16172,15 @@ export default [
         "attack_bonus": 3,
         "damage_dice": "4d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 1
+    }
   },
   {
     "name": "Swarm of Wasps",
@@ -15632,12 +16192,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "5 ft., fly 30 ft.",
-    "strength": 3,
-    "dexterity": 13,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 7,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, slashing",
     "damage_immunities": "",
@@ -15659,7 +16213,15 @@ export default [
         "attack_bonus": 3,
         "damage_dice": "4d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 7,
+      "charisma": 1
+    }
   },
   {
     "name": "Tarrasque",
@@ -15671,12 +16233,6 @@ export default [
     "hit_points": 676,
     "hit_dice": "33d20",
     "speed": "40 ft.",
-    "strength": 30,
-    "dexterity": 11,
-    "constitution": 30,
-    "intelligence": 3,
-    "wisdom": 11,
-    "charisma": 11,
     "intelligence_save": 5,
     "wisdom_save": 9,
     "charisma_save": 9,
@@ -15770,7 +16326,15 @@ export default [
         "desc": "The tarrasque makes one bite attack or uses its Swallow.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 30,
+      "dexterity": 11,
+      "constitution": 30,
+      "intelligence": 3,
+      "wisdom": 11,
+      "charisma": 11
+    }
   },
   {
     "name": "Thug",
@@ -15782,12 +16346,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "strength": 15,
-    "dexterity": 11,
-    "constitution": 14,
-    "intelligence": 10,
-    "wisdom": 10,
-    "charisma": 11,
     "intimidation": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -15822,7 +16380,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 10,
+      "charisma": 11
+    }
   },
   {
     "name": "Tiger",
@@ -15834,12 +16400,6 @@ export default [
     "hit_points": 37,
     "hit_dice": "5d10",
     "speed": "40 ft.",
-    "strength": 17,
-    "dexterity": 15,
-    "constitution": 14,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 8,
     "perception": 3,
     "stealth": 6,
     "damage_vulnerabilities": "",
@@ -15874,7 +16434,15 @@ export default [
         "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Treant",
@@ -15886,12 +16454,6 @@ export default [
     "hit_points": 138,
     "hit_dice": "12d12",
     "speed": "30 ft.",
-    "strength": 23,
-    "dexterity": 8,
-    "constitution": 21,
-    "intelligence": 12,
-    "wisdom": 16,
-    "charisma": 12,
     "damage_vulnerabilities": "fire",
     "damage_resistances": "bludgeoning, piercing",
     "damage_immunities": "",
@@ -15936,7 +16498,15 @@ export default [
         "desc": "The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as a treant, except they have Intelligence and Charisma scores of 1, they can't speak, and they have only the Slam action option. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies; until the treant dies or is more than 120 feet from the tree; or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 8,
+      "constitution": 21,
+      "intelligence": 12,
+      "wisdom": 16,
+      "charisma": 12
+    }
   },
   {
     "name": "Tribal Warrior",
@@ -15948,12 +16518,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "strength": 13,
-    "dexterity": 11,
-    "constitution": 12,
-    "intelligence": 8,
-    "wisdom": 11,
-    "charisma": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -15976,7 +16540,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 8,
+      "wisdom": 11,
+      "charisma": 8
+    }
   },
   {
     "name": "Triceratops",
@@ -15988,12 +16560,6 @@ export default [
     "hit_points": 95,
     "hit_dice": "10d12",
     "speed": "50 ft.",
-    "strength": 22,
-    "dexterity": 9,
-    "constitution": 17,
-    "intelligence": 2,
-    "wisdom": 11,
-    "charisma": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16023,7 +16589,15 @@ export default [
         "damage_dice": "3d10",
         "damage_bonus": 6
       }
-    ]
+    ],
+    "scores": {
+      "strength": 22,
+      "dexterity": 9,
+      "constitution": 17,
+      "intelligence": 2,
+      "wisdom": 11,
+      "charisma": 5
+    }
   },
   {
     "name": "Troll",
@@ -16035,12 +16609,6 @@ export default [
     "hit_points": 84,
     "hit_dice": "8d10",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 13,
-    "constitution": 20,
-    "intelligence": 7,
-    "wisdom": 9,
-    "charisma": 7,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -16086,7 +16654,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 13,
+      "constitution": 20,
+      "intelligence": 7,
+      "wisdom": 9,
+      "charisma": 7
+    }
   },
   {
     "name": "Tyrannosaurus Rex",
@@ -16098,12 +16674,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "13d12",
     "speed": "50 ft.",
-    "strength": 25,
-    "dexterity": 10,
-    "constitution": 19,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 9,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -16132,7 +16702,15 @@ export default [
         "damage_dice": "3d8",
         "damage_bonus": 7
       }
-    ]
+    ],
+    "scores": {
+      "strength": 25,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 9
+    }
   },
   {
     "name": "Unicorn",
@@ -16144,12 +16722,6 @@ export default [
     "hit_points": 67,
     "hit_dice": "9d10",
     "speed": "50 ft.",
-    "strength": 18,
-    "dexterity": 14,
-    "constitution": 15,
-    "intelligence": 11,
-    "wisdom": 17,
-    "charisma": 16,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -16227,7 +16799,15 @@ export default [
         "desc": "The unicorn magically regains 11 (2d8 + 2) hit points.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 11,
+      "wisdom": 17,
+      "charisma": 16
+    }
   },
   {
     "name": "Vampire",
@@ -16239,12 +16819,6 @@ export default [
     "hit_points": 144,
     "hit_dice": "17d8",
     "speed": "30 ft.",
-    "strength": 18,
-    "dexterity": 18,
-    "constitution": 18,
-    "intelligence": 17,
-    "wisdom": 15,
-    "charisma": 18,
     "dexterity_save": 9,
     "wisdom_save": 7,
     "charisma_save": 9,
@@ -16336,7 +16910,15 @@ export default [
         "desc": "The vampire makes one bite attack.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 17,
+      "wisdom": 15,
+      "charisma": 18
+    }
   },
   {
     "name": "Vampire Spawn",
@@ -16348,12 +16930,6 @@ export default [
     "hit_points": 82,
     "hit_dice": "11d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 12,
     "dexterity_save": 6,
     "wisdom_save": 3,
     "perception": 3,
@@ -16400,7 +16976,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 12
+    }
   },
   {
     "name": "Veteran",
@@ -16412,12 +16996,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "30 ft.",
-    "strength": 16,
-    "dexterity": 13,
-    "constitution": 14,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 10,
     "athletics": 5,
     "perception": 2,
     "damage_vulnerabilities": "",
@@ -16454,7 +17032,15 @@ export default [
         "damage_dice": "1d10",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "Violet Fungus",
@@ -16466,12 +17052,6 @@ export default [
     "hit_points": 18,
     "hit_dice": "4d8",
     "speed": "5 ft.",
-    "strength": 3,
-    "dexterity": 1,
-    "constitution": 10,
-    "intelligence": 1,
-    "wisdom": 3,
-    "charisma": 1,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16498,7 +17078,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 1,
+      "constitution": 10,
+      "intelligence": 1,
+      "wisdom": 3,
+      "charisma": 1
+    }
   },
   {
     "name": "Vrock",
@@ -16510,12 +17098,6 @@ export default [
     "hit_points": 104,
     "hit_dice": "11d10",
     "speed": "40 ft., fly 60 ft.",
-    "strength": 17,
-    "dexterity": 15,
-    "constitution": 18,
-    "intelligence": 8,
-    "wisdom": 13,
-    "charisma": 8,
     "dexterity_save": 5,
     "wisdom_save": 4,
     "charisma_save": 2,
@@ -16568,7 +17150,15 @@ export default [
         "desc": "The demon chooses what to summon and attempts a magical summoning.\nA vrock has a 30 percent chance of summoning 2d4 dretches or one vrock.\nA summoned demon appears in an unoccupied space within 60 feet of its summoner, acts as an ally of its summoner, and can't summon other demons. It remains for 1 minute, until it or its summoner dies, or until its summoner dismisses it as an action.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 8,
+      "wisdom": 13,
+      "charisma": 8
+    }
   },
   {
     "name": "Vulture",
@@ -16580,12 +17170,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "1d8",
     "speed": "10 ft., fly 50 ft.",
-    "strength": 7,
-    "dexterity": 10,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 4,
     "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -16613,7 +17197,15 @@ export default [
         "attack_bonus": 2,
         "damage_dice": "1d4"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 7,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 4
+    }
   },
   {
     "name": "Warhorse",
@@ -16625,12 +17217,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "60 ft.",
-    "strength": 18,
-    "dexterity": 12,
-    "constitution": 13,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16653,7 +17239,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 7
+    }
   },
   {
     "name": "Warhorse Skeleton",
@@ -16665,12 +17259,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "3d10",
     "speed": "60 ft.",
-    "strength": 18,
-    "dexterity": 12,
-    "constitution": 15,
-    "intelligence": 2,
-    "wisdom": 8,
-    "charisma": 5,
     "damage_vulnerabilities": "bludgeoning",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -16686,7 +17274,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 2,
+      "wisdom": 8,
+      "charisma": 5
+    }
   },
   {
     "name": "Water Elemental",
@@ -16698,12 +17294,6 @@ export default [
     "hit_points": 114,
     "hit_dice": "12d10",
     "speed": "30 ft., swim 90 ft.",
-    "strength": 18,
-    "dexterity": 14,
-    "constitution": 18,
-    "intelligence": 5,
-    "wisdom": 10,
-    "charisma": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "poison",
@@ -16741,7 +17331,15 @@ export default [
         "desc": "Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage. If it is Large or smaller, it is also grappled (escape DC 14). Until this grapple ends, the target is restrained and unable to breathe unless it can breathe water. If the saving throw is successful, the target is pushed out of the elemental's space.\nThe elemental can grapple one Large creature or up to two Medium or smaller creatures at one time. At the start of each of the elemental's turns, each target grappled by it takes 13 (2d8 + 4) bludgeoning damage. A creature within 5 feet of the elemental can pull a creature or object out of it by taking an action to make a DC 14 Strength and succeeding.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 18,
+      "intelligence": 5,
+      "wisdom": 10,
+      "charisma": 8
+    }
   },
   {
     "name": "Weasel",
@@ -16753,12 +17351,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "30 ft.",
-    "strength": 3,
-    "dexterity": 16,
-    "constitution": 8,
-    "intelligence": 2,
-    "wisdom": 12,
-    "charisma": 3,
     "perception": 3,
     "stealth": 5,
     "damage_vulnerabilities": "",
@@ -16782,7 +17374,15 @@ export default [
         "attack_bonus": 5,
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 3,
+      "dexterity": 16,
+      "constitution": 8,
+      "intelligence": 2,
+      "wisdom": 12,
+      "charisma": 3
+    }
   },
   {
     "name": "Werebear",
@@ -16794,12 +17394,6 @@ export default [
     "hit_points": 135,
     "hit_dice": "18d8",
     "speed": "30 ft. (40 ft., climb 30 ft. in bear or hybrid form)",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 17,
-    "intelligence": 11,
-    "wisdom": 12,
-    "charisma": 12,
     "perception": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -16847,7 +17441,15 @@ export default [
         "damage_dice": "1d12",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 11,
+      "wisdom": 12,
+      "charisma": 12
+    }
   },
   {
     "name": "Wereboar",
@@ -16859,12 +17461,6 @@ export default [
     "hit_points": 78,
     "hit_dice": "12d8",
     "speed": "30 ft. (40 ft. in boar form)",
-    "strength": 17,
-    "dexterity": 10,
-    "constitution": 15,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 8,
     "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -16911,7 +17507,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 8
+    }
   },
   {
     "name": "Wererat",
@@ -16923,12 +17527,6 @@ export default [
     "hit_points": 33,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "strength": 10,
-    "dexterity": 15,
-    "constitution": 12,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 8,
     "perception": 2,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -16977,7 +17575,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 8
+    }
   },
   {
     "name": "Weretiger",
@@ -16989,12 +17595,6 @@ export default [
     "hit_points": 120,
     "hit_dice": "16d8",
     "speed": "30 ft. (40 ft. in tiger form)",
-    "strength": 17,
-    "dexterity": 15,
-    "constitution": 16,
-    "intelligence": 10,
-    "wisdom": 13,
-    "charisma": 11,
     "perception": 5,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -17055,7 +17655,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 11
+    }
   },
   {
     "name": "Werewolf",
@@ -17067,12 +17675,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "30 ft. (40 ft. in wolf form)",
-    "strength": 15,
-    "dexterity": 13,
-    "constitution": 14,
-    "intelligence": 10,
-    "wisdom": 11,
-    "charisma": 10,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -17120,7 +17722,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": -2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 10,
+      "wisdom": 11,
+      "charisma": 10
+    }
   },
   {
     "name": "White Dragon Wyrmling",
@@ -17132,12 +17742,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d8",
     "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
-    "strength": 14,
-    "dexterity": 10,
-    "constitution": 14,
-    "intelligence": 5,
-    "wisdom": 10,
-    "charisma": 11,
     "dexterity_save": 2,
     "constitution_save": 4,
     "wisdom_save": 2,
@@ -17165,7 +17769,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "5d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 5,
+      "wisdom": 10,
+      "charisma": 11
+    }
   },
   {
     "name": "Wight",
@@ -17177,12 +17789,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "strength": 15,
-    "dexterity": 14,
-    "constitution": 16,
-    "intelligence": 10,
-    "wisdom": 13,
-    "charisma": 15,
     "perception": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -17226,7 +17832,15 @@ export default [
         "damage_dice": "1d8",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 10,
+      "wisdom": 13,
+      "charisma": 15
+    }
   },
   {
     "name": "Will-o'-Wisp",
@@ -17238,12 +17852,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "9d4",
     "speed": "0 ft., fly 50 ft. (hover)",
-    "strength": 1,
-    "dexterity": 28,
-    "constitution": 10,
-    "intelligence": 13,
-    "wisdom": 14,
-    "charisma": 11,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid, cold, fire, necrotic, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "lightning, poison",
@@ -17285,7 +17893,15 @@ export default [
         "desc": "The will-o'-wisp and its light magically become invisible until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell).",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 1,
+      "dexterity": 28,
+      "constitution": 10,
+      "intelligence": 13,
+      "wisdom": 14,
+      "charisma": 11
+    }
   },
   {
     "name": "Winter Wolf",
@@ -17297,12 +17913,6 @@ export default [
     "hit_points": 75,
     "hit_dice": "10d10",
     "speed": "50 ft.",
-    "strength": 18,
-    "dexterity": 13,
-    "constitution": 14,
-    "intelligence": 7,
-    "wisdom": 12,
-    "charisma": 8,
     "perception": 5,
     "stealth": 3,
     "damage_vulnerabilities": "",
@@ -17343,7 +17953,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "4d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 7,
+      "wisdom": 12,
+      "charisma": 8
+    }
   },
   {
     "name": "Wolf",
@@ -17355,12 +17973,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "strength": 12,
-    "dexterity": 15,
-    "constitution": 12,
-    "intelligence": 3,
-    "wisdom": 12,
-    "charisma": 6,
     "perception": 3,
     "stealth": 4,
     "damage_vulnerabilities": "",
@@ -17390,7 +18002,15 @@ export default [
         "damage_dice": "2d4",
         "damage_bonus": 2
       }
-    ]
+    ],
+    "scores": {
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 3,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Worg",
@@ -17402,12 +18022,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "50 ft.",
-    "strength": 16,
-    "dexterity": 13,
-    "constitution": 13,
-    "intelligence": 7,
-    "wisdom": 11,
-    "charisma": 8,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -17431,7 +18045,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 7,
+      "wisdom": 11,
+      "charisma": 8
+    }
   },
   {
     "name": "Wraith",
@@ -17443,12 +18065,6 @@ export default [
     "hit_points": 67,
     "hit_dice": "9d8",
     "speed": "0 ft., fly 60 ft. (hover)",
-    "strength": 6,
-    "dexterity": 16,
-    "constitution": 16,
-    "intelligence": 12,
-    "wisdom": 14,
-    "charisma": 15,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
     "damage_immunities": "necrotic, poison",
@@ -17481,7 +18097,15 @@ export default [
         "desc": "The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target's spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith's control. The wraith can have no more than seven specters under its control at one time.",
         "attack_bonus": 0
       }
-    ]
+    ],
+    "scores": {
+      "strength": 6,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 12,
+      "wisdom": 14,
+      "charisma": 15
+    }
   },
   {
     "name": "Wyvern",
@@ -17493,12 +18117,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d10",
     "speed": "20 ft., fly 80 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 16,
-    "intelligence": 5,
-    "wisdom": 12,
-    "charisma": 6,
     "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -17534,7 +18152,15 @@ export default [
         "damage_dice": "2d6",
         "damage_bonus": 4
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 5,
+      "wisdom": 12,
+      "charisma": 6
+    }
   },
   {
     "name": "Xorn",
@@ -17546,12 +18172,6 @@ export default [
     "hit_points": 73,
     "hit_dice": "7d8",
     "speed": "20 ft., burrow 20 ft.",
-    "strength": 17,
-    "dexterity": 10,
-    "constitution": 22,
-    "intelligence": 11,
-    "wisdom": 10,
-    "charisma": 11,
     "perception": 6,
     "stealth": 3,
     "damage_vulnerabilities": "",
@@ -17598,7 +18218,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 3
       }
-    ]
+    ],
+    "scores": {
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 22,
+      "intelligence": 11,
+      "wisdom": 10,
+      "charisma": 11
+    }
   },
   {
     "name": "Young Black Dragon",
@@ -17610,12 +18238,6 @@ export default [
     "hit_points": 127,
     "hit_dice": "15d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 19,
-    "dexterity": 14,
-    "constitution": 17,
-    "intelligence": 12,
-    "wisdom": 11,
-    "charisma": 15,
     "dexterity_save": 5,
     "constitution_save": 6,
     "wisdom_save": 3,
@@ -17662,7 +18284,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "11d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 14,
+      "constitution": 17,
+      "intelligence": 12,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Young Blue Dragon",
@@ -17674,12 +18304,6 @@ export default [
     "hit_points": 152,
     "hit_dice": "16d10",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "strength": 21,
-    "dexterity": 10,
-    "constitution": 19,
-    "intelligence": 14,
-    "wisdom": 13,
-    "charisma": 17,
     "dexterity_save": 4,
     "constitution_save": 8,
     "wisdom_save": 5,
@@ -17719,7 +18343,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "10d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 14,
+      "wisdom": 13,
+      "charisma": 17
+    }
   },
   {
     "name": "Young Brass Dragon",
@@ -17731,12 +18363,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d10",
     "speed": "40 ft., burrow 20 ft., fly 80 ft.",
-    "strength": 19,
-    "dexterity": 10,
-    "constitution": 17,
-    "intelligence": 12,
-    "wisdom": 11,
-    "charisma": 15,
     "dexterity_save": 3,
     "constitution_save": 6,
     "wisdom_save": 3,
@@ -17777,7 +18403,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "12d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 12,
+      "wisdom": 11,
+      "charisma": 15
+    }
   },
   {
     "name": "Young Bronze Dragon",
@@ -17789,12 +18423,6 @@ export default [
     "hit_points": 142,
     "hit_dice": "15d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 21,
-    "dexterity": 10,
-    "constitution": 19,
-    "intelligence": 14,
-    "wisdom": 13,
-    "charisma": 17,
     "dexterity_save": 3,
     "constitution_save": 7,
     "wisdom_save": 4,
@@ -17842,7 +18470,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "10d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 21,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 14,
+      "wisdom": 13,
+      "charisma": 17
+    }
   },
   {
     "name": "Young Copper Dragon",
@@ -17854,12 +18490,6 @@ export default [
     "hit_points": 119,
     "hit_dice": "14d10",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "strength": 19,
-    "dexterity": 12,
-    "constitution": 17,
-    "intelligence": 16,
-    "wisdom": 13,
-    "charisma": 15,
     "dexterity_save": 4,
     "constitution_save": 6,
     "wisdom_save": 4,
@@ -17900,7 +18530,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "9d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 15
+    }
   },
   {
     "name": "Young Gold Dragon",
@@ -17912,12 +18550,6 @@ export default [
     "hit_points": 178,
     "hit_dice": "17d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 23,
-    "dexterity": 14,
-    "constitution": 21,
-    "intelligence": 16,
-    "wisdom": 13,
-    "charisma": 20,
     "dexterity_save": 6,
     "constitution_save": 9,
     "wisdom_save": 5,
@@ -17966,7 +18598,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "10d10"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 14,
+      "constitution": 21,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 20
+    }
   },
   {
     "name": "Young Green Dragon",
@@ -17978,12 +18618,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "strength": 19,
-    "dexterity": 12,
-    "constitution": 17,
-    "intelligence": 16,
-    "wisdom": 13,
-    "charisma": 15,
     "dexterity_save": 4,
     "constitution_save": 6,
     "wisdom_save": 4,
@@ -18031,7 +18665,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "12d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 19,
+      "dexterity": 12,
+      "constitution": 17,
+      "intelligence": 16,
+      "wisdom": 13,
+      "charisma": 15
+    }
   },
   {
     "name": "Young Red Dragon",
@@ -18043,12 +18685,6 @@ export default [
     "hit_points": 178,
     "hit_dice": "17d10",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "strength": 23,
-    "dexterity": 10,
-    "constitution": 21,
-    "intelligence": 14,
-    "wisdom": 11,
-    "charisma": 19,
     "dexterity_save": 4,
     "constitution_save": 9,
     "wisdom_save": 4,
@@ -18088,7 +18724,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "16d6"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 10,
+      "constitution": 21,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 19
+    }
   },
   {
     "name": "Young Silver Dragon",
@@ -18100,12 +18744,6 @@ export default [
     "hit_points": 168,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 80 ft.",
-    "strength": 23,
-    "dexterity": 10,
-    "constitution": 21,
-    "intelligence": 14,
-    "wisdom": 11,
-    "charisma": 19,
     "dexterity_save": 4,
     "constitution_save": 9,
     "wisdom_save": 4,
@@ -18147,7 +18785,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "12d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 23,
+      "dexterity": 10,
+      "constitution": 21,
+      "intelligence": 14,
+      "wisdom": 11,
+      "charisma": 19
+    }
   },
   {
     "name": "Young White Dragon",
@@ -18159,12 +18805,6 @@ export default [
     "hit_points": 133,
     "hit_dice": "14d10",
     "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
-    "strength": 18,
-    "dexterity": 10,
-    "constitution": 18,
-    "intelligence": 6,
-    "wisdom": 11,
-    "charisma": 12,
     "dexterity_save": 3,
     "constitution_save": 7,
     "wisdom_save": 3,
@@ -18211,7 +18851,15 @@ export default [
         "attack_bonus": 0,
         "damage_dice": "10d8"
       }
-    ]
+    ],
+    "scores": {
+      "strength": 18,
+      "dexterity": 10,
+      "constitution": 18,
+      "intelligence": 6,
+      "wisdom": 11,
+      "charisma": 12
+    }
   },
   {
     "name": "Zombie",
@@ -18223,12 +18871,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "3d8",
     "speed": "20 ft.",
-    "strength": 13,
-    "dexterity": 6,
-    "constitution": 16,
-    "intelligence": 3,
-    "wisdom": 6,
-    "charisma": 5,
     "wisdom_save": 0,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
@@ -18252,7 +18894,15 @@ export default [
         "damage_dice": "1d6",
         "damage_bonus": 1
       }
-    ]
+    ],
+    "scores": {
+      "strength": 13,
+      "dexterity": 6,
+      "constitution": 16,
+      "intelligence": 3,
+      "wisdom": 6,
+      "charisma": 5
+    }
   },
   {
     "license": [
