@@ -20,6 +20,7 @@ export default class Toc extends React.Component {
 }
 
 Toc.propTypes = {
+  buttonEvent: React.PropTypes.func,
   data: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
   )

@@ -16,7 +16,10 @@ export default class App extends React.Component {
     const { data } = this.props;
     return (
       <div>
-        <Toc data={data} />
+        <Toc
+          buttonEvent={this.setSelectedMonster}
+          data={data}
+        />
       </div>
     );
   }
