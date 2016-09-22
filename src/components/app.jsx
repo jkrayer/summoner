@@ -1,5 +1,6 @@
 import React from 'react';
 import Toc from './toc.jsx';
+import Monster from './monster.jsx';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -14,12 +15,14 @@ export default class App extends React.Component {
   }
   render() {
     const { data } = this.props;
+    const { selectedMonster } = this.state;
     return (
       <div>
         <Toc
           buttonEvent={this.setSelectedMonster}
           data={data}
         />
+        <Monster data={selectedMonster} />
       </div>
     );
   }
