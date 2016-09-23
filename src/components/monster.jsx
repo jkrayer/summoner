@@ -41,7 +41,7 @@ export default class Monster extends React.Component {
           <dt>{"Languages"}</dt>
           <dd>{data.languages}</dd>
           <dt>{"Challenge"}</dt>
-          <dd>{data.challenge}</dd>
+          <dd>{data.challenge_rating}</dd>
         </dl>
       </article>
     );
