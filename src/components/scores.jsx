@@ -9,6 +9,7 @@ export default class Scores extends React.Component {
   }
   render() {
     const { scores } = this.props;
+
     return (
       <table>
         <thead>
@@ -23,12 +24,12 @@ export default class Scores extends React.Component {
         </thead>
         <tbody>
           <tr>
-            <td><Score value={scores.strength} /></td>
-            <td><Score value={scores.dexterity} /></td>
-            <td><Score value={scores.constitution} /></td>
-            <td><Score value={scores.intelligence} /></td>
-            <td><Score value={scores.wisdom} /></td>
-            <td><Score value={scores.charisma} /></td>
+            <td><Score score={scores.strength} /></td>
+            <td><Score score={scores.dexterity} /></td>
+            <td><Score score={scores.constitution} /></td>
+            <td><Score score={scores.intelligence} /></td>
+            <td><Score score={scores.wisdom} /></td>
+            <td><Score score={scores.charisma} /></td>
           </tr>
         </tbody>
       </table>
