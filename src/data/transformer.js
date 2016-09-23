@@ -14,6 +14,8 @@ function write(str) {
   var count = data.length;
 
   for (let i = 0; i < count; i++) {
+
+    /* Nest Scores in Single Object
     if (!data[i].strength) { continue; }
     data[i].scores = {
       strength: data[i].strength,
@@ -29,6 +31,23 @@ function write(str) {
     delete(data[i].intelligence);
     delete(data[i].wisdom);
     delete(data[i].charisma);
+    */
+
+    data[i].saving_throws = '';
+    function setSaveString(key, val) {
+      key = /^[a-z]+/.exec(key)[0];
+      key = key[0].toUpperCase() + key.slice(1);
+      val = val < 1 ? val : ['+', val].join('');
+      return [key, val].join(' ');
+    }
+    for (let key in data[i]) {
+      if (/_save$/.test(key)) {
+        data[i].saving_throws += setSaveString(key, data[i][key]) + ' ';
+        delete(data[i][key]);
+      }
+    }
+    data[i].saving_throws = data[i].saving_throws.slice(0, -1);
+
   }
 
   write(JSON.stringify(data));
