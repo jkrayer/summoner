@@ -1,5 +1,5 @@
 import React from 'react';
-import Scores form './scores';
+import Scores from './scores.jsx';
 
 export default class Monster extends React.Component {
   constructor(props) {
@@ -24,7 +24,7 @@ export default class Monster extends React.Component {
           <dt>{"Speed"}</dt>
           <dd>{data.speed}</dd>
         </dl>
-        <Scores data={data.scores} />
+        <Scores scores={data.scores} />
       </article>
     );
   }
