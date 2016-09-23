@@ -4,7 +4,7 @@ import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import Button from '../src/components/button.jsx';
 
-describe('Button component', function () {
+describe('<Button />', function () {
   let el;
   let btn;
   let testVar = false;
