@@ -25,6 +25,24 @@ export default class Monster extends React.Component {
           <dd>{data.speed}</dd>
         </dl>
         <Scores scores={data.scores} />
+        <dl>
+          <dt>{"Saving Throws"}</dt>
+          <dd>{data.saving_throws}</dd>
+          <dt>{"Skills"}</dt>
+          <dd>{data.skills}</dd>
+          <dt>{"Damage Vulnerabilities"}</dt>
+          <dd>{data.damage_vulnerabilities}</dd>
+          <dt>{"Damage Resistances"}</dt>
+          <dd>{data.damage_resistances}</dd>
+          <dt>{"Damage Immunities"}</dt>
+          <dd>{data.damage_immunities}</dd>
+          <dt>{"Condition Immunities"}</dt>
+          <dd>{data.condition_immunities}</dd>
+          <dt>{"Languages"}</dt>
+          <dd>{data.languages}</dd>
+          <dt>{"Challenge"}</dt>
+          <dd>{data.challenge}</dd>
+        </dl>
       </article>
     );
   }
