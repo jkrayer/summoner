@@ -15,7 +15,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 20",
     "languages": "Deep Speech, telepathy 120 ft.",
-    "challenge_rating": "10",
+    "challenge_rating": "10 (5,900 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -103,7 +103,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Spellcasting",
@@ -146,7 +146,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
     "languages": "Common, Draconic",
-    "challenge_rating": "14",
+    "challenge_rating": "14 (11,500 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -242,7 +242,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
     "languages": "Common, Draconic",
-    "challenge_rating": "17",
+    "challenge_rating": "17 (18,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -338,7 +338,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
     "languages": "Common, Draconic",
-    "challenge_rating": "16",
+    "challenge_rating": "16 (15,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -429,7 +429,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
     "languages": "Common, Draconic",
-    "challenge_rating": "13",
+    "challenge_rating": "13 (10,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -503,7 +503,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
     "languages": "Common, Draconic",
-    "challenge_rating": "15",
+    "challenge_rating": "15 (13,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -599,7 +599,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
     "languages": "Common, Draconic",
-    "challenge_rating": "14",
+    "challenge_rating": "14 (11,500 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -690,7 +690,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24",
     "languages": "Common, Draconic",
-    "challenge_rating": "17",
+    "challenge_rating": "17 (18,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -786,7 +786,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
     "languages": "Common, Draconic",
-    "challenge_rating": "15",
+    "challenge_rating": "15 (13,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -882,7 +882,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic",
-    "challenge_rating": "17",
+    "challenge_rating": "17 (18,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -979,7 +979,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
     "languages": "Common, Draconic",
-    "challenge_rating": "16",
+    "challenge_rating": "16 (15,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -1070,7 +1070,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 21",
     "languages": "Common, Draconic",
-    "challenge_rating": "13",
+    "challenge_rating": "13 (10,000 XP)",
     "special_abilities": [
       {
         "name": "Ice Walk",
@@ -1166,7 +1166,7 @@ export default [
     "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Auran",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Air Form",
@@ -1220,7 +1220,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26",
     "languages": "Common, Draconic",
-    "challenge_rating": "21",
+    "challenge_rating": "21 (33,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -1320,7 +1320,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27",
     "languages": "Common, Draconic",
-    "challenge_rating": "23",
+    "challenge_rating": "23 (50,000 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -1404,7 +1404,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24",
     "languages": "Common, Draconic",
-    "challenge_rating": "20",
+    "challenge_rating": "20 (25,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -1500,7 +1500,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27",
     "languages": "Common, Draconic",
-    "challenge_rating": "22",
+    "challenge_rating": "22 (41,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -1601,7 +1601,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27",
     "languages": "Common, Draconic",
-    "challenge_rating": "21",
+    "challenge_rating": "21 (33,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -1697,7 +1697,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27",
     "languages": "Common, Draconic",
-    "challenge_rating": "24",
+    "challenge_rating": "24 (62,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -1798,7 +1798,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 27",
     "languages": "Common, Draconic",
-    "challenge_rating": "22",
+    "challenge_rating": "22 (41,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -1894,7 +1894,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26",
     "languages": "Common, Draconic",
-    "challenge_rating": "24",
+    "challenge_rating": "24 (62,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -1985,7 +1985,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26",
     "languages": "Common, Draconic",
-    "challenge_rating": "23",
+    "challenge_rating": "23 (50,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -2081,7 +2081,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic",
-    "challenge_rating": "20",
+    "challenge_rating": "20 (25,000 XP)",
     "special_abilities": [
       {
         "name": "Ice Walk",
@@ -2160,7 +2160,7 @@ export default [
     "condition_immunities": "charmed, frightened",
     "senses": "truesight 120 ft., passive Perception 20",
     "languages": "Common, Sphinx",
-    "challenge_rating": "17",
+    "challenge_rating": "17 (18,000 XP)",
     "special_abilities": [
       {
         "name": "Inscrutable",
@@ -2241,7 +2241,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Antimagic Susceptibility",
@@ -2295,7 +2295,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -2338,7 +2338,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -2387,7 +2387,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "any six languages",
-    "challenge_rating": "12",
+    "challenge_rating": "12 (8,400 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -2436,7 +2436,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "Thieves' cant plus any two languages",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Assassinate",
@@ -2503,7 +2503,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "one language known by its creator",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -2547,7 +2547,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "one language known by its creator",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -2591,7 +2591,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Beak",
@@ -2628,7 +2628,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "passive Perception 11",
     "languages": "Ignan",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Heated Body",
@@ -2683,7 +2683,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Pack Tactics",
@@ -2727,7 +2727,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -2770,7 +2770,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "truesight 120 ft., passive Perception 13",
     "languages": "Abyssal, telepathy 120 ft.",
-    "challenge_rating": "19",
+    "challenge_rating": "19 (22,000 XP)",
     "special_abilities": [
       {
         "name": "Death Throes",
@@ -2853,7 +2853,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Scimitar",
@@ -2897,7 +2897,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any two languages",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -2953,7 +2953,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 18",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Barbed Hide",
@@ -3026,7 +3026,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Petrifying Gaze",
@@ -3070,7 +3070,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Echolocation",
@@ -3118,7 +3118,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Devil's Sight",
@@ -3184,7 +3184,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 90 ft., passive Perception 16",
     "languages": "Draconic",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -3245,7 +3245,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Reckless",
@@ -3289,7 +3289,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -3345,7 +3345,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -3395,7 +3395,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
     "languages": "",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Amorphous",
@@ -3457,7 +3457,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "Blink Dog, understands Sylvan but can't speak it",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -3506,7 +3506,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -3555,7 +3555,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -3598,7 +3598,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 9",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -3648,7 +3648,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 9",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "12",
+    "challenge_rating": "12 (8,400 XP)",
     "special_abilities": [
       {
         "name": "Devil's Sight",
@@ -3728,7 +3728,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -3771,7 +3771,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -3821,7 +3821,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -3877,7 +3877,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Goblin",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Brute",
@@ -3934,7 +3934,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Standing Leap",
@@ -3983,7 +3983,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 9",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -4019,7 +4019,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -4080,7 +4080,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -4123,7 +4123,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -4179,7 +4179,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "Elvish, Sylvan",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -4243,7 +4243,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 8",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Devil's Sight",
@@ -4309,7 +4309,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 18",
     "languages": "understands Draconic but can't speak",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -4371,7 +4371,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "understands Deep Speech but can't speak",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -4430,7 +4430,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "understands the languages of its creator but can't speak",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "special_abilities": [
       {
         "name": "Acid Absorption",
@@ -4504,7 +4504,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Deep Speech, Undercommon",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Damage Transfer",
@@ -4580,7 +4580,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 17",
     "languages": "Common, Giant",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -4641,7 +4641,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -4678,7 +4678,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "actions": [
       {
         "name": "Club",
@@ -4714,7 +4714,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -4758,7 +4758,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -4801,7 +4801,7 @@ export default [
     "condition_immunities": "",
     "senses": "truesight 120 ft., passive Perception 15",
     "languages": "all, telepathy 120 ft.",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Innate Spellcasting",
@@ -4867,7 +4867,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -4910,7 +4910,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -4954,7 +4954,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Dark Devotion",
@@ -5008,7 +5008,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Dark Devotion",
@@ -5052,7 +5052,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Echolocation",
@@ -5106,7 +5106,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Two-Headed",
@@ -5155,7 +5155,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "Gnomish, Terran, Undercommon",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Stone Camouflage",
@@ -5216,7 +5216,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -5252,7 +5252,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened",
     "senses": "darkvision 120 ft., passive Perception 19",
     "languages": "all, telepathy 120 ft.",
-    "challenge_rating": "10",
+    "challenge_rating": "10 (5,900 XP)",
     "special_abilities": [
       {
         "name": "Angelic Weapons",
@@ -5321,7 +5321,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -5370,7 +5370,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 13",
     "languages": "Auran",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Elemental Demise",
@@ -5434,7 +5434,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Common",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -5499,7 +5499,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Hooves",
@@ -5536,7 +5536,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Aquan, Draconic",
-    "challenge_rating": "17",
+    "challenge_rating": "17 (18,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -5605,7 +5605,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "Abyssal, telepathy 60 ft. (works only with creatures that understand Abyssal)",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -5657,7 +5657,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "Elvish, Undercommon",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Fey Ancestry",
@@ -5740,7 +5740,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "Elvish, Undercommon",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Fey Ancestry",
@@ -5801,7 +5801,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "Druidic plus any two languages",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Spellcasting",
@@ -5844,7 +5844,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Elvish, Sylvan",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Innate Spellcasting",
@@ -5907,7 +5907,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Dwarvish, Undercommon",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Duergar Resilience",
@@ -5973,7 +5973,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Auran, Terran",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Death Burst",
@@ -6032,7 +6032,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -6076,7 +6076,7 @@ export default [
     "condition_immunities": "exhaustion, paralyzed, petrified, poisoned, unconscious",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10",
     "languages": "Terran",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Earth Glide",
@@ -6130,7 +6130,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "Ignan",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Elemental Demise",
@@ -6195,7 +6195,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Trampling Charge",
@@ -6246,7 +6246,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -6294,7 +6294,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "truesight 120 ft., passive Perception 12",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "12",
+    "challenge_rating": "12 (8,400 XP)",
     "special_abilities": [
       {
         "name": "Hellish Weapons",
@@ -6367,7 +6367,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Spider Climb",
@@ -6445,7 +6445,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Giant, Orc",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Two Heads",
@@ -6506,7 +6506,7 @@ export default [
     "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Ignan",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Fire Form",
@@ -6566,7 +6566,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 16",
     "languages": "Giant",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -6615,7 +6615,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands the languages of its creator but can't speak",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Berserk",
@@ -6689,7 +6689,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Flyby",
@@ -6732,7 +6732,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Antimagic Susceptibility",
@@ -6781,7 +6781,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -6821,7 +6821,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "Giant",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -6870,7 +6870,7 @@ export default [
     "condition_immunities": "exhaustion, petrified, poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Terran",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -6926,7 +6926,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Ooze Cube",
@@ -6979,7 +6979,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Stench",
@@ -7035,7 +7035,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "any languages it knew in life",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Ethereal Sight",
@@ -7099,7 +7099,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -7141,7 +7141,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "7",
+    "challenge_rating": "7 (2,900 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -7190,7 +7190,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -7246,7 +7246,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Echolocation",
@@ -7295,7 +7295,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 8",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -7345,7 +7345,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -7382,7 +7382,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -7426,7 +7426,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -7470,7 +7470,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -7526,7 +7526,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "Giant Eagle, understands Common and Auran but can't speak",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -7582,7 +7582,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "Giant Elk, understands Common, Elvish, and Sylvan but can't speak",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -7634,7 +7634,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Illumination",
@@ -7678,7 +7678,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -7732,7 +7732,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -7782,7 +7782,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Rampage",
@@ -7826,7 +7826,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Variant: Hold Breath",
@@ -7875,7 +7875,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -7934,7 +7934,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "Giant Owl, understands Common, Elvish, and Sylvan but can't speak",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Flyby",
@@ -7983,7 +7983,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -8020,7 +8020,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -8069,7 +8069,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -8106,7 +8106,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "actions": [
       {
         "name": "Claw",
@@ -8155,7 +8155,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -8205,7 +8205,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Blood Frenzy",
@@ -8254,7 +8254,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Spider Climb",
@@ -8313,7 +8313,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -8367,7 +8367,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "understands Common but can't speak",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight and Smell",
@@ -8428,7 +8428,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "actions": [
       {
         "name": "Sting",
@@ -8465,7 +8465,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -8509,7 +8509,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Spider Climb",
@@ -8563,7 +8563,7 @@ export default [
     "condition_immunities": "prone",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Aberrant Ground",
@@ -8621,7 +8621,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "truesight 120 ft., passive Perception 13",
     "languages": "Abyssal, telepathy 120 ft.",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "special_abilities": [
       {
         "name": "Innate Spellcasting",
@@ -8687,7 +8687,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Brave",
@@ -8755,7 +8755,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Gnoll",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Rampage",
@@ -8813,7 +8813,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -8863,7 +8863,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "Common, Goblin",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Nimble Escape",
@@ -8914,7 +8914,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -8964,7 +8964,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Trampling Charge",
@@ -9020,7 +9020,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Amorphous",
@@ -9074,7 +9074,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -9124,7 +9124,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Common, Draconic, Sylvan",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -9203,7 +9203,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Stone Camouflage",
@@ -9259,7 +9259,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -9315,7 +9315,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13",
     "languages": "Undercommon",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Blind Senses",
@@ -9369,7 +9369,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Spear",
@@ -9406,7 +9406,7 @@ export default [
     "condition_immunities": "charmed, poisoned",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Celestial, Common",
-    "challenge_rating": "10",
+    "challenge_rating": "10 (5,900 XP)",
     "special_abilities": [
       {
         "name": "Rejuvenation",
@@ -9461,7 +9461,7 @@ export default [
     "condition_immunities": "charmed, frightened",
     "senses": "truesight 120 ft., passive Perception 18",
     "languages": "Common, Sphinx",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Inscrutable",
@@ -9537,7 +9537,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 12",
     "languages": "Common, Draconic",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -9599,7 +9599,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "Common",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -9653,7 +9653,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -9696,7 +9696,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "understands Infernal but can't speak it",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -9751,7 +9751,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Abyssal, telepathy 120 ft.",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -9817,7 +9817,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "Giant",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -9866,7 +9866,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 15",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -9922,7 +9922,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Goblin",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Martial Advantage",
@@ -9974,7 +9974,7 @@ export default [
     "condition_immunities": "charmed, poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands the languages of its creator but can't speak",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Telepathic Bond",
@@ -10017,7 +10017,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 13",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Devil's Sight",
@@ -10084,7 +10084,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Blood Frenzy",
@@ -10133,7 +10133,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -10197,7 +10197,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Pack Tactics",
@@ -10240,7 +10240,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 12",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "14",
+    "challenge_rating": "14 (11,500 XP)",
     "special_abilities": [
       {
         "name": "Devil's Sight",
@@ -10313,7 +10313,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Aquan, Auran",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Death Burst",
@@ -10378,7 +10378,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Infernal, Common",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -10442,7 +10442,7 @@ export default [
     "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "senses": "darkvision 60 ft., passive Perception 18",
     "languages": "Auran, understands Common but doesn't speak it",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Invisibility",
@@ -10496,7 +10496,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "understands the languages of its creator but can't speak",
-    "challenge_rating": "16",
+    "challenge_rating": "16 (15,000 XP)",
     "special_abilities": [
       {
         "name": "Fire Absorption",
@@ -10573,7 +10573,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -10622,7 +10622,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 120 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Echolocation",
@@ -10674,7 +10674,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Brave",
@@ -10741,7 +10741,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common, Draconic",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Sunlight Sensitivity",
@@ -10797,7 +10797,7 @@ export default [
     "condition_immunities": "frightened, paralyzed",
     "senses": "truesight 120 ft., passive Perception 14",
     "languages": "understands Abyssal, Celestial, Infernal, and Primordial but can't speak, telepathy 120 ft.",
-    "challenge_rating": "23",
+    "challenge_rating": "23 (50,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -10891,7 +10891,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Abyssal, Common",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Innate Spellcasting",
@@ -10952,7 +10952,7 @@ export default [
     "condition_immunities": "charmed, frightened, poisoned",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "understands infernal but can't speak",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Devil's Sight",
@@ -11000,7 +11000,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "senses": "truesight 120 ft., passive Perception 19",
     "languages": "Common plus up to five other languages",
-    "challenge_rating": "21",
+    "challenge_rating": "21 (33,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -11081,7 +11081,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -11147,7 +11147,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -11183,7 +11183,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "Draconic",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -11253,7 +11253,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "any four languages",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Spellcasting",
@@ -11297,7 +11297,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Ignan, Terran",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Death Burst",
@@ -11362,7 +11362,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Ignan",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Death Burst",
@@ -11411,7 +11411,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Trampling Charge",
@@ -11462,7 +11462,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Tail Spike Regrowth",
@@ -11525,7 +11525,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "truesight 120 ft., passive Perception 13",
     "languages": "Abyssal, telepathy 120 ft.",
-    "challenge_rating": "16",
+    "challenge_rating": "16 (15,000 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -11608,7 +11608,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -11652,7 +11652,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Common",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Petrifying Gaze",
@@ -11714,7 +11714,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "Aquan, Common",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -11757,7 +11757,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Abyssal, Aquan",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -11820,7 +11820,7 @@ export default [
     "condition_immunities": "prone",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -11886,7 +11886,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 17",
     "languages": "Abyssal",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -11948,7 +11948,7 @@ export default [
     "condition_immunities": "exhaustion, poisoned",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "understands Abyssal but can't speak",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -12000,7 +12000,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Beast of Burden",
@@ -12049,7 +12049,7 @@ export default [
     "condition_immunities": "necrotic, poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "the languages it knew in life",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -12096,7 +12096,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "the languages it knew in life",
-    "challenge_rating": "15",
+    "challenge_rating": "15 (13,000 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -12187,7 +12187,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "truesight 120 ft., passive Perception 11",
     "languages": "Abyssal, telepathy 120 ft.",
-    "challenge_rating": "13",
+    "challenge_rating": "13 (10,000 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -12258,7 +12258,7 @@ export default [
     "condition_immunities": "charmed",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Abyssal, Common, Infernal, Primordial",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Innate Spellcasting",
@@ -12342,7 +12342,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "understands Abyssal, Common, and Infernal but can't speak",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Confer Fire Resistance",
@@ -12396,7 +12396,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "any two languages",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Rapier",
@@ -12440,7 +12440,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, prone",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 8",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Amorphous",
@@ -12496,7 +12496,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -12554,7 +12554,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common, Giant",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Greatclub",
@@ -12598,7 +12598,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "understands Common and Giant but can't speak",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Undead Fortitude",
@@ -12642,7 +12642,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Common, Giant",
-    "challenge_rating": "7",
+    "challenge_rating": "7 (2,900 XP)",
     "special_abilities": [
       {
         "name": "Innate Spellcasting",
@@ -12713,7 +12713,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Orc",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Aggressive",
@@ -12764,7 +12764,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Otyugh",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Limited Telepathy",
@@ -12825,7 +12825,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Flyby",
@@ -12873,7 +12873,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight and Smell",
@@ -12929,7 +12929,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -12985,7 +12985,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 16",
     "languages": "understands Celestial, Common, Elvish, and Sylvan but can't speak",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Hooves",
@@ -13022,7 +13022,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Ethereal Jaunt",
@@ -13076,7 +13076,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "truesight 120 ft., passive Perception 14",
     "languages": "Infernal, telepathy 120 ft.",
-    "challenge_rating": "20",
+    "challenge_rating": "20 (25,000 XP)",
     "special_abilities": [
       {
         "name": "Fear Aura",
@@ -13161,7 +13161,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened",
     "senses": "truesight 120 ft., passive Perception 21",
     "languages": "all, telepathy 120 ft.",
-    "challenge_rating": "16",
+    "challenge_rating": "16 (15,000 XP)",
     "special_abilities": [
       {
         "name": "Angelic Weapons",
@@ -13230,7 +13230,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Hold Breath",
@@ -13274,7 +13274,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -13310,7 +13310,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -13366,7 +13366,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Hooves",
@@ -13403,7 +13403,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "any two languages",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Divine Eminence",
@@ -13452,7 +13452,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13",
     "languages": "understands Common and Draconic but can't speak",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Keen Senses",
@@ -13518,7 +13518,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., tremorsense 60 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "15",
+    "challenge_rating": "15 (13,000 XP)",
     "special_abilities": [
       {
         "name": "Tunneler",
@@ -13574,7 +13574,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Abyssal, Common",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -13638,7 +13638,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Blood Frenzy",
@@ -13686,7 +13686,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Infernal",
-    "challenge_rating": "13",
+    "challenge_rating": "13 (10,000 XP)",
     "special_abilities": [
       {
         "name": "Limited Magic Immunity",
@@ -13740,7 +13740,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -13783,7 +13783,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Mimicry",
@@ -13825,7 +13825,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -13868,7 +13868,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Pack Tactics",
@@ -13917,7 +13917,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Heated Body",
@@ -13967,7 +13967,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -14012,7 +14012,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Hooves",
@@ -14049,7 +14049,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "11",
+    "challenge_rating": "11 (7,200 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight",
@@ -14105,7 +14105,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -14174,7 +14174,7 @@ export default [
     "condition_immunities": "blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Antimagic Susceptibility",
@@ -14228,7 +14228,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Iron Scent",
@@ -14282,7 +14282,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -14338,7 +14338,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "Sahuagin",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Blood Frenzy",
@@ -14411,7 +14411,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Ignan",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Heated Body",
@@ -14473,7 +14473,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "Common, Elvish, Sylvan",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -14536,7 +14536,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "actions": [
       {
         "name": "Sting",
@@ -14572,7 +14572,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 15",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Sight",
@@ -14628,7 +14628,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Aquan, Common, Giant",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -14702,7 +14702,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Water Breathing",
@@ -14737,7 +14737,7 @@ export default [
     "condition_immunities": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Amorphous",
@@ -14791,7 +14791,7 @@ export default [
     "condition_immunities": "blinded, deafened, exhaustion",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Lightning Absorption",
@@ -14845,7 +14845,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 10",
     "languages": "understands commands given in any language but can't speak",
-    "challenge_rating": "7",
+    "challenge_rating": "7 (2,900 XP)",
     "special_abilities": [
       {
         "name": "Bound",
@@ -14911,7 +14911,7 @@ export default [
     "condition_immunities": "blinded, deafened, frightened",
     "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -14953,7 +14953,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -14996,7 +14996,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "understands all languages it spoke in life but can't speak",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Shortsword",
@@ -15040,7 +15040,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, poisoned",
     "senses": "truesight 120 ft., passive Perception 24",
     "languages": "all, telepathy 120 ft.",
-    "challenge_rating": "21",
+    "challenge_rating": "21 (33,000 XP)",
     "special_abilities": [
       {
         "name": "Angelic Weapons",
@@ -15138,7 +15138,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands all languages it knew in life but can't speak",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Incorporeal Movement",
@@ -15186,7 +15186,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 30 ft., passive Perception 12",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Spider Climb",
@@ -15239,7 +15239,7 @@ export default [
     "condition_immunities": "charmed, poisoned",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Abyssal, Common",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Rejuvenation",
@@ -15288,7 +15288,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "Common, Elvish, Sylvan",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "actions": [
       {
         "name": "Longsword",
@@ -15340,7 +15340,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 16",
     "languages": "any two languages",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Cunning Action",
@@ -15402,7 +15402,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Aquan, Ignan",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Death Burst",
@@ -15461,7 +15461,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "actions": [
       {
         "name": "Blood Drain",
@@ -15498,7 +15498,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Giant",
-    "challenge_rating": "7",
+    "challenge_rating": "7 (2,900 XP)",
     "special_abilities": [
       {
         "name": "Stone Camouflage",
@@ -15561,7 +15561,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "understands the languages of its creator but can't speak",
-    "challenge_rating": "10",
+    "challenge_rating": "10 (5,900 XP)",
     "special_abilities": [
       {
         "name": "Immutable Form",
@@ -15625,7 +15625,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 19",
     "languages": "Common, Giant",
-    "challenge_rating": "13",
+    "challenge_rating": "13 (10,000 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -15692,7 +15692,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "Abyssal, Common, Infernal, telepathy 60 ft.",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Telepathic Bond",
@@ -15758,7 +15758,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 60 ft., passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Echolocation",
@@ -15811,7 +15811,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 10 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -15854,7 +15854,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 10 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -15897,7 +15897,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 10 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -15940,7 +15940,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 10 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -15983,7 +15983,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Blood Frenzy",
@@ -16036,7 +16036,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "darkvision 30 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -16084,7 +16084,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "passive Perception 15",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -16127,7 +16127,7 @@ export default [
     "condition_immunities": "charmed, frightened, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 10 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -16185,7 +16185,7 @@ export default [
     "condition_immunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "senses": "blindsight 10 ft., passive Perception 8",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Swarm",
@@ -16228,7 +16228,7 @@ export default [
     "condition_immunities": "charmed, frightened, paralyzed, poisoned",
     "senses": "blindsight 120 ft., passive Perception 10",
     "languages": "",
-    "challenge_rating": "30",
+    "challenge_rating": "30 (155,000 XP)",
     "special_abilities": [
       {
         "name": "Legendary Resistance (3/Day)",
@@ -16340,7 +16340,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Pack Tactics",
@@ -16395,7 +16395,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "",
-    "challenge_rating": "1",
+    "challenge_rating": "1 (200 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -16449,7 +16449,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "Common, Druidic, Elvish, Sylvan",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -16515,7 +16515,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "any one language",
-    "challenge_rating": "1/8",
+    "challenge_rating": "1/8 (25 XP)",
     "special_abilities": [
       {
         "name": "Pack Tactics",
@@ -16559,7 +16559,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 10",
     "languages": "",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Trampling Charge",
@@ -16610,7 +16610,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Giant",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Keen Smell",
@@ -16676,7 +16676,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -16725,7 +16725,7 @@ export default [
     "condition_immunities": "charmed, paralyzed, poisoned",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Celestial, Elvish, Sylvan, telepathy 60 ft.",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Charge",
@@ -16824,7 +16824,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 120 ft., passive Perception 17",
     "languages": "the languages it knew in life",
-    "challenge_rating": "13",
+    "challenge_rating": "13 (10,000 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -16932,7 +16932,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "the languages it knew in life",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Regeneration",
@@ -16996,7 +16996,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "any one language (usually Common)",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -17052,7 +17052,7 @@ export default [
     "condition_immunities": "blinded, deafened, frightened",
     "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "False Appearance",
@@ -17100,7 +17100,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Abyssal, telepathy 120 ft.",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Magic Resistance",
@@ -17171,7 +17171,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Sight and Smell",
@@ -17219,7 +17219,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 11",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Trampling Charge",
@@ -17263,7 +17263,7 @@ export default [
     "condition_immunities": "exhaustion, poisoned",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "actions": [
       {
         "name": "Hooves",
@@ -17300,7 +17300,7 @@ export default [
     "condition_immunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Aquan",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Water Form",
@@ -17359,7 +17359,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "0",
+    "challenge_rating": "0 (10 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -17402,7 +17402,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 17",
     "languages": "Common (can't speak in bear form)",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -17470,7 +17470,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 12",
     "languages": "Common (can't speak in boar form)",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -17537,7 +17537,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft. (rat form only), passive Perception 12",
     "languages": "Common (can't speak in rat form)",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -17605,7 +17605,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "Common (can't speak in tiger form)",
-    "challenge_rating": "4",
+    "challenge_rating": "4 (1,100 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -17685,7 +17685,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 14",
     "languages": "Common (can't speak in wolf form)",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Shapechanger",
@@ -17753,7 +17753,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "actions": [
       {
         "name": "Bite",
@@ -17796,7 +17796,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "the languages it knew in life",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Sunlight Sensitivity",
@@ -17859,7 +17859,7 @@ export default [
     "condition_immunities": "exhaustion, grappled, paralyzed, poisoned, prone, restrained, unconscious",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "the languages it knew in life",
-    "challenge_rating": "2",
+    "challenge_rating": "2 (450 XP)",
     "special_abilities": [
       {
         "name": "Consume Life",
@@ -17922,7 +17922,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 15",
     "languages": "Common, Giant, Winter Wolf",
-    "challenge_rating": "3",
+    "challenge_rating": "3 (700 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -17982,7 +17982,7 @@ export default [
     "condition_immunities": "",
     "senses": "passive Perception 13",
     "languages": "",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -18031,7 +18031,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Goblin, Worg",
-    "challenge_rating": "1/2",
+    "challenge_rating": "1/2 (100 XP)",
     "special_abilities": [
       {
         "name": "Keen Hearing and Smell",
@@ -18075,7 +18075,7 @@ export default [
     "condition_immunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "the languages it knew in life",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Incorporeal Movement",
@@ -18129,7 +18129,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -18185,7 +18185,7 @@ export default [
     "condition_immunities": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 16",
     "languages": "Terran",
-    "challenge_rating": "5",
+    "challenge_rating": "5 (1,800 XP)",
     "special_abilities": [
       {
         "name": "Earth Glide",
@@ -18251,7 +18251,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16",
     "languages": "Common, Draconic",
-    "challenge_rating": "7",
+    "challenge_rating": "7 (2,900 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -18313,7 +18313,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19",
     "languages": "Common, Draconic",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -18368,7 +18368,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16",
     "languages": "Common, Draconic",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -18423,7 +18423,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17",
     "languages": "Common, Draconic",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -18485,7 +18485,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17",
     "languages": "Common, Draconic",
-    "challenge_rating": "7",
+    "challenge_rating": "7 (2,900 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -18540,7 +18540,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 19",
     "languages": "Common, Draconic",
-    "challenge_rating": "10",
+    "challenge_rating": "10 (5,900 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -18602,7 +18602,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 17",
     "languages": "Common, Draconic",
-    "challenge_rating": "8",
+    "challenge_rating": "8 (3,900 XP)",
     "special_abilities": [
       {
         "name": "Amphibious",
@@ -18664,7 +18664,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
     "languages": "Common, Draconic",
-    "challenge_rating": "10",
+    "challenge_rating": "10 (5,900 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -18719,7 +18719,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
     "languages": "Common, Draconic",
-    "challenge_rating": "9",
+    "challenge_rating": "9 (5,000 XP)",
     "actions": [
       {
         "name": "Multiattack",
@@ -18774,7 +18774,7 @@ export default [
     "condition_immunities": "",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16",
     "languages": "Common, Draconic",
-    "challenge_rating": "6",
+    "challenge_rating": "6 (2,300 XP)",
     "special_abilities": [
       {
         "name": "Ice Walk",
@@ -18836,7 +18836,7 @@ export default [
     "condition_immunities": "poisoned",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "understands all languages it spoke in life but can't speak",
-    "challenge_rating": "1/4",
+    "challenge_rating": "1/4 (50 XP)",
     "special_abilities": [
       {
         "name": "Undead Fortitude",
@@ -18885,6 +18885,7 @@ export default [
       "15 COPYRIGHT NOTICE Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc."
     ],
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "challenge_rating": "undefined undefined"
   }
 ];
