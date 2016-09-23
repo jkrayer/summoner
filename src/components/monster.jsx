@@ -1,5 +1,6 @@
 import React from 'react';
 import Scores from './scores.jsx';
+import Dl from './dl.jsx';
 
 export default class Monster extends React.Component {
   constructor(props) {
@@ -7,8 +8,17 @@ export default class Monster extends React.Component {
   }
   render() {
     let { data } = this.props;
+    let specialAbilities;
+    let actions;
+    let reactions;
+    let legendaryActions;
 
     if (data === null) { return null; }
+
+    specialAbilities = !data.special_abilities ? null : <Dl data={data.special_abilities} />;
+    actions = !data.actions ? null : <Dl data={data.actions} />;
+    reactions = !data.reactions ? null : <Dl data={data.reactions} />;
+    legendaryActions = !data.legendary_actions ? null : <Dl data={data.legendary_actions} />;
 
     return(
       <article>
@@ -43,6 +53,10 @@ export default class Monster extends React.Component {
           <dt>{"Challenge"}</dt>
           <dd>{data.challenge_rating}</dd>
         </dl>
+        {specialAbilities}
+        {actions}
+        {reactions}
+        {legendaryActions}
       </article>
     );
   }
