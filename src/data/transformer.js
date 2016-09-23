@@ -10,6 +10,8 @@ function write(str) {
   });
 }
 
+const skillArr = ['acrobatics', 'animal handling', 'arcana', 'athletics', 'deception', 'history', 'insight', 'intimidation', 'investigation', 'medicine', 'nature', 'perception', 'performance', 'persuasion', 'religion', 'sleight of hand', 'stealth', 'survival'];
+
 (function() {
   var count = data.length;
 
@@ -33,6 +35,7 @@ function write(str) {
     delete(data[i].charisma);
     */
 
+    /*
     data[i].saving_throws = '';
     function setSaveString(key, val) {
       key = /^[a-z]+/.exec(key)[0];
@@ -47,6 +50,22 @@ function write(str) {
       }
     }
     data[i].saving_throws = data[i].saving_throws.slice(0, -1);
+    */
+
+    data[i].skills = '';
+    function setSkillString(key, val) {
+      key = key[0].toUpperCase() + key.slice(1);
+      val = val < 1 ? val : ['+', val].join('');
+      return [key, val].join(' ');
+    }
+    for (let key in data[i]) {
+      if (skillArr.indexOf(key) > -1) {
+        data[i].skills += setSkillString(key, data[i][key]) + ' ';
+        delete(data[i][key]);
+      }
+    }
+    data[i].skills = data[i].skills.slice(0, -1);
+
 
   }
 

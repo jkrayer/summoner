@@ -9,8 +9,6 @@ export default [
     "hit_points": 135,
     "hit_dice": "18d10",
     "speed": "10 ft., swim 40 ft.",
-    "history": 12,
-    "perception": 10,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -86,7 +84,8 @@ export default [
       "wisdom": 15,
       "charisma": 18
     },
-    "saving_throws": "Constitution +6 Intelligence +8 Wisdom +6"
+    "saving_throws": "Constitution +6 Intelligence +8 Wisdom +6",
+    "skills": "History +12 Perception +10"
   },
   {
     "name": "Acolyte",
@@ -98,8 +97,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "medicine": 4,
-    "religion": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -130,7 +127,8 @@ export default [
       "wisdom": 14,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Medicine +4 Religion +2"
   },
   {
     "name": "Adult Black Dragon",
@@ -142,8 +140,6 @@ export default [
     "hit_points": 195,
     "hit_dice": "17d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "perception": 11,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -227,7 +223,8 @@ export default [
       "wisdom": 13,
       "charisma": 17
     },
-    "saving_throws": "Dexterity +7 Constitution +10 Wisdom +6 Charisma +8"
+    "saving_throws": "Dexterity +7 Constitution +10 Wisdom +6 Charisma +8",
+    "skills": "Perception +11 Stealth +7"
   },
   {
     "name": "Adult Blue Dracolich",
@@ -239,7 +236,6 @@ export default [
     "hit_points": 225,
     "hit_dice": "18d12",
     "speed": "40 ft., burrow 30 ft., fly 80 ft.",
-    "perception": 12,
     "damage_vulnerabilities": "",
     "damage_resistances": "necrotic",
     "damage_immunities": "lightning, poison",
@@ -323,7 +319,8 @@ export default [
       "wisdom": 15,
       "charisma": 19
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +12"
   },
   {
     "name": "Adult Blue Dragon",
@@ -335,8 +332,6 @@ export default [
     "hit_points": 225,
     "hit_dice": "18d12",
     "speed": "40 ft., burrow 30 ft., fly 80 ft.",
-    "perception": 12,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -415,7 +410,8 @@ export default [
       "wisdom": 15,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +5 Constitution +11 Wisdom +7 Charisma +9"
+    "saving_throws": "Dexterity +5 Constitution +11 Wisdom +7 Charisma +9",
+    "skills": "Perception +12 Stealth +5"
   },
   {
     "name": "Adult Brass Dragon",
@@ -427,10 +423,6 @@ export default [
     "hit_points": 172,
     "hit_dice": "15d12",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "history": 7,
-    "perception": 11,
-    "persuasion": 8,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -492,7 +484,8 @@ export default [
       "wisdom": 13,
       "charisma": 17
     },
-    "saving_throws": "Dexterity +5 Constitution +10 Wisdom +6 Charisma +8"
+    "saving_throws": "Dexterity +5 Constitution +10 Wisdom +6 Charisma +8",
+    "skills": "History +7 Perception +11 Persuasion +8 Stealth +5"
   },
   {
     "name": "Adult Bronze Dragon",
@@ -504,9 +497,6 @@ export default [
     "hit_points": 212,
     "hit_dice": "17d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "insight": 7,
-    "perception": 12,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -590,7 +580,8 @@ export default [
       "wisdom": 15,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +5 Constitution +11 Wisdom +7 Charisma +9"
+    "saving_throws": "Dexterity +5 Constitution +11 Wisdom +7 Charisma +9",
+    "skills": "Insight +7 Perception +12 Stealth +5"
   },
   {
     "name": "Adult Copper Dragon",
@@ -602,9 +593,6 @@ export default [
     "hit_points": 184,
     "hit_dice": "16d12",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "deception": 8,
-    "perception": 12,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -683,7 +671,8 @@ export default [
       "wisdom": 15,
       "charisma": 17
     },
-    "saving_throws": "Dexterity +6 Constitution +10 Wisdom +7 Charisma +8"
+    "saving_throws": "Dexterity +6 Constitution +10 Wisdom +7 Charisma +8",
+    "skills": "Deception +8 Perception +12 Stealth +6"
   },
   {
     "name": "Adult Gold Dragon",
@@ -695,10 +684,6 @@ export default [
     "hit_points": 256,
     "hit_dice": "19d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "insight": 8,
-    "perception": 14,
-    "persuasion": 13,
-    "stealth": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -782,7 +767,8 @@ export default [
       "wisdom": 15,
       "charisma": 24
     },
-    "saving_throws": "Dexterity +8 Constitution +13 Wisdom +8 Charisma +13"
+    "saving_throws": "Dexterity +8 Constitution +13 Wisdom +8 Charisma +13",
+    "skills": "Insight +8 Perception +14 Persuasion +13 Stealth +8"
   },
   {
     "name": "Adult Green Dragon",
@@ -794,11 +780,6 @@ export default [
     "hit_points": 207,
     "hit_dice": "18d12",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "deception": 8,
-    "insight": 7,
-    "perception": 12,
-    "persuasion": 8,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -882,7 +863,8 @@ export default [
       "wisdom": 15,
       "charisma": 17
     },
-    "saving_throws": "Dexterity +6 Constitution +10 Wisdom +7 Charisma +8"
+    "saving_throws": "Dexterity +6 Constitution +10 Wisdom +7 Charisma +8",
+    "skills": "Deception +8 Insight +7 Perception +12 Persuasion +8 Stealth +6"
   },
   {
     "name": "Adult Red Dragon",
@@ -894,8 +876,6 @@ export default [
     "hit_points": 256,
     "hit_dice": "19d12",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "perception": 13,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -980,7 +960,8 @@ export default [
       "wisdom": 13,
       "charisma": 21
     },
-    "saving_throws": "Dexterity +6 Constitution +13 Wisdom +7 Charisma +11"
+    "saving_throws": "Dexterity +6 Constitution +13 Wisdom +7 Charisma +11",
+    "skills": "Perception +13 Stealth +6"
   },
   {
     "name": "Adult Silver Dragon",
@@ -992,10 +973,6 @@ export default [
     "hit_points": 243,
     "hit_dice": "18d12",
     "speed": "40 ft., fly 80 ft.",
-    "arcana": 8,
-    "history": 8,
-    "perception": 11,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -1074,7 +1051,8 @@ export default [
       "wisdom": 13,
       "charisma": 21
     },
-    "saving_throws": "Dexterity +5 Constitution +12 Wisdom +6 Charisma +10"
+    "saving_throws": "Dexterity +5 Constitution +12 Wisdom +6 Charisma +10",
+    "skills": "Arcana +8 History +8 Perception +11 Stealth +5"
   },
   {
     "name": "Adult White Dragon",
@@ -1086,8 +1064,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d12",
     "speed": "40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
-    "perception": 11,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -1171,7 +1147,8 @@ export default [
       "wisdom": 12,
       "charisma": 12
     },
-    "saving_throws": "Dexterity +5 Constitution +11 Wisdom +6 Charisma +6"
+    "saving_throws": "Dexterity +5 Constitution +11 Wisdom +6 Charisma +6",
+    "skills": "Perception +11 Stealth +5"
   },
   {
     "name": "Air Elemental",
@@ -1224,7 +1201,8 @@ export default [
       "wisdom": 10,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ancient Black Dragon",
@@ -1236,8 +1214,6 @@ export default [
     "hit_points": 367,
     "hit_dice": "21d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "perception": 16,
-    "stealth": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -1325,7 +1301,8 @@ export default [
       "wisdom": 15,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +9 Constitution +14 Wisdom +9 Charisma +11"
+    "saving_throws": "Dexterity +9 Constitution +14 Wisdom +9 Charisma +11",
+    "skills": "Perception +16 Stealth +9"
   },
   {
     "name": "Ancient Blue Dragon",
@@ -1337,8 +1314,6 @@ export default [
     "hit_points": 481,
     "hit_dice": "26d20",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "perception": 17,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -1410,7 +1385,8 @@ export default [
       "wisdom": 17,
       "charisma": 21
     },
-    "saving_throws": "Dexterity +7 Constitution +15 Wisdom +10 Charisma +12"
+    "saving_throws": "Dexterity +7 Constitution +15 Wisdom +10 Charisma +12",
+    "skills": "Perception +17 Stealth +7"
   },
   {
     "name": "Ancient Brass Dragon",
@@ -1422,10 +1398,6 @@ export default [
     "hit_points": 297,
     "hit_dice": "17d20",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "history": 9,
-    "perception": 14,
-    "persuasion": 10,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -1509,7 +1481,8 @@ export default [
       "wisdom": 15,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +6 Constitution +13 Wisdom +8 Charisma +10"
+    "saving_throws": "Dexterity +6 Constitution +13 Wisdom +8 Charisma +10",
+    "skills": "History +9 Perception +14 Persuasion +10 Stealth +6"
   },
   {
     "name": "Ancient Bronze Dragon",
@@ -1521,9 +1494,6 @@ export default [
     "hit_points": 444,
     "hit_dice": "24d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "insight": 10,
-    "perception": 17,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -1612,7 +1582,8 @@ export default [
       "wisdom": 17,
       "charisma": 21
     },
-    "saving_throws": "Dexterity +7 Constitution +15 Wisdom +10 Charisma +12"
+    "saving_throws": "Dexterity +7 Constitution +15 Wisdom +10 Charisma +12",
+    "skills": "Insight +10 Perception +17 Stealth +7"
   },
   {
     "name": "Ancient Copper Dragon",
@@ -1624,9 +1595,6 @@ export default [
     "hit_points": 350,
     "hit_dice": "20d20",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "deception": 11,
-    "perception": 17,
-    "stealth": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -1710,7 +1678,8 @@ export default [
       "wisdom": 17,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +8 Constitution +14 Wisdom +10 Charisma +11"
+    "saving_throws": "Dexterity +8 Constitution +14 Wisdom +10 Charisma +11",
+    "skills": "Deception +11 Perception +17 Stealth +8"
   },
   {
     "name": "Ancient Gold Dragon",
@@ -1722,10 +1691,6 @@ export default [
     "hit_points": 546,
     "hit_dice": "28d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "insight": 10,
-    "perception": 17,
-    "persuasion": 16,
-    "stealth": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -1814,7 +1779,8 @@ export default [
       "wisdom": 17,
       "charisma": 28
     },
-    "saving_throws": "Dexterity +9 Constitution +16 Wisdom +10 Charisma +16"
+    "saving_throws": "Dexterity +9 Constitution +16 Wisdom +10 Charisma +16",
+    "skills": "Insight +10 Perception +17 Persuasion +16 Stealth +9"
   },
   {
     "name": "Ancient Green Dragon",
@@ -1826,11 +1792,6 @@ export default [
     "hit_points": 385,
     "hit_dice": "22d20",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "deception": 11,
-    "insight": 10,
-    "perception": 17,
-    "persuasion": 11,
-    "stealth": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -1914,7 +1875,8 @@ export default [
       "wisdom": 17,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +8 Constitution +14 Wisdom +10 Charisma +11"
+    "saving_throws": "Dexterity +8 Constitution +14 Wisdom +10 Charisma +11",
+    "skills": "Deception +11 Insight +10 Perception +17 Persuasion +11 Stealth +8"
   },
   {
     "name": "Ancient Red Dragon",
@@ -1926,8 +1888,6 @@ export default [
     "hit_points": 546,
     "hit_dice": "28d20",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "perception": 16,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -2006,7 +1966,8 @@ export default [
       "wisdom": 15,
       "charisma": 23
     },
-    "saving_throws": "Dexterity +7 Constitution +16 Wisdom +9 Charisma +13"
+    "saving_throws": "Dexterity +7 Constitution +16 Wisdom +9 Charisma +13",
+    "skills": "Perception +16 Stealth +7"
   },
   {
     "name": "Ancient Silver Dragon",
@@ -2018,10 +1979,6 @@ export default [
     "hit_points": 487,
     "hit_dice": "25d20",
     "speed": "40 ft., fly 80 ft.",
-    "arcana": 11,
-    "history": 11,
-    "perception": 16,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -2105,7 +2062,8 @@ export default [
       "wisdom": 15,
       "charisma": 23
     },
-    "saving_throws": "Dexterity +7 Constitution +16 Wisdom +9 Charisma +13"
+    "saving_throws": "Dexterity +7 Constitution +16 Wisdom +9 Charisma +13",
+    "skills": "Arcana +11 History +11 Perception +16 Stealth +7"
   },
   {
     "name": "Ancient White Dragon",
@@ -2117,8 +2075,6 @@ export default [
     "hit_points": 333,
     "hit_dice": "18d20",
     "speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
-    "perception": 13,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -2185,7 +2141,8 @@ export default [
       "wisdom": 13,
       "charisma": 14
     },
-    "saving_throws": "Dexterity +6 Constitution +14 Wisdom +7 Charisma +8"
+    "saving_throws": "Dexterity +6 Constitution +14 Wisdom +7 Charisma +8",
+    "skills": "Perception +13 Stealth +6"
   },
   {
     "name": "Androsphinx",
@@ -2197,9 +2154,6 @@ export default [
     "hit_points": 199,
     "hit_dice": "19d10",
     "speed": "40 ft., fly 60 ft.",
-    "arcana": 9,
-    "perception": 10,
-    "religion": 15,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "psychic; bludgeoning, piercing, and slashing from nonmagical weapons",
@@ -2268,7 +2222,8 @@ export default [
       "wisdom": 18,
       "charisma": 23
     },
-    "saving_throws": "Dexterity +6 Constitution +11 Intelligence +9 Wisdom +10"
+    "saving_throws": "Dexterity +6 Constitution +11 Intelligence +9 Wisdom +10",
+    "skills": "Arcana +9 Perception +10 Religion +15"
   },
   {
     "name": "Animated Armor",
@@ -2321,7 +2276,8 @@ export default [
       "wisdom": 3,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ankheg",
@@ -2363,7 +2319,8 @@ export default [
       "wisdom": 13,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ape",
@@ -2375,8 +2332,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d8",
     "speed": "30 ft., climb 30 ft.",
-    "athletics": 5,
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2413,7 +2368,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Athletics +5 Perception +3"
   },
   {
     "name": "Archmage",
@@ -2425,8 +2381,6 @@ export default [
     "hit_points": 99,
     "hit_dice": "18d8",
     "speed": "30 ft.",
-    "arcana": 13,
-    "history": 13,
     "damage_vulnerabilities": "",
     "damage_resistances": "damage from spells; non magical bludgeoning, piercing, and slashing (from stoneskin)",
     "damage_immunities": "",
@@ -2463,7 +2417,8 @@ export default [
       "wisdom": 15,
       "charisma": 16
     },
-    "saving_throws": "Intelligence +9 Wisdom +6"
+    "saving_throws": "Intelligence +9 Wisdom +6",
+    "skills": "Arcana +13 History +13"
   },
   {
     "name": "Assassin",
@@ -2475,10 +2430,6 @@ export default [
     "hit_points": 78,
     "hit_dice": "12d8",
     "speed": "30 ft.",
-    "acrobatics": 6,
-    "deception": 3,
-    "perception": 3,
-    "stealth": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "poison",
     "damage_immunities": "",
@@ -2533,7 +2484,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": "Dexterity +6 Intelligence +4"
+    "saving_throws": "Dexterity +6 Intelligence +4",
+    "skills": "Acrobatics +6 Deception +3 Perception +3 Stealth +9"
   },
   {
     "name": "Awakened Shrub",
@@ -2576,7 +2528,8 @@ export default [
       "wisdom": 10,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Awakened Tree",
@@ -2619,7 +2572,8 @@ export default [
       "wisdom": 10,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Axe Beak",
@@ -2655,7 +2609,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Azer",
@@ -2709,7 +2664,8 @@ export default [
       "wisdom": 13,
       "charisma": 10
     },
-    "saving_throws": "Constitution +4"
+    "saving_throws": "Constitution +4",
+    "skills": ""
   },
   {
     "name": "Baboon",
@@ -2752,7 +2708,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Badger",
@@ -2794,7 +2751,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Balor",
@@ -2876,7 +2834,8 @@ export default [
       "wisdom": 16,
       "charisma": 22
     },
-    "saving_throws": "Strength +14 Constitution +12 Wisdom +9 Charisma +12"
+    "saving_throws": "Strength +14 Constitution +12 Wisdom +9 Charisma +12",
+    "skills": ""
   },
   {
     "name": "Bandit",
@@ -2919,7 +2878,8 @@ export default [
       "wisdom": 10,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Bandit Captain",
@@ -2931,8 +2891,6 @@ export default [
     "hit_points": 65,
     "hit_dice": "10d8",
     "speed": "30 ft.",
-    "athletics": 4,
-    "deception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -2976,7 +2934,8 @@ export default [
       "wisdom": 11,
       "charisma": 14
     },
-    "saving_throws": "Strength +4 Dexterity +5 Wisdom +2"
+    "saving_throws": "Strength +4 Dexterity +5 Wisdom +2",
+    "skills": "Athletics +4 Deception +4"
   },
   {
     "name": "Barbed Devil",
@@ -2988,9 +2947,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d8",
     "speed": "30 ft.",
-    "deception": 5,
-    "insight": 5,
-    "perception": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
     "damage_immunities": "fire, poison",
@@ -3051,7 +3007,8 @@ export default [
       "wisdom": 14,
       "charisma": 14
     },
-    "saving_throws": "Strength +6 Constitution +7 Wisdom +5 Charisma +5"
+    "saving_throws": "Strength +6 Constitution +7 Wisdom +5 Charisma +5",
+    "skills": "Deception +5 Insight +5 Perception +8"
   },
   {
     "name": "Basilisk",
@@ -3094,7 +3051,8 @@ export default [
       "wisdom": 8,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Bat",
@@ -3141,7 +3099,8 @@ export default [
       "wisdom": 12,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Bearded Devil",
@@ -3206,7 +3165,8 @@ export default [
       "wisdom": 11,
       "charisma": 11
     },
-    "saving_throws": "Strength +5 Constitution +4 Wisdom +2"
+    "saving_throws": "Strength +5 Constitution +4 Wisdom +2",
+    "skills": ""
   },
   {
     "name": "Behir",
@@ -3218,8 +3178,6 @@ export default [
     "hit_points": 168,
     "hit_dice": "16d12",
     "speed": "50 ft., climb 40 ft.",
-    "perception": 6,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -3268,7 +3226,8 @@ export default [
       "wisdom": 14,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +6 Stealth +7"
   },
   {
     "name": "Berserker",
@@ -3311,7 +3270,8 @@ export default [
       "wisdom": 11,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Black Bear",
@@ -3366,7 +3326,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Black Dragon Wyrmling",
@@ -3378,8 +3339,6 @@ export default [
     "hit_points": 33,
     "hit_dice": "6d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "perception": 4,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -3417,7 +3376,8 @@ export default [
       "wisdom": 11,
       "charisma": 13
     },
-    "saving_throws": "Dexterity +4 Constitution +3 Wisdom +2 Charisma +3"
+    "saving_throws": "Dexterity +4 Constitution +3 Wisdom +2 Charisma +3",
+    "skills": "Perception +4 Stealth +4"
   },
   {
     "name": "Black Pudding",
@@ -3478,7 +3438,8 @@ export default [
       "wisdom": 6,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Blink Dog",
@@ -3490,8 +3451,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "40 ft.",
-    "perception": 3,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3528,7 +3487,8 @@ export default [
       "wisdom": 13,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +5"
   },
   {
     "name": "Blood Hawk",
@@ -3540,7 +3500,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d6",
     "speed": "10 ft., fly 60 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3577,7 +3536,8 @@ export default [
       "wisdom": 14,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Blue Dragon Wyrmling",
@@ -3589,8 +3549,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "30 ft., burrow 15 ft., fly 60 ft.",
-    "perception": 4,
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -3621,7 +3579,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +4"
+    "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +4",
+    "skills": "Perception +4 Stealth +2"
   },
   {
     "name": "Boar",
@@ -3670,7 +3629,8 @@ export default [
       "wisdom": 9,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Bone Devil",
@@ -3682,8 +3642,6 @@ export default [
     "hit_points": 142,
     "hit_dice": "15d10",
     "speed": "40 ft., fly 40 ft.",
-    "deception": 7,
-    "insight": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
     "damage_immunities": "fire, poison",
@@ -3751,7 +3709,8 @@ export default [
       "wisdom": 14,
       "charisma": 16
     },
-    "saving_throws": "Intelligence +5 Wisdom +6 Charisma +7"
+    "saving_throws": "Intelligence +5 Wisdom +6 Charisma +7",
+    "skills": "Deception +7 Insight +6"
   },
   {
     "name": "Brass Dragon Wyrmling",
@@ -3763,8 +3722,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d8",
     "speed": "30 ft., burrow 15 ft., fly 60 ft.",
-    "perception": 4,
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -3795,7 +3752,8 @@ export default [
       "wisdom": 11,
       "charisma": 13
     },
-    "saving_throws": "Dexterity +2 Constitution +3 Wisdom +2 Charisma +3"
+    "saving_throws": "Dexterity +2 Constitution +3 Wisdom +2 Charisma +3",
+    "skills": "Perception +4 Stealth +2"
   },
   {
     "name": "Bronze Dragon Wyrmling",
@@ -3807,8 +3765,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "perception": 4,
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -3846,7 +3802,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +4"
+    "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +4",
+    "skills": "Perception +4 Stealth +2"
   },
   {
     "name": "Brown Bear",
@@ -3858,7 +3815,6 @@ export default [
     "hit_points": 34,
     "hit_dice": "4d10",
     "speed": "40 ft., climb 30 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3902,7 +3858,8 @@ export default [
       "wisdom": 13,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Bugbear",
@@ -3914,8 +3871,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "stealth": 6,
-    "survival": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -3960,7 +3915,8 @@ export default [
       "wisdom": 11,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +6 Survival +2"
   },
   {
     "name": "Bulette",
@@ -3972,7 +3928,6 @@ export default [
     "hit_points": 94,
     "hit_dice": "9d10",
     "speed": "40 ft., burrow 40 ft.",
-    "perception": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4009,7 +3964,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +6"
   },
   {
     "name": "Camel",
@@ -4044,7 +4000,8 @@ export default [
       "wisdom": 8,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Carrion Crawler",
@@ -4056,7 +4013,6 @@ export default [
     "hit_points": 51,
     "hit_dice": "6d10",
     "speed": "30 ft., climb 30 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4105,7 +4061,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Cat",
@@ -4117,8 +4074,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "40 ft., climb 30 ft.",
-    "perception": 3,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4149,7 +4104,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4"
   },
   {
     "name": "Cave Bear",
@@ -4161,7 +4117,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d10",
     "speed": "40 ft., swim 30 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4205,7 +4160,8 @@ export default [
       "wisdom": 13,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Centaur",
@@ -4217,9 +4173,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "50 ft.",
-    "athletics": 6,
-    "perception": 3,
-    "survival": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4271,7 +4224,8 @@ export default [
       "wisdom": 13,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Athletics +6 Perception +3 Survival +3"
   },
   {
     "name": "Chain Devil",
@@ -4336,7 +4290,8 @@ export default [
       "wisdom": 12,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Chimera",
@@ -4348,7 +4303,6 @@ export default [
     "hit_points": 114,
     "hit_dice": "12d10",
     "speed": "30 ft., fly 60 ft.",
-    "perception": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4398,7 +4352,8 @@ export default [
       "wisdom": 14,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +8"
   },
   {
     "name": "Chuul",
@@ -4410,7 +4365,6 @@ export default [
     "hit_points": 93,
     "hit_dice": "11d10",
     "speed": "30 ft., swim 30 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -4457,7 +4411,8 @@ export default [
       "wisdom": 11,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Clay Golem",
@@ -4530,7 +4485,8 @@ export default [
       "wisdom": 8,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Cloaker",
@@ -4542,7 +4498,6 @@ export default [
     "hit_points": 78,
     "hit_dice": "12d10",
     "speed": "10 ft., fly 40 ft.",
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4606,7 +4561,8 @@ export default [
       "wisdom": 12,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +5"
   },
   {
     "name": "Cloud Giant",
@@ -4618,8 +4574,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d12",
     "speed": "40 ft.",
-    "insight": 7,
-    "perception": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4668,7 +4622,8 @@ export default [
       "wisdom": 16,
       "charisma": 16
     },
-    "saving_throws": "Constitution +10 Wisdom +7 Charisma +7"
+    "saving_throws": "Constitution +10 Wisdom +7 Charisma +7",
+    "skills": "Insight +7 Perception +7"
   },
   {
     "name": "Cockatrice",
@@ -4704,7 +4659,8 @@ export default [
       "wisdom": 13,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Commoner",
@@ -4739,7 +4695,8 @@ export default [
       "wisdom": 10,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Constrictor Snake",
@@ -4782,7 +4739,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Copper Dragon Wyrmling",
@@ -4794,8 +4752,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "30 ft., climb 30 ft., fly 60 ft.",
-    "perception": 4,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -4826,7 +4782,8 @@ export default [
       "wisdom": 11,
       "charisma": 13
     },
-    "saving_throws": "Dexterity +3 Constitution +3 Wisdom +2 Charisma +3"
+    "saving_throws": "Dexterity +3 Constitution +3 Wisdom +2 Charisma +3",
+    "skills": "Perception +4 Stealth +3"
   },
   {
     "name": "Couatl",
@@ -4891,7 +4848,8 @@ export default [
       "wisdom": 20,
       "charisma": 18
     },
-    "saving_throws": "Constitution +5 Wisdom +7 Charisma +6"
+    "saving_throws": "Constitution +5 Wisdom +7 Charisma +6",
+    "skills": ""
   },
   {
     "name": "Crab",
@@ -4903,7 +4861,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "20 ft., swim 20 ft.",
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4934,7 +4891,8 @@ export default [
       "wisdom": 8,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +2"
   },
   {
     "name": "Crocodile",
@@ -4946,7 +4904,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "20 ft., swim 20 ft.",
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -4978,7 +4935,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +2"
   },
   {
     "name": "Cult Fanatic",
@@ -4990,9 +4948,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "deception": 4,
-    "persuasion": 4,
-    "religion": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5034,7 +4989,8 @@ export default [
       "wisdom": 13,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +4 Persuasion +4 Religion +2"
   },
   {
     "name": "Cultist",
@@ -5046,8 +5002,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "deception": 2,
-    "religion": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5079,7 +5033,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +2 Religion +2"
   },
   {
     "name": "Darkmantle",
@@ -5091,7 +5046,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d6",
     "speed": "10 ft., fly 30 ft.",
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5133,7 +5087,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +3"
   },
   {
     "name": "Death Dog",
@@ -5145,8 +5100,6 @@ export default [
     "hit_points": 39,
     "hit_dice": "6d8",
     "speed": "40 ft.",
-    "perception": 5,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5183,7 +5136,8 @@ export default [
       "wisdom": 13,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5 Stealth +4"
   },
   {
     "name": "Deep Gnome (Svirfneblin)",
@@ -5195,9 +5149,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d6",
     "speed": "20 ft.",
-    "investigation": 3,
-    "perception": 2,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5246,7 +5197,8 @@ export default [
       "wisdom": 10,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Investigation +3 Perception +2 Stealth +4"
   },
   {
     "name": "Deer",
@@ -5281,7 +5233,8 @@ export default [
       "wisdom": 14,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Deva",
@@ -5293,8 +5246,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d8",
     "speed": "30 ft., fly 90 ft.",
-    "insight": 9,
-    "perception": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "",
@@ -5351,7 +5302,8 @@ export default [
       "wisdom": 20,
       "charisma": 20
     },
-    "saving_throws": "Wisdom +9 Charisma +9"
+    "saving_throws": "Wisdom +9 Charisma +9",
+    "skills": "Insight +9 Perception +9"
   },
   {
     "name": "Dire Wolf",
@@ -5363,8 +5315,6 @@ export default [
     "hit_points": 37,
     "hit_dice": "5d10",
     "speed": "50 ft.",
-    "perception": 3,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5401,7 +5351,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4"
   },
   {
     "name": "Djinni",
@@ -5464,7 +5415,8 @@ export default [
       "wisdom": 16,
       "charisma": 20
     },
-    "saving_throws": "Dexterity +6 Wisdom +7 Charisma +9"
+    "saving_throws": "Dexterity +6 Wisdom +7 Charisma +9",
+    "skills": ""
   },
   {
     "name": "Doppelganger",
@@ -5476,8 +5428,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d8",
     "speed": "30 ft.",
-    "deception": 6,
-    "insight": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "charmed",
@@ -5530,7 +5480,8 @@ export default [
       "wisdom": 12,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +6 Insight +3"
   },
   {
     "name": "Draft Horse",
@@ -5566,7 +5517,8 @@ export default [
       "wisdom": 11,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Dragon Turtle",
@@ -5634,7 +5586,8 @@ export default [
       "wisdom": 12,
       "charisma": 12
     },
-    "saving_throws": "Dexterity +6 Constitution +11 Wisdom +7"
+    "saving_throws": "Dexterity +6 Constitution +11 Wisdom +7",
+    "skills": ""
   },
   {
     "name": "Dretch",
@@ -5685,7 +5638,8 @@ export default [
       "wisdom": 8,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Drider",
@@ -5697,8 +5651,6 @@ export default [
     "hit_points": 123,
     "hit_dice": "13d10",
     "speed": "30 ft., climb 30 ft.",
-    "perception": 5,
-    "stealth": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5769,7 +5721,8 @@ export default [
       "wisdom": 14,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5 Stealth +9"
   },
   {
     "name": "Drow",
@@ -5781,8 +5734,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "30 ft.",
-    "perception": 2,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5831,7 +5782,8 @@ export default [
       "wisdom": 11,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Stealth +4"
   },
   {
     "name": "Druid",
@@ -5843,9 +5795,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "medicine": 4,
-    "nature": 3,
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5876,7 +5825,8 @@ export default [
       "wisdom": 15,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Medicine +4 Nature +3 Perception +4"
   },
   {
     "name": "Dryad",
@@ -5888,8 +5838,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "perception": 4,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -5940,7 +5888,8 @@ export default [
       "wisdom": 15,
       "charisma": 18
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4 Stealth +5"
   },
   {
     "name": "Duergar",
@@ -6005,7 +5954,8 @@ export default [
       "wisdom": 10,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Dust Mephit",
@@ -6017,8 +5967,6 @@ export default [
     "hit_points": 17,
     "hit_dice": "5d6",
     "speed": "30 ft., fly 30 ft.",
-    "perception": 2,
-    "stealth": 4,
     "damage_vulnerabilities": "fire",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -6065,7 +6013,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Stealth +4"
   },
   {
     "name": "Eagle",
@@ -6077,7 +6026,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "10 ft., fly 60 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6109,7 +6057,8 @@ export default [
       "wisdom": 14,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Earth Elemental",
@@ -6162,7 +6111,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Efreeti",
@@ -6226,7 +6176,8 @@ export default [
       "wisdom": 15,
       "charisma": 16
     },
-    "saving_throws": "Intelligence +7 Wisdom +6 Charisma +7"
+    "saving_throws": "Intelligence +7 Wisdom +6 Charisma +7",
+    "skills": ""
   },
   {
     "name": "Elephant",
@@ -6276,7 +6227,8 @@ export default [
       "wisdom": 11,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Elk",
@@ -6323,7 +6275,8 @@ export default [
       "wisdom": 10,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Erinyes",
@@ -6395,7 +6348,8 @@ export default [
       "wisdom": 14,
       "charisma": 18
     },
-    "saving_throws": "Dexterity +7 Constitution +8 Wisdom +6 Charisma +8"
+    "saving_throws": "Dexterity +7 Constitution +8 Wisdom +6 Charisma +8",
+    "skills": ""
   },
   {
     "name": "Ettercap",
@@ -6407,9 +6361,6 @@ export default [
     "hit_points": 44,
     "hit_dice": "8d8",
     "speed": "30 ft., climb 30 ft.",
-    "perception": 3,
-    "stealth": 4,
-    "survival": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6475,7 +6426,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4 Survival +3"
   },
   {
     "name": "Ettin",
@@ -6487,7 +6439,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "10d10",
     "speed": "40 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6536,7 +6487,8 @@ export default [
       "wisdom": 10,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Fire Elemental",
@@ -6595,7 +6547,8 @@ export default [
       "wisdom": 10,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Fire Giant",
@@ -6607,8 +6560,6 @@ export default [
     "hit_points": 162,
     "hit_dice": "13d12",
     "speed": "30 ft.",
-    "athletics": 11,
-    "perception": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -6645,7 +6596,8 @@ export default [
       "wisdom": 14,
       "charisma": 13
     },
-    "saving_throws": "Dexterity +3 Constitution +10 Charisma +5"
+    "saving_throws": "Dexterity +3 Constitution +10 Charisma +5",
+    "skills": "Athletics +11 Perception +6"
   },
   {
     "name": "Flesh Golem",
@@ -6718,7 +6670,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Flying Snake",
@@ -6760,7 +6713,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Flying Sword",
@@ -6808,7 +6762,8 @@ export default [
       "wisdom": 5,
       "charisma": 1
     },
-    "saving_throws": "Dexterity +4"
+    "saving_throws": "Dexterity +4",
+    "skills": ""
   },
   {
     "name": "Frog",
@@ -6820,8 +6775,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "20 ft., swim 20 ft.",
-    "perception": 1,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -6849,7 +6802,8 @@ export default [
       "wisdom": 8,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +1 Stealth +3"
   },
   {
     "name": "Frost Giant",
@@ -6861,8 +6815,6 @@ export default [
     "hit_points": 138,
     "hit_dice": "12d12",
     "speed": "40 ft.",
-    "athletics": 9,
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -6899,7 +6851,8 @@ export default [
       "wisdom": 10,
       "charisma": 12
     },
-    "saving_throws": "Constitution +8 Wisdom +3 Charisma +4"
+    "saving_throws": "Constitution +8 Wisdom +3 Charisma +4",
+    "skills": "Athletics +9 Perception +3"
   },
   {
     "name": "Gargoyle",
@@ -6954,7 +6907,8 @@ export default [
       "wisdom": 11,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Gelatinous Cube",
@@ -7006,7 +6960,8 @@ export default [
       "wisdom": 6,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ghast",
@@ -7061,7 +7016,8 @@ export default [
       "wisdom": 10,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ghost",
@@ -7124,7 +7080,8 @@ export default [
       "wisdom": 12,
       "charisma": 17
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ghoul",
@@ -7165,7 +7122,8 @@ export default [
       "wisdom": 10,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Ape",
@@ -7177,8 +7135,6 @@ export default [
     "hit_points": 157,
     "hit_dice": "15d12",
     "speed": "40 ft., climb 40 ft.",
-    "athletics": 9,
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7215,7 +7171,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Athletics +9 Perception +4"
   },
   {
     "name": "Giant Badger",
@@ -7270,7 +7227,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Bat",
@@ -7318,7 +7276,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Boar",
@@ -7367,7 +7326,8 @@ export default [
       "wisdom": 7,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Centipede",
@@ -7403,7 +7363,8 @@ export default [
       "wisdom": 7,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Constrictor Snake",
@@ -7415,7 +7376,6 @@ export default [
     "hit_points": 60,
     "hit_dice": "8d12",
     "speed": "30 ft., swim 30 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7447,7 +7407,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Giant Crab",
@@ -7459,7 +7420,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "30 ft., swim 30 ft.",
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7491,7 +7451,8 @@ export default [
       "wisdom": 9,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +4"
   },
   {
     "name": "Giant Crocodile",
@@ -7503,7 +7464,6 @@ export default [
     "hit_points": 85,
     "hit_dice": "9d12",
     "speed": "30 ft., swim 50 ft.",
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7547,7 +7507,8 @@ export default [
       "wisdom": 10,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +5"
   },
   {
     "name": "Giant Eagle",
@@ -7559,7 +7520,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "10 ft., fly 80 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7603,7 +7563,8 @@ export default [
       "wisdom": 14,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Giant Elk",
@@ -7615,7 +7576,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d12",
     "speed": "60 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7655,7 +7615,8 @@ export default [
       "wisdom": 14,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Giant Fire Beetle",
@@ -7698,7 +7659,8 @@ export default [
       "wisdom": 7,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Frog",
@@ -7710,8 +7672,6 @@ export default [
     "hit_points": 18,
     "hit_dice": "4d8",
     "speed": "30 ft., swim 30 ft.",
-    "perception": 2,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7753,7 +7713,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Stealth +3"
   },
   {
     "name": "Giant Goat",
@@ -7802,7 +7763,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Hyena",
@@ -7814,7 +7776,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "50 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7846,7 +7807,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Giant Lizard",
@@ -7894,7 +7856,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Octopus",
@@ -7906,8 +7869,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "8d10",
     "speed": "10 ft., swim 60 ft.",
-    "perception": 4,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -7954,7 +7915,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4 Stealth +5"
   },
   {
     "name": "Giant Owl",
@@ -7966,8 +7928,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "5 ft., fly 60 ft.",
-    "perception": 5,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8004,7 +7964,8 @@ export default [
       "wisdom": 13,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5 Stealth +4"
   },
   {
     "name": "Giant Poisonous Snake",
@@ -8016,7 +7977,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft., swim 30 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8041,7 +8001,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Giant Rat",
@@ -8089,7 +8050,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Rat (Diseased)",
@@ -8125,7 +8087,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Scorpion",
@@ -8173,7 +8136,8 @@ export default [
       "wisdom": 9,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Sea Horse",
@@ -8222,7 +8186,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Shark",
@@ -8234,7 +8199,6 @@ export default [
     "hit_points": 126,
     "hit_dice": "11d12",
     "speed": "swim 50 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8271,7 +8235,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Giant Spider",
@@ -8283,7 +8248,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "30 ft., climb 30 ft.",
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8330,7 +8294,8 @@ export default [
       "wisdom": 11,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +7"
   },
   {
     "name": "Giant Toad",
@@ -8383,7 +8348,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Vulture",
@@ -8395,7 +8361,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "3d10",
     "speed": "10 ft., fly 60 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8444,7 +8409,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Giant Wasp",
@@ -8480,7 +8446,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Giant Weasel",
@@ -8492,8 +8459,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "perception": 3,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8525,7 +8490,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +5"
   },
   {
     "name": "Giant Wolf Spider",
@@ -8537,8 +8503,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft., climb 40 ft.",
-    "perception": 3,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8580,7 +8544,8 @@ export default [
       "wisdom": 12,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +7"
   },
   {
     "name": "Gibbering Mouther",
@@ -8637,7 +8602,8 @@ export default [
       "wisdom": 10,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Glabrezu",
@@ -8702,7 +8668,8 @@ export default [
       "wisdom": 17,
       "charisma": 16
     },
-    "saving_throws": "Strength +9 Constitution +9 Wisdom +7 Charisma +7"
+    "saving_throws": "Strength +9 Constitution +9 Wisdom +7 Charisma +7",
+    "skills": ""
   },
   {
     "name": "Gladiator",
@@ -8714,8 +8681,6 @@ export default [
     "hit_points": 112,
     "hit_dice": "15d8",
     "speed": "30 ft.",
-    "athletics": 10,
-    "intimidation": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8771,7 +8736,8 @@ export default [
       "wisdom": 12,
       "charisma": 15
     },
-    "saving_throws": "Strength +7 Dexterity +5 Constitution +6"
+    "saving_throws": "Strength +7 Dexterity +5 Constitution +6",
+    "skills": "Athletics +10 Intimidation +5"
   },
   {
     "name": "Gnoll",
@@ -8828,7 +8794,8 @@ export default [
       "wisdom": 10,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Goat",
@@ -8877,7 +8844,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Goblin",
@@ -8889,7 +8857,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d6",
     "speed": "30 ft.",
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -8928,7 +8895,8 @@ export default [
       "wisdom": 8,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +6"
   },
   {
     "name": "Gold Dragon Wyrmling",
@@ -8940,8 +8908,6 @@ export default [
     "hit_points": 60,
     "hit_dice": "8d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "perception": 4,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -8979,7 +8945,8 @@ export default [
       "wisdom": 11,
       "charisma": 16
     },
-    "saving_throws": "Dexterity +4 Constitution +5 Wisdom +2 Charisma +5"
+    "saving_throws": "Dexterity +4 Constitution +5 Wisdom +2 Charisma +5",
+    "skills": "Perception +4 Stealth +4"
   },
   {
     "name": "Gorgon",
@@ -8991,7 +8958,6 @@ export default [
     "hit_points": 114,
     "hit_dice": "12d10",
     "speed": "40 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "petrified",
@@ -9035,7 +9001,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Gray Ooze",
@@ -9047,7 +9014,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "3d8",
     "speed": "10 ft., climb 10 ft.",
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "acid, cold, fire",
     "damage_immunities": "",
@@ -9089,7 +9055,8 @@ export default [
       "wisdom": 6,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +2"
   },
   {
     "name": "Green Dragon Wyrmling",
@@ -9101,8 +9068,6 @@ export default [
     "hit_points": 38,
     "hit_dice": "7d8",
     "speed": "30 ft., fly 60 ft., swim 30 ft.",
-    "perception": 4,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -9140,7 +9105,8 @@ export default [
       "wisdom": 11,
       "charisma": 13
     },
-    "saving_throws": "Dexterity +3 Constitution +3 Wisdom +2 Charisma +3"
+    "saving_throws": "Dexterity +3 Constitution +3 Wisdom +2 Charisma +3",
+    "skills": "Perception +4 Stealth +3"
   },
   {
     "name": "Green Hag",
@@ -9152,10 +9118,6 @@ export default [
     "hit_points": 82,
     "hit_dice": "11d8",
     "speed": "30 ft.",
-    "arcana": 3,
-    "deception": 4,
-    "perception": 4,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9222,7 +9184,8 @@ export default [
       "wisdom": 14,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Arcana +3 Deception +4 Perception +4 Stealth +3"
   },
   {
     "name": "Grick",
@@ -9277,7 +9240,8 @@ export default [
       "wisdom": 14,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Griffon",
@@ -9289,7 +9253,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "30 ft., fly 80 ft.",
-    "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9333,7 +9296,8 @@ export default [
       "wisdom": 13,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5"
   },
   {
     "name": "Grimlock",
@@ -9345,9 +9309,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "athletics": 5,
-    "perception": 3,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "blinded",
@@ -9389,7 +9350,8 @@ export default [
       "wisdom": 8,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Athletics +5 Perception +3 Stealth +3"
   },
   {
     "name": "Guard",
@@ -9401,7 +9363,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9426,7 +9387,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Guardian Naga",
@@ -9480,7 +9442,8 @@ export default [
       "wisdom": 19,
       "charisma": 18
     },
-    "saving_throws": "Dexterity +8 Constitution +7 Intelligence +7 Wisdom +8 Charisma +8"
+    "saving_throws": "Dexterity +8 Constitution +7 Intelligence +7 Wisdom +8 Charisma +8",
+    "skills": ""
   },
   {
     "name": "Gynosphinx",
@@ -9492,10 +9455,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 60 ft.",
-    "arcana": 12,
-    "history": 12,
-    "perception": 8,
-    "religion": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "psychic",
@@ -9559,7 +9518,8 @@ export default [
       "wisdom": 18,
       "charisma": 18
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Arcana +12 History +12 Perception +8 Religion +8"
   },
   {
     "name": "Half-Red Dragon Veteran",
@@ -9620,7 +9580,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Harpy",
@@ -9673,7 +9634,8 @@ export default [
       "wisdom": 10,
       "charisma": 13
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Hawk",
@@ -9685,7 +9647,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 60 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9716,7 +9677,8 @@ export default [
       "wisdom": 14,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Hell Hound",
@@ -9728,7 +9690,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "7d8",
     "speed": "50 ft.",
-    "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -9771,7 +9732,8 @@ export default [
       "wisdom": 13,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5"
   },
   {
     "name": "Hezrou",
@@ -9836,7 +9798,8 @@ export default [
       "wisdom": 12,
       "charisma": 13
     },
-    "saving_throws": "Strength +7 Constitution +8 Wisdom +4"
+    "saving_throws": "Strength +7 Constitution +8 Wisdom +4",
+    "skills": ""
   },
   {
     "name": "Hill Giant",
@@ -9848,7 +9811,6 @@ export default [
     "hit_points": 105,
     "hit_dice": "10d12",
     "speed": "40 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9885,7 +9847,8 @@ export default [
       "wisdom": 9,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Hippogriff",
@@ -9897,7 +9860,6 @@ export default [
     "hit_points": 19,
     "hit_dice": "3d10",
     "speed": "40 ft, fly 60 ft.",
-    "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -9941,7 +9903,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5"
   },
   {
     "name": "Hobgoblin",
@@ -9992,7 +9955,8 @@ export default [
       "wisdom": 10,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Homunculus",
@@ -10034,7 +9998,8 @@ export default [
       "wisdom": 10,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Horned Devil",
@@ -10100,7 +10065,8 @@ export default [
       "wisdom": 16,
       "charisma": 17
     },
-    "saving_throws": "Strength +10 Dexterity +7 Wisdom +7 Charisma +7"
+    "saving_throws": "Strength +10 Dexterity +7 Wisdom +7 Charisma +7",
+    "skills": ""
   },
   {
     "name": "Hunter Shark",
@@ -10112,7 +10078,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d10",
     "speed": "swim 40 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10149,7 +10114,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Hydra",
@@ -10161,7 +10127,6 @@ export default [
     "hit_points": 172,
     "hit_dice": "15d12",
     "speed": "30 ft., swim 30 ft.",
-    "perception": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10213,7 +10178,8 @@ export default [
       "wisdom": 10,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +6"
   },
   {
     "name": "Hyena",
@@ -10225,7 +10191,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "1d8",
     "speed": "50 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10256,7 +10221,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Ice Devil",
@@ -10328,7 +10294,8 @@ export default [
       "wisdom": 15,
       "charisma": 18
     },
-    "saving_throws": "Dexterity +7 Constitution +9 Wisdom +7 Charisma +9"
+    "saving_throws": "Dexterity +7 Constitution +9 Wisdom +7 Charisma +9",
+    "skills": ""
   },
   {
     "name": "Ice Mephit",
@@ -10340,8 +10307,6 @@ export default [
     "hit_points": 21,
     "hit_dice": "6d6",
     "speed": "30 ft., fly 30 ft.",
-    "perception": 2,
-    "stealth": 3,
     "damage_vulnerabilities": "bludgeoning, fire",
     "damage_resistances": "",
     "damage_immunities": "cold, poison",
@@ -10394,7 +10359,8 @@ export default [
       "wisdom": 11,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Stealth +3"
   },
   {
     "name": "Imp",
@@ -10406,10 +10372,6 @@ export default [
     "hit_points": 10,
     "hit_dice": "3d4",
     "speed": "20 ft., fly 40 ft.",
-    "deception": 4,
-    "insight": 3,
-    "persuasion": 4,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold; bludgeoning, piercing, and slashing from nonmagical/nonsilver weapons",
     "damage_immunities": "fire, poison",
@@ -10461,7 +10423,8 @@ export default [
       "wisdom": 12,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +4 Insight +3 Persuasion +4 Stealth +5"
   },
   {
     "name": "Invisible Stalker",
@@ -10473,8 +10436,6 @@ export default [
     "hit_points": 104,
     "hit_dice": "16d8",
     "speed": "50 ft., fly 50 ft. (hover)",
-    "perception": 8,
-    "stealth": 10,
     "damage_vulnerabilities": "",
     "damage_resistances": "bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "poison",
@@ -10516,7 +10477,8 @@ export default [
       "wisdom": 15,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +8 Stealth +10"
   },
   {
     "name": "Iron Golem",
@@ -10592,7 +10554,8 @@ export default [
       "wisdom": 11,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Jackal",
@@ -10604,7 +10567,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "40 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10641,7 +10603,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Killer Whale",
@@ -10653,7 +10616,6 @@ export default [
     "hit_points": 90,
     "hit_dice": "12d12",
     "speed": "swim 60 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10693,7 +10655,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Knight",
@@ -10759,7 +10722,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Constitution +4 Wisdom +2"
+    "saving_throws": "Constitution +4 Wisdom +2",
+    "skills": ""
   },
   {
     "name": "Kobold",
@@ -10814,7 +10778,8 @@ export default [
       "wisdom": 7,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Kraken",
@@ -10907,7 +10872,8 @@ export default [
       "wisdom": 18,
       "charisma": 20
     },
-    "saving_throws": "Strength +17 Dexterity +7 Constitution +14 Intelligence +13 Wisdom +11"
+    "saving_throws": "Strength +17 Dexterity +7 Constitution +14 Intelligence +13 Wisdom +11",
+    "skills": ""
   },
   {
     "name": "Lamia",
@@ -10919,9 +10885,6 @@ export default [
     "hit_points": 97,
     "hit_dice": "13d10",
     "speed": "30 ft.",
-    "deception": 7,
-    "insight": 4,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -10970,7 +10933,8 @@ export default [
       "wisdom": 15,
       "charisma": 16
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +7 Insight +4 Stealth +3"
   },
   {
     "name": "Lemure",
@@ -11017,7 +10981,8 @@ export default [
       "wisdom": 11,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Lich",
@@ -11029,10 +10994,6 @@ export default [
     "hit_points": 135,
     "hit_dice": "18d8",
     "speed": "30 ft.",
-    "arcana": 18,
-    "history": 12,
-    "insight": 9,
-    "perception": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold, lightning, necrotic",
     "damage_immunities": "poison; bludgeoning, piercing, and slashing from nonmagical weapons",
@@ -11101,7 +11062,8 @@ export default [
       "wisdom": 14,
       "charisma": 16
     },
-    "saving_throws": "Constitution +10 Intelligence +12 Wisdom +9"
+    "saving_throws": "Constitution +10 Intelligence +12 Wisdom +9",
+    "skills": "Arcana +18 History +12 Insight +9 Perception +9"
   },
   {
     "name": "Lion",
@@ -11113,8 +11075,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "50 ft.",
-    "perception": 3,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11168,7 +11128,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +6"
   },
   {
     "name": "Lizard",
@@ -11203,7 +11164,8 @@ export default [
       "wisdom": 8,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Lizardfolk",
@@ -11215,9 +11177,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "30 ft., swim 30 ft.",
-    "perception": 3,
-    "stealth": 4,
-    "survival": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11275,7 +11234,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4 Survival +5"
   },
   {
     "name": "Mage",
@@ -11287,8 +11247,6 @@ export default [
     "hit_points": 40,
     "hit_dice": "9d8",
     "speed": "30 ft.",
-    "arcana": 6,
-    "history": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11320,7 +11278,8 @@ export default [
       "wisdom": 12,
       "charisma": 11
     },
-    "saving_throws": "Intelligence +6 Wisdom +4"
+    "saving_throws": "Intelligence +6 Wisdom +4",
+    "skills": "Arcana +6 History +6"
   },
   {
     "name": "Magma Mephit",
@@ -11332,7 +11291,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "5d6",
     "speed": "30 ft., fly 30 ft.",
-    "stealth": 3,
     "damage_vulnerabilities": "cold",
     "damage_resistances": "",
     "damage_immunities": "fire, poison",
@@ -11385,7 +11343,8 @@ export default [
       "wisdom": 10,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +3"
   },
   {
     "name": "Magmin",
@@ -11433,7 +11392,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Mammoth",
@@ -11483,7 +11443,8 @@ export default [
       "wisdom": 11,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Manticore",
@@ -11545,7 +11506,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Marilith",
@@ -11627,7 +11589,8 @@ export default [
       "wisdom": 16,
       "charisma": 20
     },
-    "saving_throws": "Strength +9 Constitution +10 Wisdom +8 Charisma +10"
+    "saving_throws": "Strength +9 Constitution +10 Wisdom +8 Charisma +10",
+    "skills": ""
   },
   {
     "name": "Mastiff",
@@ -11639,7 +11602,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "1d8",
     "speed": "40 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11671,7 +11633,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Medusa",
@@ -11683,10 +11646,6 @@ export default [
     "hit_points": 127,
     "hit_dice": "17d8",
     "speed": "30 ft.",
-    "deception": 5,
-    "insight": 4,
-    "perception": 4,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11736,7 +11695,8 @@ export default [
       "wisdom": 13,
       "charisma": 15
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +5 Insight +4 Perception +4 Stealth +5"
   },
   {
     "name": "Merfolk",
@@ -11748,7 +11708,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "10 ft., swim 40 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11779,7 +11738,8 @@ export default [
       "wisdom": 11,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Merrow",
@@ -11841,7 +11801,8 @@ export default [
       "wisdom": 10,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Mimic",
@@ -11853,7 +11814,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "15 ft.",
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -11907,7 +11867,8 @@ export default [
       "wisdom": 13,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +5"
   },
   {
     "name": "Minotaur",
@@ -11919,7 +11880,6 @@ export default [
     "hit_points": 76,
     "hit_dice": "9d10",
     "speed": "40 ft.",
-    "perception": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -11969,7 +11929,8 @@ export default [
       "wisdom": 16,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +7"
   },
   {
     "name": "Minotaur Skeleton",
@@ -12020,7 +11981,8 @@ export default [
       "wisdom": 8,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Mule",
@@ -12068,7 +12030,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Mummy",
@@ -12114,7 +12077,8 @@ export default [
       "wisdom": 10,
       "charisma": 12
     },
-    "saving_throws": "Wisdom +2"
+    "saving_throws": "Wisdom +2",
+    "skills": ""
   },
   {
     "name": "Mummy Lord",
@@ -12126,8 +12090,6 @@ export default [
     "hit_points": 97,
     "hit_dice": "13d8",
     "speed": "20 ft.",
-    "history": 5,
-    "religion": 5,
     "damage_vulnerabilities": "bludgeoning",
     "damage_resistances": "",
     "damage_immunities": "necrotic, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
@@ -12206,7 +12168,8 @@ export default [
       "wisdom": 18,
       "charisma": 16
     },
-    "saving_throws": "Constitution +8 Intelligence +5 Wisdom +9 Charisma +8"
+    "saving_throws": "Constitution +8 Intelligence +5 Wisdom +9 Charisma +8",
+    "skills": "History +5 Religion +5"
   },
   {
     "name": "Nalfeshnee",
@@ -12276,7 +12239,8 @@ export default [
       "wisdom": 12,
       "charisma": 15
     },
-    "saving_throws": "Constitution +11 Intelligence +9 Wisdom +6 Charisma +7"
+    "saving_throws": "Constitution +11 Intelligence +9 Wisdom +6 Charisma +7",
+    "skills": ""
   },
   {
     "name": "Night Hag",
@@ -12288,10 +12252,6 @@ export default [
     "hit_points": 112,
     "hit_dice": "15d8",
     "speed": "30 ft.",
-    "deception": 7,
-    "insight": 6,
-    "perception": 6,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold, fire; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
     "damage_immunities": "",
@@ -12363,7 +12323,8 @@ export default [
       "wisdom": 14,
       "charisma": 16
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +7 Insight +6 Perception +6 Stealth +6"
   },
   {
     "name": "Nightmare",
@@ -12416,7 +12377,8 @@ export default [
       "wisdom": 13,
       "charisma": 15
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Noble",
@@ -12428,9 +12390,6 @@ export default [
     "hit_points": 9,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "deception": 5,
-    "insight": 4,
-    "persuasion": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12462,7 +12421,8 @@ export default [
       "wisdom": 14,
       "charisma": 16
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +5 Insight +4 Persuasion +5"
   },
   {
     "name": "Ochre Jelly",
@@ -12517,7 +12477,8 @@ export default [
       "wisdom": 6,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Octopus",
@@ -12529,8 +12490,6 @@ export default [
     "hit_points": 3,
     "hit_dice": "1d6",
     "speed": "5 ft., swim 30 ft.",
-    "perception": 2,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12576,7 +12535,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Stealth +4"
   },
   {
     "name": "Ogre",
@@ -12619,7 +12579,8 @@ export default [
       "wisdom": 7,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Ogre Zombie",
@@ -12662,7 +12623,8 @@ export default [
       "wisdom": 6,
       "charisma": 5
     },
-    "saving_throws": "Wisdom 0"
+    "saving_throws": "Wisdom 0",
+    "skills": ""
   },
   {
     "name": "Oni",
@@ -12674,9 +12636,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d10",
     "speed": "30 ft., fly 30 ft.",
-    "arcana": 5,
-    "deception": 8,
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12735,7 +12694,8 @@ export default [
       "wisdom": 12,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +3 Constitution +6 Wisdom +4 Charisma +5"
+    "saving_throws": "Dexterity +3 Constitution +6 Wisdom +4 Charisma +5",
+    "skills": "Arcana +5 Deception +8 Perception +4"
   },
   {
     "name": "Orc",
@@ -12747,7 +12707,6 @@ export default [
     "hit_points": 15,
     "hit_dice": "2d8",
     "speed": "30 ft.",
-    "intimidation": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12786,7 +12745,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Intimidation +2"
   },
   {
     "name": "Otyugh",
@@ -12846,7 +12806,8 @@ export default [
       "wisdom": 13,
       "charisma": 6
     },
-    "saving_throws": "Constitution +7"
+    "saving_throws": "Constitution +7",
+    "skills": ""
   },
   {
     "name": "Owl",
@@ -12858,8 +12819,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "5 ft., fly 60 ft.",
-    "perception": 3,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12895,7 +12854,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +3"
   },
   {
     "name": "Owlbear",
@@ -12907,7 +12867,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "40 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -12951,7 +12910,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Panther",
@@ -12963,8 +12923,6 @@ export default [
     "hit_points": 13,
     "hit_dice": "3d8",
     "speed": "50 ft., climb 40 ft.",
-    "perception": 4,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13008,7 +12966,8 @@ export default [
       "wisdom": 14,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4 Stealth +6"
   },
   {
     "name": "Pegasus",
@@ -13020,7 +12979,6 @@ export default [
     "hit_points": 59,
     "hit_dice": "7d10",
     "speed": "60 ft., fly 90 ft.",
-    "perception": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13045,7 +13003,8 @@ export default [
       "wisdom": 15,
       "charisma": 13
     },
-    "saving_throws": "Dexterity +4 Wisdom +4 Charisma +3"
+    "saving_throws": "Dexterity +4 Wisdom +4 Charisma +3",
+    "skills": "Perception +6"
   },
   {
     "name": "Phase Spider",
@@ -13057,7 +13016,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d10",
     "speed": "30 ft., climb 30 ft.",
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13099,7 +13057,8 @@ export default [
       "wisdom": 10,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +6"
   },
   {
     "name": "Pit Fiend",
@@ -13183,7 +13142,8 @@ export default [
       "wisdom": 18,
       "charisma": 24
     },
-    "saving_throws": "Dexterity +8 Constitution +13 Wisdom +10"
+    "saving_throws": "Dexterity +8 Constitution +13 Wisdom +10",
+    "skills": ""
   },
   {
     "name": "Planetar",
@@ -13195,7 +13155,6 @@ export default [
     "hit_points": 200,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 120 ft.",
-    "perception": 11,
     "damage_vulnerabilities": "",
     "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "",
@@ -13252,7 +13211,8 @@ export default [
       "wisdom": 22,
       "charisma": 25
     },
-    "saving_throws": "Constitution +12 Wisdom +11 Charisma +12"
+    "saving_throws": "Constitution +12 Wisdom +11 Charisma +12",
+    "skills": "Perception +11"
   },
   {
     "name": "Plesiosaurus",
@@ -13264,8 +13224,6 @@ export default [
     "hit_points": 68,
     "hit_dice": "8d10",
     "speed": "20 ft., swim 40 ft.",
-    "perception": 3,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13297,7 +13255,8 @@ export default [
       "wisdom": 12,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4"
   },
   {
     "name": "Poisonous Snake",
@@ -13332,7 +13291,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Polar Bear",
@@ -13344,7 +13304,6 @@ export default [
     "hit_points": 42,
     "hit_dice": "5d10",
     "speed": "40 ft., swim 30 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13388,7 +13347,8 @@ export default [
       "wisdom": 13,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Pony",
@@ -13424,7 +13384,8 @@ export default [
       "wisdom": 11,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Priest",
@@ -13436,9 +13397,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "5d8",
     "speed": "25 ft.",
-    "medicine": 7,
-    "persuasion": 3,
-    "religion": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13475,7 +13433,8 @@ export default [
       "wisdom": 16,
       "charisma": 13
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Medicine +7 Persuasion +3 Religion +4"
   },
   {
     "name": "Pseudodragon",
@@ -13487,8 +13446,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "2d4",
     "speed": "15 ft., fly 60 ft.",
-    "perception": 3,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13542,7 +13499,8 @@ export default [
       "wisdom": 12,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4"
   },
   {
     "name": "Purple Worm",
@@ -13597,7 +13555,8 @@ export default [
       "wisdom": 8,
       "charisma": 4
     },
-    "saving_throws": "Constitution +11 Wisdom +4"
+    "saving_throws": "Constitution +11 Wisdom +4",
+    "skills": ""
   },
   {
     "name": "Quasit",
@@ -13609,7 +13568,6 @@ export default [
     "hit_points": 7,
     "hit_dice": "3d4",
     "speed": "40 ft.",
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold; fire; lightning; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "poison",
@@ -13661,7 +13619,8 @@ export default [
       "wisdom": 10,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +5"
   },
   {
     "name": "Quipper",
@@ -13708,7 +13667,8 @@ export default [
       "wisdom": 7,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Rakshasa",
@@ -13720,8 +13680,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d8",
     "speed": "40 ft.",
-    "deception": 10,
-    "insight": 8,
     "damage_vulnerabilities": "piercing from magic weapons wielded by good creatures",
     "damage_resistances": "",
     "damage_immunities": "bludgeoning, piercing, and slashing from nonmagical weapons",
@@ -13763,7 +13721,8 @@ export default [
       "wisdom": 16,
       "charisma": 20
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +10 Insight +8"
   },
   {
     "name": "Rat",
@@ -13805,7 +13764,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Raven",
@@ -13817,7 +13777,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 50 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13847,7 +13806,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Red Dragon Wyrmling",
@@ -13859,8 +13819,6 @@ export default [
     "hit_points": 75,
     "hit_dice": "10d8",
     "speed": "30 ft., climb 30 ft., fly 60 ft.",
-    "perception": 4,
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -13891,7 +13849,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +2 Constitution +5 Wisdom +2 Charisma +4"
+    "saving_throws": "Dexterity +2 Constitution +5 Wisdom +2 Charisma +4",
+    "skills": "Perception +4 Stealth +2"
   },
   {
     "name": "Reef Shark",
@@ -13903,7 +13862,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "swim 40 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -13940,7 +13898,8 @@ export default [
       "wisdom": 10,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Remorhaz",
@@ -13989,7 +13948,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Rhinoceros",
@@ -14033,7 +13993,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Riding Horse",
@@ -14069,7 +14030,8 @@ export default [
       "wisdom": 11,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Roc",
@@ -14081,7 +14043,6 @@ export default [
     "hit_points": 248,
     "hit_dice": "16d20",
     "speed": "20 ft., fly 120 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14125,7 +14086,8 @@ export default [
       "wisdom": 10,
       "charisma": 9
     },
-    "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +3"
+    "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +3",
+    "skills": "Perception +4"
   },
   {
     "name": "Roper",
@@ -14137,8 +14099,6 @@ export default [
     "hit_points": 93,
     "hit_dice": "11d10",
     "speed": "10 ft., climb 10 ft.",
-    "perception": 6,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14195,7 +14155,8 @@ export default [
       "wisdom": 16,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +6 Stealth +5"
   },
   {
     "name": "Rug of Smothering",
@@ -14248,7 +14209,8 @@ export default [
       "wisdom": 3,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Rust Monster",
@@ -14301,7 +14263,8 @@ export default [
       "wisdom": 13,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Saber-Toothed Tiger",
@@ -14313,8 +14276,6 @@ export default [
     "hit_points": 52,
     "hit_dice": "7d10",
     "speed": "40 ft.",
-    "perception": 3,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14358,7 +14319,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +6"
   },
   {
     "name": "Sahuagin",
@@ -14370,7 +14332,6 @@ export default [
     "hit_points": 22,
     "hit_dice": "4d8",
     "speed": "30 ft., swim 40 ft.",
-    "perception": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14431,7 +14392,8 @@ export default [
       "wisdom": 13,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5"
   },
   {
     "name": "Salamander",
@@ -14492,7 +14454,8 @@ export default [
       "wisdom": 10,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Satyr",
@@ -14504,9 +14467,6 @@ export default [
     "hit_points": 31,
     "hit_dice": "7d8",
     "speed": "40 ft.",
-    "perception": 2,
-    "performance": 6,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14557,7 +14517,8 @@ export default [
       "wisdom": 10,
       "charisma": 14
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Performance +6 Stealth +5"
   },
   {
     "name": "Scorpion",
@@ -14592,7 +14553,8 @@ export default [
       "wisdom": 8,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Scout",
@@ -14604,10 +14566,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d8",
     "speed": "30 ft.",
-    "nature": 4,
-    "perception": 5,
-    "stealth": 6,
-    "survival": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -14651,7 +14609,8 @@ export default [
       "wisdom": 13,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Nature +4 Perception +5 Stealth +6 Survival +5"
   },
   {
     "name": "Sea Hag",
@@ -14724,7 +14683,8 @@ export default [
       "wisdom": 12,
       "charisma": 13
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Sea Horse",
@@ -14758,7 +14718,8 @@ export default [
       "wisdom": 10,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Shadow",
@@ -14770,7 +14731,6 @@ export default [
     "hit_points": 16,
     "hit_dice": "3d8",
     "speed": "40 ft.",
-    "stealth": 4,
     "damage_vulnerabilities": "radiant",
     "damage_resistances": "acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "necrotic, poison",
@@ -14812,7 +14772,8 @@ export default [
       "wisdom": 10,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +4"
   },
   {
     "name": "Shambling Mound",
@@ -14824,7 +14785,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d10",
     "speed": "20 ft., swim 20 ft.",
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold, fire",
     "damage_immunities": "lightning",
@@ -14866,7 +14826,8 @@ export default [
       "wisdom": 10,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +2"
   },
   {
     "name": "Shield Guardian",
@@ -14931,7 +14892,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Shrieker",
@@ -14972,7 +14934,8 @@ export default [
       "wisdom": 3,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Silver Dragon Wyrmling",
@@ -14984,8 +14947,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d8",
     "speed": "30 ft., fly 60 ft.",
-    "perception": 4,
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -15016,7 +14977,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +2 Constitution +5 Wisdom +2 Charisma +4"
+    "saving_throws": "Dexterity +2 Constitution +5 Wisdom +2 Charisma +4",
+    "skills": "Perception +4 Stealth +2"
   },
   {
     "name": "Skeleton",
@@ -15059,7 +15021,8 @@ export default [
       "wisdom": 8,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Solar",
@@ -15071,7 +15034,6 @@ export default [
     "hit_points": 243,
     "hit_dice": "18d10",
     "speed": "50 ft., fly 150 ft.",
-    "perception": 14,
     "damage_vulnerabilities": "",
     "damage_resistances": "radiant; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "necrotic, poison",
@@ -15157,7 +15119,8 @@ export default [
       "wisdom": 25,
       "charisma": 30
     },
-    "saving_throws": "Intelligence +14 Wisdom +14 Charisma +17"
+    "saving_throws": "Intelligence +14 Wisdom +14 Charisma +17",
+    "skills": "Perception +14"
   },
   {
     "name": "Specter",
@@ -15204,7 +15167,8 @@ export default [
       "wisdom": 10,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Spider",
@@ -15216,7 +15180,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "20 ft., climb 20 ft.",
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -15257,7 +15220,8 @@ export default [
       "wisdom": 10,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Stealth +4"
   },
   {
     "name": "Spirit Naga",
@@ -15305,7 +15269,8 @@ export default [
       "wisdom": 15,
       "charisma": 16
     },
-    "saving_throws": "Dexterity +6 Constitution +5 Wisdom +5 Charisma +6"
+    "saving_throws": "Dexterity +6 Constitution +5 Wisdom +5 Charisma +6",
+    "skills": ""
   },
   {
     "name": "Sprite",
@@ -15317,8 +15282,6 @@ export default [
     "hit_points": 2,
     "hit_dice": "1d4",
     "speed": "10 ft., fly 40 ft.",
-    "perception": 3,
-    "stealth": 8,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -15358,7 +15321,8 @@ export default [
       "wisdom": 13,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +8"
   },
   {
     "name": "Spy",
@@ -15370,12 +15334,6 @@ export default [
     "hit_points": 27,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "deception": 5,
-    "insight": 4,
-    "investigation": 5,
-    "perception": 6,
-    "persuasion": 5,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -15425,7 +15383,8 @@ export default [
       "wisdom": 14,
       "charisma": 16
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +5 Insight +4 Investigation +5 Perception +6 Persuasion +5 Stealth +4"
   },
   {
     "name": "Steam Mephit",
@@ -15483,7 +15442,8 @@ export default [
       "wisdom": 10,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Stirge",
@@ -15519,7 +15479,8 @@ export default [
       "wisdom": 8,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Stone Giant",
@@ -15531,8 +15492,6 @@ export default [
     "hit_points": 126,
     "hit_dice": "11d12",
     "speed": "40 ft.",
-    "athletics": 12,
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -15583,7 +15542,8 @@ export default [
       "wisdom": 12,
       "charisma": 9
     },
-    "saving_throws": "Dexterity +5 Constitution +8 Wisdom +4"
+    "saving_throws": "Dexterity +5 Constitution +8 Wisdom +4",
+    "skills": "Athletics +12 Perception +4"
   },
   {
     "name": "Stone Golem",
@@ -15646,7 +15606,8 @@ export default [
       "wisdom": 11,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Storm Giant",
@@ -15658,10 +15619,6 @@ export default [
     "hit_points": 230,
     "hit_dice": "20d12",
     "speed": "50 ft., swim 50 ft.",
-    "arcana": 8,
-    "athletics": 14,
-    "history": 8,
-    "perception": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold",
     "damage_immunities": "lightning, thunder",
@@ -15716,7 +15673,8 @@ export default [
       "wisdom": 18,
       "charisma": 18
     },
-    "saving_throws": "Strength +14 Constitution +10 Wisdom +9 Charisma +9"
+    "saving_throws": "Strength +14 Constitution +10 Wisdom +9 Charisma +9",
+    "skills": "Arcana +8 Athletics +14 History +8 Perception +9"
   },
   {
     "name": "Succubus/Incubus",
@@ -15728,11 +15686,6 @@ export default [
     "hit_points": 66,
     "hit_dice": "12d8",
     "speed": "30 ft., fly 60 ft.",
-    "deception": 9,
-    "insight": 5,
-    "perception": 5,
-    "persuasion": 9,
-    "stealth": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "",
@@ -15786,7 +15739,8 @@ export default [
       "wisdom": 12,
       "charisma": 20
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Deception +9 Insight +5 Perception +5 Persuasion +9 Stealth +7"
   },
   {
     "name": "Swarm of Bats",
@@ -15838,7 +15792,8 @@ export default [
       "wisdom": 12,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Beetles",
@@ -15880,7 +15835,8 @@ export default [
       "wisdom": 7,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Centipedes",
@@ -15922,7 +15878,8 @@ export default [
       "wisdom": 7,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Insects",
@@ -15964,7 +15921,8 @@ export default [
       "wisdom": 7,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Poisonous Snakes",
@@ -16006,7 +15964,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Quippers",
@@ -16058,7 +16017,8 @@ export default [
       "wisdom": 7,
       "charisma": 2
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Rats",
@@ -16105,7 +16065,8 @@ export default [
       "wisdom": 10,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Ravens",
@@ -16147,7 +16108,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Spiders",
@@ -16204,7 +16166,8 @@ export default [
       "wisdom": 7,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Swarm of Wasps",
@@ -16246,7 +16209,8 @@ export default [
       "wisdom": 7,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Tarrasque",
@@ -16357,7 +16321,8 @@ export default [
       "wisdom": 11,
       "charisma": 11
     },
-    "saving_throws": "Intelligence +5 Wisdom +9 Charisma +9"
+    "saving_throws": "Intelligence +5 Wisdom +9 Charisma +9",
+    "skills": ""
   },
   {
     "name": "Thug",
@@ -16369,7 +16334,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d8",
     "speed": "30 ft.",
-    "intimidation": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16412,7 +16376,8 @@ export default [
       "wisdom": 10,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Intimidation +2"
   },
   {
     "name": "Tiger",
@@ -16424,8 +16389,6 @@ export default [
     "hit_points": 37,
     "hit_dice": "5d10",
     "speed": "40 ft.",
-    "perception": 3,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16467,7 +16430,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +6"
   },
   {
     "name": "Treant",
@@ -16532,7 +16496,8 @@ export default [
       "wisdom": 16,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Tribal Warrior",
@@ -16575,7 +16540,8 @@ export default [
       "wisdom": 11,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Triceratops",
@@ -16625,7 +16591,8 @@ export default [
       "wisdom": 11,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Troll",
@@ -16637,7 +16604,6 @@ export default [
     "hit_points": 84,
     "hit_dice": "8d10",
     "speed": "30 ft.",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16691,7 +16657,8 @@ export default [
       "wisdom": 9,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Tyrannosaurus Rex",
@@ -16703,7 +16670,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "13d12",
     "speed": "50 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -16740,7 +16706,8 @@ export default [
       "wisdom": 12,
       "charisma": 9
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Unicorn",
@@ -16838,7 +16805,8 @@ export default [
       "wisdom": 17,
       "charisma": 16
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Vampire",
@@ -16850,8 +16818,6 @@ export default [
     "hit_points": 144,
     "hit_dice": "17d8",
     "speed": "30 ft.",
-    "perception": 7,
-    "stealth": 9,
     "damage_vulnerabilities": "",
     "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "",
@@ -16947,7 +16913,8 @@ export default [
       "wisdom": 15,
       "charisma": 18
     },
-    "saving_throws": "Dexterity +9 Wisdom +7 Charisma +9"
+    "saving_throws": "Dexterity +9 Wisdom +7 Charisma +9",
+    "skills": "Perception +7 Stealth +9"
   },
   {
     "name": "Vampire Spawn",
@@ -16959,8 +16926,6 @@ export default [
     "hit_points": 82,
     "hit_dice": "11d8",
     "speed": "30 ft.",
-    "perception": 3,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons",
     "damage_immunities": "",
@@ -17012,7 +16977,8 @@ export default [
       "wisdom": 10,
       "charisma": 12
     },
-    "saving_throws": "Dexterity +6 Wisdom +3"
+    "saving_throws": "Dexterity +6 Wisdom +3",
+    "skills": "Perception +3 Stealth +6"
   },
   {
     "name": "Veteran",
@@ -17024,8 +16990,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "30 ft.",
-    "athletics": 5,
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -17069,7 +17033,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Athletics +5 Perception +2"
   },
   {
     "name": "Violet Fungus",
@@ -17116,7 +17081,8 @@ export default [
       "wisdom": 3,
       "charisma": 1
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Vrock",
@@ -17186,7 +17152,8 @@ export default [
       "wisdom": 13,
       "charisma": 8
     },
-    "saving_throws": "Dexterity +5 Wisdom +4 Charisma +2"
+    "saving_throws": "Dexterity +5 Wisdom +4 Charisma +2",
+    "skills": ""
   },
   {
     "name": "Vulture",
@@ -17198,7 +17165,6 @@ export default [
     "hit_points": 5,
     "hit_dice": "1d8",
     "speed": "10 ft., fly 50 ft.",
-    "perception": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -17234,7 +17200,8 @@ export default [
       "wisdom": 12,
       "charisma": 4
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3"
   },
   {
     "name": "Warhorse",
@@ -17277,7 +17244,8 @@ export default [
       "wisdom": 12,
       "charisma": 7
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Warhorse Skeleton",
@@ -17313,7 +17281,8 @@ export default [
       "wisdom": 8,
       "charisma": 5
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Water Elemental",
@@ -17371,7 +17340,8 @@ export default [
       "wisdom": 10,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Weasel",
@@ -17383,8 +17353,6 @@ export default [
     "hit_points": 1,
     "hit_dice": "1d4",
     "speed": "30 ft.",
-    "perception": 3,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -17415,7 +17383,8 @@ export default [
       "wisdom": 12,
       "charisma": 3
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +5"
   },
   {
     "name": "Werebear",
@@ -17427,7 +17396,6 @@ export default [
     "hit_points": 135,
     "hit_dice": "18d8",
     "speed": "30 ft. (40 ft., climb 30 ft. in bear or hybrid form)",
-    "perception": 7,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
@@ -17483,7 +17451,8 @@ export default [
       "wisdom": 12,
       "charisma": 12
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +7"
   },
   {
     "name": "Wereboar",
@@ -17495,7 +17464,6 @@ export default [
     "hit_points": 78,
     "hit_dice": "12d8",
     "speed": "30 ft. (40 ft. in boar form)",
-    "perception": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
@@ -17550,7 +17518,8 @@ export default [
       "wisdom": 11,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2"
   },
   {
     "name": "Wererat",
@@ -17562,8 +17531,6 @@ export default [
     "hit_points": 33,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "perception": 2,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
@@ -17619,7 +17586,8 @@ export default [
       "wisdom": 10,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +2 Stealth +4"
   },
   {
     "name": "Weretiger",
@@ -17631,8 +17599,6 @@ export default [
     "hit_points": 120,
     "hit_dice": "16d8",
     "speed": "30 ft. (40 ft. in tiger form)",
-    "perception": 5,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
@@ -17700,7 +17666,8 @@ export default [
       "wisdom": 13,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5 Stealth +4"
   },
   {
     "name": "Werewolf",
@@ -17712,7 +17679,6 @@ export default [
     "hit_points": 58,
     "hit_dice": "9d8",
     "speed": "30 ft. (40 ft. in wolf form)",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "bludgeoning, piercing, and slashing damage from nonmagical weapons that aren't silvered",
@@ -17768,7 +17734,8 @@ export default [
       "wisdom": 11,
       "charisma": 10
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "White Dragon Wyrmling",
@@ -17780,8 +17747,6 @@ export default [
     "hit_points": 32,
     "hit_dice": "5d8",
     "speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
-    "perception": 4,
-    "stealth": 2,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -17812,7 +17777,8 @@ export default [
       "wisdom": 10,
       "charisma": 11
     },
-    "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +2"
+    "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +2",
+    "skills": "Perception +4 Stealth +2"
   },
   {
     "name": "Wight",
@@ -17824,8 +17790,6 @@ export default [
     "hit_points": 45,
     "hit_dice": "6d8",
     "speed": "30 ft.",
-    "perception": 3,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "necrotic; bludgeoning, piercing, and slashing from nonmagical weapons that aren't silvered",
@@ -17876,7 +17840,8 @@ export default [
       "wisdom": 13,
       "charisma": 15
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4"
   },
   {
     "name": "Will-o'-Wisp",
@@ -17938,7 +17903,8 @@ export default [
       "wisdom": 14,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Winter Wolf",
@@ -17950,8 +17916,6 @@ export default [
     "hit_points": 75,
     "hit_dice": "10d10",
     "speed": "50 ft.",
-    "perception": 5,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -17999,7 +17963,8 @@ export default [
       "wisdom": 12,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +5 Stealth +3"
   },
   {
     "name": "Wolf",
@@ -18011,8 +17976,6 @@ export default [
     "hit_points": 11,
     "hit_dice": "2d8",
     "speed": "40 ft.",
-    "perception": 3,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -18049,7 +18012,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +3 Stealth +4"
   },
   {
     "name": "Worg",
@@ -18061,7 +18025,6 @@ export default [
     "hit_points": 26,
     "hit_dice": "4d10",
     "speed": "50 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -18093,7 +18056,8 @@ export default [
       "wisdom": 11,
       "charisma": 8
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Wraith",
@@ -18146,7 +18110,8 @@ export default [
       "wisdom": 14,
       "charisma": 15
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   },
   {
     "name": "Wyvern",
@@ -18158,7 +18123,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d10",
     "speed": "20 ft., fly 80 ft.",
-    "perception": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "",
@@ -18202,7 +18166,8 @@ export default [
       "wisdom": 12,
       "charisma": 6
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +4"
   },
   {
     "name": "Xorn",
@@ -18214,8 +18179,6 @@ export default [
     "hit_points": 73,
     "hit_dice": "7d8",
     "speed": "20 ft., burrow 20 ft.",
-    "perception": 6,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "piercing and slashing from nonmagical weapons that aren't adamantine",
     "damage_immunities": "",
@@ -18269,7 +18232,8 @@ export default [
       "wisdom": 10,
       "charisma": 11
     },
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": "Perception +6 Stealth +3"
   },
   {
     "name": "Young Black Dragon",
@@ -18281,8 +18245,6 @@ export default [
     "hit_points": 127,
     "hit_dice": "15d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "perception": 6,
-    "stealth": 5,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -18332,7 +18294,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +5 Constitution +6 Wisdom +3 Charisma +5"
+    "saving_throws": "Dexterity +5 Constitution +6 Wisdom +3 Charisma +5",
+    "skills": "Perception +6 Stealth +5"
   },
   {
     "name": "Young Blue Dragon",
@@ -18344,8 +18307,6 @@ export default [
     "hit_points": 152,
     "hit_dice": "16d10",
     "speed": "40 ft., burrow 40 ft., fly 80 ft.",
-    "perception": 9,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -18388,7 +18349,8 @@ export default [
       "wisdom": 13,
       "charisma": 17
     },
-    "saving_throws": "Dexterity +4 Constitution +8 Wisdom +5 Charisma +7"
+    "saving_throws": "Dexterity +4 Constitution +8 Wisdom +5 Charisma +7",
+    "skills": "Perception +9 Stealth +4"
   },
   {
     "name": "Young Brass Dragon",
@@ -18400,9 +18362,6 @@ export default [
     "hit_points": 110,
     "hit_dice": "13d10",
     "speed": "40 ft., burrow 20 ft., fly 80 ft.",
-    "perception": 6,
-    "persuasion": 5,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -18445,7 +18404,8 @@ export default [
       "wisdom": 11,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +3 Constitution +6 Wisdom +3 Charisma +5"
+    "saving_throws": "Dexterity +3 Constitution +6 Wisdom +3 Charisma +5",
+    "skills": "Perception +6 Persuasion +5 Stealth +3"
   },
   {
     "name": "Young Bronze Dragon",
@@ -18457,9 +18417,6 @@ export default [
     "hit_points": 142,
     "hit_dice": "15d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "insight": 4,
-    "perception": 7,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "lightning",
@@ -18509,7 +18466,8 @@ export default [
       "wisdom": 13,
       "charisma": 17
     },
-    "saving_throws": "Dexterity +3 Constitution +7 Wisdom +4 Charisma +6"
+    "saving_throws": "Dexterity +3 Constitution +7 Wisdom +4 Charisma +6",
+    "skills": "Insight +4 Perception +7 Stealth +3"
   },
   {
     "name": "Young Copper Dragon",
@@ -18521,9 +18479,6 @@ export default [
     "hit_points": 119,
     "hit_dice": "14d10",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "deception": 5,
-    "perception": 7,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "acid",
@@ -18566,7 +18521,8 @@ export default [
       "wisdom": 13,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +4 Constitution +6 Wisdom +4 Charisma +5"
+    "saving_throws": "Dexterity +4 Constitution +6 Wisdom +4 Charisma +5",
+    "skills": "Deception +5 Perception +7 Stealth +4"
   },
   {
     "name": "Young Gold Dragon",
@@ -18578,10 +18534,6 @@ export default [
     "hit_points": 178,
     "hit_dice": "17d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "insight": 5,
-    "perception": 9,
-    "persuasion": 9,
-    "stealth": 6,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -18631,7 +18583,8 @@ export default [
       "wisdom": 13,
       "charisma": 20
     },
-    "saving_throws": "Dexterity +6 Constitution +9 Wisdom +5 Charisma +9"
+    "saving_throws": "Dexterity +6 Constitution +9 Wisdom +5 Charisma +9",
+    "skills": "Insight +5 Perception +9 Persuasion +9 Stealth +6"
   },
   {
     "name": "Young Green Dragon",
@@ -18643,9 +18596,6 @@ export default [
     "hit_points": 136,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 80 ft., swim 40 ft.",
-    "deception": 5,
-    "perception": 7,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "poison",
@@ -18695,7 +18645,8 @@ export default [
       "wisdom": 13,
       "charisma": 15
     },
-    "saving_throws": "Dexterity +4 Constitution +6 Wisdom +4 Charisma +5"
+    "saving_throws": "Dexterity +4 Constitution +6 Wisdom +4 Charisma +5",
+    "skills": "Deception +5 Perception +7 Stealth +4"
   },
   {
     "name": "Young Red Dragon",
@@ -18707,8 +18658,6 @@ export default [
     "hit_points": 178,
     "hit_dice": "17d10",
     "speed": "40 ft., climb 40 ft., fly 80 ft.",
-    "perception": 8,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "fire",
@@ -18751,7 +18700,8 @@ export default [
       "wisdom": 11,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +8"
+    "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +8",
+    "skills": "Perception +8 Stealth +4"
   },
   {
     "name": "Young Silver Dragon",
@@ -18763,10 +18713,6 @@ export default [
     "hit_points": 168,
     "hit_dice": "16d10",
     "speed": "40 ft., fly 80 ft.",
-    "arcana": 6,
-    "history": 6,
-    "perception": 8,
-    "stealth": 4,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -18809,7 +18755,8 @@ export default [
       "wisdom": 11,
       "charisma": 19
     },
-    "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +8"
+    "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +8",
+    "skills": "Arcana +6 History +6 Perception +8 Stealth +4"
   },
   {
     "name": "Young White Dragon",
@@ -18821,8 +18768,6 @@ export default [
     "hit_points": 133,
     "hit_dice": "14d10",
     "speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
-    "perception": 6,
-    "stealth": 3,
     "damage_vulnerabilities": "",
     "damage_resistances": "",
     "damage_immunities": "cold",
@@ -18872,7 +18817,8 @@ export default [
       "wisdom": 11,
       "charisma": 12
     },
-    "saving_throws": "Dexterity +3 Constitution +7 Wisdom +3 Charisma +4"
+    "saving_throws": "Dexterity +3 Constitution +7 Wisdom +3 Charisma +4",
+    "skills": "Perception +6 Stealth +3"
   },
   {
     "name": "Zombie",
@@ -18915,7 +18861,8 @@ export default [
       "wisdom": 6,
       "charisma": 5
     },
-    "saving_throws": "Wisdom 0"
+    "saving_throws": "Wisdom 0",
+    "skills": ""
   },
   {
     "license": [
@@ -18937,6 +18884,7 @@ export default [
       "14 Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.",
       "15 COPYRIGHT NOTICE Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc."
     ],
-    "saving_throws": ""
+    "saving_throws": "",
+    "skills": ""
   }
 ];
