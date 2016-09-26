@@ -1,7 +1,59 @@
-#monster {
+h1,
+h2,
+p,
+dl,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+.monster {
   position: fixed;
   top: 0;
   right: 0;
   width: 25%;
   height: 100vh;
+  padding: 1vh;
+  font: 400 .875rem/1.4 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.lined-section {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.monster-name {
+  font: 400 1.75rem/1 'Times', 'Times New Roman', 'serif';
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+.monster-section {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font: 700 1.125rem/1 'Helvetica', 'Arial', 'sans-serif';
+}
+
+.monster-type {
+  font-style: italic;
+}
+
+.stat-defs,
+.stat-defs-lg {
+}
+.stat-defs > dt,
+.stat-defs-lg > dt {
+  padding-right: 7px;
+  float: left;
+  font-weight: 700;
+}
+.stat-defs > dd {
+  margin-bottom: 3px;
+  clear: right;
+}
+.stat-defs-lg > dd {
+  margin-bottom: 10px;
+  clear: right;
 }

@@ -22,38 +22,44 @@ export default class Monster extends React.Component {
     legendaryActions = !data.legendary_actions ? null : <DlContainer data={data.legendary_actions} hl="Legendary Actions" />;
 
     return(
-      <article id={style.monster}>
-        <header>
-          <h1>{data.name}</h1>
-          <p>{data.size + ' ' + data.type + ', ' + data.alignment}</p>
+      <article className={style.monster}>
+        <header className={style['lined-section']}>
+          <h1 className={style['monster-name']}>{data.name}</h1>
+          <p className={style['monster-type']}>{data.size + ' ' + data.type + ', ' + data.alignment}</p>
         </header>
-        <dl>
-          <dt>{"Armor Class"}</dt>
-          <dd>{data.armor_class}</dd>
-          <dt>{"Hit points"}</dt>
-          <dd>{data.hit_points + ' (' + data.hit_dice + ')'}</dd>
-          <dt>{"Speed"}</dt>
-          <dd>{data.speed}</dd>
-        </dl>
-        <Scores scores={data.scores} />
-        <dl>
-          <dt>{"Saving Throws"}</dt>
-          <dd>{data.saving_throws}</dd>
-          <dt>{"Skills"}</dt>
-          <dd>{data.skills}</dd>
-          <dt>{"Damage Vulnerabilities"}</dt>
-          <dd>{data.damage_vulnerabilities}</dd>
-          <dt>{"Damage Resistances"}</dt>
-          <dd>{data.damage_resistances}</dd>
-          <dt>{"Damage Immunities"}</dt>
-          <dd>{data.damage_immunities}</dd>
-          <dt>{"Condition Immunities"}</dt>
-          <dd>{data.condition_immunities}</dd>
-          <dt>{"Languages"}</dt>
-          <dd>{data.languages}</dd>
-          <dt>{"Challenge"}</dt>
-          <dd>{data.challenge_rating}</dd>
-        </dl>
+        <div className={style['lined-section']}>
+          <dl className={style['stat-defs']}>
+            <dt>{"Armor Class"}</dt>
+            <dd>{data.armor_class}</dd>
+            <dt>{"Hit points"}</dt>
+            <dd>{data.hit_points + ' (' + data.hit_dice + ')'}</dd>
+            <dt>{"Speed"}</dt>
+            <dd>{data.speed}</dd>
+          </dl>
+        </div>
+        <div className={style['lined-section']}>
+          <Scores scores={data.scores} />
+        </div>
+        <div className={style['lined-section']}>
+          <dl className={style['stat-defs']}>
+            <dt>{"Saving Throws"}</dt>
+            <dd>{data.saving_throws}</dd>
+            <dt>{"Skills"}</dt>
+            <dd>{data.skills}</dd>
+            <dt>{"Damage Vulnerabilities"}</dt>
+            <dd>{data.damage_vulnerabilities}</dd>
+            <dt>{"Damage Resistances"}</dt>
+            <dd>{data.damage_resistances}</dd>
+            <dt>{"Damage Immunities"}</dt>
+            <dd>{data.damage_immunities}</dd>
+            <dt>{"Condition Immunities"}</dt>
+            <dd>{data.condition_immunities}</dd>
+            <dt>{"Languages"}</dt>
+            <dd>{data.languages}</dd>
+            <dt>{"Challenge"}</dt>
+            <dd>{data.challenge_rating}</dd>
+          </dl>
+        </div>
         {specialAbilities}
         {actions}
         {reactions}

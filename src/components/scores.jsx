@@ -1,6 +1,7 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 import Score from './score.jsx'
+import style from '../style/table.css'
 
 export default class Scores extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class Scores extends React.Component {
     const { scores } = this.props;
 
     return (
-      <table>
+      <table className={style['score-table']}>
         <thead>
           <tr>
             <th>{"STR"}</th>

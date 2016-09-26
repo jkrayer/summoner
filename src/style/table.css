@@ -1,0 +1,11 @@
+.score-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.score-table td {
+  width: 16.66666%;
+  text-align: center;
+}

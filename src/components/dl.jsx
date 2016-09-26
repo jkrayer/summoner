@@ -1,4 +1,5 @@
 import React from 'react';
+import style from '../style/monster.css'
 
 export default class Dl extends React.Component {
   constructor(props) {
@@ -14,12 +15,12 @@ export default class Dl extends React.Component {
       }
       return <dd key={key}>{term}</dd>;
     });
-    let headline = hl ? <h2>{hl}</h2> : null;
+    let headline = hl ? <h2 className={style['monster-section']}>{hl}</h2> : null;
 
     return (
       <div>
         {headline}
-        <dl>
+        <dl className={style['stat-defs-lg']}>
           { terms }
         </dl>
       </div>
