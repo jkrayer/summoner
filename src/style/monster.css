@@ -13,7 +13,9 @@ dd {
   position: fixed;
   top: 0;
   right: 0;
+  overflow-y: auto;
   width: 25%;
+  min-width: 350px;
   height: 100vh;
   padding: 2vh;
   border-left: 2px solid #f2f2f2;
