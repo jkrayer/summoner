@@ -1,6 +1,7 @@
 import React from 'react';
 import Scores from './scores.jsx';
 import DlContainer from './dl-container.jsx';
+import style from '../style/monster.css';
 
 export default class Monster extends React.Component {
   constructor(props) {
@@ -21,7 +22,7 @@ export default class Monster extends React.Component {
     legendaryActions = !data.legendary_actions ? null : <DlContainer data={data.legendary_actions} hl="Legendary Actions" />;
 
     return(
-      <article>
+      <article id={style.monster}>
         <header>
           <h1>{data.name}</h1>
           <p>{data.size + ' ' + data.type + ', ' + data.alignment}</p>
