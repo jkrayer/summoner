@@ -53,6 +53,9 @@ dd {
   float: left;
   font-weight: 700;
 }
+.stat-defs-lg > dt:after {
+  content: '.';
+}
 .stat-defs > dd {
   margin-bottom: 3px;
   clear: right;
