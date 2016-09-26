@@ -42,22 +42,22 @@ export default class Monster extends React.Component {
         </div>
         <div className={style['lined-section']}>
           <dl className={style['stat-defs']}>
-            <dt>{"Saving Throws"}</dt>
-            <dd>{data.saving_throws}</dd>
-            <dt>{"Skills"}</dt>
-            <dd>{data.skills}</dd>
-            <dt>{"Damage Vulnerabilities"}</dt>
-            <dd>{data.damage_vulnerabilities}</dd>
-            <dt>{"Damage Resistances"}</dt>
-            <dd>{data.damage_resistances}</dd>
-            <dt>{"Damage Immunities"}</dt>
-            <dd>{data.damage_immunities}</dd>
-            <dt>{"Condition Immunities"}</dt>
-            <dd>{data.condition_immunities}</dd>
-            <dt>{"Languages"}</dt>
-            <dd>{data.languages}</dd>
-            <dt>{"Challenge"}</dt>
-            <dd>{data.challenge_rating}</dd>
+            <dt>{data.saving_throws ? "Saving Throws" : null}</dt>
+            <dd>{data.saving_throws ? data.saving_throws : null}</dd>
+            <dt>{data.skills ? "Skills" : null}</dt>
+            <dd>{data.skills ? data.skills : null}</dd>
+            <dt>{data.damage_vulnerabilities ? "Damage Vulnerabilities" : null}</dt>
+            <dd>{data.damage_vulnerabilities ? data.damage_vulnerabilities : null}</dd>
+            <dt>{data.damage_resistances ? "Damage Resistances" : null}</dt>
+            <dd>{data.damage_resistances ? data.damage_resistances : null}</dd>
+            <dt>{data.damage_immunities ? "Damage Immunities" : null}</dt>
+            <dd>{data.damage_immunities ? data.damage_immunities : null}</dd>
+            <dt>{data.condition_immunities ? "Condition Immunities" : null}</dt>
+            <dd>{data.condition_immunities ? data.condition_immunities : null}</dd>
+            <dt>{data.languages ? "Languages" : null}</dt>
+            <dd>{data.languages ? data.languages : null}</dd>
+            <dt>{data.challenge_rating ? "Challenge" : null}</dt>
+            <dd>{data.challenge_rating ? data.challenge_rating : null}</dd>
           </dl>
         </div>
         {specialAbilities}
