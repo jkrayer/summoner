@@ -1,11 +1,13 @@
 import React from 'react';
 import style from '../style/monster.css'
+import Marked from 'marked';
 
 export default class Dl extends React.Component {
   constructor(props) {
     super(props);
   }
   render() {
+    let markup;
     let { data, hl } = this.props;
     let terms = data.map((term, index) => {
       let i = index % 2;
@@ -13,7 +15,8 @@ export default class Dl extends React.Component {
       if (i === 0) {
         return <dt key={key}>{term}</dt>;
       }
-      return <dd key={key}>{term}</dd>;
+      markup = Marked(term, { sanitize: false });
+      return <dd dangerouslySetInnerHTML={{ __html: markup }} key={key} />;
     });
     let headline = hl ? <h2 className={style['monster-section']}>{hl}</h2> : null;
 
