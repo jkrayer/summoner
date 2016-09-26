@@ -1,6 +1,6 @@
 import React from 'react';
 import Scores from './scores.jsx';
-import Dl from './dl.jsx';
+import DlContainer from './dl-container.jsx';
 
 export default class Monster extends React.Component {
   constructor(props) {
@@ -15,10 +15,10 @@ export default class Monster extends React.Component {
 
     if (data === null) { return null; }
 
-    specialAbilities = !data.special_abilities ? null : <Dl data={data.special_abilities} />;
-    actions = !data.actions ? null : <Dl data={data.actions} />;
-    reactions = !data.reactions ? null : <Dl data={data.reactions} />;
-    legendaryActions = !data.legendary_actions ? null : <Dl data={data.legendary_actions} />;
+    specialAbilities = !data.special_abilities ? null : <DlContainer data={data.special_abilities} />;
+    actions = !data.actions ? null : <DlContainer data={data.actions} hl="Actions" />;
+    reactions = !data.reactions ? null : <DlContainer data={data.reactions} hl="Reactions" />;
+    legendaryActions = !data.legendary_actions ? null : <DlContainer data={data.legendary_actions} hl="Legendary Actions" />;
 
     return(
       <article>
