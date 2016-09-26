@@ -9,12 +9,14 @@ dd {
 }
 
 .monster {
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   right: 0;
   width: 25%;
   height: 100vh;
-  padding: 1vh;
+  padding: 2vh;
+  border-left: 2px solid #f2f2f2;
   font: 400 .875rem/1.4 'Helvetica', 'Arial', 'sans-serif';
 }
 
@@ -27,7 +29,7 @@ dd {
 .monster-name {
   font: 400 1.75rem/1 'Times', 'Times New Roman', 'serif';
   letter-spacing: .03em;
-  text-transform: uppercase;
+  font-variant: small-caps;
 }
 
 .monster-section {

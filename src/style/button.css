@@ -1,0 +1,26 @@
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  margin-bottom: 3px;
+}
+
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
+  letter-spacing: .03em;
+  font-variant: small-caps;
+  text-align: left;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus {
+  border: none;
+  outline: none;
+}
+button:hover {
+  background-color: #eee;
+}

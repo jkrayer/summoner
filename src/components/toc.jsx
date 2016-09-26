@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './button.jsx';
+import style from '../style/button.css';
 
 export default class Toc extends React.Component {
   constructor(props) {
