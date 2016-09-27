@@ -44,7 +44,10 @@ export default class TocContainer extends React.Component {
     const input = this.sanitizeInput(event.target.value);
 
     if (!input) {
-      return this.setState({filteredData: this.props.data});
+      return this.setState({
+        filter: '',
+        filteredData: this.props.data
+      });
     }
 
     this.setState({filter: input});
