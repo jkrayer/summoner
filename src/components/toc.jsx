@@ -8,10 +8,10 @@ export default class Toc extends React.Component {
   }
   render() {
     const { data } = this.props;
-    const lis = data.map( (monster, index) =>
+    const lis = data.map( (monster) =>
       !monster.name ? null :
-        <li key={index}>
-          <Button event={this.props.buttonEvent.bind(null, index)}>
+        <li key={monster.arrayIndex}>
+          <Button event={this.props.buttonEvent.bind(null, monster.arrayIndex)}>
             {monster.name}
           </Button>
         </li>
