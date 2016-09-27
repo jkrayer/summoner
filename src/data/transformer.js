@@ -102,6 +102,8 @@ const crMap = {
 
 //   data[i].challenge_rating += ' ' + crMap[data[i].challenge_rating];
 
+    //temp index so I don't have to search twice
+    data[i].arrayIndex = i;
   }
 
   write(JSON.stringify(data));

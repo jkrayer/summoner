@@ -85,7 +85,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Constitution +6 Intelligence +8 Wisdom +6",
-    "skills": "History +12 Perception +10"
+    "skills": "History +12 Perception +10",
+    "arrayIndex": 0
   },
   {
     "name": "Acolyte",
@@ -128,7 +129,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Medicine +4 Religion +2"
+    "skills": "Medicine +4 Religion +2",
+    "arrayIndex": 1
   },
   {
     "name": "Adult Black Dragon",
@@ -224,7 +226,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Dexterity +7 Constitution +10 Wisdom +6 Charisma +8",
-    "skills": "Perception +11 Stealth +7"
+    "skills": "Perception +11 Stealth +7",
+    "arrayIndex": 2
   },
   {
     "name": "Adult Blue Dracolich",
@@ -320,7 +323,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "",
-    "skills": "Perception +12"
+    "skills": "Perception +12",
+    "arrayIndex": 3
   },
   {
     "name": "Adult Blue Dragon",
@@ -411,7 +415,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +5 Constitution +11 Wisdom +7 Charisma +9",
-    "skills": "Perception +12 Stealth +5"
+    "skills": "Perception +12 Stealth +5",
+    "arrayIndex": 4
   },
   {
     "name": "Adult Brass Dragon",
@@ -485,7 +490,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Dexterity +5 Constitution +10 Wisdom +6 Charisma +8",
-    "skills": "History +7 Perception +11 Persuasion +8 Stealth +5"
+    "skills": "History +7 Perception +11 Persuasion +8 Stealth +5",
+    "arrayIndex": 5
   },
   {
     "name": "Adult Bronze Dragon",
@@ -581,7 +587,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +5 Constitution +11 Wisdom +7 Charisma +9",
-    "skills": "Insight +7 Perception +12 Stealth +5"
+    "skills": "Insight +7 Perception +12 Stealth +5",
+    "arrayIndex": 6
   },
   {
     "name": "Adult Copper Dragon",
@@ -672,7 +679,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Dexterity +6 Constitution +10 Wisdom +7 Charisma +8",
-    "skills": "Deception +8 Perception +12 Stealth +6"
+    "skills": "Deception +8 Perception +12 Stealth +6",
+    "arrayIndex": 7
   },
   {
     "name": "Adult Gold Dragon",
@@ -768,7 +776,8 @@ export default [
       "charisma": 24
     },
     "saving_throws": "Dexterity +8 Constitution +13 Wisdom +8 Charisma +13",
-    "skills": "Insight +8 Perception +14 Persuasion +13 Stealth +8"
+    "skills": "Insight +8 Perception +14 Persuasion +13 Stealth +8",
+    "arrayIndex": 8
   },
   {
     "name": "Adult Green Dragon",
@@ -864,7 +873,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Dexterity +6 Constitution +10 Wisdom +7 Charisma +8",
-    "skills": "Deception +8 Insight +7 Perception +12 Persuasion +8 Stealth +6"
+    "skills": "Deception +8 Insight +7 Perception +12 Persuasion +8 Stealth +6",
+    "arrayIndex": 9
   },
   {
     "name": "Adult Red Dragon",
@@ -961,7 +971,8 @@ export default [
       "charisma": 21
     },
     "saving_throws": "Dexterity +6 Constitution +13 Wisdom +7 Charisma +11",
-    "skills": "Perception +13 Stealth +6"
+    "skills": "Perception +13 Stealth +6",
+    "arrayIndex": 10
   },
   {
     "name": "Adult Silver Dragon",
@@ -1052,7 +1063,8 @@ export default [
       "charisma": 21
     },
     "saving_throws": "Dexterity +5 Constitution +12 Wisdom +6 Charisma +10",
-    "skills": "Arcana +8 History +8 Perception +11 Stealth +5"
+    "skills": "Arcana +8 History +8 Perception +11 Stealth +5",
+    "arrayIndex": 11
   },
   {
     "name": "Adult White Dragon",
@@ -1148,7 +1160,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "Dexterity +5 Constitution +11 Wisdom +6 Charisma +6",
-    "skills": "Perception +11 Stealth +5"
+    "skills": "Perception +11 Stealth +5",
+    "arrayIndex": 12
   },
   {
     "name": "Air Elemental",
@@ -1202,7 +1215,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 13
   },
   {
     "name": "Ancient Black Dragon",
@@ -1302,7 +1316,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +9 Constitution +14 Wisdom +9 Charisma +11",
-    "skills": "Perception +16 Stealth +9"
+    "skills": "Perception +16 Stealth +9",
+    "arrayIndex": 14
   },
   {
     "name": "Ancient Blue Dragon",
@@ -1386,7 +1401,8 @@ export default [
       "charisma": 21
     },
     "saving_throws": "Dexterity +7 Constitution +15 Wisdom +10 Charisma +12",
-    "skills": "Perception +17 Stealth +7"
+    "skills": "Perception +17 Stealth +7",
+    "arrayIndex": 15
   },
   {
     "name": "Ancient Brass Dragon",
@@ -1482,7 +1498,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +6 Constitution +13 Wisdom +8 Charisma +10",
-    "skills": "History +9 Perception +14 Persuasion +10 Stealth +6"
+    "skills": "History +9 Perception +14 Persuasion +10 Stealth +6",
+    "arrayIndex": 16
   },
   {
     "name": "Ancient Bronze Dragon",
@@ -1583,7 +1600,8 @@ export default [
       "charisma": 21
     },
     "saving_throws": "Dexterity +7 Constitution +15 Wisdom +10 Charisma +12",
-    "skills": "Insight +10 Perception +17 Stealth +7"
+    "skills": "Insight +10 Perception +17 Stealth +7",
+    "arrayIndex": 17
   },
   {
     "name": "Ancient Copper Dragon",
@@ -1679,7 +1697,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +8 Constitution +14 Wisdom +10 Charisma +11",
-    "skills": "Deception +11 Perception +17 Stealth +8"
+    "skills": "Deception +11 Perception +17 Stealth +8",
+    "arrayIndex": 18
   },
   {
     "name": "Ancient Gold Dragon",
@@ -1780,7 +1799,8 @@ export default [
       "charisma": 28
     },
     "saving_throws": "Dexterity +9 Constitution +16 Wisdom +10 Charisma +16",
-    "skills": "Insight +10 Perception +17 Persuasion +16 Stealth +9"
+    "skills": "Insight +10 Perception +17 Persuasion +16 Stealth +9",
+    "arrayIndex": 19
   },
   {
     "name": "Ancient Green Dragon",
@@ -1876,7 +1896,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +8 Constitution +14 Wisdom +10 Charisma +11",
-    "skills": "Deception +11 Insight +10 Perception +17 Persuasion +11 Stealth +8"
+    "skills": "Deception +11 Insight +10 Perception +17 Persuasion +11 Stealth +8",
+    "arrayIndex": 20
   },
   {
     "name": "Ancient Red Dragon",
@@ -1967,7 +1988,8 @@ export default [
       "charisma": 23
     },
     "saving_throws": "Dexterity +7 Constitution +16 Wisdom +9 Charisma +13",
-    "skills": "Perception +16 Stealth +7"
+    "skills": "Perception +16 Stealth +7",
+    "arrayIndex": 21
   },
   {
     "name": "Ancient Silver Dragon",
@@ -2063,7 +2085,8 @@ export default [
       "charisma": 23
     },
     "saving_throws": "Dexterity +7 Constitution +16 Wisdom +9 Charisma +13",
-    "skills": "Arcana +11 History +11 Perception +16 Stealth +7"
+    "skills": "Arcana +11 History +11 Perception +16 Stealth +7",
+    "arrayIndex": 22
   },
   {
     "name": "Ancient White Dragon",
@@ -2142,7 +2165,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "Dexterity +6 Constitution +14 Wisdom +7 Charisma +8",
-    "skills": "Perception +13 Stealth +6"
+    "skills": "Perception +13 Stealth +6",
+    "arrayIndex": 23
   },
   {
     "name": "Androsphinx",
@@ -2223,7 +2247,8 @@ export default [
       "charisma": 23
     },
     "saving_throws": "Dexterity +6 Constitution +11 Intelligence +9 Wisdom +10",
-    "skills": "Arcana +9 Perception +10 Religion +15"
+    "skills": "Arcana +9 Perception +10 Religion +15",
+    "arrayIndex": 24
   },
   {
     "name": "Animated Armor",
@@ -2277,7 +2302,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 25
   },
   {
     "name": "Ankheg",
@@ -2320,7 +2346,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 26
   },
   {
     "name": "Ape",
@@ -2369,7 +2396,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Athletics +5 Perception +3"
+    "skills": "Athletics +5 Perception +3",
+    "arrayIndex": 27
   },
   {
     "name": "Archmage",
@@ -2418,7 +2446,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Intelligence +9 Wisdom +6",
-    "skills": "Arcana +13 History +13"
+    "skills": "Arcana +13 History +13",
+    "arrayIndex": 28
   },
   {
     "name": "Assassin",
@@ -2485,7 +2514,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "Dexterity +6 Intelligence +4",
-    "skills": "Acrobatics +6 Deception +3 Perception +3 Stealth +9"
+    "skills": "Acrobatics +6 Deception +3 Perception +3 Stealth +9",
+    "arrayIndex": 29
   },
   {
     "name": "Awakened Shrub",
@@ -2529,7 +2559,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 30
   },
   {
     "name": "Awakened Tree",
@@ -2573,7 +2604,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 31
   },
   {
     "name": "Axe Beak",
@@ -2610,7 +2642,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 32
   },
   {
     "name": "Azer",
@@ -2665,7 +2698,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "Constitution +4",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 33
   },
   {
     "name": "Baboon",
@@ -2709,7 +2743,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 34
   },
   {
     "name": "Badger",
@@ -2752,7 +2787,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 35
   },
   {
     "name": "Balor",
@@ -2835,7 +2871,8 @@ export default [
       "charisma": 22
     },
     "saving_throws": "Strength +14 Constitution +12 Wisdom +9 Charisma +12",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 36
   },
   {
     "name": "Bandit",
@@ -2879,7 +2916,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 37
   },
   {
     "name": "Bandit Captain",
@@ -2935,7 +2973,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "Strength +4 Dexterity +5 Wisdom +2",
-    "skills": "Athletics +4 Deception +4"
+    "skills": "Athletics +4 Deception +4",
+    "arrayIndex": 38
   },
   {
     "name": "Barbed Devil",
@@ -3008,7 +3047,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "Strength +6 Constitution +7 Wisdom +5 Charisma +5",
-    "skills": "Deception +5 Insight +5 Perception +8"
+    "skills": "Deception +5 Insight +5 Perception +8",
+    "arrayIndex": 39
   },
   {
     "name": "Basilisk",
@@ -3052,7 +3092,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 40
   },
   {
     "name": "Bat",
@@ -3100,7 +3141,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 41
   },
   {
     "name": "Bearded Devil",
@@ -3166,7 +3208,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "Strength +5 Constitution +4 Wisdom +2",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 42
   },
   {
     "name": "Behir",
@@ -3227,7 +3270,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": "Perception +6 Stealth +7"
+    "skills": "Perception +6 Stealth +7",
+    "arrayIndex": 43
   },
   {
     "name": "Berserker",
@@ -3271,7 +3315,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 44
   },
   {
     "name": "Black Bear",
@@ -3327,7 +3372,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 45
   },
   {
     "name": "Black Dragon Wyrmling",
@@ -3377,7 +3423,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Dexterity +4 Constitution +3 Wisdom +2 Charisma +3",
-    "skills": "Perception +4 Stealth +4"
+    "skills": "Perception +4 Stealth +4",
+    "arrayIndex": 46
   },
   {
     "name": "Black Pudding",
@@ -3439,7 +3486,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 47
   },
   {
     "name": "Blink Dog",
@@ -3488,7 +3536,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +5"
+    "skills": "Perception +3 Stealth +5",
+    "arrayIndex": 48
   },
   {
     "name": "Blood Hawk",
@@ -3537,7 +3586,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 49
   },
   {
     "name": "Blue Dragon Wyrmling",
@@ -3580,7 +3630,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +4",
-    "skills": "Perception +4 Stealth +2"
+    "skills": "Perception +4 Stealth +2",
+    "arrayIndex": 50
   },
   {
     "name": "Boar",
@@ -3630,7 +3681,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 51
   },
   {
     "name": "Bone Devil",
@@ -3710,7 +3762,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Intelligence +5 Wisdom +6 Charisma +7",
-    "skills": "Deception +7 Insight +6"
+    "skills": "Deception +7 Insight +6",
+    "arrayIndex": 52
   },
   {
     "name": "Brass Dragon Wyrmling",
@@ -3753,7 +3806,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Dexterity +2 Constitution +3 Wisdom +2 Charisma +3",
-    "skills": "Perception +4 Stealth +2"
+    "skills": "Perception +4 Stealth +2",
+    "arrayIndex": 53
   },
   {
     "name": "Bronze Dragon Wyrmling",
@@ -3803,7 +3857,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +4",
-    "skills": "Perception +4 Stealth +2"
+    "skills": "Perception +4 Stealth +2",
+    "arrayIndex": 54
   },
   {
     "name": "Brown Bear",
@@ -3859,7 +3914,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 55
   },
   {
     "name": "Bugbear",
@@ -3916,7 +3972,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": "Stealth +6 Survival +2"
+    "skills": "Stealth +6 Survival +2",
+    "arrayIndex": 56
   },
   {
     "name": "Bulette",
@@ -3965,7 +4022,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +6"
+    "skills": "Perception +6",
+    "arrayIndex": 57
   },
   {
     "name": "Camel",
@@ -4001,7 +4059,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 58
   },
   {
     "name": "Carrion Crawler",
@@ -4062,7 +4121,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 59
   },
   {
     "name": "Cat",
@@ -4105,7 +4165,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4"
+    "skills": "Perception +3 Stealth +4",
+    "arrayIndex": 60
   },
   {
     "name": "Cave Bear",
@@ -4161,7 +4222,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 61
   },
   {
     "name": "Centaur",
@@ -4225,7 +4287,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Athletics +6 Perception +3 Survival +3"
+    "skills": "Athletics +6 Perception +3 Survival +3",
+    "arrayIndex": 62
   },
   {
     "name": "Chain Devil",
@@ -4291,7 +4354,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 63
   },
   {
     "name": "Chimera",
@@ -4353,7 +4417,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +8"
+    "skills": "Perception +8",
+    "arrayIndex": 64
   },
   {
     "name": "Chuul",
@@ -4412,7 +4477,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 65
   },
   {
     "name": "Clay Golem",
@@ -4486,7 +4552,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 66
   },
   {
     "name": "Cloaker",
@@ -4562,7 +4629,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": "Stealth +5"
+    "skills": "Stealth +5",
+    "arrayIndex": 67
   },
   {
     "name": "Cloud Giant",
@@ -4623,7 +4691,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Constitution +10 Wisdom +7 Charisma +7",
-    "skills": "Insight +7 Perception +7"
+    "skills": "Insight +7 Perception +7",
+    "arrayIndex": 68
   },
   {
     "name": "Cockatrice",
@@ -4660,7 +4729,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 69
   },
   {
     "name": "Commoner",
@@ -4696,7 +4766,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 70
   },
   {
     "name": "Constrictor Snake",
@@ -4740,7 +4811,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 71
   },
   {
     "name": "Copper Dragon Wyrmling",
@@ -4783,7 +4855,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Dexterity +3 Constitution +3 Wisdom +2 Charisma +3",
-    "skills": "Perception +4 Stealth +3"
+    "skills": "Perception +4 Stealth +3",
+    "arrayIndex": 72
   },
   {
     "name": "Couatl",
@@ -4849,7 +4922,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Constitution +5 Wisdom +7 Charisma +6",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 73
   },
   {
     "name": "Crab",
@@ -4892,7 +4966,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": "Stealth +2"
+    "skills": "Stealth +2",
+    "arrayIndex": 74
   },
   {
     "name": "Crocodile",
@@ -4936,7 +5011,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Stealth +2"
+    "skills": "Stealth +2",
+    "arrayIndex": 75
   },
   {
     "name": "Cult Fanatic",
@@ -4990,7 +5066,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": "Deception +4 Persuasion +4 Religion +2"
+    "skills": "Deception +4 Persuasion +4 Religion +2",
+    "arrayIndex": 76
   },
   {
     "name": "Cultist",
@@ -5034,7 +5111,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Deception +2 Religion +2"
+    "skills": "Deception +2 Religion +2",
+    "arrayIndex": 77
   },
   {
     "name": "Darkmantle",
@@ -5088,7 +5166,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Stealth +3"
+    "skills": "Stealth +3",
+    "arrayIndex": 78
   },
   {
     "name": "Death Dog",
@@ -5137,7 +5216,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +5 Stealth +4"
+    "skills": "Perception +5 Stealth +4",
+    "arrayIndex": 79
   },
   {
     "name": "Deep Gnome (Svirfneblin)",
@@ -5198,7 +5278,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": "Investigation +3 Perception +2 Stealth +4"
+    "skills": "Investigation +3 Perception +2 Stealth +4",
+    "arrayIndex": 80
   },
   {
     "name": "Deer",
@@ -5234,7 +5315,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 81
   },
   {
     "name": "Deva",
@@ -5303,7 +5385,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "Wisdom +9 Charisma +9",
-    "skills": "Insight +9 Perception +9"
+    "skills": "Insight +9 Perception +9",
+    "arrayIndex": 82
   },
   {
     "name": "Dire Wolf",
@@ -5352,7 +5435,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4"
+    "skills": "Perception +3 Stealth +4",
+    "arrayIndex": 83
   },
   {
     "name": "Djinni",
@@ -5416,7 +5500,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "Dexterity +6 Wisdom +7 Charisma +9",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 84
   },
   {
     "name": "Doppelganger",
@@ -5481,7 +5566,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": "Deception +6 Insight +3"
+    "skills": "Deception +6 Insight +3",
+    "arrayIndex": 85
   },
   {
     "name": "Draft Horse",
@@ -5518,7 +5604,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 86
   },
   {
     "name": "Dragon Turtle",
@@ -5587,7 +5674,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "Dexterity +6 Constitution +11 Wisdom +7",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 87
   },
   {
     "name": "Dretch",
@@ -5639,7 +5727,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 88
   },
   {
     "name": "Drider",
@@ -5722,7 +5811,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": "Perception +5 Stealth +9"
+    "skills": "Perception +5 Stealth +9",
+    "arrayIndex": 89
   },
   {
     "name": "Drow",
@@ -5783,7 +5873,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": "Perception +2 Stealth +4"
+    "skills": "Perception +2 Stealth +4",
+    "arrayIndex": 90
   },
   {
     "name": "Druid",
@@ -5826,7 +5917,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Medicine +4 Nature +3 Perception +4"
+    "skills": "Medicine +4 Nature +3 Perception +4",
+    "arrayIndex": 91
   },
   {
     "name": "Dryad",
@@ -5889,7 +5981,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "",
-    "skills": "Perception +4 Stealth +5"
+    "skills": "Perception +4 Stealth +5",
+    "arrayIndex": 92
   },
   {
     "name": "Duergar",
@@ -5955,7 +6048,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 93
   },
   {
     "name": "Dust Mephit",
@@ -6014,7 +6108,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +2 Stealth +4"
+    "skills": "Perception +2 Stealth +4",
+    "arrayIndex": 94
   },
   {
     "name": "Eagle",
@@ -6058,7 +6153,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 95
   },
   {
     "name": "Earth Elemental",
@@ -6112,7 +6208,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 96
   },
   {
     "name": "Efreeti",
@@ -6177,7 +6274,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Intelligence +7 Wisdom +6 Charisma +7",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 97
   },
   {
     "name": "Elephant",
@@ -6228,7 +6326,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 98
   },
   {
     "name": "Elk",
@@ -6276,7 +6375,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 99
   },
   {
     "name": "Erinyes",
@@ -6349,7 +6449,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Dexterity +7 Constitution +8 Wisdom +6 Charisma +8",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 100
   },
   {
     "name": "Ettercap",
@@ -6427,7 +6528,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4 Survival +3"
+    "skills": "Perception +3 Stealth +4 Survival +3",
+    "arrayIndex": 101
   },
   {
     "name": "Ettin",
@@ -6488,7 +6590,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 102
   },
   {
     "name": "Fire Elemental",
@@ -6548,7 +6651,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 103
   },
   {
     "name": "Fire Giant",
@@ -6597,7 +6701,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Dexterity +3 Constitution +10 Charisma +5",
-    "skills": "Athletics +11 Perception +6"
+    "skills": "Athletics +11 Perception +6",
+    "arrayIndex": 104
   },
   {
     "name": "Flesh Golem",
@@ -6671,7 +6776,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 105
   },
   {
     "name": "Flying Snake",
@@ -6714,7 +6820,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 106
   },
   {
     "name": "Flying Sword",
@@ -6763,7 +6870,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "Dexterity +4",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 107
   },
   {
     "name": "Frog",
@@ -6803,7 +6911,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": "Perception +1 Stealth +3"
+    "skills": "Perception +1 Stealth +3",
+    "arrayIndex": 108
   },
   {
     "name": "Frost Giant",
@@ -6852,7 +6961,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "Constitution +8 Wisdom +3 Charisma +4",
-    "skills": "Athletics +9 Perception +3"
+    "skills": "Athletics +9 Perception +3",
+    "arrayIndex": 109
   },
   {
     "name": "Gargoyle",
@@ -6908,7 +7018,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 110
   },
   {
     "name": "Gelatinous Cube",
@@ -6961,7 +7072,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 111
   },
   {
     "name": "Ghast",
@@ -7017,7 +7129,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 112
   },
   {
     "name": "Ghost",
@@ -7081,7 +7194,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 113
   },
   {
     "name": "Ghoul",
@@ -7123,7 +7237,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 114
   },
   {
     "name": "Giant Ape",
@@ -7172,7 +7287,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Athletics +9 Perception +4"
+    "skills": "Athletics +9 Perception +4",
+    "arrayIndex": 115
   },
   {
     "name": "Giant Badger",
@@ -7228,7 +7344,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 116
   },
   {
     "name": "Giant Bat",
@@ -7277,7 +7394,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 117
   },
   {
     "name": "Giant Boar",
@@ -7327,7 +7445,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 118
   },
   {
     "name": "Giant Centipede",
@@ -7364,7 +7483,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 119
   },
   {
     "name": "Giant Constrictor Snake",
@@ -7408,7 +7528,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 120
   },
   {
     "name": "Giant Crab",
@@ -7452,7 +7573,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": "Stealth +4"
+    "skills": "Stealth +4",
+    "arrayIndex": 121
   },
   {
     "name": "Giant Crocodile",
@@ -7508,7 +7630,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Stealth +5"
+    "skills": "Stealth +5",
+    "arrayIndex": 122
   },
   {
     "name": "Giant Eagle",
@@ -7564,7 +7687,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 123
   },
   {
     "name": "Giant Elk",
@@ -7616,7 +7740,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 124
   },
   {
     "name": "Giant Fire Beetle",
@@ -7660,7 +7785,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 125
   },
   {
     "name": "Giant Frog",
@@ -7714,7 +7840,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": "Perception +2 Stealth +3"
+    "skills": "Perception +2 Stealth +3",
+    "arrayIndex": 126
   },
   {
     "name": "Giant Goat",
@@ -7764,7 +7891,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 127
   },
   {
     "name": "Giant Hyena",
@@ -7808,7 +7936,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 128
   },
   {
     "name": "Giant Lizard",
@@ -7857,7 +7986,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 129
   },
   {
     "name": "Giant Octopus",
@@ -7916,7 +8046,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Perception +4 Stealth +5"
+    "skills": "Perception +4 Stealth +5",
+    "arrayIndex": 130
   },
   {
     "name": "Giant Owl",
@@ -7965,7 +8096,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +5 Stealth +4"
+    "skills": "Perception +5 Stealth +4",
+    "arrayIndex": 131
   },
   {
     "name": "Giant Poisonous Snake",
@@ -8002,7 +8134,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 132
   },
   {
     "name": "Giant Rat",
@@ -8051,7 +8184,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 133
   },
   {
     "name": "Giant Rat (Diseased)",
@@ -8088,7 +8222,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 134
   },
   {
     "name": "Giant Scorpion",
@@ -8137,7 +8272,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 135
   },
   {
     "name": "Giant Sea Horse",
@@ -8187,7 +8323,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 136
   },
   {
     "name": "Giant Shark",
@@ -8236,7 +8373,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 137
   },
   {
     "name": "Giant Spider",
@@ -8295,7 +8433,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Stealth +7"
+    "skills": "Stealth +7",
+    "arrayIndex": 138
   },
   {
     "name": "Giant Toad",
@@ -8349,7 +8488,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 139
   },
   {
     "name": "Giant Vulture",
@@ -8410,7 +8550,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 140
   },
   {
     "name": "Giant Wasp",
@@ -8447,7 +8588,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 141
   },
   {
     "name": "Giant Weasel",
@@ -8491,7 +8633,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +5"
+    "skills": "Perception +3 Stealth +5",
+    "arrayIndex": 142
   },
   {
     "name": "Giant Wolf Spider",
@@ -8545,7 +8688,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +7"
+    "skills": "Perception +3 Stealth +7",
+    "arrayIndex": 143
   },
   {
     "name": "Gibbering Mouther",
@@ -8603,7 +8747,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 144
   },
   {
     "name": "Glabrezu",
@@ -8669,7 +8814,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Strength +9 Constitution +9 Wisdom +7 Charisma +7",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 145
   },
   {
     "name": "Gladiator",
@@ -8737,7 +8883,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Strength +7 Dexterity +5 Constitution +6",
-    "skills": "Athletics +10 Intimidation +5"
+    "skills": "Athletics +10 Intimidation +5",
+    "arrayIndex": 146
   },
   {
     "name": "Gnoll",
@@ -8795,7 +8942,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 147
   },
   {
     "name": "Goat",
@@ -8845,7 +8993,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 148
   },
   {
     "name": "Goblin",
@@ -8896,7 +9045,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Stealth +6"
+    "skills": "Stealth +6",
+    "arrayIndex": 149
   },
   {
     "name": "Gold Dragon Wyrmling",
@@ -8946,7 +9096,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Dexterity +4 Constitution +5 Wisdom +2 Charisma +5",
-    "skills": "Perception +4 Stealth +4"
+    "skills": "Perception +4 Stealth +4",
+    "arrayIndex": 150
   },
   {
     "name": "Gorgon",
@@ -9002,7 +9153,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 151
   },
   {
     "name": "Gray Ooze",
@@ -9056,7 +9208,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": "Stealth +2"
+    "skills": "Stealth +2",
+    "arrayIndex": 152
   },
   {
     "name": "Green Dragon Wyrmling",
@@ -9106,7 +9259,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Dexterity +3 Constitution +3 Wisdom +2 Charisma +3",
-    "skills": "Perception +4 Stealth +3"
+    "skills": "Perception +4 Stealth +3",
+    "arrayIndex": 153
   },
   {
     "name": "Green Hag",
@@ -9185,7 +9339,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": "Arcana +3 Deception +4 Perception +4 Stealth +3"
+    "skills": "Arcana +3 Deception +4 Perception +4 Stealth +3",
+    "arrayIndex": 154
   },
   {
     "name": "Grick",
@@ -9241,7 +9396,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 155
   },
   {
     "name": "Griffon",
@@ -9297,7 +9453,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +5"
+    "skills": "Perception +5",
+    "arrayIndex": 156
   },
   {
     "name": "Grimlock",
@@ -9351,7 +9508,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Athletics +5 Perception +3 Stealth +3"
+    "skills": "Athletics +5 Perception +3 Stealth +3",
+    "arrayIndex": 157
   },
   {
     "name": "Guard",
@@ -9388,7 +9546,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 158
   },
   {
     "name": "Guardian Naga",
@@ -9443,7 +9602,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Dexterity +8 Constitution +7 Intelligence +7 Wisdom +8 Charisma +8",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 159
   },
   {
     "name": "Gynosphinx",
@@ -9519,7 +9679,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "",
-    "skills": "Arcana +12 History +12 Perception +8 Religion +8"
+    "skills": "Arcana +12 History +12 Perception +8 Religion +8",
+    "arrayIndex": 160
   },
   {
     "name": "Half-Red Dragon Veteran",
@@ -9581,7 +9742,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 161
   },
   {
     "name": "Harpy",
@@ -9635,7 +9797,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 162
   },
   {
     "name": "Hawk",
@@ -9678,7 +9841,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 163
   },
   {
     "name": "Hell Hound",
@@ -9733,7 +9897,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +5"
+    "skills": "Perception +5",
+    "arrayIndex": 164
   },
   {
     "name": "Hezrou",
@@ -9799,7 +9964,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Strength +7 Constitution +8 Wisdom +4",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 165
   },
   {
     "name": "Hill Giant",
@@ -9848,7 +10014,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 166
   },
   {
     "name": "Hippogriff",
@@ -9904,7 +10071,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +5"
+    "skills": "Perception +5",
+    "arrayIndex": 167
   },
   {
     "name": "Hobgoblin",
@@ -9956,7 +10124,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 168
   },
   {
     "name": "Homunculus",
@@ -9999,7 +10168,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 169
   },
   {
     "name": "Horned Devil",
@@ -10066,7 +10236,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Strength +10 Dexterity +7 Wisdom +7 Charisma +7",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 170
   },
   {
     "name": "Hunter Shark",
@@ -10115,7 +10286,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 171
   },
   {
     "name": "Hydra",
@@ -10179,7 +10351,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +6"
+    "skills": "Perception +6",
+    "arrayIndex": 172
   },
   {
     "name": "Hyena",
@@ -10222,7 +10395,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 173
   },
   {
     "name": "Ice Devil",
@@ -10295,7 +10469,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Dexterity +7 Constitution +9 Wisdom +7 Charisma +9",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 174
   },
   {
     "name": "Ice Mephit",
@@ -10360,7 +10535,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": "Perception +2 Stealth +3"
+    "skills": "Perception +2 Stealth +3",
+    "arrayIndex": 175
   },
   {
     "name": "Imp",
@@ -10424,7 +10600,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": "Deception +4 Insight +3 Persuasion +4 Stealth +5"
+    "skills": "Deception +4 Insight +3 Persuasion +4 Stealth +5",
+    "arrayIndex": 176
   },
   {
     "name": "Invisible Stalker",
@@ -10478,7 +10655,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Perception +8 Stealth +10"
+    "skills": "Perception +8 Stealth +10",
+    "arrayIndex": 177
   },
   {
     "name": "Iron Golem",
@@ -10555,7 +10733,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 178
   },
   {
     "name": "Jackal",
@@ -10604,7 +10783,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 179
   },
   {
     "name": "Killer Whale",
@@ -10656,7 +10836,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 180
   },
   {
     "name": "Knight",
@@ -10723,7 +10904,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Constitution +4 Wisdom +2",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 181
   },
   {
     "name": "Kobold",
@@ -10779,7 +10961,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 182
   },
   {
     "name": "Kraken",
@@ -10873,7 +11056,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "Strength +17 Dexterity +7 Constitution +14 Intelligence +13 Wisdom +11",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 183
   },
   {
     "name": "Lamia",
@@ -10934,7 +11118,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "",
-    "skills": "Deception +7 Insight +4 Stealth +3"
+    "skills": "Deception +7 Insight +4 Stealth +3",
+    "arrayIndex": 184
   },
   {
     "name": "Lemure",
@@ -10982,7 +11167,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 185
   },
   {
     "name": "Lich",
@@ -11063,7 +11249,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Constitution +10 Intelligence +12 Wisdom +9",
-    "skills": "Arcana +18 History +12 Insight +9 Perception +9"
+    "skills": "Arcana +18 History +12 Insight +9 Perception +9",
+    "arrayIndex": 186
   },
   {
     "name": "Lion",
@@ -11129,7 +11316,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +6"
+    "skills": "Perception +3 Stealth +6",
+    "arrayIndex": 187
   },
   {
     "name": "Lizard",
@@ -11165,7 +11353,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 188
   },
   {
     "name": "Lizardfolk",
@@ -11235,7 +11424,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4 Survival +5"
+    "skills": "Perception +3 Stealth +4 Survival +5",
+    "arrayIndex": 189
   },
   {
     "name": "Mage",
@@ -11279,7 +11469,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "Intelligence +6 Wisdom +4",
-    "skills": "Arcana +6 History +6"
+    "skills": "Arcana +6 History +6",
+    "arrayIndex": 190
   },
   {
     "name": "Magma Mephit",
@@ -11344,7 +11535,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Stealth +3"
+    "skills": "Stealth +3",
+    "arrayIndex": 191
   },
   {
     "name": "Magmin",
@@ -11393,7 +11585,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 192
   },
   {
     "name": "Mammoth",
@@ -11444,7 +11637,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 193
   },
   {
     "name": "Manticore",
@@ -11507,7 +11701,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 194
   },
   {
     "name": "Marilith",
@@ -11590,7 +11785,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "Strength +9 Constitution +10 Wisdom +8 Charisma +10",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 195
   },
   {
     "name": "Mastiff",
@@ -11634,7 +11830,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 196
   },
   {
     "name": "Medusa",
@@ -11696,7 +11893,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "",
-    "skills": "Deception +5 Insight +4 Perception +4 Stealth +5"
+    "skills": "Deception +5 Insight +4 Perception +4 Stealth +5",
+    "arrayIndex": 197
   },
   {
     "name": "Merfolk",
@@ -11739,7 +11937,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 198
   },
   {
     "name": "Merrow",
@@ -11802,7 +12001,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 199
   },
   {
     "name": "Mimic",
@@ -11868,7 +12068,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Stealth +5"
+    "skills": "Stealth +5",
+    "arrayIndex": 200
   },
   {
     "name": "Minotaur",
@@ -11930,7 +12131,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": "Perception +7"
+    "skills": "Perception +7",
+    "arrayIndex": 201
   },
   {
     "name": "Minotaur Skeleton",
@@ -11982,7 +12184,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 202
   },
   {
     "name": "Mule",
@@ -12031,7 +12234,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 203
   },
   {
     "name": "Mummy",
@@ -12078,7 +12282,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "Wisdom +2",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 204
   },
   {
     "name": "Mummy Lord",
@@ -12169,7 +12374,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Constitution +8 Intelligence +5 Wisdom +9 Charisma +8",
-    "skills": "History +5 Religion +5"
+    "skills": "History +5 Religion +5",
+    "arrayIndex": 205
   },
   {
     "name": "Nalfeshnee",
@@ -12240,7 +12446,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Constitution +11 Intelligence +9 Wisdom +6 Charisma +7",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 206
   },
   {
     "name": "Night Hag",
@@ -12324,7 +12531,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "",
-    "skills": "Deception +7 Insight +6 Perception +6 Stealth +6"
+    "skills": "Deception +7 Insight +6 Perception +6 Stealth +6",
+    "arrayIndex": 207
   },
   {
     "name": "Nightmare",
@@ -12378,7 +12586,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 208
   },
   {
     "name": "Noble",
@@ -12422,7 +12631,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "",
-    "skills": "Deception +5 Insight +4 Persuasion +5"
+    "skills": "Deception +5 Insight +4 Persuasion +5",
+    "arrayIndex": 209
   },
   {
     "name": "Ochre Jelly",
@@ -12478,7 +12688,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 210
   },
   {
     "name": "Octopus",
@@ -12536,7 +12747,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Perception +2 Stealth +4"
+    "skills": "Perception +2 Stealth +4",
+    "arrayIndex": 211
   },
   {
     "name": "Ogre",
@@ -12580,7 +12792,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 212
   },
   {
     "name": "Ogre Zombie",
@@ -12624,7 +12837,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "Wisdom 0",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 213
   },
   {
     "name": "Oni",
@@ -12695,7 +12909,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +3 Constitution +6 Wisdom +4 Charisma +5",
-    "skills": "Arcana +5 Deception +8 Perception +4"
+    "skills": "Arcana +5 Deception +8 Perception +4",
+    "arrayIndex": 214
   },
   {
     "name": "Orc",
@@ -12746,7 +12961,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Intimidation +2"
+    "skills": "Intimidation +2",
+    "arrayIndex": 215
   },
   {
     "name": "Otyugh",
@@ -12807,7 +13023,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "Constitution +7",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 216
   },
   {
     "name": "Owl",
@@ -12855,7 +13072,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +3"
+    "skills": "Perception +3 Stealth +3",
+    "arrayIndex": 217
   },
   {
     "name": "Owlbear",
@@ -12911,7 +13129,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 218
   },
   {
     "name": "Panther",
@@ -12967,7 +13186,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +4 Stealth +6"
+    "skills": "Perception +4 Stealth +6",
+    "arrayIndex": 219
   },
   {
     "name": "Pegasus",
@@ -13004,7 +13224,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "Dexterity +4 Wisdom +4 Charisma +3",
-    "skills": "Perception +6"
+    "skills": "Perception +6",
+    "arrayIndex": 220
   },
   {
     "name": "Phase Spider",
@@ -13058,7 +13279,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Stealth +6"
+    "skills": "Stealth +6",
+    "arrayIndex": 221
   },
   {
     "name": "Pit Fiend",
@@ -13143,7 +13365,8 @@ export default [
       "charisma": 24
     },
     "saving_throws": "Dexterity +8 Constitution +13 Wisdom +10",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 222
   },
   {
     "name": "Planetar",
@@ -13212,7 +13435,8 @@ export default [
       "charisma": 25
     },
     "saving_throws": "Constitution +12 Wisdom +11 Charisma +12",
-    "skills": "Perception +11"
+    "skills": "Perception +11",
+    "arrayIndex": 223
   },
   {
     "name": "Plesiosaurus",
@@ -13256,7 +13480,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4"
+    "skills": "Perception +3 Stealth +4",
+    "arrayIndex": 224
   },
   {
     "name": "Poisonous Snake",
@@ -13292,7 +13517,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 225
   },
   {
     "name": "Polar Bear",
@@ -13348,7 +13574,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 226
   },
   {
     "name": "Pony",
@@ -13385,7 +13612,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 227
   },
   {
     "name": "Priest",
@@ -13434,7 +13662,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "",
-    "skills": "Medicine +7 Persuasion +3 Religion +4"
+    "skills": "Medicine +7 Persuasion +3 Religion +4",
+    "arrayIndex": 228
   },
   {
     "name": "Pseudodragon",
@@ -13500,7 +13729,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4"
+    "skills": "Perception +3 Stealth +4",
+    "arrayIndex": 229
   },
   {
     "name": "Purple Worm",
@@ -13556,7 +13786,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "Constitution +11 Wisdom +4",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 230
   },
   {
     "name": "Quasit",
@@ -13620,7 +13851,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Stealth +5"
+    "skills": "Stealth +5",
+    "arrayIndex": 231
   },
   {
     "name": "Quipper",
@@ -13668,7 +13900,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 232
   },
   {
     "name": "Rakshasa",
@@ -13722,7 +13955,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "",
-    "skills": "Deception +10 Insight +8"
+    "skills": "Deception +10 Insight +8",
+    "arrayIndex": 233
   },
   {
     "name": "Rat",
@@ -13765,7 +13999,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 234
   },
   {
     "name": "Raven",
@@ -13807,7 +14042,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 235
   },
   {
     "name": "Red Dragon Wyrmling",
@@ -13850,7 +14086,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +2 Constitution +5 Wisdom +2 Charisma +4",
-    "skills": "Perception +4 Stealth +2"
+    "skills": "Perception +4 Stealth +2",
+    "arrayIndex": 236
   },
   {
     "name": "Reef Shark",
@@ -13899,7 +14136,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 237
   },
   {
     "name": "Remorhaz",
@@ -13949,7 +14187,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 238
   },
   {
     "name": "Rhinoceros",
@@ -13994,7 +14233,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 239
   },
   {
     "name": "Riding Horse",
@@ -14031,7 +14271,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 240
   },
   {
     "name": "Roc",
@@ -14087,7 +14328,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +3",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 241
   },
   {
     "name": "Roper",
@@ -14156,7 +14398,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +6 Stealth +5"
+    "skills": "Perception +6 Stealth +5",
+    "arrayIndex": 242
   },
   {
     "name": "Rug of Smothering",
@@ -14210,7 +14453,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 243
   },
   {
     "name": "Rust Monster",
@@ -14264,7 +14508,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 244
   },
   {
     "name": "Saber-Toothed Tiger",
@@ -14320,7 +14565,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +6"
+    "skills": "Perception +3 Stealth +6",
+    "arrayIndex": 245
   },
   {
     "name": "Sahuagin",
@@ -14393,7 +14639,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": "Perception +5"
+    "skills": "Perception +5",
+    "arrayIndex": 246
   },
   {
     "name": "Salamander",
@@ -14455,7 +14702,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 247
   },
   {
     "name": "Satyr",
@@ -14518,7 +14766,8 @@ export default [
       "charisma": 14
     },
     "saving_throws": "",
-    "skills": "Perception +2 Performance +6 Stealth +5"
+    "skills": "Perception +2 Performance +6 Stealth +5",
+    "arrayIndex": 248
   },
   {
     "name": "Scorpion",
@@ -14554,7 +14803,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 249
   },
   {
     "name": "Scout",
@@ -14610,7 +14860,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Nature +4 Perception +5 Stealth +6 Survival +5"
+    "skills": "Nature +4 Perception +5 Stealth +6 Survival +5",
+    "arrayIndex": 250
   },
   {
     "name": "Sea Hag",
@@ -14684,7 +14935,8 @@ export default [
       "charisma": 13
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 251
   },
   {
     "name": "Sea Horse",
@@ -14719,7 +14971,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 252
   },
   {
     "name": "Shadow",
@@ -14773,7 +15026,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Stealth +4"
+    "skills": "Stealth +4",
+    "arrayIndex": 253
   },
   {
     "name": "Shambling Mound",
@@ -14827,7 +15081,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": "Stealth +2"
+    "skills": "Stealth +2",
+    "arrayIndex": 254
   },
   {
     "name": "Shield Guardian",
@@ -14893,7 +15148,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 255
   },
   {
     "name": "Shrieker",
@@ -14935,7 +15191,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 256
   },
   {
     "name": "Silver Dragon Wyrmling",
@@ -14978,7 +15235,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +2 Constitution +5 Wisdom +2 Charisma +4",
-    "skills": "Perception +4 Stealth +2"
+    "skills": "Perception +4 Stealth +2",
+    "arrayIndex": 257
   },
   {
     "name": "Skeleton",
@@ -15022,7 +15280,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 258
   },
   {
     "name": "Solar",
@@ -15120,7 +15379,8 @@ export default [
       "charisma": 30
     },
     "saving_throws": "Intelligence +14 Wisdom +14 Charisma +17",
-    "skills": "Perception +14"
+    "skills": "Perception +14",
+    "arrayIndex": 259
   },
   {
     "name": "Specter",
@@ -15168,7 +15428,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 260
   },
   {
     "name": "Spider",
@@ -15221,7 +15482,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": "Stealth +4"
+    "skills": "Stealth +4",
+    "arrayIndex": 261
   },
   {
     "name": "Spirit Naga",
@@ -15270,7 +15532,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "Dexterity +6 Constitution +5 Wisdom +5 Charisma +6",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 262
   },
   {
     "name": "Sprite",
@@ -15322,7 +15585,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +8"
+    "skills": "Perception +3 Stealth +8",
+    "arrayIndex": 263
   },
   {
     "name": "Spy",
@@ -15384,7 +15648,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "",
-    "skills": "Deception +5 Insight +4 Investigation +5 Perception +6 Persuasion +5 Stealth +4"
+    "skills": "Deception +5 Insight +4 Investigation +5 Perception +6 Persuasion +5 Stealth +4",
+    "arrayIndex": 264
   },
   {
     "name": "Steam Mephit",
@@ -15443,7 +15708,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 265
   },
   {
     "name": "Stirge",
@@ -15480,7 +15746,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 266
   },
   {
     "name": "Stone Giant",
@@ -15543,7 +15810,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "Dexterity +5 Constitution +8 Wisdom +4",
-    "skills": "Athletics +12 Perception +4"
+    "skills": "Athletics +12 Perception +4",
+    "arrayIndex": 267
   },
   {
     "name": "Stone Golem",
@@ -15607,7 +15875,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 268
   },
   {
     "name": "Storm Giant",
@@ -15674,7 +15943,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Strength +14 Constitution +10 Wisdom +9 Charisma +9",
-    "skills": "Arcana +8 Athletics +14 History +8 Perception +9"
+    "skills": "Arcana +8 Athletics +14 History +8 Perception +9",
+    "arrayIndex": 269
   },
   {
     "name": "Succubus/Incubus",
@@ -15740,7 +16010,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "",
-    "skills": "Deception +9 Insight +5 Perception +5 Persuasion +9 Stealth +7"
+    "skills": "Deception +9 Insight +5 Perception +5 Persuasion +9 Stealth +7",
+    "arrayIndex": 270
   },
   {
     "name": "Swarm of Bats",
@@ -15793,7 +16064,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 271
   },
   {
     "name": "Swarm of Beetles",
@@ -15836,7 +16108,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 272
   },
   {
     "name": "Swarm of Centipedes",
@@ -15879,7 +16152,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 273
   },
   {
     "name": "Swarm of Insects",
@@ -15922,7 +16196,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 274
   },
   {
     "name": "Swarm of Poisonous Snakes",
@@ -15965,7 +16240,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 275
   },
   {
     "name": "Swarm of Quippers",
@@ -16018,7 +16294,8 @@ export default [
       "charisma": 2
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 276
   },
   {
     "name": "Swarm of Rats",
@@ -16066,7 +16343,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 277
   },
   {
     "name": "Swarm of Ravens",
@@ -16109,7 +16387,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 278
   },
   {
     "name": "Swarm of Spiders",
@@ -16167,7 +16446,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 279
   },
   {
     "name": "Swarm of Wasps",
@@ -16210,7 +16490,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 280
   },
   {
     "name": "Tarrasque",
@@ -16322,7 +16603,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "Intelligence +5 Wisdom +9 Charisma +9",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 281
   },
   {
     "name": "Thug",
@@ -16377,7 +16659,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Intimidation +2"
+    "skills": "Intimidation +2",
+    "arrayIndex": 282
   },
   {
     "name": "Tiger",
@@ -16431,7 +16714,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +6"
+    "skills": "Perception +3 Stealth +6",
+    "arrayIndex": 283
   },
   {
     "name": "Treant",
@@ -16497,7 +16781,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 284
   },
   {
     "name": "Tribal Warrior",
@@ -16541,7 +16826,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 285
   },
   {
     "name": "Triceratops",
@@ -16592,7 +16878,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 286
   },
   {
     "name": "Troll",
@@ -16658,7 +16945,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 287
   },
   {
     "name": "Tyrannosaurus Rex",
@@ -16707,7 +16995,8 @@ export default [
       "charisma": 9
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 288
   },
   {
     "name": "Unicorn",
@@ -16806,7 +17095,8 @@ export default [
       "charisma": 16
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 289
   },
   {
     "name": "Vampire",
@@ -16914,7 +17204,8 @@ export default [
       "charisma": 18
     },
     "saving_throws": "Dexterity +9 Wisdom +7 Charisma +9",
-    "skills": "Perception +7 Stealth +9"
+    "skills": "Perception +7 Stealth +9",
+    "arrayIndex": 290
   },
   {
     "name": "Vampire Spawn",
@@ -16978,7 +17269,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "Dexterity +6 Wisdom +3",
-    "skills": "Perception +3 Stealth +6"
+    "skills": "Perception +3 Stealth +6",
+    "arrayIndex": 291
   },
   {
     "name": "Veteran",
@@ -17034,7 +17326,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Athletics +5 Perception +2"
+    "skills": "Athletics +5 Perception +2",
+    "arrayIndex": 292
   },
   {
     "name": "Violet Fungus",
@@ -17082,7 +17375,8 @@ export default [
       "charisma": 1
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 293
   },
   {
     "name": "Vrock",
@@ -17153,7 +17447,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "Dexterity +5 Wisdom +4 Charisma +2",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 294
   },
   {
     "name": "Vulture",
@@ -17201,7 +17496,8 @@ export default [
       "charisma": 4
     },
     "saving_throws": "",
-    "skills": "Perception +3"
+    "skills": "Perception +3",
+    "arrayIndex": 295
   },
   {
     "name": "Warhorse",
@@ -17245,7 +17541,8 @@ export default [
       "charisma": 7
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 296
   },
   {
     "name": "Warhorse Skeleton",
@@ -17282,7 +17579,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 297
   },
   {
     "name": "Water Elemental",
@@ -17341,7 +17639,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 298
   },
   {
     "name": "Weasel",
@@ -17384,7 +17683,8 @@ export default [
       "charisma": 3
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +5"
+    "skills": "Perception +3 Stealth +5",
+    "arrayIndex": 299
   },
   {
     "name": "Werebear",
@@ -17452,7 +17752,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "",
-    "skills": "Perception +7"
+    "skills": "Perception +7",
+    "arrayIndex": 300
   },
   {
     "name": "Wereboar",
@@ -17519,7 +17820,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +2"
+    "skills": "Perception +2",
+    "arrayIndex": 301
   },
   {
     "name": "Wererat",
@@ -17587,7 +17889,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +2 Stealth +4"
+    "skills": "Perception +2 Stealth +4",
+    "arrayIndex": 302
   },
   {
     "name": "Weretiger",
@@ -17667,7 +17970,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Perception +5 Stealth +4"
+    "skills": "Perception +5 Stealth +4",
+    "arrayIndex": 303
   },
   {
     "name": "Werewolf",
@@ -17735,7 +18039,8 @@ export default [
       "charisma": 10
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 304
   },
   {
     "name": "White Dragon Wyrmling",
@@ -17778,7 +18083,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "Dexterity +2 Constitution +4 Wisdom +2 Charisma +2",
-    "skills": "Perception +4 Stealth +2"
+    "skills": "Perception +4 Stealth +2",
+    "arrayIndex": 305
   },
   {
     "name": "Wight",
@@ -17841,7 +18147,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4"
+    "skills": "Perception +3 Stealth +4",
+    "arrayIndex": 306
   },
   {
     "name": "Will-o'-Wisp",
@@ -17904,7 +18211,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 307
   },
   {
     "name": "Winter Wolf",
@@ -17964,7 +18272,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +5 Stealth +3"
+    "skills": "Perception +5 Stealth +3",
+    "arrayIndex": 308
   },
   {
     "name": "Wolf",
@@ -18013,7 +18322,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +3 Stealth +4"
+    "skills": "Perception +3 Stealth +4",
+    "arrayIndex": 309
   },
   {
     "name": "Worg",
@@ -18057,7 +18367,8 @@ export default [
       "charisma": 8
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 310
   },
   {
     "name": "Wraith",
@@ -18111,7 +18422,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 311
   },
   {
     "name": "Wyvern",
@@ -18167,7 +18479,8 @@ export default [
       "charisma": 6
     },
     "saving_throws": "",
-    "skills": "Perception +4"
+    "skills": "Perception +4",
+    "arrayIndex": 312
   },
   {
     "name": "Xorn",
@@ -18233,7 +18546,8 @@ export default [
       "charisma": 11
     },
     "saving_throws": "",
-    "skills": "Perception +6 Stealth +3"
+    "skills": "Perception +6 Stealth +3",
+    "arrayIndex": 313
   },
   {
     "name": "Young Black Dragon",
@@ -18295,7 +18609,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +5 Constitution +6 Wisdom +3 Charisma +5",
-    "skills": "Perception +6 Stealth +5"
+    "skills": "Perception +6 Stealth +5",
+    "arrayIndex": 314
   },
   {
     "name": "Young Blue Dragon",
@@ -18350,7 +18665,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Dexterity +4 Constitution +8 Wisdom +5 Charisma +7",
-    "skills": "Perception +9 Stealth +4"
+    "skills": "Perception +9 Stealth +4",
+    "arrayIndex": 315
   },
   {
     "name": "Young Brass Dragon",
@@ -18405,7 +18721,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +3 Constitution +6 Wisdom +3 Charisma +5",
-    "skills": "Perception +6 Persuasion +5 Stealth +3"
+    "skills": "Perception +6 Persuasion +5 Stealth +3",
+    "arrayIndex": 316
   },
   {
     "name": "Young Bronze Dragon",
@@ -18467,7 +18784,8 @@ export default [
       "charisma": 17
     },
     "saving_throws": "Dexterity +3 Constitution +7 Wisdom +4 Charisma +6",
-    "skills": "Insight +4 Perception +7 Stealth +3"
+    "skills": "Insight +4 Perception +7 Stealth +3",
+    "arrayIndex": 317
   },
   {
     "name": "Young Copper Dragon",
@@ -18522,7 +18840,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +4 Constitution +6 Wisdom +4 Charisma +5",
-    "skills": "Deception +5 Perception +7 Stealth +4"
+    "skills": "Deception +5 Perception +7 Stealth +4",
+    "arrayIndex": 318
   },
   {
     "name": "Young Gold Dragon",
@@ -18584,7 +18903,8 @@ export default [
       "charisma": 20
     },
     "saving_throws": "Dexterity +6 Constitution +9 Wisdom +5 Charisma +9",
-    "skills": "Insight +5 Perception +9 Persuasion +9 Stealth +6"
+    "skills": "Insight +5 Perception +9 Persuasion +9 Stealth +6",
+    "arrayIndex": 319
   },
   {
     "name": "Young Green Dragon",
@@ -18646,7 +18966,8 @@ export default [
       "charisma": 15
     },
     "saving_throws": "Dexterity +4 Constitution +6 Wisdom +4 Charisma +5",
-    "skills": "Deception +5 Perception +7 Stealth +4"
+    "skills": "Deception +5 Perception +7 Stealth +4",
+    "arrayIndex": 320
   },
   {
     "name": "Young Red Dragon",
@@ -18701,7 +19022,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +8",
-    "skills": "Perception +8 Stealth +4"
+    "skills": "Perception +8 Stealth +4",
+    "arrayIndex": 321
   },
   {
     "name": "Young Silver Dragon",
@@ -18756,7 +19078,8 @@ export default [
       "charisma": 19
     },
     "saving_throws": "Dexterity +4 Constitution +9 Wisdom +4 Charisma +8",
-    "skills": "Arcana +6 History +6 Perception +8 Stealth +4"
+    "skills": "Arcana +6 History +6 Perception +8 Stealth +4",
+    "arrayIndex": 322
   },
   {
     "name": "Young White Dragon",
@@ -18818,7 +19141,8 @@ export default [
       "charisma": 12
     },
     "saving_throws": "Dexterity +3 Constitution +7 Wisdom +3 Charisma +4",
-    "skills": "Perception +6 Stealth +3"
+    "skills": "Perception +6 Stealth +3",
+    "arrayIndex": 323
   },
   {
     "name": "Zombie",
@@ -18862,7 +19186,8 @@ export default [
       "charisma": 5
     },
     "saving_throws": "Wisdom 0",
-    "skills": ""
+    "skills": "",
+    "arrayIndex": 324
   },
   {
     "license": [
@@ -18886,6 +19211,7 @@ export default [
     ],
     "saving_throws": "",
     "skills": "",
-    "challenge_rating": "undefined undefined"
+    "challenge_rating": "undefined undefined",
+    "arrayIndex": 325
   }
 ];
