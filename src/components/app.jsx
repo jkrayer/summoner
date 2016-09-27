@@ -1,5 +1,5 @@
 import React from 'react';
-import Toc from './toc.jsx';
+import TocContainer from './toc-container.jsx';
 import Monster from './monster.jsx';
 
 export default class App extends React.Component {
@@ -18,7 +18,7 @@ export default class App extends React.Component {
     const { selectedMonster } = this.state;
     return (
       <div>
-        <Toc
+        <TocContainer
           buttonEvent={this.setSelectedMonster}
           data={data}
         />
