@@ -58,12 +58,12 @@ export default class TocContainer extends React.Component {
     let { filter, filterBy, filteredData } = this.state;
 
     return (
-      <div>
+      <div className="left-col">
         <form className={style['form-inline']}>
           <fieldset>
             <legend>{"Filter By:"}</legend>
             <div className={style['input-wrapper']}>
-              <label htmlFor="filterby">{"Filter By:"}</label>
+              <label htmlFor="filterby">{"Property:"}</label>
               <input
                   id="filterby"
                   readOnly

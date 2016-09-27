@@ -1,0 +1,43 @@
+.form-inline > fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+.form-inline > fieldset > legend,
+.form-inline .input-wrapper {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-inline > fieldset > legend {
+  font: 700 .875rem/1 'Arial', 'sans-serif';
+  letter-spacing: .02em;
+}
+
+.form-inline label {
+  display: block;
+  margin-bottom: 5px;
+  font: 400 .75rem/1 'Arial', 'sans-serif';
+  letter-spacing: .02em;
+  text-align: left;
+  color: #808080;
+}
+
+.form-inline input {
+  width: 15em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  font: 200 1rem/1 'Arial', 'sans-serif';
+  text-transform: capitalize;
+  letter-spacing: .02em;
+  color: #b3b3b3;
+}
+
+/* Shame
+ * @internal Figure out global
+*/
+.lef-col {
+  width: 75%;
+}
