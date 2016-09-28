@@ -4,8 +4,9 @@
   "description": "Manage 5e Statblocks",
   "main": "index.html",
   "scripts": {
-    "copy:static": "cp src/static/index.html build/index.html",
-    "start": "webpack && npm run copy:static",
+    "copy:static": "npm run mkDirs && cp src/static/index.html build/index.html",
+    "mkDirs": "mkdir -p build",
+    "start": "npm run copy:static && webpack --progress --colors --watch",
     "test": "mocha --compilers js:babel-register"
   },
   "repository": {
