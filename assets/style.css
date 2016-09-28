@@ -8,13 +8,8 @@ li {
 }
 
 button {
-  width: 100%;
   border: none;
   outline: none;
-  font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
-  letter-spacing: .03em;
-  font-variant: small-caps;
-  text-align: left;
   background-color: transparent;
   cursor: pointer;
 }
@@ -22,8 +17,60 @@ button:focus {
   border: none;
   outline: none;
 }
-button:hover {
+button:hover,
+button:focus {
   background-color: #eee;
+}
+
+.button__btn-toc___3M2Ge {
+  width: 100%;
+  font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
+  letter-spacing: .03em;
+  font-variant: small-caps;
+  text-align: left;
+}
+.form__form-inline___1iYnp > fieldset {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+.form__form-inline___1iYnp > fieldset > legend,
+.form__form-inline___1iYnp .form__input-wrapper___3UC3z {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form__form-inline___1iYnp > fieldset > legend {
+  font: 700 .875rem/1 'Arial', 'sans-serif';
+  letter-spacing: .02em;
+}
+
+.form__form-inline___1iYnp label {
+  display: block;
+  margin-bottom: 5px;
+  font: 400 .75rem/1 'Arial', 'sans-serif';
+  letter-spacing: .02em;
+  text-align: left;
+  color: #808080;
+}
+
+.form__form-inline___1iYnp input {
+  width: 15em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  font: 200 1rem/1 'Arial', 'sans-serif';
+  text-transform: capitalize;
+  letter-spacing: .02em;
+  color: #b3b3b3;
+}
+
+/* Shame
+ * @internal Figure out global
+*/
+.form__lef-col___1wKLb {
+  width: 75%;
 }
 .table__score-table___zCfL9 {
   width: 100%;
@@ -58,7 +105,10 @@ dd {
   padding: 2vh;
   border-left: 2px solid #f2f2f2;
   font: 400 .875rem/1.4 'Helvetica', 'Arial', 'sans-serif';
+  transition: right .3s ease-in-out;
 }
+
+.monster__hide___m_Lsl { right: -25%; }
 
 .monster__lined-section___9ZJos {
   padding-bottom: 10px;
@@ -80,6 +130,25 @@ dd {
 
 .monster__monster-type___1ot4H {
   font-style: italic;
+}
+
+.monster__monster-control-bar___37E0- {
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  text-align: right;
+}
+
+.monster__monster-control-btn___3dzow {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  font: 400 1.25rem/1 'Arial', 'sans-serif';
+  text-align: center;
+  background-color: #eee;
+}
+.monster__monster-control-btn___3dzow:hover {
+  background-color: #d4d4d4;
 }
 
 .monster__stat-defs___j1CAo,
