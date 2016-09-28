@@ -1,11 +1,24 @@
 import React from 'react';
 import Scores from './scores.jsx';
 import DlContainer from './dl-container.jsx';
+import Button from './button.jsx';
 import style from '../style/monster.css';
 
 export default class Monster extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { show: true };
+    this.handleHide = this.handleHide.bind(this);
+  }
+  componentWillReceiveProps () {
+    this.setState({
+      show: true
+    });
+  }
+  handleHide() {
+    this.setState({
+      show: false
+    });
   }
   render() {
     let { data } = this.props;
@@ -13,16 +26,26 @@ export default class Monster extends React.Component {
     let actions;
     let reactions;
     let legendaryActions;
+    let classN;
 
-    if (data === null) { return null; }
+    if (data === null) {
+      return (<article className={style.monster + ' ' + style.hide}></article>);
+    }
 
     specialAbilities = !data.special_abilities ? null : <DlContainer data={data.special_abilities} />;
     actions = !data.actions ? null : <DlContainer data={data.actions} hl="Actions" />;
     reactions = !data.reactions ? null : <DlContainer data={data.reactions} hl="Reactions" />;
     legendaryActions = !data.legendary_actions ? null : <DlContainer data={data.legendary_actions} hl="Legendary Actions" />;
+    classN = this.state.show ? style.monster : style.monster + ' ' + style.hide;
 
     return(
-      <article className={style.monster}>
+      <article className={classN}>
+        <div className={style['monster-control-bar']}>
+          <Button
+            className={style['monster-control-btn']}
+            event={this.handleHide}>&times;
+          </Button>
+        </div>
         <header className={style['lined-section']}>
           <h1 className={style['monster-name']}>{data.name}</h1>
           <p className={style['monster-type']}>{data.size + ' ' + data.type + ', ' + data.alignment}</p>

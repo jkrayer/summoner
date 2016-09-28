@@ -20,7 +20,10 @@ dd {
   padding: 2vh;
   border-left: 2px solid #f2f2f2;
   font: 400 .875rem/1.4 'Helvetica', 'Arial', 'sans-serif';
+  transition: right .3s ease-in-out;
 }
+
+.hide { right: -25%; }
 
 .lined-section {
   padding-bottom: 10px;
@@ -42,6 +45,25 @@ dd {
 
 .monster-type {
   font-style: italic;
+}
+
+.monster-control-bar {
+  position: absolute;
+  top: 2vh;
+  right: 2vh;
+  text-align: right;
+}
+
+.monster-control-btn {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  font: 400 1.25rem/1 'Arial', 'sans-serif';
+  text-align: center;
+  background-color: #eee;
+}
+.monster-control-btn:hover {
+  background-color: #d4d4d4;
 }
 
 .stat-defs,
