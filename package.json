@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "copy:static": "npm run mkDirs && cp src/static/index.html build/index.html",
+    "lint": "eslint --plugin react --ext .js --ext .jsx src/",
     "mkDirs": "mkdir -p build",
     "start": "npm run copy:static && webpack --progress --colors --watch",
     "test": "mocha --compilers js:babel-register"
@@ -25,16 +26,24 @@
   "homepage": "https://github.com/jkrayer/summoner#readme",
   "devDependencies": {
     "babel-core": "6.14.0",
+    "babel-eslint": "7.0.0",
     "babel-loader": "6.2.5",
     "babel-preset-es2015": "6.14.0",
     "babel-preset-react": "6.11.1",
     "chai": "3.5.0",
     "css-loader": "0.24.0",
+    "eslint": "3.6.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-html": "1.5.3",
+    "eslint-plugin-import": "1.16.0",
+    "eslint-plugin-jsx-a11y": "2.2.2",
+    "eslint-plugin-react": "6.3.0",
+    "eslint-watch": "2.1.14",
     "extract-text-webpack-plugin": "1.0.1",
     "jsdom": "9.4.5",
     "marked": "0.3.6",
     "mocha": "3.0.2",
-    "react": "15.3.1",
     "react-addons-pure-render-mixin": "15.3.1",
     "react-addons-test-utils": "15.3.1",
     "react-dom": "15.3.1",
@@ -42,5 +51,7 @@
     "style-loader": "0.13.1",
     "webpack": "1.13.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "15.3.1"
+  }
 }
