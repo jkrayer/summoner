@@ -1,6 +1,6 @@
 import React from 'react';
-import TocContainer from './toc-container.jsx';
-import Monster from './monster.jsx';
+import TocContainer from './toc-container';
+import Monster from './monster';
 
 export default class App extends React.Component {
   constructor(props) {
