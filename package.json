@@ -42,7 +42,6 @@
     "eslint-watch": "2.1.14",
     "extract-text-webpack-plugin": "1.0.1",
     "jsdom": "9.4.5",
-    "marked": "0.3.6",
     "mocha": "3.0.2",
     "react-addons-pure-render-mixin": "15.3.1",
     "react-addons-test-utils": "15.3.1",
@@ -52,6 +51,7 @@
     "webpack": "1.13.2"
   },
   "dependencies": {
+    "marked": "0.3.6",
     "react": "15.3.1"
   }
 }
