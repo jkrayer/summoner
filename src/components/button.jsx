@@ -5,9 +5,10 @@ export default class Button extends React.Component {
     super(props);
   }
   render () {
-    let { children, event, type } = this.props;
+    let { children, className, event, type } = this.props;
     return (
       <button
+        className={className}
         onClick={event}
         type={type}
       >
@@ -19,11 +20,13 @@ export default class Button extends React.Component {
 
 Button.propTypes = {
   children: React.PropTypes.string.isRequired,
+  className: React.PropTypes.string,
   event: React.PropTypes.func,
   type: React.PropTypes.oneOf(['button', 'submit', 'reset'])
 };
 
 Button.defaultProps = {
+  className: null,
   event: function() {},
   type: 'button'
 };

@@ -8,13 +8,8 @@ li {
 }
 
 button {
-  width: 100%;
   border: none;
   outline: none;
-  font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
-  letter-spacing: .03em;
-  font-variant: small-caps;
-  text-align: left;
   background-color: transparent;
   cursor: pointer;
 }
@@ -25,4 +20,12 @@ button:focus {
 button:hover,
 button:focus {
   background-color: #eee;
+}
+
+.btn-toc {
+  width: 100%;
+  font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
+  letter-spacing: .03em;
+  font-variant: small-caps;
+  text-align: left;
 }

@@ -11,7 +11,9 @@ export default class Toc extends React.Component {
     const lis = data.map( (monster) =>
       !monster.name ? null :
         <li key={monster.arrayIndex}>
-          <Button event={this.props.buttonEvent.bind(null, monster.arrayIndex)}>
+          <Button
+            className={style['btn-toc']}
+            event={this.props.buttonEvent.bind(null, monster.arrayIndex)}>
             {monster.name}
           </Button>
         </li>
