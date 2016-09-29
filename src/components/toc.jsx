@@ -1,30 +1,36 @@
 import React from 'react';
-import Button from './button.jsx';
+import Button from './button';
 import style from '../style/button.css';
 
-export default class Toc extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    const { data } = this.props;
-    const lis = data.map( (monster) =>
-      !monster.name ? null :
+function partialApply(func, index) {
+  return function part() {
+    func(index);
+  };
+}
+
+const Toc = function Toc(props) {
+  const { buttonEvent, data } = props;
+  const lis = data.map((monster) => {
+    if (monster.name) {
+      return (
         <li key={monster.arrayIndex}>
           <Button
             className={style['btn-toc']}
-            event={this.props.buttonEvent.bind(null, monster.arrayIndex)}>
+            event={partialApply(buttonEvent, monster.arrayIndex)}
+          >
             {monster.name}
           </Button>
         </li>
-    );
-    return (
-      <ol>
-        {lis}
-      </ol>
-    );
-  }
-}
+      );
+    }
+    return false;
+  });
+  return (
+    <ol>
+      {lis}
+    </ol>
+  );
+};
 
 Toc.propTypes = {
   buttonEvent: React.PropTypes.func,
@@ -32,3 +38,5 @@ Toc.propTypes = {
     React.PropTypes.shape({})
   )
 };
+
+export default Toc;
