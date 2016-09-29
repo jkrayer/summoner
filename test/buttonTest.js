@@ -14,16 +14,15 @@ describe('<Button />', function () {
   }
 
   beforeEach(function () {
-    el = TestUtils.renderIntoDocument( React.createElement(Button, { event: onClick } , 'Good Button') );
-    btn = TestUtils.findRenderedDOMComponentWithTag(el, 'BUTTON');
+    el = Button({ event: onClick, children: 'Good Button' });
   });
 
   it('Should render a button with the default `button` type', function () {
-    assert.strictEqual('button', btn.type);
+    assert.strictEqual('button', el.type);
   });
 
   it('Should execute a supplied function when clicked', function () {
-    TestUtils.Simulate.click(btn);
+    el.props.onClick();
     assert.equal(true, testVar);
   });
 
