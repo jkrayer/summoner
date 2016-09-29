@@ -20,4 +20,10 @@ Button.propTypes = {
   type: React.PropTypes.oneOf(['button', 'submit', 'reset'])
 };
 
+Button.defaultProps = {
+  className: null,
+  event: function() {},
+  type: 'button'
+};
+
 export default Button;
