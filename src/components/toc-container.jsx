@@ -1,6 +1,10 @@
 import React from 'react';
-import Toc from './toc.jsx';
+import Toc from './toc';
 import style from '../style/form.css';
+
+function sanitizeInput(input) {
+  return input.replace(/[^a-z-']/gi, '').trim();
+}
 
 export default class TocContainer extends React.Component {
   constructor(props) {
@@ -12,16 +16,28 @@ export default class TocContainer extends React.Component {
     };
     this.onFilterChange = this.onFilterChange.bind(this);
   }
+  onFilterChange(event) {
+    const input = sanitizeInput(event.target.value);
+
+    if (!input) {
+      return this.setState({
+        filter: '',
+        filteredData: this.props.data
+      });
+    }
+
+    this.timer = setTimeout(() => this.filterData(), 200);
+    return this.setState({ filter: input });
+  }
   filterData() {
     const { filter, filterBy } = this.state;
-    let reg;
 
     if (!filter) { return; }
 
-    reg = new RegExp(filter, 'gi');
+    const reg = new RegExp(filter, 'gi');
 
     new Promise((resolve) => {
-      let filteredData = this.props.data.filter((monster) => {
+      const filteredData = this.props.data.filter((monster) => {
         if (monster[filterBy]) {
           return reg.test(monster[filterBy]);
         }
@@ -37,54 +53,37 @@ export default class TocContainer extends React.Component {
       });
     });
   }
-  sanitizeInput(input) {
-    return input.replace(/[^a-z-']/gi, '').trim();
-  }
-  onFilterChange(event) {
-    const input = this.sanitizeInput(event.target.value);
-
-    if (!input) {
-      return this.setState({
-        filter: '',
-        filteredData: this.props.data
-      });
-    }
-
-    this.setState({filter: input});
-    this.timer = setTimeout(() => this.filterData(), 200);
-  }
   render() {
-    let { buttonEvent } = this.props;
-    let { filter, filterBy, filteredData } = this.state;
+    const { buttonEvent } = this.props;
+    const { filter, filterBy, filteredData } = this.state;
 
     return (
       <div className="left-col">
         <form className={style['form-inline']}>
           <fieldset>
-            <legend>{"Filter By:"}</legend>
+            <legend>{'Filter By:'}</legend>
             <div className={style['input-wrapper']}>
-              <label htmlFor="filterby">{"Property:"}</label>
+              <label htmlFor="filterby">{'Property:'}</label>
               <input
-                  id="filterby"
-                  readOnly
-                  type="text"
-                  value={filterBy}
+                id="filterby"
+                readOnly
+                type="text"
+                value={filterBy}
               />
             </div>
             <div className={style['input-wrapper']}>
-              <label htmlFor="filter">{"Filter"}</label>
+              <label htmlFor="filter">{'Filter'}</label>
               <input
-                  autoCapitalize="none"
-                  autoComplete="off"
-                  autoCorrect="off"
-                  autoFocus
-                  maxLength="100"
-                  name="filter"
-                  onChange={this.onFilterChange}
-                  id="filter"
-                  ref="filter"
-                  type="text"
-                  value={filter}
+                autoCapitalize="none"
+                autoComplete="off"
+                autoCorrect="off"
+                autoFocus
+                maxLength="100"
+                name="filter"
+                onChange={this.onFilterChange}
+                id="filter"
+                type="text"
+                value={filter}
               />
             </div>
           </fieldset>
@@ -98,7 +97,7 @@ export default class TocContainer extends React.Component {
   }
 }
 
-Toc.propTypes = {
+TocContainer.propTypes = {
   buttonEvent: React.PropTypes.func,
   data: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
