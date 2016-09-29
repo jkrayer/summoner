@@ -22,11 +22,6 @@ export default class Monster extends React.Component {
   }
   render() {
     const { data } = this.props;
-    // let specialAbilities;
-    // let actions;
-    // let reactions;
-    // let legendaryActions;
-    // let classN;
 
     if (data === null) {
       return (<article className={[style.monster, style.hide].join(' ')} />);
@@ -96,5 +91,5 @@ export default class Monster extends React.Component {
 }
 
 Monster.propTypes = {
-  data: React.PropTypes.shape({}).isRequired
+  data: React.PropTypes.shape({})
 };
