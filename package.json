@@ -8,7 +8,7 @@
     "lint": "eslint --plugin react --ext .js --ext .jsx src/",
     "mkDirs": "mkdir -p build",
     "start": "npm run copy:static && webpack --progress --colors --watch",
-    "test": "mocha --compilers js:babel-register"
+    "test": "mocha --compilers js:babel-register --require ignore-styles"
   },
   "repository": {
     "type": "git",
@@ -41,6 +41,7 @@
     "eslint-plugin-react": "6.3.0",
     "eslint-watch": "2.1.14",
     "extract-text-webpack-plugin": "1.0.1",
+    "ignore-styles": "5.0.1",
     "jsdom": "9.4.5",
     "mocha": "3.0.2",
     "react-addons-test-utils": "15.3.1",
