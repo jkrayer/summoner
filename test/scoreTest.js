@@ -9,13 +9,12 @@ describe('<Score />', function () {
   let dexterity;
 
   beforeEach(function () {
-    strength = TestUtils.renderIntoDocument( React.createElement(Score, { score: 18 }, null) );
-    dexterity = TestUtils.renderIntoDocument( React.createElement(Score, { score: 8 }, null) );
+    strength = Score({ score: 18 });
+    dexterity = Score({ score: 8 });
   });
 
   it('should return a correct modifier', function () {
-    assert.strictEqual(' (+4)', strength.setModifier());
-    assert.strictEqual(' (-1)', dexterity.setModifier(8));
+    assert.match(strength.props.children, /\(\+4\)$/);
+    assert.match(dexterity.props.children, /\(\-1\)$/);
   });
-
 });
