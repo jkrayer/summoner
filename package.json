@@ -45,13 +45,13 @@
     "mocha": "3.0.2",
     "react-addons-pure-render-mixin": "15.3.1",
     "react-addons-test-utils": "15.3.1",
-    "react-dom": "15.3.1",
     "react-router": "2.7.0",
     "style-loader": "0.13.1",
     "webpack": "1.13.2"
   },
   "dependencies": {
     "marked": "0.3.6",
-    "react": "15.3.1"
+    "react": "15.3.1",
+    "react-dom": "15.3.1"
   }
 }
