@@ -25,8 +25,10 @@ describe('<TocContainer />', function () {
     assert.deepEqual(el.state.filteredData, testData);
   });
 
-//  it('', function () {
-//    el.onFilterChange({target:{ value: 'dragon'}});
-//    assert.deepEqual(el.state.filteredData, filteredTestData);
-//  });
+  it('onFilterChange should return two dragons', function () {
+    el.onFilterChange({target:{ value: 'dragon'}});
+    setTimeout(function(){
+      assert.deepEqual(el.state.filteredData, filteredTestData);
+    }, 20);
+  });
 });
