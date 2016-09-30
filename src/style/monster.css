@@ -1,13 +1,3 @@
-h1,
-h2,
-p,
-dl,
-dt,
-dd {
-  padding: 0;
-  margin: 0;
-}
-
 .monster {
   box-sizing: border-box;
   position: fixed;

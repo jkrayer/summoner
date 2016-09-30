@@ -1,27 +1,3 @@
-ol {
-  width: 75%;
-  padding-left: 0;
-  list-style: none;
-}
-li {
-  margin-bottom: 3px;
-}
-
-button {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-button:focus {
-  border: none;
-  outline: none;
-}
-button:hover,
-button:focus {
-  background-color: #eee;
-}
-
 .btn-toc {
   width: 100%;
   font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
