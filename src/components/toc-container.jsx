@@ -2,7 +2,10 @@ import React from 'react';
 import Toc from './toc';
 import style from '../style/form.css';
 
-function sanitizeInput(input) {
+function sanitizeInput(input, filterBy) {
+  if (filterBy === 'challenge_rating') {
+    return input.replace(/[^\d]/gi, '').trim();
+  }
   return input.replace(/[^a-z-']/gi, '').trim();
 }
 
@@ -14,10 +17,21 @@ export default class TocContainer extends React.Component {
       filterBy: 'name',
       filteredData: this.props.data
     };
+    this.validFilters = ['name', 'challenge_rating', 'type', 'subtype', 'terrain'];
     this.onFilterChange = this.onFilterChange.bind(this);
+    this.onFilterByChange = this.onFilterByChange.bind(this);
+  }
+  onFilterByChange(event) {
+    let input = event.target.value;
+    input = (this.validFilters.indexOf(input) !== -1) ? input : 'name';
+    this.setState({
+      filter: '',
+      filterBy: input,
+      filteredData: this.props.data
+    });
   }
   onFilterChange(event) {
-    const input = sanitizeInput(event.target.value);
+    const input = sanitizeInput(event.target.value, this.state.filterBy);
 
     if (!input) {
       return this.setState({
@@ -34,7 +48,7 @@ export default class TocContainer extends React.Component {
 
     if (!filter) { return; }
 
-    const reg = new RegExp(filter, 'gi');
+    const reg = filterBy === 'challenge_rating' ? new RegExp('^' + filter + ' ') : new RegExp(filter, 'gi');
 
     new Promise((resolve) => {
       const filteredData = this.props.data.filter((monster) => {
@@ -64,12 +78,16 @@ export default class TocContainer extends React.Component {
             <legend>{'Filter By:'}</legend>
             <div className={style['input-wrapper']}>
               <label htmlFor="filterby">{'Property:'}</label>
-              <input
+              <select
                 id="filterby"
-                readOnly
-                type="text"
+                onChange={this.onFilterByChange}
                 value={filterBy}
-              />
+              >
+                <option value="name">{'Name'}</option>
+                <option value="challenge_rating">{'Challenge Rating'}</option>
+                <option value="type">{'Type'}</option>
+                <option value="subtype">{'SubType'}</option>
+              </select>
             </div>
             <div className={style['input-wrapper']}>
               <label htmlFor="filter">{'Filter'}</label>
