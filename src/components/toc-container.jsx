@@ -4,7 +4,7 @@ import style from '../style/form.css';
 
 function sanitizeInput(input, filterBy) {
   if (filterBy === 'challenge_rating') {
-    return input.replace(/[^\d]/gi, '').trim();
+    return input.replace(/[^\d/]/, '').trim();
   }
   return input.replace(/[^a-z-']/gi, '').trim();
 }
