@@ -26,7 +26,7 @@ const Dl = function Dl(props) {
 };
 
 Dl.propTypes = {
-  data: React.PropTypes.arrayOf(React.PropTypes.object),
+  data: React.PropTypes.arrayOf(React.PropTypes.string),
   hl: React.PropTypes.string
 };
 
