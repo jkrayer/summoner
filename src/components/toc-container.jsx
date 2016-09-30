@@ -72,7 +72,7 @@ export default class TocContainer extends React.Component {
     const { filter, filterBy, filteredData } = this.state;
 
     return (
-      <div className="left-col">
+      <div>
         <form className={style['form-inline']}>
           <fieldset>
             <legend>{'Filter By:'}</legend>
