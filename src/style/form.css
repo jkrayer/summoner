@@ -24,15 +24,21 @@
   color: #808080;
 }
 
+.form-inline select,
 .form-inline input {
   width: 15em;
-  padding: 10px;
   border-radius: 5px;
   border: 1px solid #b3b3b3;
   font: 200 1rem/1 'Arial', 'sans-serif';
   text-transform: capitalize;
   letter-spacing: .02em;
   color: #b3b3b3;
+}
+
+.form-inline input { padding: 10px; }
+.form-inline select {
+  box-sizing: content-box;
+  padding: 7px 10px;
 }
 
 /* Shame
