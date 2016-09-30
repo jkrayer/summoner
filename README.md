@@ -9,4 +9,7 @@ Manage 5e Statblocks
 @internal filtering [category && input] { categories: [name, challenge_rating, type, subtype, terrain] }
           'filter by [name] | [search term]'
 
+search type 1: name, type, subtype, terrain; contains supplied input
+search type 2: challenge_rating; starts with input followed by space
+
 @internal hit point tracker
