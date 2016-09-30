@@ -8,13 +8,13 @@ describe('<TOC />', function () {
   let el;
   let lis;
   const data = [
-    { "name": "Aboleth" },
-    { "name": "Acolyte" },
-    { "name": "Adult Black Dragon" }
+    { name: "Aboleth", arrayIndex: 0 },
+    { name: "Acolyte", arrayIndex: 1 },
+    { name: "Adult Black Dragon", arrayIndex: 2 }
   ];
 
   beforeEach(function () {
-    el = Toc({ buttonEvent: data.buttonEvent, data: data.data });
+    el = Toc({ data });
   });
 
   it('Should render one LI element for each', function () {
