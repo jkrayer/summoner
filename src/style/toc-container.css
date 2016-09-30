@@ -1,21 +1,9 @@
-.form-inline > fieldset {
-  padding: 0;
-  border: none;
-  margin: 0;
-}
-
-.form-inline > fieldset > legend,
-.form-inline .input-wrapper {
+.input-wrapper {
   display: inline-block;
   margin-right: 10px;
 }
 
-.form-inline > fieldset > legend {
-  font: 700 .875rem/1 'Arial', 'sans-serif';
-  letter-spacing: .02em;
-}
-
-.form-inline label {
+.form label {
   display: block;
   margin-bottom: 5px;
   font: 400 .75rem/1 'Arial', 'sans-serif';
@@ -24,8 +12,8 @@
   color: #808080;
 }
 
-.form-inline select,
-.form-inline input {
+.form select,
+.form input {
   width: 15em;
   border-radius: 5px;
   border: 1px solid #b3b3b3;
@@ -35,8 +23,8 @@
   color: #b3b3b3;
 }
 
-.form-inline input { padding: 10px; }
-.form-inline select {
+.form input { padding: 10px; }
+.form select {
   box-sizing: content-box;
   padding: 7px 10px;
 }

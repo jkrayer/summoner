@@ -1,6 +1,6 @@
 import React from 'react';
 import Toc from './toc';
-import style from '../style/form.css';
+import style from '../style/toc-container.css';
 
 function sanitizeInput(input, filterBy) {
   if (filterBy === 'challenge_rating') {
@@ -73,11 +73,9 @@ export default class TocContainer extends React.Component {
 
     return (
       <div>
-        <form className={style['form-inline']}>
-          <fieldset>
-            <legend>{'Filter By:'}</legend>
+        <form className={style.form}>
             <div className={style['input-wrapper']}>
-              <label htmlFor="filterby">{'Property:'}</label>
+              <label htmlFor="filterby">{'Filter By:'}</label>
               <select
                 id="filterby"
                 onChange={this.onFilterByChange}
@@ -104,7 +102,6 @@ export default class TocContainer extends React.Component {
                 value={filter}
               />
             </div>
-          </fieldset>
         </form>
         <Toc
           buttonEvent={buttonEvent}
