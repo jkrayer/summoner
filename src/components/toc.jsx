@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './button';
-import style from '../style/button.css';
+import style from '../style/toc.css';
 
 function partialApply(func, index) {
   return function part() {
@@ -15,7 +15,7 @@ const Toc = function Toc(props) {
       return (
         <li key={monster.arrayIndex}>
           <Button
-            className={style['btn-toc']}
+            className={style.btn}
             event={partialApply(buttonEvent, monster.arrayIndex)}
           >
             {monster.name}
@@ -26,7 +26,7 @@ const Toc = function Toc(props) {
     return false;
   });
   return (
-    <ol>
+    <ol className={style.ol}>
       {lis}
     </ol>
   );
