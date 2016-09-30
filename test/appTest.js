@@ -7,9 +7,9 @@ import App from '../src/components/app.jsx';
 describe('<App />', function () {
   let el;
   const data = [
-    { "name": "Aboleth" },
-    { "name": "Acolyte" },
-    { "name": "Adult Black Dragon" }
+    { name: "Aboleth", arrayIndex: 0 },
+    { name: "Acolyte", arrayIndex: 1 },
+    { name: "Adult Black Dragon", arrayIndex: 2 }
   ];
 
   beforeEach(function () {
