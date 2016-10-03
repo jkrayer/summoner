@@ -49,7 +49,7 @@ export default class TocContainer extends React.Component {
 
     if (!filter) { return; }
 
-    const reg = filterBy === 'challenge_rating' ? new RegExp('^' + filter + ' ') : new RegExp(filter, 'gi');
+    const reg = filterBy === 'challenge_rating' ? new RegExp(['^', filter, ' '].join('')) : new RegExp(filter, 'gi');
 
     new Promise((resolve) => {
       const filteredData = this.props.data.filter((monster) => {
@@ -81,10 +81,10 @@ export default class TocContainer extends React.Component {
             legend={'Filter by:'}
             name={'filterby'}
             radios={[
-              {val: 'name', label: 'Name'},
-              {val: 'challenge_rating', label: 'Challenge Rating'},
-              {val: 'type', label: 'Type'},
-              {val: 'subtype', label: 'SubType'}
+              { val: 'name', label: 'Name' },
+              { val: 'challenge_rating', label: 'Challenge Rating' },
+              { val: 'type', label: 'Type' },
+              { val: 'subtype', label: 'SubType' }
             ]}
           />
           <div className={style['input-wrapper']}>
