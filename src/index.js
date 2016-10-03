@@ -1,4 +1,4 @@
-/* global document:true */
+/* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import data from './data/5e-SRD-Monsters';
