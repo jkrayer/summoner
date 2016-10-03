@@ -4,6 +4,7 @@
   padding: 0;
   border: none;
   margin: 0;
+  flex: 1 1 100%;
 }
 
 .wrapper { flex: 1 2 auto; }
@@ -39,4 +40,13 @@
 
 .input:checked + label {
   background-color: #e5e5e5;
+}
+
+@media all and (min-width: 768px) {
+  .radio-container {
+    box-sizing: border-box;
+    flex: 1 1 50%;
+    padding-top: 30px;
+    padding-right: 15px;
+  }
 }

@@ -1,6 +1,13 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 725px
+}
+
 .input-wrapper {
   margin-top: 10px;
   margin-bottom: 10px;
+  flex: 1 1 100%;
   /*display: inline-block;*/
   /* margin-right: 10px; */
 }
@@ -25,4 +32,12 @@
   text-transform: capitalize;
   letter-spacing: .02em;
   color: #b3b3b3;
+}
+
+@media all and (min-width: 768px) {
+  .input-wrapper {
+    box-sizing: border-box;
+    flex: 1 1 50%;
+    padding-left: 15px;
+  }
 }
