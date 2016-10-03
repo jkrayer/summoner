@@ -29,7 +29,9 @@ RadioContainer.propTypes = {
   event: React.PropTypes.func.isRequired,
   legend: React.PropTypes.string,
   name: React.PropTypes.string.isRequired,
-  radios: React.PropTypes.arrayOf({}).isRequired
+  radios: React.PropTypes.arrayOf(
+    React.PropTypes.object
+  ).isRequired
 };
 
 RadioContainer.defaultProps = {
