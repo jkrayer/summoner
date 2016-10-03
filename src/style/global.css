@@ -22,7 +22,8 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
-button:focus {
+button:focus,
+label:focus {
   border: none;
   outline: none;
 }

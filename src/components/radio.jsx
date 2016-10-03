@@ -1,16 +1,26 @@
 import React from 'react';
+import style from '../style/radio.css';
 
 export default function Radio(props) {
   return (
-    <label>
+    <div className={style.wrapper}>
       <input
         checked={props.checked ? true : false}
+        className={style.input}
+        id={props.val}
         name={props.name}
         onChange={props.event}
+        tabIndex={-1}
         type="radio"
         value={props.val}
-      />{props.label}
-    </label>
+      />
+      <label
+        className={style.label}
+        htmlFor={props.val}
+        tabIndex={1}
+      >{props.label}
+      </label>
+    </div>
   );
 }
 

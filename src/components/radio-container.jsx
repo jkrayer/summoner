@@ -1,5 +1,6 @@
 import React from 'react';
 import Radio from './radio';
+import style from '../style/radio.css';
 
 export default class RadioContainer extends React.Component {
   constructor(props) {
@@ -11,17 +12,19 @@ export default class RadioContainer extends React.Component {
       <Radio
         checked={checked === r.val}
         event={event}
-        ley={index}
+        key={index}
         label={r.label}
         name={name}
         val={r.val}
       />
     );
     return (
-      <fieldset>
-        <legend>{legend}</legend>
+      <div
+        className={style['radio-container']}
+        title={legend}
+      >
         {radioButtons}
-      </fieldset>
+      </div>
     );
   }
 }
