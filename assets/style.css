@@ -1,52 +1,92 @@
-ol {
-  width: 75%;
+.toc__ol___2jncs {
   padding-left: 0;
+  margin: 0;
   list-style: none;
 }
-li {
-  margin-bottom: 3px;
-}
 
-button {
-  border: none;
-  outline: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-button:focus {
-  border: none;
-  outline: none;
-}
-button:hover,
-button:focus {
-  background-color: #eee;
-}
+.toc__ol___2jncs > li:nth-child(even) { background-color: #f2f2f2; }
 
-.button__btn-toc___3M2Ge {
+.toc__btn___2t4EE {
+  padding-top: 8px;
+  padding-bottom: 8px;
   width: 100%;
   font: 400 1.25rem/1 'Times', 'Times New Roman', 'serif';
   letter-spacing: .03em;
   font-variant: small-caps;
   text-align: left;
 }
-.form__form-inline___1iYnp > fieldset {
+
+.toc__btn___2t4EE:hover,
+.toc__btn___2t4EE:focus {
+  background-color: #e5e5e5;
+}
+.radio__radio-container___hpD7O {
+  display: flex;
+  width: 100%;
   padding: 0;
   border: none;
   margin: 0;
+  flex: 1 1 100%;
 }
 
-.form__form-inline___1iYnp > fieldset > legend,
-.form__form-inline___1iYnp .form__input-wrapper___3UC3z {
-  display: inline-block;
-  margin-right: 10px;
+.radio__wrapper___3g8F1 { flex: 1 2 auto; }
+
+.radio__wrapper___3g8F1:first-of-type > label { border-radius: 5px 0 0 5px; }
+
+.radio__wrapper___3g8F1:last-of-type > label { border-radius: 0 5px 5px 0; }
+
+.radio__label___HuwFK {
+  position: relative;
+  z-index: 5;
+  display: block;
+  padding: 7px;
+  font: 400 .875rem/1 'Arial', 'sans-serif';
+  text-align: center;
+  cursor: pointer;
+  background-color: #f2f2f2;
 }
 
-.form__form-inline___1iYnp > fieldset > legend {
-  font: 700 .875rem/1 'Arial', 'sans-serif';
-  letter-spacing: .02em;
+.radio__label___HuwFK:focus,
+.radio__label___HuwFK:hover {
+  background-color: #e5e5e5;
 }
 
-.form__form-inline___1iYnp label {
+.radio__input___1rQyR {
+  position: absolute;;
+  left: -1000in;
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.radio__input___1rQyR:checked + label {
+  background-color: #e5e5e5;
+}
+
+@media all and (min-width: 768px) {
+  .radio__radio-container___hpD7O {
+    box-sizing: border-box;
+    flex: 1 1 50%;
+    padding-top: 30px;
+    padding-right: 15px;
+  }
+}
+.toc-container__form___ikgTx {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 725px
+}
+
+.toc-container__input-wrapper___2xYcs {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex: 1 1 100%;
+  /*display: inline-block;*/
+  /* margin-right: 10px; */
+}
+
+.toc-container__label___1jGEs {
   display: block;
   margin-bottom: 5px;
   font: 400 .75rem/1 'Arial', 'sans-serif';
@@ -55,8 +95,10 @@ button:focus {
   color: #808080;
 }
 
-.form__form-inline___1iYnp input {
-  width: 15em;
+.toc-container__input___30lBE {
+  /*width: 15em;*/
+  box-sizing: border-box;
+  width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #b3b3b3;
@@ -66,11 +108,12 @@ button:focus {
   color: #b3b3b3;
 }
 
-/* Shame
- * @internal Figure out global
-*/
-.form__lef-col___1wKLb {
-  width: 75%;
+@media all and (min-width: 768px) {
+  .toc-container__input-wrapper___2xYcs {
+    box-sizing: border-box;
+    flex: 1 1 50%;
+    padding-left: 15px;
+  }
 }
 .table__score-table___zCfL9 {
   width: 100%;
@@ -83,32 +126,30 @@ button:focus {
   width: 16.66666%;
   text-align: center;
 }
-h1,
-h2,
-p,
-dl,
-dt,
-dd {
-  padding: 0;
-  margin: 0;
-}
-
 .monster__monster___2rnEL {
   box-sizing: border-box;
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 7;
   overflow-y: auto;
-  width: 25%;
-  min-width: 350px;
+  width: 100%;
   height: 100vh;
   padding: 2vh;
-  border-left: 2px solid #f2f2f2;
+  /* border-left: 2px solid #f2f2f2; */
   font: 400 .875rem/1.4 'Helvetica', 'Arial', 'sans-serif';
+  background-color: #fff;
   transition: right .3s ease-in-out;
 }
 
-.monster__hide___m_Lsl { right: -25%; }
+@media all and (min-width: 1000px) {
+  .monster__monster___2rnEL {
+    min-width: 500px;
+    max-width: 25%;
+  }
+}
+
+.monster__hide___m_Lsl { right: -100%; }
 
 .monster__lined-section___9ZJos {
   padding-bottom: 10px;
@@ -170,4 +211,40 @@ dd {
 .monster__stat-defs-lg___YCt4l > dd {
   margin-bottom: 10px;
   clear: right;
+}
+body,
+html {
+  margin: 1vw;
+  padding: 0;
+}
+
+@media all and (min-width: 1000px) {
+  body,
+  html {
+    margin: 10px;
+  }
+}
+
+/* Reset */
+h1,
+h2,
+p,
+dl,
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+/* Buttons */
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:focus,
+label:focus {
+  border: none;
+  outline: none;
 }
