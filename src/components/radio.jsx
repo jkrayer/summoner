@@ -5,7 +5,7 @@ export default function Radio(props) {
   return (
     <div className={style.wrapper}>
       <input
-        checked={props.checked ? true : false}
+        checked={props.checked}
         className={style.input}
         id={props.val}
         name={props.name}
@@ -17,7 +17,7 @@ export default function Radio(props) {
       <label
         className={style.label}
         htmlFor={props.val}
-        tabIndex={1}
+        tabIndex={0}
       >{props.label}
       </label>
     </div>
