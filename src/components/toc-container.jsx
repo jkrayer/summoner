@@ -1,5 +1,6 @@
 import React from 'react';
 import Toc from './toc';
+import RadioContainer from './radio-container';
 import style from '../style/toc-container.css';
 
 function sanitizeInput(input, filterBy) {
@@ -74,34 +75,33 @@ export default class TocContainer extends React.Component {
     return (
       <div>
         <form className={style.form}>
-            <div className={style['input-wrapper']}>
-              <label htmlFor="filterby">{'Filter By:'}</label>
-              <select
-                id="filterby"
-                onChange={this.onFilterByChange}
-                value={filterBy}
-              >
-                <option value="name">{'Name'}</option>
-                <option value="challenge_rating">{'Challenge Rating'}</option>
-                <option value="type">{'Type'}</option>
-                <option value="subtype">{'SubType'}</option>
-              </select>
-            </div>
-            <div className={style['input-wrapper']}>
-              <label htmlFor="filter">{'Filter'}</label>
-              <input
-                autoCapitalize="none"
-                autoComplete="off"
-                autoCorrect="off"
-                autoFocus
-                maxLength="100"
-                name="filter"
-                onChange={this.onFilterChange}
-                id="filter"
-                type="text"
-                value={filter}
-              />
-            </div>
+          <RadioContainer
+            checked={filterBy}
+            event={this.onFilterByChange}
+            legend={'Filter by:'}
+            name={'filterby'}
+            radios={[
+              {val: 'name', label: 'Name'},
+              {val: 'challenge_rating', label: 'Challenge Rating'},
+              {val: 'type', label: 'Type'},
+              {val: 'subtype', label: 'SubType'}
+            ]}
+          />
+          <div className={style['input-wrapper']}>
+            <label htmlFor="filter">{'Filter'}</label>
+            <input
+              autoCapitalize="none"
+              autoComplete="off"
+              autoCorrect="off"
+              autoFocus
+              maxLength="100"
+              name="filter"
+              onChange={this.onFilterChange}
+              id="filter"
+              type="text"
+              value={filter}
+            />
+          </div>
         </form>
         <Toc
           buttonEvent={buttonEvent}
