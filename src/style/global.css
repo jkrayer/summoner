@@ -4,6 +4,13 @@ html {
   padding: 0;
 }
 
+@media all and (min-width: 1000px) {
+  body,
+  html {
+    margin: 10px;
+  }
+}
+
 /* Reset */
 h1,
 h2,
