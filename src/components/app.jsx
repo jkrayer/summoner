@@ -1,7 +1,6 @@
 import React from 'react';
 import TocContainer from './toc-container';
 import Monster from './monster';
-import style from '../style/global.css';
 
 export default class App extends React.Component {
   constructor(props) {
