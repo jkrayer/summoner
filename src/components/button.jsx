@@ -22,7 +22,7 @@ Button.propTypes = {
 
 Button.defaultProps = {
   className: null,
-  event: function() {},
+  event: () => {},
   type: 'button'
 };
 
