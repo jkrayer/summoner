@@ -3,7 +3,7 @@
   margin-right: 10px;
 }
 
-.form label {
+.label {
   display: block;
   margin-bottom: 5px;
   font: 400 .75rem/1 'Arial', 'sans-serif';
@@ -12,19 +12,13 @@
   color: #808080;
 }
 
-.form select,
-.form input {
+.input {
   width: 15em;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid #b3b3b3;
   font: 200 1rem/1 'Arial', 'sans-serif';
   text-transform: capitalize;
   letter-spacing: .02em;
   color: #b3b3b3;
-}
-
-.form input { padding: 10px; }
-.form select {
-  box-sizing: content-box;
-  padding: 7px 10px;
 }

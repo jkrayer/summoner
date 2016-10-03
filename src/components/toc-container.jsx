@@ -88,12 +88,17 @@ export default class TocContainer extends React.Component {
             ]}
           />
           <div className={style['input-wrapper']}>
-            <label htmlFor="filter">{'Filter'}</label>
+            <label
+              className={style.label}
+              htmlFor="filter"
+            >{'Filter'}
+            </label>
             <input
               autoCapitalize="none"
               autoComplete="off"
               autoCorrect="off"
               autoFocus
+              className={style.input}
               maxLength="100"
               name="filter"
               onChange={this.onFilterChange}
