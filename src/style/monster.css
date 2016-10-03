@@ -14,6 +14,13 @@
   transition: right .3s ease-in-out;
 }
 
+@media all and (min-width: 1000px) {
+  .monster {
+    min-width: 500px;
+    max-width: 25%;
+  }
+}
+
 .hide { right: -100%; }
 
 .lined-section {
