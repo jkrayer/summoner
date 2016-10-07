@@ -41,6 +41,10 @@ export default class Monster extends React.Component {
         <div className={style['monster-control-bar']}>
           <Button
             className={style['monster-control-btn']}
+          >{'+'}
+          </Button>
+          <Button
+            className={style['monster-control-btn']}
             event={this.handleHide}
           >&times;
           </Button>
