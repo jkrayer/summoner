@@ -90,6 +90,7 @@ export default class Monster extends React.Component {
         {actions}
         {reactions}
         {legendaryActions}
+        {optional}
       </article>
     );
   }
