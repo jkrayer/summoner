@@ -33,7 +33,8 @@ export default class Monster extends React.Component {
     const reactions = !data.reactions ? null : <DlContainer data={data.reactions} hl="Reactions" />;
     const legendaryActions = !data.legendary_actions ? null
       : <DlContainer data={data.legendary_actions} hl="Legendary Actions" />;
-    const optional = !data.optional ? null : <DlContainer data={data.optional} hl="Optional Rules" />;
+    const optional = !data.optional ? null
+      : <DlContainer data={data.optional} hl="Optional Rules" />;
     const classN = this.state.show ? style.monster : [style.monster, style.hide].join(' ');
 
     return (
