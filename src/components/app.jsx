@@ -5,12 +5,21 @@ import Monster from './monster';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { selectedMonster: null };
+    this.state = {
+      selectedMonster: null,
+      showAddWindow: false
+    };
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
+    this.toggleAddWindow = this.toggleAddWindow.bind(this);
   }
   setSelectedMonster(key) {
     this.setState({
       selectedMonster: this.props.data[key] || null
+    });
+  }
+  toggleAddWindow() {
+    this.setState({
+      showAddWindow: !this.state.showAddWindow
     });
   }
   render() {
@@ -22,7 +31,10 @@ export default class App extends React.Component {
           buttonEvent={this.setSelectedMonster}
           data={data}
         />
-        <Monster data={selectedMonster} />
+        <Monster
+          data={selectedMonster}
+          handleAddWindow={this.toggleAddWindow}
+        />
       </div>
     );
   }

@@ -21,7 +21,7 @@ export default class Monster extends React.Component {
     });
   }
   render() {
-    const { data } = this.props;
+    const { data, handleAddWindow } = this.props;
 
     if (data === null) {
       return (<article className={[style.monster, style.hide].join(' ')} />);
@@ -41,6 +41,7 @@ export default class Monster extends React.Component {
         <div className={style['monster-control-bar']}>
           <Button
             className={style['monster-control-btn']}
+            event={handleAddWindow}
           >{'+'}
           </Button>
           <Button
@@ -97,5 +98,6 @@ export default class Monster extends React.Component {
 }
 
 Monster.propTypes = {
-  data: React.PropTypes.shape({})
+  data: React.PropTypes.shape({}),
+  handleAddWindow: React.PropTypes.func
 };
