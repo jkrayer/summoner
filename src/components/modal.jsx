@@ -3,15 +3,15 @@ import Button from './button';
 import style from '../style/modal.css';
 
 export default function Modal(props) {
-  const {children, closeEvent} = props;
-  return(
+  const { children, closeEvent } = props;
+  return (
     <div className={style.overlay}>
       <div className={style.wrapper}>
         <Button
           className={style.btn}
           event={closeEvent}
         >&times;
-      </Button>
+        </Button>
         {children}
       </div>
     </div>
@@ -19,6 +19,6 @@ export default function Modal(props) {
 }
 
 Modal.propTypes = {
-  // children: React.PropTypes.obj,
+  children: React.PropTypes.element,
   closeEvent: React.PropTypes.func.isRequired
 };
