@@ -1,0 +1,36 @@
+.overlay {
+  position: fixed;
+  z-index: 8;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.wrapper {
+  position: fixed;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.btn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  font: 400 1.25rem/1 'Arial', 'sans-serif';
+  text-align: center;
+  background-color: #eee;
+}
+
+.btn:hover {
+  background-color: #d4d4d4;
+}
