@@ -8,21 +8,29 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      monsters: [],
       selectedMonster: null,
       showAddWindow: false
     };
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAddWindow = this.toggleAddWindow.bind(this);
+    this.addMonster = this.addMonster.bind(this);
   }
   setModal() {
     return (
       <Modal closeEvent={this.toggleAddWindow}>
         <AddMonster
           monster={this.state.selectedMonster}
-          submitEvent={() => {}}
+          submitEvent={this.addMonster}
         />
       </Modal>
     );
+  }
+  addMonster(newMonster) {
+    this.setState({
+      monsters: this.state.monsters.concat(newMonster)
+    });
+    this.toggleAddWindow();
   }
   setSelectedMonster(key) {
     this.setState({
