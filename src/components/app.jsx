@@ -2,6 +2,7 @@ import React from 'react';
 import TocContainer from './toc-container';
 import Monster from './monster';
 import Modal from './modal';
+import AddMonster from './add-monster';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -14,9 +15,14 @@ export default class App extends React.Component {
     this.toggleAddWindow = this.toggleAddWindow.bind(this);
   }
   setModal() {
-    return(
-      <Modal closeEvent={this.toggleAddWindow} />
-    )
+    return (
+      <Modal closeEvent={this.toggleAddWindow}>
+        <AddMonster
+          monster={this.state.selectedMonster}
+          submitEvent={() => {}}
+        />
+      </Modal>
+    );
   }
   setSelectedMonster(key) {
     this.setState({
