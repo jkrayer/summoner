@@ -5,10 +5,12 @@ export default class AddMonster extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      numMonsters: null,
-      hpPerMonster: null
+      numMonsters: '',
+      hpPerMonster: ''
     };
     this.setHpRange = this.setHpRange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
   setHpRange() {
     const { monster } = this.props;
@@ -24,8 +26,26 @@ export default class AddMonster extends React.Component {
     };
     return [hp.min, '/', monster.hit_points, '/', hp.max].join('');
   }
+  handleSubmit(event) {
+    event.preventDefault();
+    if (this.state.numMonsters === null || this.state.hpPerMonster === null) {
+      return false;
+    }
+    this.props.submitEvent(
+      {
+        arrayIndex: this.props.monster.arrayIndex,
+        hpPerMonster: this.state.hpPerMonster,
+        numMonsters: this.state.numMonsters
+      }
+    );
+  }
+  handleChange(event) {
+    let obj = {};
+    obj[event.target.id] = event.target.value;
+    this.setState(obj);
+  }
   render() {
-    const { monster, submitEvent } = this.props;
+    const { monster } = this.props;
     const hpRange = this.setHpRange();
     return (
       <form className={style.form}>
@@ -40,6 +60,7 @@ export default class AddMonster extends React.Component {
             <input
               className={style.input}
               id="numMonsters"
+              onChange={this.handleChange}
               placeholder="Number of Monsters"
               type="number"
               value={this.state.numMonsters}
@@ -54,6 +75,7 @@ export default class AddMonster extends React.Component {
             <input
               className={style.input}
               id="hpPerMonster"
+              onChange={this.handleChange}
               placeholder={hpRange}
               type="text"
               value={this.state.hpPerMonster}
@@ -61,7 +83,7 @@ export default class AddMonster extends React.Component {
           </div>
           <button
             className={style.btn}
-            onClick={submitEvent}
+            onClick={this.handleSubmit}
             type="submit"
           >{'Save'}
           </button>
