@@ -28,19 +28,19 @@ export default class AddMonster extends React.Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    if (!this.state.numMonsters || !this.state.hpPerMonster) {
-      return false;
+    if (this.state.numMonsters && this.state.hpPerMonster) {
+      this.props.submitEvent(
+        {
+          arrayIndex: this.props.monster.arrayIndex,
+          hpPerMonster: this.state.hpPerMonster,
+          numMonsters: this.state.numMonsters
+        }
+      );
     }
-    this.props.submitEvent(
-      {
-        arrayIndex: this.props.monster.arrayIndex,
-        hpPerMonster: this.state.hpPerMonster,
-        numMonsters: this.state.numMonsters
-      }
-    );
+    return false;
   }
   handleChange(event) {
-    let obj = {};
+    const obj = {};
     obj[event.target.id] = event.target.value;
     this.setState(obj);
   }
@@ -94,6 +94,8 @@ export default class AddMonster extends React.Component {
 }
 
 AddMonster.propTypes = {
-  monster: React.PropTypes.shape({}),
+  monster: React.PropTypes.shape({
+    arrayIndex: React.PropTypes.number
+  }),
   submitEvent: React.PropTypes.func.isRequired
 };
