@@ -13,7 +13,6 @@ export default class App extends React.Component {
       selectedMonster: null,
       showAddWindow: false,
       showConfirmWindow: false
-
     };
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAny = this.toggleAny.bind(this);
@@ -36,9 +35,10 @@ export default class App extends React.Component {
   }
   addMonster(newMonster) {
     this.setState({
-      monsters: this.state.monsters.concat(newMonster)
+      monsters: this.state.monsters.concat(newMonster),
+      showAddWindow: false,
+      showConfirmWindow: true
     });
-    this.toggleAny('showAddWindow');
   }
   toggleAny(key) {
     const obj = {};
