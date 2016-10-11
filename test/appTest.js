@@ -30,11 +30,11 @@ describe('<App />', function () {
     assert.isNull(el.state.selectedMonster);
   });
 
-  it('It should toggle the boolean state.showAddWindow', function () {
+  it('It should toggle the supplied boolean', function () {
     el.setSelectedMonster(0);
-    el.toggleAddWindow();
+    el.toggleAny('showAddWindow');
     assert.strictEqual(el.state.showAddWindow, true);
-    el.toggleAddWindow();
+    el.toggleAny('showAddWindow');
     assert.strictEqual(el.state.showAddWindow, false);
   });
 

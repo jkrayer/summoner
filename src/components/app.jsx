@@ -3,6 +3,7 @@ import TocContainer from './toc-container';
 import Monster from './monster';
 import Modal from './modal';
 import AddMonster from './add-monster';
+import SlidePanel from './slide-panel';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -10,15 +11,17 @@ export default class App extends React.Component {
     this.state = {
       monsters: [],
       selectedMonster: null,
-      showAddWindow: false
+      showAddWindow: false,
+      showConfirmWindow: false
+
     };
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
-    this.toggleAddWindow = this.toggleAddWindow.bind(this);
+    this.toggleAny = this.toggleAny.bind(this);
     this.addMonster = this.addMonster.bind(this);
   }
   setModal() {
     return (
-      <Modal closeEvent={this.toggleAddWindow}>
+      <Modal closeEvent={() => this.toggleAny('showAddWindow')}>
         <AddMonster
           monster={this.state.selectedMonster}
           submitEvent={this.addMonster}
@@ -26,25 +29,25 @@ export default class App extends React.Component {
       </Modal>
     );
   }
-  addMonster(newMonster) {
-    this.setState({
-      monsters: this.state.monsters.concat(newMonster)
-    });
-    this.toggleAddWindow();
-  }
   setSelectedMonster(key) {
     this.setState({
       selectedMonster: this.props.data[key] || null
     });
   }
-  toggleAddWindow() {
+  addMonster(newMonster) {
     this.setState({
-      showAddWindow: !this.state.showAddWindow
+      monsters: this.state.monsters.concat(newMonster)
     });
+    this.toggleAny('showAddWindow');
+  }
+  toggleAny(key) {
+    const obj = {};
+    obj[key] = !this.state[key];
+    this.setState(obj);
   }
   render() {
     const { data } = this.props;
-    const { selectedMonster, showAddWindow } = this.state;
+    const { selectedMonster, showAddWindow, showConfirmWindow } = this.state;
     const modal = showAddWindow ? this.setModal() : null;
     return (
       <div>
@@ -54,9 +57,16 @@ export default class App extends React.Component {
         />
         <Monster
           data={selectedMonster}
-          handleAddWindow={this.toggleAddWindow}
+          handleAddWindow={() => this.toggleAny('showAddWindow')}
         />
         {modal}
+        <SlidePanel
+          closeEvent={() => this.toggleAny('showConfirmWindow')}
+          show={showConfirmWindow}
+          timer={3000}
+        >
+          <div />
+        </SlidePanel>
       </div>
     );
   }
