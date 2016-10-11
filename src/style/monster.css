@@ -52,18 +52,6 @@
   text-align: right;
 }
 
-.monster-control-btn {
-  width: 25px;
-  height: 25px;
-  margin-left: 5px;
-  font: 400 1.25rem/1 'Arial', 'sans-serif';
-  text-align: center;
-  background-color: #eee;
-}
-.monster-control-btn:hover {
-  background-color: #d4d4d4;
-}
-
 .stat-defs,
 .stat-defs-lg {
 }

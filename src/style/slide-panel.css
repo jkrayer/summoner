@@ -20,7 +20,7 @@
 
 .panel.top.show { top: 0; }
 
-.panel .btn {
+.panel > button {
   position: absolute;
   top: 50%;
   right: 12px;

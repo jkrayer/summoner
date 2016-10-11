@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './button';
+import ButtonClose from './button-close';
 import style from '../style/modal.css';
 
 export default function Modal(props) {
@@ -7,11 +7,7 @@ export default function Modal(props) {
   return (
     <div className={style.overlay}>
       <div className={style.wrapper}>
-        <Button
-          className={style.btn}
-          event={closeEvent}
-        >&times;
-        </Button>
+        <ButtonClose event={closeEvent} />
         {children}
       </div>
     </div>

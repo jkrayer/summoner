@@ -21,18 +21,8 @@
   background-color: #fff;
 }
 
-.btn {
+.wrapper > button {
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 25px;
-  height: 25px;
-  margin-left: 5px;
-  font: 400 1.25rem/1 'Arial', 'sans-serif';
-  text-align: center;
-  background-color: #eee;
-}
-
-.btn:hover {
-  background-color: #d4d4d4;
 }

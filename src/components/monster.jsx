@@ -2,6 +2,7 @@ import React from 'react';
 import Scores from './scores';
 import DlContainer from './dl-container';
 import Button from './button';
+import ButtonClose from './button-close';
 import style from '../style/monster.css';
 
 export default class Monster extends React.Component {
@@ -45,11 +46,7 @@ export default class Monster extends React.Component {
             event={handleAddWindow}
           >{'+'}
           </Button>
-          <Button
-            className={style['monster-control-btn']}
-            event={this.handleHide}
-          >&times;
-          </Button>
+          <ButtonClose event={this.handleHide} />
         </div>
         <header className={style['lined-section']}>
           <h1 className={style['monster-name']}>{data.name}</h1>
