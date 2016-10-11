@@ -28,7 +28,7 @@ export default class AddMonster extends React.Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    if (this.state.numMonsters === null || this.state.hpPerMonster === null) {
+    if (!this.state.numMonsters || !this.state.hpPerMonster) {
       return false;
     }
     this.props.submitEvent(
