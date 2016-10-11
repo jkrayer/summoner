@@ -4,6 +4,7 @@ import DlContainer from './dl-container';
 import Button from './button';
 import ButtonClose from './button-close';
 import style from '../style/monster.css';
+import btn from '../style/button.css';
 
 export default class Monster extends React.Component {
   constructor(props) {
@@ -42,7 +43,7 @@ export default class Monster extends React.Component {
       <article className={classN}>
         <div className={style['monster-control-bar']}>
           <Button
-            className={style['monster-control-btn']}
+            className={btn.btn}
             event={handleAddWindow}
           >{'+'}
           </Button>
