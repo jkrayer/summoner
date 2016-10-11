@@ -4,6 +4,7 @@ import Monster from './monster';
 import Modal from './modal';
 import AddMonster from './add-monster';
 import SlidePanel from './slide-panel';
+import RecentMonster from './recent-monster';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -47,7 +48,7 @@ export default class App extends React.Component {
   }
   render() {
     const { data } = this.props;
-    const { selectedMonster, showAddWindow, showConfirmWindow } = this.state;
+    const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
     const modal = showAddWindow ? this.setModal() : null;
     return (
       <div>
@@ -65,7 +66,7 @@ export default class App extends React.Component {
           show={showConfirmWindow}
           timer={3000}
         >
-          <div />
+          <RecentMonster monsters={monsters} />
         </SlidePanel>
       </div>
     );
