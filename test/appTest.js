@@ -3,17 +3,13 @@ import { assert } from 'chai';
 import React from 'react';
 import TestUtils from 'react-addons-test-utils';
 import App from '../src/components/app.jsx';
+import testData from './testdata';
 
 describe('<App />', function () {
   let el;
-  const data = [
-    { name: "Aboleth", arrayIndex: 0 },
-    { name: "Acolyte", arrayIndex: 1 },
-    { name: "Adult Black Dragon", arrayIndex: 2 }
-  ];
 
   beforeEach(function () {
-    el = TestUtils.renderIntoDocument( React.createElement(App, { data }, null) );
+    el = TestUtils.renderIntoDocument( React.createElement(App, { data: testData }, null) );
   });
 
   it('It should have a default state.selectedMonster = null', function () {
@@ -35,10 +31,22 @@ describe('<App />', function () {
   });
 
   it('It should toggle the boolean state.showAddWindow', function () {
+    el.setSelectedMonster(0);
     el.toggleAddWindow();
     assert.strictEqual(el.state.showAddWindow, true);
     el.toggleAddWindow();
     assert.strictEqual(el.state.showAddWindow, false);
+  });
+
+  it('It should add a monster object', function () {
+    const monster = {
+      arrayIndex: 7,
+      hpPerMonster: 39,
+      numMonsters: 2
+    };
+    el.setSelectedMonster(0);
+    el.addMonster(monster);
+    assert.deepEqual(el.state.monsters[0], monster);
   });
 
 });
