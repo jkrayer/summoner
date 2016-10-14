@@ -1,4 +1,5 @@
 import React from 'react';
+import data from '../data/5e-SRD-Monsters';
 import TocContainer from './toc-container';
 import Monster from './monster';
 import Modal from './modal';
@@ -31,7 +32,7 @@ export default class App extends React.Component {
   }
   setSelectedMonster(key) {
     this.setState({
-      selectedMonster: this.props.data[key] || null
+      selectedMonster: data[key] || null
     });
   }
   addMonster(newMonster) {
@@ -47,7 +48,6 @@ export default class App extends React.Component {
     this.setState(obj);
   }
   render() {
-    const { data } = this.props;
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
     const modal = showAddWindow ? this.setModal() : null;
     return (
@@ -72,9 +72,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-App.propTypes = {
-  data: React.PropTypes.arrayOf(
-    React.PropTypes.shape({})
-  )
-};
