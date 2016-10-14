@@ -1,11 +1,12 @@
 /* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import data from './data/5e-SRD-Monsters';
+import { Router, Route, hashHistory } from 'react-router'
 import App from './components/app';
 import style from './style/global.css';
 
-ReactDOM.render(
-  React.createElement(App, { data }, null),
-  document.getElementById('mountpoint')
-);
+ReactDOM.render((
+  <Router history={hashHistory}>
+    <Route path="/" component={App}/>
+  </Router>
+), document.getElementById('mountpoint'));
