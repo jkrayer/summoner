@@ -6,12 +6,23 @@ Manage 5e Statblocks
 @internal need armor parenthetical
 @internal Proofreading
 
-@internal filtering [category && input] { categories: [name, challenge_rating, type, subtype, terrain] }
-          'filter by [name] | [search term]'
-
-search type 1: name, type, subtype, terrain; contains supplied input
-search type 2: challenge_rating; starts with input followed by space
+@internal filter: merge type and subtype
+@internal filter: add terrain for search
 
 @internal push filters out of screen on mobile and toggle show.
 
 @internal hit point tracker
+
+  - App Wrapper
+    - Global Header
+    - Global Footer
+    - Page Content
+      - Monster Index
+        - Filters
+        - Monster List
+        - Single Monster Tray
+      - Encounter Index
+        - Hit Point Lists
+        - Single Monster Tray
+
+@internal individual identifiers
