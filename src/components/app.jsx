@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import data from '../data/5e-SRD-Monsters';
 import TocContainer from './toc-container';
 import Monster from './monster';
@@ -52,6 +53,9 @@ export default class App extends React.Component {
     const modal = showAddWindow ? this.setModal() : null;
     return (
       <div>
+        <Link to="/">Home</Link>
+        <Link to="/encounter">Encounter</Link>
+        {this.props.children}
         <TocContainer
           buttonEvent={this.setSelectedMonster}
           data={data}
