@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { IndexLink, Link } from 'react-router';
 import data from '../data/5e-SRD-Monsters';
 import TocContainer from './toc-container';
 import Monster from './monster';
@@ -53,7 +53,7 @@ export default class App extends React.Component {
     const modal = showAddWindow ? this.setModal() : null;
     return (
       <div>
-        <Link to="/">Home</Link>
+        <IndexLink to="/">Home</IndexLink>
         <Link to="/encounter">Encounter</Link>
         {this.props.children}
         <TocContainer
