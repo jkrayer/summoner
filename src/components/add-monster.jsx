@@ -96,7 +96,8 @@ export default class AddMonster extends React.Component {
 
 AddMonster.propTypes = {
   monster: React.PropTypes.shape({
-    arrayIndex: React.PropTypes.number
+    arrayIndex: React.PropTypes.number,
+    name: React.PropTypes.string
   }),
   submitEvent: React.PropTypes.func.isRequired
 };
