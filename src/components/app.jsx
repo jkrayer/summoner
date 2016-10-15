@@ -65,7 +65,7 @@ export default class App extends React.Component {
 
 App.propTypes = {
   children: React.PropTypes.element.isRequired,
-  location: React.PropTypes.location.shape({
+  location: React.PropTypes.shape({
     pathname: React.PropTypes.string.isRequired
   }).isRequired
 };
