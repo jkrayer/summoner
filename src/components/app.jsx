@@ -1,12 +1,6 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
 import data from '../data/5e-SRD-Monsters';
-import TocContainer from './toc-container';
-import Monster from './monster';
-import Modal from './modal';
-import AddMonster from './add-monster';
-import SlidePanel from './slide-panel';
-import RecentMonster from './recent-monster';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -20,16 +14,6 @@ export default class App extends React.Component {
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAny = this.toggleAny.bind(this);
     this.addMonster = this.addMonster.bind(this);
-  }
-  setModal() {
-    return (
-      <Modal closeEvent={() => this.toggleAny('showAddWindow')}>
-        <AddMonster
-          monster={this.state.selectedMonster}
-          submitEvent={this.addMonster}
-        />
-      </Modal>
-    );
   }
   setSelectedMonster(key) {
     this.setState({
@@ -50,29 +34,38 @@ export default class App extends React.Component {
   }
   render() {
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
-    const modal = showAddWindow ? this.setModal() : null;
+    const propsToPass = {};
+
+    switch (this.props.location.pathname) {
+      case '/':
+        propsToPass.addMonster = this.addMonster;
+        propsToPass.data = data;
+        propsToPass.monsters = monsters;
+        propsToPass.selectedMonster = selectedMonster;
+        propsToPass.setSelectedMonster = this.setSelectedMonster;
+        propsToPass.showAddWindow = showAddWindow;
+        propsToPass.showConfirmWindow = showConfirmWindow;
+        propsToPass.toggleAddWindow = () => this.toggleAny('showAddWindow');
+        propsToPass.toggleShowWindow = () => this.toggleAny('showConfirmWindow');
+        break;
+      case '/encounter':
+        break;
+      default:
+        break;
+    }
     return (
       <div>
         <IndexLink to="/">Home</IndexLink>
         <Link to="/encounter">Encounter</Link>
-        {this.props.children}
-        <TocContainer
-          buttonEvent={this.setSelectedMonster}
-          data={data}
-        />
-        <Monster
-          data={selectedMonster}
-          handleAddWindow={() => this.toggleAny('showAddWindow')}
-        />
-        {modal}
-        <SlidePanel
-          closeEvent={() => this.toggleAny('showConfirmWindow')}
-          show={showConfirmWindow}
-          timer={3000}
-        >
-          <RecentMonster monsters={monsters} />
-        </SlidePanel>
+        {React.cloneElement(this.props.children, propsToPass)}
       </div>
     );
   }
 }
+
+App.propTypes = {
+  children: React.PropTypes.element.isRequired,
+  location: React.PropTypes.location.shape({
+    pathname: React.PropTypes.string.isRequired
+  }).isRequired
+};
