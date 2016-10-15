@@ -1,5 +1,5 @@
 import React from 'react';
-import { IndexLink, Link } from 'react-router';
+import { Link } from 'react-router';
 import data from '../data/5e-SRD-Monsters';
 
 export default class App extends React.Component {
@@ -35,6 +35,7 @@ export default class App extends React.Component {
   render() {
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
     const propsToPass = {};
+    const link = monsters.length ? <Link to="/encounter">Encounter</Link> : null;
 
     switch (this.props.location.pathname) {
       case '/':
@@ -53,10 +54,10 @@ export default class App extends React.Component {
       default:
         break;
     }
+
     return (
       <div>
-        <IndexLink to="/">Home</IndexLink>
-        <Link to="/encounter">Encounter</Link>
+        {link}
         {React.cloneElement(this.props.children, propsToPass)}
       </div>
     );
@@ -69,3 +70,5 @@ App.propTypes = {
     pathname: React.PropTypes.string.isRequired
   }).isRequired
 };
+
+// IndexLink, <IndexLink to="/">Home</IndexLink>
