@@ -1,12 +1,7 @@
 import React from 'react';
 import Button from './button';
+import helpers from '../utilities/helpers';
 import style from '../style/toc.css';
-
-function partialApply(func, index) {
-  return function part() {
-    func(index);
-  };
-}
 
 const Toc = function Toc(props) {
   const { buttonEvent, data } = props;
@@ -16,7 +11,7 @@ const Toc = function Toc(props) {
         <li key={monster.arrayIndex}>
           <Button
             className={style.btn}
-            event={partialApply(buttonEvent, monster.arrayIndex)}
+            event={helpers.partialApply(buttonEvent, monster.arrayIndex)}
           >
             {monster.name}
           </Button>
