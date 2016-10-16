@@ -4,30 +4,21 @@ import Monster from './monster';
 import helpers from '../utilities/helpers';
 import style from '../style/toc.css';
 
-function renderHpBlocks(monster) {
-  const lis = monster.hpPerMonster.map((hp, index) =>
-    (
-    <li key={index}>
-      <span>{hp}</span>
-      <input type="text" />
-    </li>
-    )
-  );
-  return (
-    <ol>
-      {lis}
-    </ol>
-  );
+function partialApply(func, monsterIndex, hpIndex) {
+  return function part(event) {
+    func(monsterIndex, hpIndex, event.target.value);
+  };
 }
 
 export default class Encounter extends React.Component {
   constructor() {
     super();
     this.renderMonsterBlock = this.renderMonsterBlock.bind(this);
+    this.renderHpBlocks = this.renderHpBlocks.bind(this);
   }
-  renderMonsterBlock(monster) {
+  renderMonsterBlock(monster, index) {
     const { setSelectedMonster } = this.props;
-    const blocks = renderHpBlocks(monster);
+    const blocks = this.renderHpBlocks(monster, index);
     return (
       <section key={monster.arrayIndex}>
         <h2>
@@ -40,6 +31,25 @@ export default class Encounter extends React.Component {
         </h2>
         {blocks}
       </section>
+    );
+  }
+  renderHpBlocks(monster, monsterIndex) {
+    const { calculateHp } = this.props;
+    const lis = monster.hpPerMonster.map((hp, index) =>
+      (
+      <li key={index}>
+        <span>{hp}</span>
+        <input
+          onBlur={partialApply(calculateHp, monsterIndex, index)}
+          type="text"
+        />
+      </li>
+      )
+    );
+    return (
+      <ol>
+        {lis}
+      </ol>
     );
   }
   render() {
@@ -58,6 +68,7 @@ export default class Encounter extends React.Component {
 }
 
 Encounter.propTypes = {
+  calculateHp: React.PropTypes.func,
   monsters: React.PropTypes.arrayOf(React.PropTypes.object),
   selectedMonster: React.PropTypes.shape(),
   setSelectedMonster: React.PropTypes.func
