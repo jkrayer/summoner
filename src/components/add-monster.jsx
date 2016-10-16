@@ -41,7 +41,7 @@ export default class AddMonster extends React.Component {
   }
   handleChange(event) {
     const obj = {};
-    obj[event.target.id] = event.target.value;
+    obj[event.target.id] = parseInt(event.target.value, 10);
     this.setState(obj);
   }
   render() {
