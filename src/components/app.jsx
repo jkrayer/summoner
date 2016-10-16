@@ -36,15 +36,15 @@ export default class App extends React.Component {
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
     const link = monsters.length ? <Link to="/encounter">Encounter</Link> : null;
     const propsToPass = {
-      monsters
+      monsters,
+      selectedMonster,
+      setSelectedMonster: this.setSelectedMonster
     };
 
     switch (this.props.location.pathname) {
       case '/':
         propsToPass.addMonster = this.addMonster;
         propsToPass.data = data;
-        propsToPass.selectedMonster = selectedMonster;
-        propsToPass.setSelectedMonster = this.setSelectedMonster;
         propsToPass.showAddWindow = showAddWindow;
         propsToPass.showConfirmWindow = showConfirmWindow;
         propsToPass.toggleAddWindow = () => this.toggleAny('showAddWindow');
