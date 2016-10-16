@@ -32,9 +32,8 @@ export default class AddMonster extends React.Component {
       this.props.submitEvent(
         {
           arrayIndex: this.props.monster.arrayIndex,
-          hpPerMonster: this.state.hpPerMonster,
-          name: this.props.monster.name,
-          numMonsters: this.state.numMonsters
+          hpPerMonster: new Array(this.state.numMonsters).fill(this.state.hpPerMonster),
+          name: this.props.monster.name
         }
       );
     }
