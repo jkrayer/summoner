@@ -14,6 +14,7 @@ export default class App extends React.Component {
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAny = this.toggleAny.bind(this);
     this.addMonster = this.addMonster.bind(this);
+    this.calculateHp = this.calculateHp.bind(this);
   }
   setSelectedMonster(key) {
     this.setState({
@@ -31,6 +32,19 @@ export default class App extends React.Component {
     const obj = {};
     obj[key] = !this.state[key];
     this.setState(obj);
+  }
+  calculateHp(monsterIndex, hpIndex, newVal) {
+    const operator = (newVal[0] === '+') ? '+' : '-';
+    const val = parseInt(newVal, 10);
+    const monster = Object.assign({}, this.state.monsters[monsterIndex]);
+    if (isNaN(val)) { return false; }
+    monster.hpPerMonster[hpIndex] += (operator === '+') ? val : -val;
+    return this.setState({
+      monsters: this.state.monsters.map((m, i) => {
+        const r = (i === monsterIndex) ? monster : m;
+        return r;
+      })
+    });
   }
   render() {
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
@@ -51,6 +65,7 @@ export default class App extends React.Component {
         propsToPass.toggleShowWindow = () => this.toggleAny('showConfirmWindow');
         break;
       case '/encounter':
+        propsToPass.calculateHp = this.calculateHp;
         break;
       default:
         break;
