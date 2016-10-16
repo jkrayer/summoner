@@ -29,6 +29,8 @@ export default class Monster extends React.Component {
       return (<article className={[style.monster, style.hide].join(' ')} />);
     }
 
+    const classN = this.state.show ? style.monster : [style.monster, style.hide].join(' ');
+    const addButton = (handleAddWindow !== null) ? <Button className={btn.btn} event={handleAddWindow}>{'+'}</Button> : null;
     const specialAbilities = !data.special_abilities ? null
       : <DlContainer data={data.special_abilities} />;
     const actions = !data.actions ? null : <DlContainer data={data.actions} hl="Actions" />;
@@ -37,16 +39,11 @@ export default class Monster extends React.Component {
       : <DlContainer data={data.legendary_actions} hl="Legendary Actions" />;
     const optional = !data.optional ? null
       : <DlContainer data={data.optional} hl="Optional Rules" />;
-    const classN = this.state.show ? style.monster : [style.monster, style.hide].join(' ');
 
     return (
       <article className={classN}>
         <div className={style['monster-control-bar']}>
-          <Button
-            className={btn.btn}
-            event={handleAddWindow}
-          >{'+'}
-          </Button>
+          {addButton}
           <ButtonClose event={this.handleHide} />
         </div>
         <header className={style['lined-section']}>
