@@ -25,10 +25,6 @@ Manage 5e Statblocks
         - Hit Point Lists
         - Single Monster Tray
 
-@internal individual identifiers
-
-@internal Only show encounter link when there is an encounter. Only show home link when in the encounter screen.
-
 @internal Need clear monsters
 
-@internal Total XP + divisor
+@internal need to add tests
