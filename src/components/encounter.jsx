@@ -1,12 +1,13 @@
 import React from 'react';
 import Button from './button';
 import Monster from './monster';
+import Input from './input';
 import helpers from '../utilities/helpers';
 import style from '../style/toc.css';
 
 function partialApply(func, monsterIndex, hpIndex) {
-  return function part(event) {
-    func(monsterIndex, hpIndex, event.target.value);
+  return function part(val) {
+    func(monsterIndex, hpIndex, val);
   };
 }
 
@@ -39,10 +40,7 @@ export default class Encounter extends React.Component {
       (
       <li key={index}>
         <span>{hp}</span>
-        <input
-          onBlur={partialApply(calculateHp, monsterIndex, index)}
-          type="text"
-        />
+        <Input blurEvent={partialApply(calculateHp, monsterIndex, index)} />
       </li>
       )
     );
