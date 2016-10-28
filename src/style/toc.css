@@ -20,3 +20,7 @@
 .btn:focus {
   background-color: #e5e5e5;
 }
+
+.ll li { margin-bottom: 5px; }
+
+.ll input { margin-left: 5px; }

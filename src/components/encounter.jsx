@@ -45,7 +45,7 @@ export default class Encounter extends React.Component {
       )
     );
     return (
-      <ol>
+      <ol className={style.ll}>
         {lis}
       </ol>
     );
