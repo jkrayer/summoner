@@ -18,6 +18,5 @@ Manage 5e Statblocks
 
 @internal hit point tracker
 
-  - @internal Need hp blocks static width
   - @internal Need clear monsters
   - @internal need to add tests

@@ -24,3 +24,8 @@
 .ll li { margin-bottom: 5px; }
 
 .ll input { margin-left: 5px; }
+
+.hp {
+  display: inline-block;
+  width: 2rem;
+}

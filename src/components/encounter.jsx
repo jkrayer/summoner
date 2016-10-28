@@ -39,7 +39,7 @@ export default class Encounter extends React.Component {
     const lis = monster.hpPerMonster.map((hp, index) =>
       (
       <li key={index}>
-        <span>{hp}</span>
+        <span className={style.hp}>{hp}</span>
         <Input blurEvent={partialApply(calculateHp, monsterIndex, index)} />
       </li>
       )
