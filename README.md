@@ -11,20 +11,13 @@ Manage 5e Statblocks
 
 @internal push filters out of screen on mobile and toggle show.
 
+@internal Data Solution
+  - @internal Need add more monsters
+
+---
+
 @internal hit point tracker
 
-  - App Wrapper
-    - Global Header
-    - Global Footer
-    - Page Content
-      - Monster Index
-        - Filters
-        - Monster List
-        - Single Monster Tray
-      - Encounter Index
-        - Hit Point Lists
-        - Single Monster Tray
-
-@internal Need clear monsters
-
-@internal need to add tests
+  - @internal Need hp blocks static width
+  - @internal Need clear monsters
+  - @internal need to add tests
