@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { IndexLink, Link } from 'react-router';
 import data from '../data/5e-SRD-Monsters';
 
 export default class App extends React.Component {
@@ -48,12 +48,18 @@ export default class App extends React.Component {
   }
   render() {
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
-    const link = monsters.length ? <Link to="/encounter">Encounter</Link> : null;
     const propsToPass = {
       monsters,
       selectedMonster,
       setSelectedMonster: this.setSelectedMonster
     };
+    let link = null;
+
+    if (this.props.location.pathname !== '/') {
+      link = <IndexLink to="/">Home</IndexLink>;
+    } else if (monsters.length) {
+      link = <Link to="/encounter">Encounter</Link>;
+    }
 
     switch (this.props.location.pathname) {
       case '/':
