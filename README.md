@@ -14,9 +14,12 @@ Manage 5e Statblocks
 @internal Data Solution
   - @internal Need add more monsters
 
+@internal Integrate Lint with Workflow. Perhaps as a push hook to git
+
 ---
 
 @internal hit point tracker
 
   - @internal Need clear monsters
+  - @internal Need XP Calculator
   - @internal need to add tests
