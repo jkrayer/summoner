@@ -1,0 +1,8 @@
+.ol li { margin-bottom: 5px; }
+
+.ol input { margin-left: 5px; }
+
+.hp {
+  display: inline-block;
+  width: 2rem;
+}
