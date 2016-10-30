@@ -15,6 +15,7 @@ export default class App extends React.Component {
     this.toggleAny = this.toggleAny.bind(this);
     this.addMonster = this.addMonster.bind(this);
     this.calculateHp = this.calculateHp.bind(this);
+    this.deleteMonster = this.deleteMonster.bind(this);
   }
   setSelectedMonster(key) {
     this.setState({
@@ -26,6 +27,13 @@ export default class App extends React.Component {
       monsters: this.state.monsters.concat(newMonster),
       showAddWindow: false,
       showConfirmWindow: true
+    });
+  }
+  deleteMonster(monster) {
+    const { monsters } = this.state;
+    const newMonsters = monsters.filter(m => m.arrayIndex !== monster.arrayIndex)
+    this.setState({
+      monsters: newMonsters
     });
   }
   toggleAny(key) {
@@ -72,6 +80,7 @@ export default class App extends React.Component {
         break;
       case '/encounter':
         propsToPass.calculateHp = this.calculateHp;
+        propsToPass.deleteMonster = this.deleteMonster;
         break;
       default:
         break;
@@ -92,5 +101,3 @@ App.propTypes = {
     pathname: React.PropTypes.string.isRequired
   }).isRequired
 };
-
-// IndexLink, <IndexLink to="/">Home</IndexLink>
