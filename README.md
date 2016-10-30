@@ -20,6 +20,5 @@ Manage 5e Statblocks
 
 @internal hit point tracker
 
-  - @internal Need clear monsters
   - @internal Need XP Calculator
   - @internal need to add tests
