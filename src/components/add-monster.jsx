@@ -33,7 +33,8 @@ export default class AddMonster extends React.Component {
         {
           arrayIndex: this.props.monster.arrayIndex,
           hpPerMonster: new Array(this.state.numMonsters).fill(this.state.hpPerMonster),
-          name: this.props.monster.name
+          name: this.props.monster.name,
+          xp: utilities.getXp(this.props.monster.challenge_rating)
         }
       );
     }
