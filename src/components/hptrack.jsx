@@ -2,12 +2,13 @@ import React from 'react';
 import HpBlock from './hpblock';
 import Button from './button';
 import ButtonClose from './button-close';
+import XpCalculator from './xp-calculator';
 import helpers from '../utilities/helpers';
 import style from '../style/hptrack.css';
 
 export default function HpTrack(props) {
-  const { calculateHp, deleteMonster, setSelectedMonster } = props;
-  const blocks = props.monsters.map((monster, index) =>
+  const { calculateHp, deleteMonster, monsters, setSelectedMonster } = props;
+  const blocks = monsters.map((monster, index) =>
     <section key={monster.arrayIndex}>
       <h2>
         <Button
@@ -28,6 +29,7 @@ export default function HpTrack(props) {
 
   return (
     <div>
+      <XpCalculator monsters={monsters} />
       {blocks}
     </div>
   );
