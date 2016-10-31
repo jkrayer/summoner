@@ -1,5 +1,6 @@
 import React from 'react';
 import style from '../style/add-monster.css';
+import utilities from '../utilities/helpers';
 
 export default class AddMonster extends React.Component {
   constructor(props) {
