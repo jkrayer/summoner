@@ -12,11 +12,13 @@ describe('<AddMonster />', function () {
     el = TestUtils.renderIntoDocument( React.createElement(AddMonster, { monster: testData[0], submitEvent: () => {} }, null) );
   });
 
+  // Test setHpRange
   it('setHpRange should return low medium and high hp', function () {
     let hpRange = el.setHpRange();
     assert.strictEqual(hpRange, '54/135/216');
   });
 
+  // Test handleSubmit
   it('handleSubmit should return false if either numMonsters or hpPerMonster is empty', function () {
     const preventDefault = () => true;
     assert.isFalse(el.handleSubmit({
@@ -48,4 +50,23 @@ describe('<AddMonster />', function () {
     }));
   });
 
+  // Test handleChange
+  it('handleChange should set values for numMonsters & hpPerMonster', function () {
+    el.handleChange({
+      target: {
+        id: 'numMonsters',
+        value: 4
+      }
+    });
+    el.handleChange({
+      target: {
+        id: 'hpPerMonster',
+        value: 50
+      }
+    });
+    assert.deepEqual(el.state, {
+      hpPerMonster: 50,
+      numMonsters: 4
+    });
+  });
 });
