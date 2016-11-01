@@ -31,7 +31,7 @@ export default class App extends React.Component {
   }
   deleteMonster(monster) {
     const { monsters } = this.state;
-    const newMonsters = monsters.filter(m => m.arrayIndex !== monster.arrayIndex)
+    const newMonsters = monsters.filter(m => m.arrayIndex !== monster.arrayIndex);
     this.setState({
       monsters: newMonsters
     });
