@@ -14,12 +14,12 @@ export default class XpCalculator extends React.Component {
   componentWillMount() {
     const { monsters } = this.props;
     let total = 0;
-    monsters.forEach(monster => {
+    monsters.forEach((monster) => {
       total += monster.xp * monster.hpPerMonster.length;
     });
     this.setState({
       total
-    })
+    });
   }
   calculateXpReward(val) {
     const divisor = parseInt(val, 10);
@@ -35,7 +35,7 @@ export default class XpCalculator extends React.Component {
   }
   render() {
     const { split, total } = this.state;
-    return(
+    return (
       <div className={style.calc}>
         Encounter XP: {total} /
         <Input
