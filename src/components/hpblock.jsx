@@ -27,6 +27,7 @@ export default function HpBlock(props) {
 }
 
 HpBlock.propTypes = {
+  calculateHp: React.PropTypes.func,
   monster: React.PropTypes.shape({}).isRequired,
   monsterIndex: React.PropTypes.number.isRequired
 };
