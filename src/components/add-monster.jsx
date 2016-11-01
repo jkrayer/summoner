@@ -98,6 +98,7 @@ export default class AddMonster extends React.Component {
 AddMonster.propTypes = {
   monster: React.PropTypes.shape({
     arrayIndex: React.PropTypes.number,
+    challenge_rating: React.PropTypes.string,
     name: React.PropTypes.string
   }),
   submitEvent: React.PropTypes.func.isRequired
