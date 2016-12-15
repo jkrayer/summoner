@@ -50,19 +50,25 @@ let store = createStore(todoApp);
 function App(props) {
 console.log(41, props);
   return(
-    <h1>Hello World</h1>
+    <h1>Hello World: {props.visibilityFilter}</h1>
   );
 }
 
-function select(state) {
+
+const mapStateToProps = (state) => {
   return state;
 }
 
-connect(select)(App);
+
+//function select(state) {
+//  return state;
+//}
+
+const ConApp = connect(mapStateToProps)(App);
 
 ReactDOM.render(
   <Provider store={store}>
-    <App />
+    <ConApp />
   </Provider>
   , document.getElementById('mountpoint')
 );
