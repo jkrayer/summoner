@@ -6,7 +6,6 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       monsters: [],
-      selectedMonster: null,
       showAddWindow: false,
       showConfirmWindow: false
     };
@@ -17,8 +16,10 @@ export default class App extends React.Component {
     this.deleteMonster = this.deleteMonster.bind(this);
   }
   setSelectedMonster(key) {
-    this.setState({
-      selectedMonster: this.props.monsters[key] || null
+    const { dispatch, monsters } = this.props;
+    dispatch({
+      type: 'MONSTER_TOGGLE_PANE',
+      monster: monsters[key] || null
     });
   }
   addMonster(newMonster) {
@@ -54,11 +55,11 @@ export default class App extends React.Component {
     });
   }
   render() {
-console.log(58, this.props)
-    const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
+    const { monsters, showAddWindow, showConfirmWindow } = this.state;
+    const { monsterInPane } = this.props;
     const propsToPass = {
       monsters,
-      selectedMonster,
+      selectedMonster: monsterInPane,
       setSelectedMonster: this.setSelectedMonster
     };
     let link = null;
