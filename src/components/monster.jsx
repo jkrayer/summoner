@@ -9,27 +9,14 @@ import btn from '../style/button.css';
 export default class Monster extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { show: true };
-    this.handleHide = this.handleHide.bind(this);
-  }
-  componentWillReceiveProps() {
-    this.setState({
-      show: true
-    });
-  }
-  handleHide() {
-    this.setState({
-      show: false
-    });
   }
   render() {
-    const { data, handleAddWindow } = this.props;
+    const { data, handleAddWindow, handleClosePane } = this.props;
 
     if (data === null) {
       return (<article className={[style.monster, style.hide].join(' ')} />);
     }
-
-    const classN = this.state.show ? style.monster : [style.monster, style.hide].join(' ');
+    const classN = data ? style.monster : [style.monster, style.hide].join(' ');
     const addButton = (handleAddWindow !== null) ? <Button className={btn.btn} event={handleAddWindow}>{'+'}</Button> : null;
     const specialAbilities = !data.special_abilities ? null
       : <DlContainer data={data.special_abilities} />;
@@ -44,7 +31,7 @@ export default class Monster extends React.Component {
       <article className={classN}>
         <div className={style['monster-control-bar']}>
           {addButton}
-          <ButtonClose event={this.handleHide} />
+          <ButtonClose event={handleClosePane} />
         </div>
         <header className={style['lined-section']}>
           <h1 className={style['monster-name']}>{data.name}</h1>
@@ -95,5 +82,6 @@ export default class Monster extends React.Component {
 
 Monster.propTypes = {
   data: React.PropTypes.shape({}),
-  handleAddWindow: React.PropTypes.func
+  handleAddWindow: React.PropTypes.func,
+  handleClosePane: React.PropTypes.func
 };

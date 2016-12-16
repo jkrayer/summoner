@@ -40,6 +40,7 @@ export default class Home extends React.Component {
         />
         <Monster
           data={selectedMonster}
+          handleClosePane={setSelectedMonster}
           handleAddWindow={toggleAddWindow}
         />
         {modal}
