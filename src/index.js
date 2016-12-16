@@ -1,11 +1,11 @@
 /* eslint-disable */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router'
-import { Provider, connect } from 'react-redux';
+import { Router, Route, hashHistory, IndexRoute } from 'react-router';
+import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-import App from './components/app';
+import AppContainer from './components/app-container';
 import Home from './components/home';
 import Encounter from './components/encounter';
 
@@ -47,24 +47,10 @@ import style from './style/global.css';
 // Store *****
 let store = createStore(appData);
 
-
-// Connect *****
-const mapStateToProps = (state) => {
-  return state;
-}
-const ConApp = connect(mapStateToProps)(App);
-
-//ReactDOM.render(
-//  <Provider store={store}>
-//    <ConApp />
-//  </Provider>
-//  , document.getElementById('mountpoint')
-//);
-
 ReactDOM.render((
   <Provider store={store}>
     <Router history={hashHistory}>
-      <Route path="/" component={ConApp}>
+      <Route path="/" component={AppContainer}>
         <IndexRoute component={Home} />
         <Route path="/encounter" component={Encounter} />
       </Route>
