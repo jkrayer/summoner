@@ -1,6 +1,5 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
-import data from '../data/5e-SRD-Monsters';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -19,7 +18,7 @@ export default class App extends React.Component {
   }
   setSelectedMonster(key) {
     this.setState({
-      selectedMonster: data[key] || null
+      selectedMonster: this.props.monsters[key] || null
     });
   }
   addMonster(newMonster) {
@@ -55,6 +54,7 @@ export default class App extends React.Component {
     });
   }
   render() {
+console.log(58, this.props)
     const { monsters, selectedMonster, showAddWindow, showConfirmWindow } = this.state;
     const propsToPass = {
       monsters,
@@ -72,7 +72,7 @@ export default class App extends React.Component {
     switch (this.props.location.pathname) {
       case '/':
         propsToPass.addMonster = this.addMonster;
-        propsToPass.data = data;
+        propsToPass.data = this.props.monsters;
         propsToPass.showAddWindow = showAddWindow;
         propsToPass.showConfirmWindow = showConfirmWindow;
         propsToPass.toggleAddWindow = () => this.toggleAny('showAddWindow');
@@ -99,5 +99,8 @@ App.propTypes = {
   children: React.PropTypes.element.isRequired,
   location: React.PropTypes.shape({
     pathname: React.PropTypes.string.isRequired
-  }).isRequired
+  }).isRequired,
+  monsters: React.PropTypes.arrayOf(
+    React.PropTypes.shape({})
+  )
 };
