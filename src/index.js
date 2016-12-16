@@ -8,10 +8,10 @@ import { createStore } from 'redux';
 import App from './components/app';
 import Home from './components/home';
 import Encounter from './components/encounter';
-import appStore from './redux/reducers';
+
+import appData from './redux/reducers';
 
 import style from './style/global.css';
-
 
 // Actions *****
 //const ADD_TODO = 'ADD_TODO';
@@ -45,14 +45,14 @@ import style from './style/global.css';
 //}
 
 // Store *****
-//let store = createStore(todoApp);
+let store = createStore(appData);
 
 
 // Connect *****
-//const mapStateToProps = (state) => {
-//  return state;
-//}
-//const ConApp = connect(mapStateToProps)(App);
+const mapStateToProps = (state) => {
+  return state;
+}
+const ConApp = connect(mapStateToProps)(App);
 
 //ReactDOM.render(
 //  <Provider store={store}>
@@ -62,10 +62,12 @@ import style from './style/global.css';
 //);
 
 ReactDOM.render((
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-      <IndexRoute component={Home} />
-      <Route path="/encounter" component={Encounter} />
-    </Route>
-  </Router>
+  <Provider store={store}>
+    <Router history={hashHistory}>
+      <Route path="/" component={ConApp}>
+        <IndexRoute component={Home} />
+        <Route path="/encounter" component={Encounter} />
+      </Route>
+    </Router>
+  </Provider>
 ), document.getElementById('mountpoint'));
