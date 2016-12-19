@@ -1,6 +1,6 @@
 import React from 'react';
 import TocContainer from './toc-container';
-import Monster from './monster';
+import MonsterContainer from './monster-container';
 import Modal from './modal';
 import AddMonster from './add-monster';
 import SlidePanel from './slide-panel';
@@ -40,12 +40,7 @@ export default class Home extends React.Component {
           buttonEvent={setSelectedMonster}
           data={data}
         />
-        <Monster
-          data={selectedMonster}
-          handleClosePane={setMonsterPaneVisability}
-          handleAddWindow={toggleAddWindow}
-          show={monsterPaneIsVisable}
-        />
+        <MonsterContainer />
         {modal}
         <SlidePanel
           closeEvent={toggleShowWindow}
