@@ -19,7 +19,7 @@ export default class App extends React.Component {
     const { dispatch, monsters } = this.props;
     dispatch({
       type: SET_SELECTED_MONSTER,
-      monster: monsters[key] || null
+      data: monsters[key] || null
     });
   }
   addMonster(newMonster) {
