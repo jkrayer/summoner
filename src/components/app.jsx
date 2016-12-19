@@ -9,7 +9,6 @@ export default class App extends React.Component {
       showAddWindow: false,
       showConfirmWindow: false
     };
-    this.setMonsterPaneVisability = this.setMonsterPaneVisability.bind(this);
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAny = this.toggleAny.bind(this);
     this.addMonster = this.addMonster.bind(this);
@@ -25,13 +24,6 @@ export default class App extends React.Component {
     dispatch({
       type: SET_MONSTER_PANE_VISABILITY,
       data: true
-    });
-  }
-  setMonsterPaneVisability() {
-    const { dispatch, monsterPaneIsVisable } = this.props;
-    dispatch({
-      type: SET_MONSTER_PANE_VISABILITY,
-      data: false
     });
   }
   addMonster(newMonster) {
@@ -68,13 +60,10 @@ export default class App extends React.Component {
   }
   render() {
     const { showAddWindow, showConfirmWindow } = this.state;
-    const { monsters, selectedMonster, monsterPaneIsVisable } = this.props;
+    const { monsters } = this.props;
     const propsToPass = {
-      monsterPaneIsVisable,
       monsters,
-      selectedMonster,
-      setSelectedMonster: this.setSelectedMonster,
-      setMonsterPaneVisability: this.setMonsterPaneVisability
+      setSelectedMonster: this.setSelectedMonster
     };
     let link = null;
 
