@@ -11,12 +11,12 @@ export default class Monster extends React.Component {
     super(props);
   }
   render() {
-    const { data, handleAddWindow, handleClosePane } = this.props;
+    const { data, handleAddWindow, handleClosePane, show } = this.props;
 
     if (data === null) {
       return (<article className={[style.monster, style.hide].join(' ')} />);
     }
-    const classN = data ? style.monster : [style.monster, style.hide].join(' ');
+    const classN = show ? style.monster : [style.monster, style.hide].join(' ');
     const addButton = (handleAddWindow !== null) ? <Button className={btn.btn} event={handleAddWindow}>{'+'}</Button> : null;
     const specialAbilities = !data.special_abilities ? null
       : <DlContainer data={data.special_abilities} />;
@@ -83,5 +83,10 @@ export default class Monster extends React.Component {
 Monster.propTypes = {
   data: React.PropTypes.shape({}),
   handleAddWindow: React.PropTypes.func,
-  handleClosePane: React.PropTypes.func
+  handleClosePane: React.PropTypes.func,
+  show: React.PropTypes.bool.isRequired
+};
+
+Monster.defaultProps = {
+  show: false
 };

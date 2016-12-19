@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
-import { SET_SELECTED_MONSTER } from '../redux/actions';
+import { SET_SELECTED_MONSTER, SET_MONSTER_PANE_VISABILITY } from '../redux/actions';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -9,6 +9,7 @@ export default class App extends React.Component {
       showAddWindow: false,
       showConfirmWindow: false
     };
+    this.setMonsterPaneVisability = this.setMonsterPaneVisability.bind(this);
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAny = this.toggleAny.bind(this);
     this.addMonster = this.addMonster.bind(this);
@@ -20,6 +21,17 @@ export default class App extends React.Component {
     dispatch({
       type: SET_SELECTED_MONSTER,
       data: monsters[key] || null
+    });
+    dispatch({
+      type: SET_MONSTER_PANE_VISABILITY,
+      data: true
+    });
+  }
+  setMonsterPaneVisability() {
+    const { dispatch, monsterPaneIsVisable } = this.props;
+    dispatch({
+      type: SET_MONSTER_PANE_VISABILITY,
+      data: false
     });
   }
   addMonster(newMonster) {
@@ -56,11 +68,13 @@ export default class App extends React.Component {
   }
   render() {
     const { showAddWindow, showConfirmWindow } = this.state;
-    const { monsters, selectedMonster } = this.props;
+    const { monsters, selectedMonster, monsterPaneIsVisable } = this.props;
     const propsToPass = {
+      monsterPaneIsVisable,
       monsters,
       selectedMonster,
-      setSelectedMonster: this.setSelectedMonster
+      setSelectedMonster: this.setSelectedMonster,
+      setMonsterPaneVisability: this.setMonsterPaneVisability
     };
     let link = null;
 

@@ -24,8 +24,10 @@ export default class Home extends React.Component {
   }
   render() {
     const { data,
+            monsterPaneIsVisable,
             monsters,
             selectedMonster,
+            setMonsterPaneVisability,
             setSelectedMonster,
             showAddWindow,
             showConfirmWindow,
@@ -40,8 +42,9 @@ export default class Home extends React.Component {
         />
         <Monster
           data={selectedMonster}
-          handleClosePane={setSelectedMonster}
+          handleClosePane={setMonsterPaneVisability}
           handleAddWindow={toggleAddWindow}
+          show={monsterPaneIsVisable}
         />
         {modal}
         <SlidePanel
