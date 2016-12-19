@@ -88,5 +88,6 @@ Monster.propTypes = {
 };
 
 Monster.defaultProps = {
+  data: null,
   show: false
 };
