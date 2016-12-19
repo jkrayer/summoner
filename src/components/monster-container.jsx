@@ -1,15 +1,16 @@
-import Monster from './monster';
 import { connect } from 'react-redux';
+import Monster from './monster';
 import { SET_MONSTER_PANE_VISABILITY } from '../redux/actions';
 
-const mapStateToProps = (state) => {
+function mapStateToProps(state) {
   return {
     data: state.selectedMonster,
     show: state.monsterPaneIsVisable
   };
-};
+}
 
-const mapDispatchToProps = (dispatch) => {
+
+function mapDispatchToProps(dispatch) {
   return {
     handleAddWindow: () => {},
     handleClosePane: () => {
@@ -19,7 +20,7 @@ const mapDispatchToProps = (dispatch) => {
       });
     }
   };
-};
+}
 
 const MonsterContainer = connect(mapStateToProps, mapDispatchToProps)(Monster);
 
