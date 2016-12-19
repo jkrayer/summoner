@@ -1,11 +1,13 @@
 import { initialState } from '../state';
-import { MONSTER_TOGGLE_PANE, monsterTogglePane } from '../actions';
+import { SET_SELECTED_MONSTER,
+         setSelectedMonster
+        } from '../actions';
 
 export default function appData(state = initialState, action) {
   switch (action.type) {
-    case MONSTER_TOGGLE_PANE:
-      return Object.assign({}, state, { monsterInPane: action.monster });
-      break;
+      case SET_SELECTED_MONSTER:
+        return Object.assign({}, state, { selectedMonster: action.monster });
+        break;
     default:
       return state;
       break;

@@ -1,12 +1,11 @@
 // Actions
-export const MONSTER_TOGGLE_PANE = 'MONSTER_TOGGLE_PANE';
+export const SET_SELECTED_MONSTER = 'SET_SELECTED_MONSTER';
 
-export function monsterTogglePane(monster) {
+export function setSelectedMonster(monster) {
   return {
-    type: MONSTER_TOGGLE_PANE,
+    type: SET_SELECTED_MONSTER,
     monster
   };
 }
-
 // Bound Action Creator
 // Const boundAddTodo = (text) => dispatch(addTodo(text));

@@ -1,11 +1,11 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
+import { SET_SELECTED_MONSTER } from '../redux/actions';
 
 export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      monsters: [],
       showAddWindow: false,
       showConfirmWindow: false
     };
@@ -18,7 +18,7 @@ export default class App extends React.Component {
   setSelectedMonster(key) {
     const { dispatch, monsters } = this.props;
     dispatch({
-      type: 'MONSTER_TOGGLE_PANE',
+      type: SET_SELECTED_MONSTER,
       monster: monsters[key] || null
     });
   }
@@ -55,11 +55,11 @@ export default class App extends React.Component {
     });
   }
   render() {
-    const { monsters, showAddWindow, showConfirmWindow } = this.state;
-    const { monsterInPane } = this.props;
+    const { showAddWindow, showConfirmWindow } = this.state;
+    const { monsters, selectedMonster } = this.props;
     const propsToPass = {
       monsters,
-      selectedMonster: monsterInPane,
+      selectedMonster,
       setSelectedMonster: this.setSelectedMonster
     };
     let link = null;
@@ -73,7 +73,7 @@ export default class App extends React.Component {
     switch (this.props.location.pathname) {
       case '/':
         propsToPass.addMonster = this.addMonster;
-        propsToPass.data = this.props.monsters;
+        propsToPass.data = monsters;
         propsToPass.showAddWindow = showAddWindow;
         propsToPass.showConfirmWindow = showConfirmWindow;
         propsToPass.toggleAddWindow = () => this.toggleAny('showAddWindow');
