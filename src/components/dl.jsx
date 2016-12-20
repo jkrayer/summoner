@@ -2,7 +2,7 @@ import React from 'react';
 import marked from 'marked';
 import style from '../style/monster.css';
 
-const Dl = function Dl(props) {
+export default function Dl(props) {
   const { data, hl } = props;
   const headline = hl ? <h2 className={style['monster-section']}>{hl}</h2> : null;
   const terms = data.map((term, index) => {
@@ -23,11 +23,9 @@ const Dl = function Dl(props) {
       </dl>
     </div>
   );
-};
+}
 
 Dl.propTypes = {
   data: React.PropTypes.arrayOf(React.PropTypes.string),
   hl: React.PropTypes.string
 };
-
-export default Dl;

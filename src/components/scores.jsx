@@ -2,7 +2,7 @@ import React from 'react';
 import Score from './score';
 import style from '../style/table.css';
 
-const Scores = function Scores(props) {
+export default function Scores(props) {
   const { scores } = props;
 
   return (
@@ -29,10 +29,8 @@ const Scores = function Scores(props) {
       </tbody>
     </table>
   );
-};
+}
 
 Scores.propTypes = {
   scores: React.PropTypes.objectOf(React.PropTypes.number).isRequired
 };
-
-export default Scores;

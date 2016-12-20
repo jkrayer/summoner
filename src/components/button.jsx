@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = function Button(props) {
+export default function Button(props) {
   const { children, className, event, type } = props;
   return (
     <button
@@ -11,7 +11,7 @@ const Button = function Button(props) {
       {children}
     </button>
   );
-};
+}
 
 Button.propTypes = {
   children: React.PropTypes.string.isRequired,
@@ -25,5 +25,3 @@ Button.defaultProps = {
   event: () => {},
   type: 'button'
 };
-
-export default Button;
