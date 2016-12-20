@@ -1,6 +1,9 @@
 import { connect } from 'react-redux';
 import Monster from './monster';
-import { SET_MONSTER_PANE_VISABILITY } from '../redux/actions';
+import {
+  SET_MODAL_VISABILITY,
+  SET_MONSTER_PANE_VISABILITY
+} from '../redux/actions';
 
 function mapStateToProps(state) {
   return {
@@ -9,10 +12,14 @@ function mapStateToProps(state) {
   };
 }
 
-
 function mapDispatchToProps(dispatch) {
   return {
-    handleAddWindow: () => {},
+    handleAddWindow: () => {
+      dispatch({
+        type: SET_MODAL_VISABILITY,
+        data: true
+      });
+    },
     handleClosePane: () => {
       dispatch({
         type: SET_MONSTER_PANE_VISABILITY,
