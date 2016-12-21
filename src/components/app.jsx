@@ -1,6 +1,6 @@
 import React from 'react';
 import { IndexLink, Link } from 'react-router';
-import { SET_SELECTED_MONSTER, SET_MONSTER_PANE_VISABILITY } from '../redux/actions';
+import { SET_SELECTED_MONSTER, SET_MONSTER_PANE_VISABILITY } from '../redux/actions/action-constants';
 
 export default class App extends React.Component {
   constructor(props) {
