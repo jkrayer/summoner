@@ -3,7 +3,7 @@ import Monster from './monster';
 import {
   SET_MODAL_VISABILITY,
   SET_MONSTER_PANE_VISABILITY
-} from '../redux/actions';
+} from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
   return {
