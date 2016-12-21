@@ -1,6 +1,6 @@
 import React from 'react';
 import HpTrack from './hptrack';
-import Monster from './monster';
+import MonsterContainer from './monster-container';
 
 export default function Encounter(props) {
   const {
@@ -18,10 +18,7 @@ export default function Encounter(props) {
         monsters={monsters}
         setSelectedMonster={setSelectedMonster}
       />
-      <Monster
-        data={selectedMonster}
-        handleAddWindow={null}
-      />
+      <MonsterContainer />
     </div>
   );
 }
