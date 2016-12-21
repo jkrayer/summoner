@@ -1,7 +1,5 @@
 // Actions
-export const SET_SELECTED_MONSTER = 'SET_SELECTED_MONSTER';
-export const SET_MODAL_VISABILITY = 'SET_MODAL_VISABILITY';
-export const SET_MONSTER_PANE_VISABILITY = 'SET_MONSTER_PANE_VISABILITY';
+import { SET_SELECTED_MONSTER, SET_MODAL_VISABILITY, SET_MONSTER_PANE_VISABILITY, ADD_ENCOUNTER_MONSTER } from './action-constants';
 
 export function setSelectedMonster(monster) {
   return {
@@ -24,6 +22,16 @@ export function setMonsterPaneVisability(monsterPaneIsVisable) {
   };
 }
 
+export function addEncounterMonster(monster) {
+  return {
+    type: SET_MONSTER_PANE_VISABILITY,
+    monster
+  };
+}
 
-// Bound Action Creator
-// Const boundAddTodo = (text) => dispatch(addTodo(text));
+//export function delEncounterMonster(monster) {
+//  return {
+//    type: DEL_MONSTER_PANE_VISABILITY,
+//    monster
+//  };
+//}
