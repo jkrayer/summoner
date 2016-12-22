@@ -11,7 +11,6 @@ export default class App extends React.Component {
     };
     this.setSelectedMonster = this.setSelectedMonster.bind(this);
     this.toggleAny = this.toggleAny.bind(this);
-    this.addMonster = this.addMonster.bind(this);
     this.calculateHp = this.calculateHp.bind(this);
     this.deleteMonster = this.deleteMonster.bind(this);
   }
@@ -24,13 +23,6 @@ export default class App extends React.Component {
     dispatch({
       type: SET_MONSTER_PANE_VISABILITY,
       data: true
-    });
-  }
-  addMonster(newMonster) {
-    this.setState({
-      monsters: this.state.monsters.concat(newMonster),
-      showAddWindow: false,
-      showConfirmWindow: true
     });
   }
   deleteMonster(monster) {
@@ -75,7 +67,6 @@ export default class App extends React.Component {
 
     switch (this.props.location.pathname) {
       case '/':
-        propsToPass.addMonster = this.addMonster;
         propsToPass.data = monsters;
         propsToPass.showAddWindow = showAddWindow;
         propsToPass.showConfirmWindow = showConfirmWindow;
