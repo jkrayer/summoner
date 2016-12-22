@@ -1,7 +1,7 @@
 import React from 'react';
 import TocContainer from './toc-container';
 import MonsterContainer from './monster-container';
-import Modal from './modal';
+import ModalContainer from './c_modal';
 import AddMonsterContainer from './c_add-monster';
 import SlidePanel from './slide-panel';
 import RecentMonster from './recent-monster';
@@ -12,11 +12,10 @@ export default class Home extends React.Component {
     this.setModal = this.setModal.bind(this);
   }
   setModal() {
-    const { toggleAddWindow } = this.props;
     return (
-      <Modal closeEvent={toggleAddWindow}>
+      <ModalContainer>
         <AddMonsterContainer />
-      </Modal>
+      </ModalContainer>
     );
   }
   render() {
@@ -28,7 +27,6 @@ export default class Home extends React.Component {
             setSelectedMonster,
             showAddWindow,
             showConfirmWindow,
-            toggleAddWindow,
             toggleShowWindow } = this.props;
     const modal = showAddWindow ? this.setModal() : null;
     return (
@@ -61,6 +59,5 @@ Home.propTypes = {
   setSelectedMonster: React.PropTypes.func,
   showAddWindow: React.PropTypes.bool,
   showConfirmWindow: React.PropTypes.bool,
-  toggleAddWindow: React.PropTypes.func,
   toggleShowWindow: React.PropTypes.func
 };
