@@ -70,7 +70,6 @@ export default class App extends React.Component {
         propsToPass.data = monsters;
         propsToPass.showAddWindow = showAddWindow;
         propsToPass.showConfirmWindow = showConfirmWindow;
-        propsToPass.toggleAddWindow = () => this.toggleAny('showAddWindow');
         propsToPass.toggleShowWindow = () => this.toggleAny('showConfirmWindow');
         break;
       case '/encounter':
