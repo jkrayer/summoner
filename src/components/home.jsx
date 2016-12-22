@@ -19,23 +19,11 @@ export default class Home extends React.Component {
     );
   }
   render() {
-    const { monsters,
-            showAddWindow,
-            showConfirmWindow,
-            toggleShowWindow } = this.props;
-    const modal = showAddWindow ? this.setModal() : null; // Needs Access To state.modalIsVisible
     return (
       <div>
         <TocContainer />
         <MonsterContainer />
         {modal}
-        <SlidePanel
-          closeEvent={toggleShowWindow}
-          show={showConfirmWindow}
-          timer={3000}
-        >
-          <RecentMonster monsters={monsters} />
-        </SlidePanel>
       </div>
     );
   }
@@ -50,3 +38,18 @@ Home.propTypes = {
   showConfirmWindow: React.PropTypes.bool,
   toggleShowWindow: React.PropTypes.func
 };
+
+/*
+const { monsters,
+        showAddWindow,
+        showConfirmWindow,
+        toggleShowWindow } = this.props;
+const modal = showAddWindow ? this.setModal() : null; // Needs Access To state.modalIsVisible
+<SlidePanel
+  closeEvent={toggleShowWindow}
+  show={showConfirmWindow}
+  timer={3000}
+>
+  <RecentMonster monsters={monsters} />
+</SlidePanel>
+*/
