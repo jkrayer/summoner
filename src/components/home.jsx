@@ -1,6 +1,6 @@
 import React from 'react';
 import TocContainer from './c_toc';
-import MonsterContainer from './monster-container';
+import MonsterContainer from './c_monster';
 import ModalContainer from './c_modal';
 import AddMonsterContainer from './c_add-monster';
 import SlidePanel from './slide-panel';
