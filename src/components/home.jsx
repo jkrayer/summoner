@@ -19,10 +19,7 @@ export default class Home extends React.Component {
     );
   }
   render() {
-    const { data,
-            monsters,
-            setMonsterPaneVisability,
-            setSelectedMonster,
+    const { monsters,
             showAddWindow,
             showConfirmWindow,
             toggleShowWindow } = this.props;
@@ -46,11 +43,9 @@ export default class Home extends React.Component {
 
 Home.propTypes = {
   addMonster: React.PropTypes.func,
-  data: React.PropTypes.arrayOf(React.PropTypes.object),
   monsters: React.PropTypes.arrayOf(
     React.PropTypes.shape()
   ),
-  setSelectedMonster: React.PropTypes.func,
   showAddWindow: React.PropTypes.bool,
   showConfirmWindow: React.PropTypes.bool,
   toggleShowWindow: React.PropTypes.func
