@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 import AppContainer from './components/app-container';
-import Home from './components/home';
+import HomeContainer from './components/c_home';
 import Encounter from './components/encounter';
 
 import appData from './redux/reducers';
@@ -51,7 +51,7 @@ ReactDOM.render((
   <Provider store={store}>
     <Router history={hashHistory}>
       <Route path="/" component={AppContainer}>
-        <IndexRoute component={Home} />
+        <IndexRoute component={HomeContainer} />
         <Route path="/encounter" component={Encounter} />
       </Route>
     </Router>

@@ -19,6 +19,7 @@ export default class Home extends React.Component {
     );
   }
   render() {
+    const modal = (this.props.modalIsVisible) ? this.setModal() : null;
     return (
       <div>
         <TocContainer />
@@ -30,6 +31,7 @@ export default class Home extends React.Component {
 }
 
 Home.propTypes = {
+  modalIsVisible: React.PropTypes.bool.isRequired,
   addMonster: React.PropTypes.func,
   monsters: React.PropTypes.arrayOf(
     React.PropTypes.shape()
