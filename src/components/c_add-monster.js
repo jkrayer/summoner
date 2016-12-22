@@ -5,7 +5,7 @@ import { ADD_ENCOUNTER_MONSTER } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
   return {
-    selectedMonster: state.selectedMonster
+    monster: state.selectedMonster
   };
 }
 
