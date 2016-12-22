@@ -11,7 +11,7 @@ const Toc = function Toc(props) {
         <li key={monster.arrayIndex}>
           <Button
             className={style.btn}
-            event={helpers.partialApply(buttonEvent, monster.arrayIndex)}
+            event={helpers.partialApply(buttonEvent, monster)}
           >
             {monster.name}
           </Button>

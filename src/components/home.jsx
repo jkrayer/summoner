@@ -1,5 +1,5 @@
 import React from 'react';
-import TocWrapper from './toc-wrapper';
+import TocContainer from './c_toc';
 import MonsterContainer from './monster-container';
 import ModalContainer from './c_modal';
 import AddMonsterContainer from './c_add-monster';
@@ -29,10 +29,7 @@ export default class Home extends React.Component {
     const modal = showAddWindow ? this.setModal() : null; // Needs Access To state.modalIsVisible
     return (
       <div>
-        <TocWrapper
-          buttonEvent={setSelectedMonster}
-          data={data}
-        />
+        <TocContainer />
         <MonsterContainer />
         {modal}
         <SlidePanel

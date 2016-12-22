@@ -16,7 +16,7 @@ export default class TocWrapper extends React.Component {
     this.state = {
       filter: '',
       filterBy: 'name',
-      filteredData: this.props.data
+      filteredData: this.props.monsters
     };
     this.validFilters = ['name', 'challenge_rating', 'type', 'subtype', 'terrain'];
     this.onFilterChange = this.onFilterChange.bind(this);
@@ -28,7 +28,7 @@ export default class TocWrapper extends React.Component {
     this.setState({
       filter: '',
       filterBy: input,
-      filteredData: this.props.data
+      filteredData: this.props.monsters
     });
   }
   onFilterChange(event) {
@@ -37,7 +37,7 @@ export default class TocWrapper extends React.Component {
     if (!input) {
       return this.setState({
         filter: '',
-        filteredData: this.props.data
+        filteredData: this.props.monsters
       });
     }
 
@@ -52,7 +52,7 @@ export default class TocWrapper extends React.Component {
     const reg = filterBy === 'challenge_rating' ? new RegExp(['^', filter, ' '].join('')) : new RegExp(filter, 'gi');
 
     new Promise((resolve) => {
-      const filteredData = this.props.data.filter((monster) => {
+      const filteredData = this.props.monsters.filter((monster) => {
         if (monster[filterBy]) {
           return reg.test(monster[filterBy]);
         }
@@ -69,7 +69,7 @@ export default class TocWrapper extends React.Component {
     });
   }
   render() {
-    const { buttonEvent } = this.props;
+    const { setSelectedMonster } = this.props;
     const { filter, filterBy, filteredData } = this.state;
 
     return (
@@ -109,7 +109,7 @@ export default class TocWrapper extends React.Component {
           </div>
         </form>
         <Toc
-          buttonEvent={buttonEvent}
+          buttonEvent={setSelectedMonster}
           data={filteredData}
         />
       </div>
@@ -118,8 +118,8 @@ export default class TocWrapper extends React.Component {
 }
 
 TocWrapper.propTypes = {
-  buttonEvent: React.PropTypes.func,
-  data: React.PropTypes.arrayOf(
+  setSelectedMonster: React.PropTypes.func,
+  monsters: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
   )
 };
