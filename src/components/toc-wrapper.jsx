@@ -10,7 +10,7 @@ function sanitizeInput(input, filterBy) {
   return input.replace(/[^a-z-']/gi, '').trim();
 }
 
-export default class TocContainer extends React.Component {
+export default class TocWrapper extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -117,7 +117,7 @@ export default class TocContainer extends React.Component {
   }
 }
 
-TocContainer.propTypes = {
+TocWrapper.propTypes = {
   buttonEvent: React.PropTypes.func,
   data: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
