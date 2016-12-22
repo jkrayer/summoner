@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import AddMonster from './add-monster';
 
-import { ADD_ENCOUNTER_MONSTER } from '../redux/actions/action-constants';
+import { ADD_ENCOUNTER_MONSTER, SET_MODAL_VISABILITY } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
   return {
@@ -15,6 +15,10 @@ function mapDispatchToProps(dispatch) {
       dispatch({
         type: ADD_ENCOUNTER_MONSTER,
         data
+      });
+      dispatch({
+        type: SET_MODAL_VISABILITY,
+        data: false
       });
     }
   };
