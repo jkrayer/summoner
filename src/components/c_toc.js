@@ -3,7 +3,6 @@ import TocWrapper from './toc-wrapper';
 import { SET_MONSTER_PANE_VISABILITY, SET_SELECTED_MONSTER } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
-console.log(6, arguments)
   return {
     monsters: state.monsters
   };
