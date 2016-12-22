@@ -2,7 +2,7 @@ import React from 'react';
 import TocContainer from './toc-container';
 import MonsterContainer from './monster-container';
 import Modal from './modal';
-import AddMonster from './add-monster';
+import AddMonsterContainer from './c_add-monster';
 import SlidePanel from './slide-panel';
 import RecentMonster from './recent-monster';
 
@@ -12,13 +12,10 @@ export default class Home extends React.Component {
     this.setModal = this.setModal.bind(this);
   }
   setModal() {
-    const { addMonster, selectedMonster, toggleAddWindow } = this.props;
+    const { toggleAddWindow } = this.props;
     return (
       <Modal closeEvent={toggleAddWindow}>
-        <AddMonster
-          monster={selectedMonster}
-          submitEvent={addMonster}
-        />
+        <AddMonsterContainer />
       </Modal>
     );
   }
