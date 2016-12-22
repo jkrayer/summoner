@@ -30,7 +30,7 @@ export default class AddMonster extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     if (this.state.numMonsters && this.state.hpPerMonster) {
-      this.props.submitEvent(
+      this.props.handleAddMonster(
         {
           arrayIndex: this.props.monster.arrayIndex,
           hpPerMonster: new Array(this.state.numMonsters).fill(this.state.hpPerMonster),
@@ -100,6 +100,6 @@ AddMonster.propTypes = {
     arrayIndex: React.PropTypes.number,
     challenge_rating: React.PropTypes.string,
     name: React.PropTypes.string
-  }),
-  submitEvent: React.PropTypes.func.isRequired
+  }).isRequired,
+  handleAddMonster: React.PropTypes.func.isRequired
 };
