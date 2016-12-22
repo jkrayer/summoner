@@ -20,15 +20,13 @@ export default class Home extends React.Component {
   }
   render() {
     const { data,
-            monsterPaneIsVisable,
             monsters,
-            selectedMonster,
             setMonsterPaneVisability,
             setSelectedMonster,
             showAddWindow,
             showConfirmWindow,
             toggleShowWindow } = this.props;
-    const modal = showAddWindow ? this.setModal() : null;
+    const modal = showAddWindow ? this.setModal() : null; // Needs Access To state.modalIsVisible
     return (
       <div>
         <TocContainer
@@ -55,7 +53,6 @@ Home.propTypes = {
   monsters: React.PropTypes.arrayOf(
     React.PropTypes.shape()
   ),
-  selectedMonster: React.PropTypes.shape(),
   setSelectedMonster: React.PropTypes.func,
   showAddWindow: React.PropTypes.bool,
   showConfirmWindow: React.PropTypes.bool,
