@@ -4,7 +4,6 @@ import MonsterContainer from './c_monster';
 import ModalContainer from './c_modal';
 import AddMonsterContainer from './c_add-monster';
 import SlidePanel from './slide-panel';
-import RecentMonster from './recent-monster';
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -19,8 +18,9 @@ export default class Home extends React.Component {
     );
   }
   render() {
-    const { closeSlidePane, modalIsVisible, slidePanelVisable } = this.props;
+    const { closeSlidePane, encounter, modalIsVisible, slidePanelVisable } = this.props;
     const modal = (modalIsVisible) ? this.setModal() : null;
+    const name = (encounter.length) ? encounter[encounter.length - 1].name : null;
     return (
       <div>
         <TocContainer />
@@ -31,6 +31,7 @@ export default class Home extends React.Component {
           show={slidePanelVisable}
           timer={3000}
         >
+          <p>{['Added:', name].join(' ')}</p>
         </SlidePanel>
       </div>
     );
@@ -39,10 +40,9 @@ export default class Home extends React.Component {
 
 Home.propTypes = {
   closeSlidePane: React.PropTypes.func.isRequired,
+  encounter: React.PropTypes.arrayOf(
+    React.PropTypes.shape({})
+  ),
   modalIsVisible: React.PropTypes.bool.isRequired,
   slidePanelVisable: React.PropTypes.bool.isRequired
 };
-
-/*
-<RecentMonster monsters={monsters} />
-*/

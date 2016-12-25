@@ -5,6 +5,7 @@ import { SET_SLIDE_PANE_VISABILITY } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
   return {
+    encounter: state.encounter,
     modalIsVisible: state.modalIsVisible,
     slidePanelVisable: state.slidePanelVisable
   };
