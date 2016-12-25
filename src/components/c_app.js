@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
   return {
-    monsters: state.monsters
+    encounter: state.encounter
   };
 }
 
