@@ -5,7 +5,7 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-import AppContainer from './components/app-container';
+import AppContainer from './components/c_app';
 import HomeContainer from './components/c_home';
 import Encounter from './components/encounter';
 
