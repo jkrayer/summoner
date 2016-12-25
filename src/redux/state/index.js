@@ -5,5 +5,6 @@ export const initialState = {
   modalIsVisible: false,
   monsterPaneIsVisable: false,
   monsters,
-  selectedMonster: null
+  selectedMonster: null,
+  slidePanelVisable: false
 };

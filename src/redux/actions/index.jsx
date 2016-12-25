@@ -1,5 +1,10 @@
 // Actions
-import { SET_SELECTED_MONSTER, SET_MODAL_VISABILITY, SET_MONSTER_PANE_VISABILITY, ADD_ENCOUNTER_MONSTER } from './action-constants';
+import { SET_SELECTED_MONSTER,
+         SET_MODAL_VISABILITY,
+         SET_MONSTER_PANE_VISABILITY,
+         SET_SLIDE_PANE_VISABILITY,
+         ADD_ENCOUNTER_MONSTER
+       } from '../actions/action-constants';
 
 export function setSelectedMonster(monster) {
   return {
@@ -26,6 +31,13 @@ export function addEncounterMonster(monster) {
   return {
     type: SET_MONSTER_PANE_VISABILITY,
     monster
+  };
+}
+
+export function addEncounterMonster(data) {
+  return {
+    type: SET_SLIDE_PANE_VISABILITY,
+    data
   };
 }
 

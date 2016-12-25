@@ -1,5 +1,10 @@
 import { initialState } from '../state';
-import { SET_SELECTED_MONSTER, SET_MODAL_VISABILITY, SET_MONSTER_PANE_VISABILITY, ADD_ENCOUNTER_MONSTER } from '../actions/action-constants';
+import { SET_SELECTED_MONSTER,
+         SET_MODAL_VISABILITY,
+         SET_MONSTER_PANE_VISABILITY,
+         SET_SLIDE_PANE_VISABILITY,
+         ADD_ENCOUNTER_MONSTER
+       } from '../actions/action-constants';
 
 export default function appData(state = initialState, action) {
   var encounter;
@@ -16,6 +21,9 @@ export default function appData(state = initialState, action) {
     case ADD_ENCOUNTER_MONSTER:
       encounter = [].concat(state.encounter, [action.data]);
       return Object.assign({}, state, {encounter});
+      break;
+    case SET_SLIDE_PANE_VISABILITY:
+      return Object.assign({}, state, { slidePanelVisable: action.data });
       break;
 //    case DEL_MONSTER_PANE_VISABILITY:
 //      encounter = state.encounter.slice(index, 1);
