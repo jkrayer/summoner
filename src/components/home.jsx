@@ -1,8 +1,8 @@
 import React from 'react';
 import TocContainer from './c_toc';
 import MonsterContainer from './c_monster';
-import ModalContainer from './c_modal';
 import AddMonsterContainer from './c_add-monster';
+import Modal from './modal';
 import SlidePanel from './slide-panel';
 
 export default class Home extends React.Component {
@@ -11,10 +11,11 @@ export default class Home extends React.Component {
     this.setModal = this.setModal.bind(this);
   }
   setModal() {
+    const { closeModal } = this.props;
     return (
-      <ModalContainer>
+      <Modal closeEvent={closeModal}>
         <AddMonsterContainer />
-      </ModalContainer>
+      </Modal>
     );
   }
   render() {
@@ -39,6 +40,7 @@ export default class Home extends React.Component {
 }
 
 Home.propTypes = {
+  closeModal: React.PropTypes.func.isRequired,
   closeSlidePane: React.PropTypes.func.isRequired,
   encounter: React.PropTypes.arrayOf(
     React.PropTypes.shape({})

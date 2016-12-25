@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import Home from './home';
 
-import { SET_SLIDE_PANE_VISABILITY } from '../redux/actions/action-constants';
+import { SET_MODAL_VISABILITY, SET_SLIDE_PANE_VISABILITY } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
   return {
@@ -13,6 +13,12 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
+    closeModal: () => {
+      dispatch({
+        type: SET_MODAL_VISABILITY,
+        data: false
+      });
+    },
     closeSlidePane: () => {
       dispatch({
         type: SET_SLIDE_PANE_VISABILITY,
