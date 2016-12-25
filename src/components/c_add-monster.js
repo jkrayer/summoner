@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import AddMonster from './add-monster';
 
-import { ADD_ENCOUNTER_MONSTER, SET_MODAL_VISABILITY } from '../redux/actions/action-constants';
+import { ADD_ENCOUNTER_MONSTER, SET_MODAL_VISABILITY, SET_SLIDE_PANE_VISABILITY } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
   return {
@@ -19,6 +19,10 @@ function mapDispatchToProps(dispatch) {
       dispatch({
         type: SET_MODAL_VISABILITY,
         data: false
+      });
+      dispatch({
+        type: SET_SLIDE_PANE_VISABILITY,
+        data: true
       });
     }
   };
