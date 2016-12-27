@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import HpTrack from './hptrack';
 import {
+  DELETE_FROM_ENCOUNTER,
   SET_MODAL_VISABILITY,
   SET_MONSTER_PANE_VISABILITY
 } from '../redux/actions/action-constants';
@@ -12,7 +13,26 @@ function mapStateToProps(state) {
 }
 
 function mapDispatchToProps(dispatch) {
-  return {};
+  return {
+    //----------------------------------------
+    setSelectedMonster: (monster) => {
+      dispatch({
+        type: SET_SELECTED_MONSTER,
+        data: monster || null
+      });
+      dispatch({
+        type: SET_MONSTER_PANE_VISABILITY,
+        data: true
+      });
+    },
+    //----------------------------------------
+    deleteMonster: (monster) => {
+      dispatch({
+        type: DELETE_FROM_ENCOUNTER,
+        monster
+      });
+    }
+  };
 }
 
 const HpTrackContainer = connect(mapStateToProps, mapDispatchToProps)(HpTrack);

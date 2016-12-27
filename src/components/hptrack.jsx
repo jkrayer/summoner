@@ -7,8 +7,8 @@ import helpers from '../utilities/helpers';
 import style from '../style/hptrack.css';
 
 export default function HpTrack(props) {
-  const { calculateHp, deleteMonster, monsters, setSelectedMonster } = props;
-  const blocks = monsters.map((monster, index) =>
+  const { calculateHp, deleteMonster, encounter, setSelectedMonster } = props;
+  const blocks = encounter.map((monster, index) =>
     <section key={monster.arrayIndex}>
       <h2>
         <Button
@@ -22,14 +22,14 @@ export default function HpTrack(props) {
       <HpBlock
         monster={monster}
         monsterIndex={index}
-        calculateHp={calculateHp}
+        calculate={calculateHp}
       />
     </section>
   );
 
   return (
     <div>
-      <XpCalculator monsters={monsters} />
+      <XpCalculator monsters={encounter} />
       {blocks}
     </div>
   );
@@ -38,8 +38,74 @@ export default function HpTrack(props) {
 HpTrack.propTypes = {
   calculateHp: React.PropTypes.func,
   deleteMonster: React.PropTypes.func,
-  monsters: React.PropTypes.arrayOf(
+  encounter: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
   ),
+  setSelectedMonster: React.PropTypes.func.isRequired
+};
+
+
+HpTrack.defaultProps = {
+  calculateHp: () => {},
+  deleteMonster: () => {},
+  encounter: React.PropTypes.arrayOf(
+    React.PropTypes.shape({})
+  ),
+  setSelectedMonster: React.PropTypes.func.isRequired
+};
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function deleteMonster(monster) {
+  const { encounter } = this.state;
+  const newMonsters = monsters.filter(m => m.arrayIndex !== monster.arrayIndex);
+  this.setState({
+    monsters: newMonsters
+  });
+}
+
+function calculateHp(monsterIndex, hpIndex, newVal) {
+  const operator = (newVal[0] === '+') ? '+' : '-';
+  const val = parseInt(newVal, 10);
+  const monster = Object.assign({}, this.state.monsters[monsterIndex]);
+  if (isNaN(val)) { return false; }
+  monster.hpPerMonster[hpIndex] += (operator === '+') ? val : -val;
+  return this.setState({
+    monsters: this.state.monsters.map((m, i) => {
+      const r = (i === monsterIndex) ? monster : m;
+      return r;
+    })
+  });
+}
+----------------------------------------------------------
+const {
+  calculateHp,
+  deleteMonster,
+  monsters,
+  selectedMonster,
+  setSelectedMonster
+} = props;
+<HpTrack
+  calculateHp={calculateHp}
+  deleteMonster={deleteMonster}
+  monsters={monsters}
+  setSelectedMonster={setSelectedMonster}
+/>
+Encounter.propTypes = {
+  calculateHp: React.PropTypes.func,
+  deleteMonster: React.PropTypes.func,
+  monsters: React.PropTypes.arrayOf(React.PropTypes.object),
+  selectedMonster: React.PropTypes.shape(),
   setSelectedMonster: React.PropTypes.func
 };
+*/

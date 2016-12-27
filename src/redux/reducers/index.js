@@ -27,7 +27,7 @@ export default function appData(state = initialState, action) {
       return Object.assign({}, state, { slidePanelVisable: action.data });
       break;
     case DELETE_FROM_ENCOUNTER:
-      return Object.assign({}, state, {encounter: encounter.filter(e => e.arrayIndex !== monster.arrayIndex) });
+      return Object.assign({}, state, {encounter: state.encounter.filter(e => e.arrayIndex !== action.monster.arrayIndex) });
       break;
 //    case DEL_MONSTER_PANE_VISABILITY:
 //      encounter = state.encounter.slice(index, 1);
