@@ -3,7 +3,8 @@ import { SET_SELECTED_MONSTER,
          SET_MODAL_VISABILITY,
          SET_MONSTER_PANE_VISABILITY,
          SET_SLIDE_PANE_VISABILITY,
-         ADD_ENCOUNTER_MONSTER
+         ADD_ENCOUNTER_MONSTER,
+         DELETE_FROM_ENCOUNTER
        } from '../actions/action-constants';
 
 export default function appData(state = initialState, action) {
@@ -24,6 +25,9 @@ export default function appData(state = initialState, action) {
       break;
     case SET_SLIDE_PANE_VISABILITY:
       return Object.assign({}, state, { slidePanelVisable: action.data });
+      break;
+    case DELETE_FROM_ENCOUNTER:
+      return Object.assign({}, state, {encounter: encounter.filter(e => e.arrayIndex !== monster.arrayIndex) });
       break;
 //    case DEL_MONSTER_PANE_VISABILITY:
 //      encounter = state.encounter.slice(index, 1);

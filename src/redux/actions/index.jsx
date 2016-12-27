@@ -3,7 +3,8 @@ import { SET_SELECTED_MONSTER,
          SET_MODAL_VISABILITY,
          SET_MONSTER_PANE_VISABILITY,
          SET_SLIDE_PANE_VISABILITY,
-         ADD_ENCOUNTER_MONSTER
+         ADD_ENCOUNTER_MONSTER,
+         DELETE_FROM_ENCOUNTER
        } from '../actions/action-constants';
 
 export function setSelectedMonster(monster) {
@@ -39,6 +40,11 @@ export function addEncounterMonster(data) {
     type: SET_SLIDE_PANE_VISABILITY,
     data
   };
+}
+
+export function deleteFromEncounter(data) {
+  type: DELETE_FROM_ENCOUNTER,
+  data
 }
 
 //export function delEncounterMonster(monster) {
