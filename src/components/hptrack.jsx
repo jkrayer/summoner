@@ -9,13 +9,13 @@ import style from '../style/hptrack.css';
 export default function HpTrack(props) {
   const { calculateHp, deleteMonster, encounter, setSelectedMonster } = props;
   const blocks = encounter.map((enc, index) =>
-    <section key={enc.arrayIndex}>
+    <section key={enc.monster.arrayIndex}>
       <h2>
         <Button
           className={style.btn}
           event={helpers.partialApply(setSelectedMonster, enc.monster)}
         >
-          {enc.name}
+          {enc.monster.name}
         </Button>
         <ButtonClose event={() => deleteMonster(enc)} />
       </h2>

@@ -32,10 +32,8 @@ export default class AddMonster extends React.Component {
     if (this.state.numMonsters && this.state.hpPerMonster) {
       this.props.handleAddMonster(
         {
-          arrayIndex: this.props.monster.arrayIndex,
           hpPerMonster: new Array(this.state.numMonsters).fill(this.state.hpPerMonster),
           monster: this.props.monster,
-          name: this.props.monster.name,
           xp: utilities.getXp(this.props.monster.challenge_rating)
         }
       );
