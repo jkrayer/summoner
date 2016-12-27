@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import HpTrack from './hptrack';
 import {
   DELETE_FROM_ENCOUNTER,
-  SET_MODAL_VISABILITY,
+  SET_SELECTED_MONSTER,
   SET_MONSTER_PANE_VISABILITY
 } from '../redux/actions/action-constants';
 

@@ -13,7 +13,7 @@ export default function HpTrack(props) {
       <h2>
         <Button
           className={style.btn}
-          event={helpers.partialApply(setSelectedMonster, monster.arrayIndex)}
+          event={helpers.partialApply(setSelectedMonster, monster.monster)}
         >
           {monster.name}
         </Button>
