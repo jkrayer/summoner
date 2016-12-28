@@ -21,7 +21,7 @@ export default class Home extends React.Component {
   render() {
     const { closeSlidePane, encounter, modalIsVisible, slidePanelVisable } = this.props;
     const modal = (modalIsVisible) ? this.setModal() : null;
-    const name = (encounter.length) ? encounter[encounter.length - 1].name : null;
+    const name = (encounter.length) ? encounter[encounter.length - 1].monster.name : null;
     return (
       <div>
         <TocContainer />
