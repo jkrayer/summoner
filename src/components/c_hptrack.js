@@ -28,7 +28,7 @@ function mapDispatchToProps(dispatch) {
     deleteMonster: (monster) => {
       dispatch({
         type: DELETE_FROM_ENCOUNTER,
-        monster
+        data: monster
       });
     },
     updateEncounter: (encounter) => {
