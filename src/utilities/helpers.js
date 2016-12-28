@@ -5,7 +5,7 @@ function getXp(cr) {
 function partialApply(func) {
   var args = [].slice.call(arguments, 1);
   return function part() {
-    func.apply(null, args);
+    func.apply(null, args.concat( [].slice.call(arguments) ));
   };
 }
 
