@@ -1,21 +1,15 @@
 import React from 'react';
 import Input from './input';
+import helpers from '../utilities/helpers';
 import style from '../style/hpblock.css';
 
-// Make helpers partial apply better
-function partialApply(func, monsterIndex, hpIndex) {
-  return function part(val) {
-    func(monsterIndex, hpIndex, val);
-  };
-}
-
 export default function HpBlock(props) {
-  const { calculateHp, monster, monsterIndex } = props;
+  const { calculate, monster } = props;
   const lis = monster.hpPerMonster.map((hp, index) =>
     (
     <li key={index}>
       <span className={style.hp}>{hp}</span>
-      <Input blurEvent={partialApply(calculateHp, monsterIndex, index)} />
+      <Input blurEvent={helpers.partialApply(calculate, index)} />
     </li>
     )
   );
@@ -27,7 +21,6 @@ export default function HpBlock(props) {
 }
 
 HpBlock.propTypes = {
-  calculateHp: React.PropTypes.func,
-  monster: React.PropTypes.shape({}).isRequired,
-  monsterIndex: React.PropTypes.number.isRequired
+  calculate: React.PropTypes.func,
+  monster: React.PropTypes.shape({}).isRequired
 };

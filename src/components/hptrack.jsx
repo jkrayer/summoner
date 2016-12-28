@@ -6,106 +6,70 @@ import XpCalculator from './xp-calculator';
 import helpers from '../utilities/helpers';
 import style from '../style/hptrack.css';
 
-export default function HpTrack(props) {
-  const { calculateHp, deleteMonster, encounter, setSelectedMonster } = props;
-  const blocks = encounter.map((enc, index) =>
-    <section key={enc.monster.arrayIndex}>
-      <h2>
-        <Button
-          className={style.btn}
-          event={helpers.partialApply(setSelectedMonster, enc.monster)}
-        >
-          {enc.monster.name}
-        </Button>
-        <ButtonClose event={() => deleteMonster(enc)} />
-      </h2>
-      <HpBlock
-        monster={enc}
-        monsterIndex={index}
-        calculate={calculateHp}
-      />
-    </section>
-  );
+export default class HpTrack extends React.Component {
+  constructor(){
+    super();
+    this.calculateHp = this.calculateHp.bind(this);
+  }
+  calculateHp(monsterIndex, hpIndex, newVal) {
+    const operator = (newVal[0] === '+') ? '+' : '-';
+    const val = parseInt(newVal, 10);
+    let monster;
+    let newEncounter;
 
-  return (
-    <div>
-      <XpCalculator monsters={encounter} />
-      {blocks}
-    </div>
-  );
+    if (isNaN(val)) { return false; }
+
+    monster = Object.assign({}, this.props.encounter[monsterIndex]);
+    monster.hpPerMonster[hpIndex] += (operator === '+') ? val : -val;
+    newEncounter = this.props.encounter.map((enc, index) => {
+      return (index === monsterIndex) ? monster : enc;
+    })
+
+    this.props.updateEncounter(newEncounter);
+  }
+  render() {
+    const { deleteMonster, encounter, setSelectedMonster } = this.props;
+    const blocks = encounter.map((enc, index) =>
+      <section key={enc.monster.arrayIndex}>
+        <h2>
+          <Button
+            className={style.btn}
+            event={helpers.partialApply(setSelectedMonster, enc.monster)}
+          >
+            {enc.monster.name}
+          </Button>
+          <ButtonClose event={() => deleteMonster(enc)} />
+        </h2>
+        <HpBlock
+          monster={enc}
+          calculate={helpers.partialApply(this.calculateHp, index)}
+        />
+      </section>
+    );
+
+    return (
+      <div>
+        <XpCalculator monsters={encounter} />
+        {blocks}
+      </div>
+    );
+  }
 }
 
 HpTrack.propTypes = {
-  calculateHp: React.PropTypes.func,
   deleteMonster: React.PropTypes.func,
   encounter: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
   ),
-  setSelectedMonster: React.PropTypes.func.isRequired
+  setSelectedMonster: React.PropTypes.func.isRequired,
+  updateEncounter: React.PropTypes.func
 };
 
-
 HpTrack.defaultProps = {
-  calculateHp: () => {},
   deleteMonster: () => {},
   encounter: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
   ),
-  setSelectedMonster: React.PropTypes.func.isRequired
+  setSelectedMonster: React.PropTypes.func.isRequired,
+  updateEncounter: () => {}
 };
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-function deleteMonster(monster) {
-  const { encounter } = this.state;
-  const newMonsters = monsters.filter(m => m.arrayIndex !== monster.arrayIndex);
-  this.setState({
-    monsters: newMonsters
-  });
-}
-
-function calculateHp(monsterIndex, hpIndex, newVal) {
-  const operator = (newVal[0] === '+') ? '+' : '-';
-  const val = parseInt(newVal, 10);
-  const monster = Object.assign({}, this.state.monsters[monsterIndex]);
-  if (isNaN(val)) { return false; }
-  monster.hpPerMonster[hpIndex] += (operator === '+') ? val : -val;
-  return this.setState({
-    monsters: this.state.monsters.map((m, i) => {
-      const r = (i === monsterIndex) ? monster : m;
-      return r;
-    })
-  });
-}
-----------------------------------------------------------
-const {
-  calculateHp,
-  deleteMonster,
-  monsters,
-  selectedMonster,
-  setSelectedMonster
-} = props;
-<HpTrack
-  calculateHp={calculateHp}
-  deleteMonster={deleteMonster}
-  monsters={monsters}
-  setSelectedMonster={setSelectedMonster}
-/>
-Encounter.propTypes = {
-  calculateHp: React.PropTypes.func,
-  deleteMonster: React.PropTypes.func,
-  monsters: React.PropTypes.arrayOf(React.PropTypes.object),
-  selectedMonster: React.PropTypes.shape(),
-  setSelectedMonster: React.PropTypes.func
-};
-*/
