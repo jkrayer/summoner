@@ -4,7 +4,8 @@ import { SET_SELECTED_MONSTER,
          SET_MONSTER_PANE_VISABILITY,
          SET_SLIDE_PANE_VISABILITY,
          ADD_ENCOUNTER_MONSTER,
-         DELETE_FROM_ENCOUNTER
+         DELETE_FROM_ENCOUNTER,
+         UPDATE_ENCOUNTER_MONSTER
        } from '../actions/action-constants';
 
 export function setSelectedMonster(monster) {
@@ -43,8 +44,17 @@ export function addEncounterMonster(data) {
 }
 
 export function deleteFromEncounter(data) {
-  type: DELETE_FROM_ENCOUNTER,
-  data
+  return {
+    type: DELETE_FROM_ENCOUNTER,
+    data
+  };
+}
+
+export function updateEncounterMonster(data) {
+  return {
+    type: UPDATE_ENCOUNTER_MONSTER,
+    data
+  };
 }
 
 //export function delEncounterMonster(monster) {

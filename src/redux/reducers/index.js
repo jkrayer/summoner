@@ -4,7 +4,8 @@ import { SET_SELECTED_MONSTER,
          SET_MONSTER_PANE_VISABILITY,
          SET_SLIDE_PANE_VISABILITY,
          ADD_ENCOUNTER_MONSTER,
-         DELETE_FROM_ENCOUNTER
+         DELETE_FROM_ENCOUNTER,
+         UPDATE_ENCOUNTER_MONSTER
        } from '../actions/action-constants';
 
 export default function appData(state = initialState, action) {
@@ -29,10 +30,9 @@ export default function appData(state = initialState, action) {
     case DELETE_FROM_ENCOUNTER:
       return Object.assign({}, state, {encounter: state.encounter.filter(e => e.arrayIndex !== action.monster.arrayIndex) });
       break;
-//    case DEL_MONSTER_PANE_VISABILITY:
-//      encounter = state.encounter.slice(index, 1);
-//      return Object.assign({}, state, {encounter});
-//      break;
+    case UPDATE_ENCOUNTER_MONSTER:
+      return Object.assign({}, state, { encounter: action.data });
+      break;
     default:
       return state;
       break;
