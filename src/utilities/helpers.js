@@ -2,9 +2,10 @@ function getXp(cr) {
   return parseInt(/\([,\d]*/g.exec(cr)[0].slice(1).replace(',', ''), 10);
 }
 
-function partialApply(func, index) {
+function partialApply(func) {
+  var args = [].slice.call(arguments, 1);
   return function part() {
-    func(index);
+    func.apply(null, args);
   };
 }
 
