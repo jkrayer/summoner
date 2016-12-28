@@ -3,7 +3,8 @@ import HpTrack from './hptrack';
 import {
   DELETE_FROM_ENCOUNTER,
   SET_SELECTED_MONSTER,
-  SET_MONSTER_PANE_VISABILITY
+  SET_MONSTER_PANE_VISABILITY,
+  UPDATE_ENCOUNTER_MONSTER
 } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
@@ -14,7 +15,6 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    //----------------------------------------
     setSelectedMonster: (monster) => {
       dispatch({
         type: SET_SELECTED_MONSTER,
@@ -25,11 +25,16 @@ function mapDispatchToProps(dispatch) {
         data: true
       });
     },
-    //----------------------------------------
     deleteMonster: (monster) => {
       dispatch({
         type: DELETE_FROM_ENCOUNTER,
         monster
+      });
+    },
+    updateEncounter: (encounter) => {
+      dispatch({
+        type: UPDATE_ENCOUNTER_MONSTER,
+        data: encounter
       });
     }
   };
