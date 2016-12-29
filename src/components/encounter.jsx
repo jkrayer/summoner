@@ -7,7 +7,7 @@ export default function Encounter(props) {
   return (
     <div>
       <HpTrackContainer />
-      <MonsterContainer />
+      <MonsterContainer showAddButton={false} />
     </div>
   );
 }

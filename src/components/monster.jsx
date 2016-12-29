@@ -7,14 +7,14 @@ import style from '../style/monster.css';
 import btn from '../style/button.css';
 
 export default function Monster(props) {
-  const { data, handleAddWindow, handleClosePane, show } = props;
+  const { data, handleAddWindow, handleClosePane, show, showAddButton } = props;
 
   if (data === null) {
     return (<article className={[style.monster, style.hide].join(' ')} />);
   }
 
   const classN = show ? style.monster : [style.monster, style.hide].join(' ');
-  const addButton = (handleAddWindow !== null) ? <Button className={btn.btn} event={handleAddWindow}>{'+'}</Button> : null;
+  const addButton = (showAddButton) ? <Button className={btn.btn} event={handleAddWindow}>{'+'}</Button> : null;
   const specialAbilities = !data.special_abilities ? null
     : <DlContainer data={data.special_abilities} />;
   const actions = !data.actions ? null : <DlContainer data={data.actions} hl="Actions" />;
@@ -80,10 +80,12 @@ Monster.propTypes = {
   data: React.PropTypes.shape({}),
   handleAddWindow: React.PropTypes.func,
   handleClosePane: React.PropTypes.func,
-  show: React.PropTypes.bool.isRequired
+  show: React.PropTypes.bool.isRequired,
+  showAddButton: React.PropTypes.bool
 };
 
 Monster.defaultProps = {
   data: null,
-  show: false
+  show: false,
+  showAddButton: true
 };
