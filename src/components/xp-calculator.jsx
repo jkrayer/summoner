@@ -10,9 +10,17 @@ export default class XpCalculator extends React.Component {
       total: 0
     };
     this.calculateXpReward = this.calculateXpReward.bind(this);
+    this.setTotal = this.setTotal.bind(this);
   }
   componentWillMount() {
-    const { encounter } = this.props;
+    this.setTotal(this.props.encounter);
+  }
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.encounter !== this.props.encounter) {
+      this.setTotal(nextProps.encounter);
+    }
+  }
+  setTotal(encounter) {
     let total = 0;
     encounter.forEach((monster) => {
       total += monster.xp * monster.hpPerMonster.length;
