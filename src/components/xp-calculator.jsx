@@ -12,9 +12,9 @@ export default class XpCalculator extends React.Component {
     this.calculateXpReward = this.calculateXpReward.bind(this);
   }
   componentWillMount() {
-    const { monsters } = this.props;
+    const { encounter } = this.props;
     let total = 0;
-    monsters.forEach((monster) => {
+    encounter.forEach((monster) => {
       total += monster.xp * monster.hpPerMonster.length;
     });
     this.setState({
@@ -49,7 +49,7 @@ export default class XpCalculator extends React.Component {
 }
 
 XpCalculator.propTypes = {
-  monsters: React.PropTypes.arrayOf(
+  encounter: React.PropTypes.arrayOf(
     React.PropTypes.shape({})
   )
 };

@@ -49,7 +49,7 @@ export default class HpTrack extends React.Component {
 
     return (
       <div>
-        <XpCalculator monsters={encounter} />
+        <XpCalculator encounter={encounter} />
         {blocks}
       </div>
     );
