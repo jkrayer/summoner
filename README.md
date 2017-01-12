@@ -15,3 +15,5 @@ Manage 5e Statblocks
   - @internal Need add more monsters
 
 @internal Integrate Lint with Workflow. Perhaps as a push hook to git
+
+@internal slide-panel, monster knows its own visibility. shouldn't modal do the same?
