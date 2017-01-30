@@ -9,9 +9,18 @@ import AppContainer from './components/c_app';
 import HomeContainer from './components/c_home';
 import Encounter from './components/encounter';
 import appData from './redux/reducers';
+import { loadState, saveState } from './utilities/helpers';
 import style from './style/global.css';
 
-let store = createStore(appData);
+const savedState = loadState();
+
+const store = createStore(appData, savedState);
+
+store.subscribe(() => {
+  saveState({
+    encounter: store.getState().encounter
+  });
+});
 
 ReactDOM.render((
   <Provider store={store}>

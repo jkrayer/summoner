@@ -11,7 +11,7 @@ export function partialApply(func) {
 
 export function loadState() {
   try {
-    const savedState = localstorage.getItem('summoner');
+    const savedState = localStorage.getItem('summoner');
     if (savedState === null) {
       return undefined;
     }
@@ -25,7 +25,7 @@ export function loadState() {
 export function saveState(state) {
   try {
     const saveState = JSON.stringify(state);
-    localstorage.saveState('summoner', saveState);
+    localStorage.setItem('summoner', saveState);
   } catch (err) {
     console.error('Error saving state: ' + err);
   }
