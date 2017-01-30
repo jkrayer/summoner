@@ -1,6 +1,6 @@
 import React from 'react';
 import style from '../style/add-monster.css';
-import utilities from '../utilities/helpers';
+import { getXp } from '../utilities/helpers';
 
 export default class AddMonster extends React.Component {
   constructor(props) {
@@ -34,7 +34,7 @@ export default class AddMonster extends React.Component {
         {
           hpPerMonster: new Array(this.state.numMonsters).fill(this.state.hpPerMonster),
           monster: this.props.monster,
-          xp: utilities.getXp(this.props.monster.challenge_rating)
+          xp: getXp(this.props.monster.challenge_rating)
         }
       );
     }

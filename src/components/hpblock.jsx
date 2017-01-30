@@ -1,6 +1,6 @@
 import React from 'react';
 import Input from './input';
-import helpers from '../utilities/helpers';
+import { partialApply } from '../utilities/helpers';
 import style from '../style/hpblock.css';
 
 export default function HpBlock(props) {
@@ -9,7 +9,7 @@ export default function HpBlock(props) {
     (
     <li key={index}>
       <span className={style.hp}>{hp}</span>
-      <Input blurEvent={helpers.partialApply(calculate, index)} />
+      <Input blurEvent={partialApply(calculate, index)} />
     </li>
     )
   );

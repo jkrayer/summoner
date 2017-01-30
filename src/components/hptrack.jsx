@@ -3,7 +3,7 @@ import HpBlock from './hpblock';
 import Button from './button';
 import ButtonClose from './button-close';
 import XpCalculator from './xp-calculator';
-import helpers from '../utilities/helpers';
+import { partialApply } from '../utilities/helpers';
 import style from '../style/hptrack.css';
 
 export default class HpTrack extends React.Component {
@@ -34,7 +34,7 @@ export default class HpTrack extends React.Component {
         <h2>
           <Button
             className={style.btn}
-            event={helpers.partialApply(setSelectedMonster, enc.monster)}
+            event={partialApply(setSelectedMonster, enc.monster)}
           >
             {enc.monster.name}
           </Button>
@@ -42,7 +42,7 @@ export default class HpTrack extends React.Component {
         </h2>
         <HpBlock
           monster={enc}
-          calculate={helpers.partialApply(this.calculateHp, index)}
+          calculate={partialApply(this.calculateHp, index)}
         />
       </section>
     );
