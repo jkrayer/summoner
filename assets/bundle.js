@@ -76,6 +76,10 @@
 
 	var _reducers2 = _interopRequireDefault(_reducers);
 
+	var _helpers = __webpack_require__(273);
+
+	var _state = __webpack_require__(309);
+
 	var _global = __webpack_require__(311);
 
 	var _global2 = _interopRequireDefault(_global);
@@ -83,7 +87,15 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	/* eslint-disable */
-	var store = (0, _redux.createStore)(_reducers2.default);
+	var savedState = (0, _helpers.loadState)();
+
+	var store = (0, _redux.createStore)(_reducers2.default, Object.assign({}, _state.initialState, savedState));
+
+	store.subscribe(function () {
+	  (0, _helpers.saveState)({
+	    encounter: store.getState().encounter
+	  });
+	});
 
 	_reactDom2.default.render(_react2.default.createElement(
 	  _reactRedux.Provider,
@@ -29592,8 +29604,6 @@
 
 	var _helpers = __webpack_require__(273);
 
-	var _helpers2 = _interopRequireDefault(_helpers);
-
 	var _toc = __webpack_require__(274);
 
 	var _toc2 = _interopRequireDefault(_toc);
@@ -29613,7 +29623,7 @@
 	          _button2.default,
 	          {
 	            className: _toc2.default.btn,
-	            event: _helpers2.default.partialApply(buttonEvent, monster)
+	            event: (0, _helpers.partialApply)(buttonEvent, monster)
 	          },
 	          monster.name
 	        )
@@ -29691,6 +29701,10 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+	exports.getXp = getXp;
+	exports.partialApply = partialApply;
+	exports.loadState = loadState;
+	exports.saveState = saveState;
 	function getXp(cr) {
 	  return parseInt(/\([,\d]*/g.exec(cr)[0].slice(1).replace(',', ''), 10);
 	}
@@ -29702,10 +29716,27 @@
 	  };
 	}
 
-	exports.default = {
-	  getXp: getXp,
-	  partialApply: partialApply
-	};
+	function loadState() {
+	  try {
+	    var savedState = localStorage.getItem('summoner');
+	    if (savedState === null) {
+	      return undefined;
+	    }
+	    return JSON.parse(savedState);
+	  } catch (err) {
+	    console.error('Error retrieving saved state: ' + err);
+	    return undefined;
+	  }
+	}
+
+	function saveState(state) {
+	  try {
+	    var _saveState = JSON.stringify(state);
+	    localStorage.setItem('summoner', _saveState);
+	  } catch (err) {
+	    console.error('Error saving state: ' + err);
+	  }
+	}
 
 /***/ },
 /* 274 */
@@ -31840,8 +31871,6 @@
 
 	var _helpers = __webpack_require__(273);
 
-	var _helpers2 = _interopRequireDefault(_helpers);
-
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -31893,7 +31922,7 @@
 	        this.props.handleAddMonster({
 	          hpPerMonster: new Array(this.state.numMonsters).fill(this.state.hpPerMonster),
 	          monster: this.props.monster,
-	          xp: _helpers2.default.getXp(this.props.monster.challenge_rating)
+	          xp: (0, _helpers.getXp)(this.props.monster.challenge_rating)
 	        });
 	      }
 	      return false;
@@ -32278,8 +32307,6 @@
 
 	var _helpers = __webpack_require__(273);
 
-	var _helpers2 = _interopRequireDefault(_helpers);
-
 	var _hptrack = __webpack_require__(307);
 
 	var _hptrack2 = _interopRequireDefault(_hptrack);
@@ -32345,7 +32372,7 @@
 	              _button2.default,
 	              {
 	                className: _hptrack2.default.btn,
-	                event: _helpers2.default.partialApply(setSelectedMonster, enc.monster)
+	                event: (0, _helpers.partialApply)(setSelectedMonster, enc.monster)
 	              },
 	              enc.monster.name
 	            ),
@@ -32355,7 +32382,7 @@
 	          ),
 	          _react2.default.createElement(_hpblock2.default, {
 	            monster: enc,
-	            calculate: _helpers2.default.partialApply(_this2.calculateHp, index)
+	            calculate: (0, _helpers.partialApply)(_this2.calculateHp, index)
 	          })
 	        );
 	      });
@@ -32410,8 +32437,6 @@
 
 	var _helpers = __webpack_require__(273);
 
-	var _helpers2 = _interopRequireDefault(_helpers);
-
 	var _hpblock = __webpack_require__(304);
 
 	var _hpblock2 = _interopRequireDefault(_hpblock);
@@ -32431,7 +32456,7 @@
 	        { className: _hpblock2.default.hp },
 	        hp
 	      ),
-	      _react2.default.createElement(_input2.default, { blurEvent: _helpers2.default.partialApply(calculate, index) })
+	      _react2.default.createElement(_input2.default, { blurEvent: (0, _helpers.partialApply)(calculate, index) })
 	    );
 	  });
 	  return _react2.default.createElement(
@@ -32675,14 +32700,9 @@
 	});
 	exports.default = appData;
 
-	var _state = __webpack_require__(309);
-
 	var _actionConstants = __webpack_require__(280);
 
-	function appData() {
-	  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : _state.initialState;
-	  var action = arguments[1];
-
+	function appData(state, action) {
 	  var encounter;
 	  switch (action.type) {
 	    case _actionConstants.SET_SELECTED_MONSTER:
