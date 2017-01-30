@@ -10,11 +10,12 @@ import HomeContainer from './components/c_home';
 import Encounter from './components/encounter';
 import appData from './redux/reducers';
 import { loadState, saveState } from './utilities/helpers';
+import { initialState } from './redux/state';
 import style from './style/global.css';
 
 const savedState = loadState();
 
-const store = createStore(appData, savedState);
+const store = createStore(appData, Object.assign({}, initialState, savedState));
 
 store.subscribe(() => {
   saveState({

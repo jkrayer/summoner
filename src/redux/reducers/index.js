@@ -1,4 +1,3 @@
-import { initialState } from '../state';
 import { SET_SELECTED_MONSTER,
          SET_MODAL_VISABILITY,
          SET_MONSTER_PANE_VISABILITY,
@@ -8,7 +7,7 @@ import { SET_SELECTED_MONSTER,
          UPDATE_ENCOUNTER_MONSTER
        } from '../actions/action-constants';
 
-export default function appData(state = initialState, action) {
+export default function appData(state, action) {
   var encounter;
   switch (action.type) {
     case SET_SELECTED_MONSTER:
