@@ -7,7 +7,7 @@ function sanitizeInput(input, filterBy) {
   if (filterBy === 'challenge_rating') {
     return input.replace(/[^\d/]/, '').trim();
   }
-  return input.replace(/[^a-z-']/gi, '').trim();
+  return input.replace(/[^a-z-'\s]/gi, '').trimLeft();
 }
 
 export default class TocWrapper extends React.Component {
