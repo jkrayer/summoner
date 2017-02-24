@@ -49,7 +49,7 @@ export default class TocWrapper extends React.Component {
 
     if (!filter) { return; }
 
-    const reg = filterBy === 'challenge_rating' ? new RegExp(['^', filter, ' '].join('')) : new RegExp(filter, 'gi');
+    const reg = filterBy === 'challenge_rating' ? new RegExp(['^', filter, ' '].join('')) : new RegExp(filter, 'i');
 
     new Promise((resolve) => {
       const filteredData = this.props.monsters.filter((monster) => {
