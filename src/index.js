@@ -5,8 +5,8 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-import AppContainer from './components/c_app';
-import HomeContainer from './components/c_home';
+import AppContainer from './container/app';
+import HomeContainer from './container/home';
 import Encounter from './components/encounter';
 import appData from './redux/reducers';
 import { loadState, saveState } from './utilities/helpers';
