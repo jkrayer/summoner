@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import AddMonster from './add-monster';
+import AddMonster from '../components/add-monster';
 
 import { ADD_ENCOUNTER_MONSTER, SET_MODAL_VISABILITY, SET_SLIDE_PANE_VISABILITY } from '../redux/actions/action-constants';
 

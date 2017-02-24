@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Monster from './monster';
+import Monster from '../components/monster';
 import {
   SET_MODAL_VISABILITY,
   SET_MONSTER_PANE_VISABILITY

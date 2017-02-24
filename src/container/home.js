@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import Home from './home';
+import Home from '../components/home';
 
 import { SET_MODAL_VISABILITY, SET_SLIDE_PANE_VISABILITY } from '../redux/actions/action-constants';
 

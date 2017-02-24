@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import TocWrapper from './toc-wrapper';
+import TocWrapper from '../components/toc-wrapper';
 import { SET_MONSTER_PANE_VISABILITY, SET_SELECTED_MONSTER } from '../redux/actions/action-constants';
 
 function mapStateToProps(state) {
