@@ -48,6 +48,7 @@ export default class AddMonster extends React.Component {
   render() {
     const { monster } = this.props;
     const hpRange = this.setHpRange();
+    if (monster === null) return;
     return (
       <form className={style.form}>
         <fieldset>
@@ -99,6 +100,6 @@ AddMonster.propTypes = {
     arrayIndex: React.PropTypes.number,
     challenge_rating: React.PropTypes.string,
     name: React.PropTypes.string
-  }).isRequired,
+  }), //.isRequired
   handleAddMonster: React.PropTypes.func.isRequired
 };
