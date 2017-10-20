@@ -1,19 +1,18 @@
-# summoner
+# Summoner
 
-Manage 5e Statblocks
+Search and view monster stat blocks from the Dungeons and Dragons Fifth Edition SRD.
 
-@internal data transforming, is it good/wise
-@internal need armor parenthetical
-@internal Proofreading
+## Demo
 
-@internal filter: merge type and subtype
-@internal filter: add terrain for search
+[Summoner](http://jameskrayer.com/summoner/).
 
-@internal push filters out of screen on mobile and toggle show.
+## Run Locally
 
-@internal Data Solution
-  - @internal Need add more monsters
+ 1. Clone this project.
+ 2. Switch to the folder and run `npm install`.
+ 3. Run `npm start`.
+ 4. Open the `build/index.html` in your browser of choice.
 
-@internal Integrate Lint with Workflow. Perhaps as a push hook to git
+## Request a feature or report a bug
 
-@internal slide-panel, monster knows its own visibility. shouldn't modal do the same?
+Add a [GitHub Issue](https://github.com/jkrayer/summoner/issues)
