@@ -1,6 +1,6 @@
 import React from 'react';
-import HpTrackContainer from './c_hptrack';
-import MonsterContainer from './c_monster';
+import HpTrackContainer from '../container/hptrack';
+import MonsterContainer from '../container/monster';
 
 
 export default function Encounter(props) {

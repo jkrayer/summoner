@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import HpTrack from './hptrack';
+import HpTrack from '../components/hptrack';
 import {
   DELETE_FROM_ENCOUNTER,
   SET_SELECTED_MONSTER,

@@ -3,7 +3,8 @@ import ButtonClose from './button-close';
 import style from '../style/modal.css';
 
 export default function Modal(props) {
-  const { children, closeEvent } = props;
+  const { children, closeEvent, show} = props;
+  if (!show) { return null; }
   return (
     <div className={style.overlay}>
       <div className={style.wrapper}>
@@ -16,5 +17,6 @@ export default function Modal(props) {
 
 Modal.propTypes = {
   children: React.PropTypes.element,
-  closeEvent: React.PropTypes.func.isRequired
+  closeEvent: React.PropTypes.func.isRequired,
+  show: React.PropTypes.bool.isRequired
 };

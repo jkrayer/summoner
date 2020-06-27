@@ -5,9 +5,10 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
-import AppContainer from './components/c_app';
-import HomeContainer from './components/c_home';
+import App from './components/app';
+import HomeContainer from './container/home';
 import Encounter from './components/encounter';
+import Encounters from './components/encounters';
 import appData from './redux/reducers';
 import { loadState, saveState } from './utilities/helpers';
 import { initialState } from './redux/state';
@@ -26,8 +27,9 @@ store.subscribe(() => {
 ReactDOM.render((
   <Provider store={store}>
     <Router history={hashHistory}>
-      <Route path="/" component={AppContainer}>
+      <Route path="/" component={App}>
         <IndexRoute component={HomeContainer} />
+        <Route path="/encounters" component={Encounters} />
         <Route path="/encounter" component={Encounter} />
       </Route>
     </Router>

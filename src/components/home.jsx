@@ -1,42 +1,39 @@
 import React from 'react';
-import TocContainer from './c_toc';
-import MonsterContainer from './c_monster';
-import AddMonsterContainer from './c_add-monster';
+import TocContainer from '../container/toc';
+import MonsterContainer from '../container/monster';
+import AddMonsterContainer from '../container/add-monster';
 import Modal from './modal';
 import SlidePanel from './slide-panel';
 
-export default class Home extends React.Component {
-  constructor(props) {
-    super(props);
-    this.setModal = this.setModal.bind(this);
-  }
-  setModal() {
-    const { closeModal } = this.props;
-    return (
-      <Modal closeEvent={closeModal}>
+export default function Home(props) {
+  const {
+    closeModal,
+    closeSlidePane,
+    encounter,
+    modalIsVisible,
+    slidePanelVisable
+  } = props;
+  const name = (encounter.length) ? encounter[encounter.length - 1].monster.name : null;
+
+  return (
+    <div>
+      <TocContainer />
+      <MonsterContainer />
+      <Modal
+        closeEvent={closeModal}
+        show={modalIsVisible}
+      >
         <AddMonsterContainer />
       </Modal>
-    );
-  }
-  render() {
-    const { closeSlidePane, encounter, modalIsVisible, slidePanelVisable } = this.props;
-    const modal = (modalIsVisible) ? this.setModal() : null;
-    const name = (encounter.length) ? encounter[encounter.length - 1].monster.name : null;
-    return (
-      <div>
-        <TocContainer />
-        <MonsterContainer />
-        {modal}
-        <SlidePanel
-          closeEvent={closeSlidePane}
-          show={slidePanelVisable}
-          timer={3000}
-        >
-          <p>{['Added:', name].join(' ')}</p>
-        </SlidePanel>
-      </div>
-    );
-  }
+      <SlidePanel
+        closeEvent={closeSlidePane}
+        show={slidePanelVisable}
+        timer={3000}
+      >
+        <p>{['Added:', name].join(' ')}</p>
+      </SlidePanel>
+    </div>
+  );
 }
 
 Home.propTypes = {
