@@ -17,19 +17,25 @@ const Home = () => {
           justify="center"
           alignItems="center"
         >
-          <Typography
-            variant="h4"
-            component="h1"
-          >
-            Summoner
-          </Typography>
-          <Search />
-          <Typography
-            variant="subtitle2"
-            component="p"
-          >
-            Search the <a href="http://www.dnd5eapi.co/">D&D 5e API</a> for monsters.
-          </Typography>
+          <Grid item>
+            <Typography
+              variant="h4"
+              component="h1"
+            >
+              Summoner
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Search />
+          </Grid>
+          <Grid item>
+            <Typography
+              variant="subtitle2"
+              component="p"
+            >
+              Search the <a href="http://www.dnd5eapi.co/">D&D 5e API</a> for monsters.
+            </Typography>
+          </Grid>
         </Grid>
       </Container>
     </Box>
