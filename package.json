@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "copy:static": "npm run mkDirs && cp src/static/index.html build/index.html",
+    "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint --plugin react --ext .js --ext .jsx src/",
     "mkDirs": "mkdir -p build",
     "start": "npm run copy:static && webpack --progress --colors --watch",
@@ -44,6 +45,7 @@
     "ignore-styles": "5.0.1",
     "jsdom": "9.4.5",
     "mocha": "3.0.2",
+    "prettier": "2.0.5",
     "react-addons-test-utils": "15.3.1",
     "style-loader": "0.13.1",
     "webpack": "1.13.2"
