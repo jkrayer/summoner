@@ -6,7 +6,7 @@
   "scripts": {
     "copy:static": "npm run mkDirs && cp src/static/index.html build/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint": "eslint --plugin react --ext .js --ext .jsx src/",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "mkDirs": "mkdir -p build",
     "start": "npm run copy:static && webpack --progress --colors --watch",
     "test": "mocha --compilers js:babel-register --require ignore-styles"
@@ -33,8 +33,8 @@
     "babel-preset-react": "6.11.1",
     "chai": "3.5.0",
     "css-loader": "0.24.0",
-    "eslint": "3.6.1",
-    "eslint-config-airbnb": "12.0.0",
+    "eslint": "7.3.1",
+    "eslint-config-prettier": "6.11.0",
     "eslint-plugin-babel": "3.3.0",
     "eslint-plugin-html": "1.5.3",
     "eslint-plugin-import": "1.16.0",
