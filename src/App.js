@@ -1,11 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-
-function Hw () {
-  return React.createElement('h1', {}, "Hello World!")
-}
+import Home from './components/Home'
 
 render(
-  (<Hw />),
+  (<Home />),
   document.getElementById('root')
 );
