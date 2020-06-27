@@ -6,6 +6,6 @@ function Hw () {
 }
 
 render(
-  React.createElement(Hw),
+  (<Hw />),
   document.getElementById('root')
 );
