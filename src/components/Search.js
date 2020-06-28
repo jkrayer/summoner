@@ -6,10 +6,11 @@ import {
 } from '@material-ui/core';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
-const Search = () => {
+const Search = (props) => {
   const [open, setOpen] = React.useState(false);
   const [options, setOptions] = React.useState([]);
   const loading = open && options.length === 0;
+  const { change } = props
 
   React.useEffect(() => {
     let active = true;
@@ -32,12 +33,6 @@ const Search = () => {
     };
   }, [loading]);
 
-  // React.useEffect(() => {
-  //   if (!open) {
-  //     setOptions([]);
-  //   }
-  // }, [open]);
-
   return (
     <Autocomplete
       id="asynchronous-demo"
@@ -49,6 +44,7 @@ const Search = () => {
       onClose={() => {
         setOpen(false);
       }}
+      onChange={(event, value) => change(value.url)}
       getOptionSelected={(option, value) => option.name === value.name}
       getOptionLabel={(option) => option.name}
       options={options}

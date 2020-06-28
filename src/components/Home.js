@@ -1,13 +1,16 @@
 import React from 'react';
-import Search from './Search';
 import {
   Box,
   Container,
   Grid,
   Typography
 } from '@material-ui/core';
+import Search from './Search';
+import Monster from './Monster';
 
 const Home = () => {
+  const [modal, setModal] = React.useState('');
+
   return (
     <Box>
       <Container maxWidth="sm">
@@ -26,7 +29,7 @@ const Home = () => {
             </Typography>
           </Grid>
           <Grid item>
-            <Search />
+            <Search change={setModal} />
           </Grid>
           <Grid item>
             <Typography
@@ -38,6 +41,7 @@ const Home = () => {
           </Grid>
         </Grid>
       </Container>
+      <Monster path={modal} />
     </Box>
   );
 }
