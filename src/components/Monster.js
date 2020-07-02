@@ -28,8 +28,8 @@ const Monster = (props) => {
       <Modal
         open={open}
         onClose={handleClose}
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
+        aria-labelledby="monster-title"
+        aria-describedby="monster-description"
       >
         <div>
           <MonsterView data={monster} />
