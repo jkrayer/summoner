@@ -1,30 +1,41 @@
-import React from 'react';
-import fetch from 'cross-fetch';
+import React from "react";
+import fetch from "cross-fetch";
+import { Modal } from "@material-ui/core";
+import MonsterView from "./MonsterView";
 
 const Monster = (props) => {
-  const { path } = props;
   let lastPath = null;
-  let loading = false;
+  const { path } = props;
   const [open, setOpen] = React.useState(false);
   const [monster, setMonster] = React.useState({});
+  const handleClose = () => setOpen(false);
 
-  React.useEffect(
-    () => {
-      if (path !== '' && path !== lastPath) {
-        loading = true;
-        lastPath = path;
+  React.useEffect(() => {
+    if (path !== "" && path !== lastPath) {
+      lastPath = path;
 
-        (async () => {
-          const response = await fetch(`https://www.dnd5eapi.co${path}`);
-          const result  = await response.json();
-          setMonster(result);
-          loading = false;
-        })();
-      }
+      (async () => {
+        const response = await fetch(`https://www.dnd5eapi.co${path}`);
+        const result = await response.json();
+        setMonster(result);
+        setOpen(true);
+      })();
+    }
   }, [path]);
 
   return (
-    <h1>H1: { path }</h1>
+    <div>
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="simple-modal-title"
+        aria-describedby="simple-modal-description"
+      >
+        <div>
+          <MonsterView data={monster} />
+        </div>
+      </Modal>
+    </div>
   );
 };
 
