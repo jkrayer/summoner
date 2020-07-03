@@ -48,8 +48,6 @@ const MonsterView = (props) => {
   const saving_throws = getSaves(data);
   const skills = kvStrings(data.skills);
 
-  console.log(data);
-
   return (
     <article>
       <Box component="header" className={classes.divider}>

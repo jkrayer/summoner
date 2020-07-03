@@ -21,7 +21,7 @@ const Stat = (props) => {
   const classes = useStyles();
   const key = Object.keys(data)[0];
   const val = data[key];
-  console.log(key, val);
+
   if (val.length === 0) {
     return null;
   }
