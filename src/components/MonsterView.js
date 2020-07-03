@@ -1,83 +1,92 @@
 import React from "react";
-import Speed from "./Speed";
+import { Box, Container, Modal, Typography } from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import { toStrings } from "../utilities/helpers";
 import Scores from "./Scores";
 import Stat from "./Stat";
 import Proficiencies from "./Proficiencies";
-import Conditions from "./Conditions";
 import Ability from "./Ability";
 import Senses from "./Senses";
 
+const useStyles = makeStyles((theme) => ({
+  title: {
+    color: "#501e0e",
+    fontFamily: "Times, 'Times New Roman', Georgia, serif",
+    fontVariant: "small-caps",
+    letterSpacing: ".01em",
+  },
+  divider: {
+    borderBottom: "2px solid #a40b07",
+  },
+}));
+
 const MonsterView = (props) => {
   const { data } = props;
+  const classes = useStyles();
   const {
     actions,
     armor_class,
-    condition_immunities,
+    challenge_rating,
     damage_immunities,
     damage_resistances,
     damage_vulnerabilities,
     hit_dice,
     hit_points,
+    languages,
     proficiencies,
+    reactions,
     senses,
     special_abilities,
     legendary_actions,
   } = data;
-
-  console.log(data);
+  const speed = toStrings(data.speed);
+  const condition_immunities = data.condition_immunities.map(
+    (cond) => cond.name
+  );
 
   return (
     <article>
-      <header>
-        <h1 id="monster-title">{data.name}</h1>
-        <p id="monste-description">
+      <Box component="header" className={classes.divider}>
+        <Typography
+          id="monster-title"
+          className={classes.title}
+          variant="h5"
+          component="h1"
+        >
+          {data.name}
+        </Typography>
+        <Box component="p" mt={0} fontStyle="oblique" id="monster-description">
           {`${data.size} ${data.type}, ${data.alignment}`}
-        </p>
-      </header>
-      <section>
+        </Box>
+      </Box>
+      <Box component="section" className={classes.divider}>
         <dl>
-          <dt>Armor Class</dt>
-          <dd>{armor_class}</dd>
-          <dt>Hit points</dt>
-          <dd>{`${hit_points} (${hit_dice})`}</dd>
-          <Speed data={data.speed} />
+          <Stat data={{ armor_class: [armor_class] }} />
+          <Stat data={{ hit_points: [`${hit_points} (${hit_dice})`] }} />
+          <Stat data={{ speed }} />
         </dl>
-      </section>
-      <section>
+      </Box>
+      <Box component="section" className={classes.divider}>
         <Scores scores={data} />
-      </section>
-      <section>
+      </Box>
+      <Box component="section" className={classes.divider}>
         <dl>
           <Proficiencies data={{ proficiencies }} />
           <Stat data={{ damage_vulnerabilities }} />
           <Stat data={{ damage_resistances }} />
           <Stat data={{ damage_immunities }} />
-          <Conditions data={{ condition_immunities }} />
+          <Stat data={{ condition_immunities }} />
           <Senses data={senses} />
-          <dt>{data.languages ? "Languages" : null}</dt>
-          <dd>{data.languages ? data.languages : null}</dd>
-          <dt>{data.challenge_rating ? "Challenge" : null}</dt>
-          <dd>{data.challenge_rating ? data.challenge_rating : null}</dd>
+          <Stat data={{ languages: [languages] }} />
+          <Stat data={{ challenge_rating: [challenge_rating] }} />
         </dl>
-      </section>
-      <Ability data={{ special_abilities }} />
+      </Box>
+      <Ability data={{ special_abilities }} hide={true} />
       <Ability data={{ actions }} />
       <Ability data={{ legendary_actions }} />
+      <Ability data={{ reactions }} />
     </article>
   );
 };
 
 export default MonsterView;
-
-// -- const specialAbilities = !data.special_abilities ? null : (
-//   <DlContainer data={data.special_abilities} />
-// );
-// -- const actions = !data.actions ? null : (
-//   <DlContainer data={data.actions} hl="Actions" />
-// );
-// const reactions = !data.reactions ? null : (
-//   <DlContainer data={data.reactions} hl="Reactions" />
-// );
-// -- const legendaryActions = !data.legendary_actions ? null : (
-//   <DlContainer data={data.legendary_actions} hl="Legendary Actions" />
-// );

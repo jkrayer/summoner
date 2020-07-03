@@ -1,7 +1,26 @@
 import React from "react";
-import Score from "./Score";
+import { makeStyles } from "@material-ui/core/styles";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@material-ui/core";
+import { calculateMod } from "../utilities/helpers";
+
+const useStyles = makeStyles((theme) => ({
+  cell: {
+    padding: theme.spacing(0, 2, 2, 2),
+  },
+  head: {
+    padding: theme.spacing(2, 2, 0, 2),
+    borderBottom: "none",
+  },
+}));
 
 const Scores = (props) => {
+  const classes = useStyles();
   const {
     strength,
     dexterity,
@@ -11,41 +30,49 @@ const Scores = (props) => {
     charisma,
   } = props.scores;
 
+  const cells = [
+    strength,
+    dexterity,
+    constitution,
+    intelligence,
+    wisdom,
+    charisma,
+  ].map((score) => ({ score, mod: calculateMod(score) }));
+
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>{"STR"}</th>
-          <th>{"DEX"}</th>
-          <th>{"CON"}</th>
-          <th>{"INT"}</th>
-          <th>{"WIS"}</th>
-          <th>{"CHA"}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <Score score={strength} />
-          </td>
-          <td>
-            <Score score={dexterity} />
-          </td>
-          <td>
-            <Score score={constitution} />
-          </td>
-          <td>
-            <Score score={intelligence} />
-          </td>
-          <td>
-            <Score score={wisdom} />
-          </td>
-          <td>
-            <Score score={charisma} />
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <Table aria-label="simple table">
+      <TableHead>
+        <TableRow>
+          <TableCell align="center" className={classes.head}>
+            STR
+          </TableCell>
+          <TableCell align="center" className={classes.head}>
+            DEX
+          </TableCell>
+          <TableCell align="center" className={classes.head}>
+            CON
+          </TableCell>
+          <TableCell align="center" className={classes.head}>
+            INT
+          </TableCell>
+          <TableCell align="center" className={classes.head}>
+            WIS
+          </TableCell>
+          <TableCell align="center" className={classes.head}>
+            CHA
+          </TableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow>
+          {cells.map((cell, ind) => (
+            <TableCell key={ind} align="center" className={classes.cell}>{`${
+              cell.score
+            } (${cell.mod > 0 ? "+" : ""}${cell.mod})`}</TableCell>
+          ))}
+        </TableRow>
+      </TableBody>
+    </Table>
   );
 };
 

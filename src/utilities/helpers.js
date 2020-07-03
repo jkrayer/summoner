@@ -4,3 +4,12 @@ export const bookCase = (string) => {
     a.toUpperCase().replace("_", " ")
   );
 };
+
+export const toStrings = (obj) => {
+  return Object.keys(obj).map((key) => `${key}: ${obj[key]}`);
+};
+
+// Number => Number
+export const calculateMod = (score) => {
+  return Math.floor((score - 10) / 2);
+};

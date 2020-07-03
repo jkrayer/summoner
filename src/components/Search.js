@@ -1,16 +1,13 @@
-import React from 'react';
-import fetch from 'cross-fetch';
-import {
-  CircularProgress,
-  TextField
-} from '@material-ui/core';
-import Autocomplete from '@material-ui/lab/Autocomplete';
+import React from "react";
+import fetch from "cross-fetch";
+import { CircularProgress, TextField } from "@material-ui/core";
+import Autocomplete from "@material-ui/lab/Autocomplete";
 
 const Search = (props) => {
   const [open, setOpen] = React.useState(false);
   const [options, setOptions] = React.useState([]);
   const loading = open && options.length === 0;
-  const { change } = props
+  const { change } = props;
 
   React.useEffect(() => {
     let active = true;
@@ -20,7 +17,7 @@ const Search = (props) => {
     }
 
     (async () => {
-      const response = await fetch('https://www.dnd5eapi.co/api/monsters/');
+      const response = await fetch("https://www.dnd5eapi.co/api/monsters/");
       const { results } = await response.json();
 
       if (active) {
@@ -35,8 +32,7 @@ const Search = (props) => {
 
   return (
     <Autocomplete
-      id="asynchronous-demo"
-      style={{ width: 300 }}
+      style={{ width: 300, margin: "0 auto" }}
       open={open}
       onOpen={() => {
         setOpen(true);
@@ -52,13 +48,15 @@ const Search = (props) => {
       renderInput={(params) => (
         <TextField
           {...params}
-          label="Asynchronous"
+          label="Monster"
           variant="outlined"
           InputProps={{
             ...params.InputProps,
             endAdornment: (
               <React.Fragment>
-                {loading ? <CircularProgress color="inherit" size={20} /> : null}
+                {loading ? (
+                  <CircularProgress color="inherit" size={20} />
+                ) : null}
                 {params.InputProps.endAdornment}
               </React.Fragment>
             ),
@@ -67,6 +65,6 @@ const Search = (props) => {
       )}
     />
   );
-}
+};
 
 export default Search;
