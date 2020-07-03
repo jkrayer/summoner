@@ -1,6 +1,6 @@
 # Summoner
 
-Search and view monster stat blocks from the Dungeons and Dragons Fifth Edition SRD.
+Search the [Open 5e API](https://api.open5e.com/) for monsters.
 
 ## Demo
 
@@ -8,10 +8,10 @@ Search and view monster stat blocks from the Dungeons and Dragons Fifth Edition 
 
 ## Run Locally
 
- 1. Clone this project.
- 2. Switch to the folder and run `npm install`.
- 3. Run `npm start`.
- 4. Open the `build/index.html` in your browser of choice.
+1.  Clone this project.
+2.  Switch to the folder and run `npm install`.
+3.  Run `npm run dev`.
+4.  Navigate to [http://localhost:1234/](http://localhost:1234/) in your browser of choice.
 
 ## Request a feature or report a bug
 
