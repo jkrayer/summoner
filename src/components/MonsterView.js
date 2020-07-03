@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Container, Modal, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { toStrings } from "../utilities/helpers";
+import { speedStrings } from "../utilities/helpers";
 import Scores from "./Scores";
 import Stat from "./Stat";
 import Proficiencies from "./Proficiencies";
@@ -39,10 +39,12 @@ const MonsterView = (props) => {
     special_abilities,
     legendary_actions,
   } = data;
-  const speed = toStrings(data.speed);
+  const speed = speedStrings(data.speed);
   const condition_immunities = data.condition_immunities.map(
     (cond) => cond.name
   );
+
+  console.log(data);
 
   return (
     <article>

@@ -5,8 +5,13 @@ export const bookCase = (string) => {
   );
 };
 
-export const toStrings = (obj) => {
-  return Object.keys(obj).map((key) => `${key}: ${obj[key]}`);
+export const speedStrings = (obj) => {
+  return Object.keys(obj).map((key) => {
+    if (obj[key] === true) {
+      return `(${key})`;
+    }
+    return `${key}: ${obj[key]}`;
+  });
 };
 
 // Number => Number
