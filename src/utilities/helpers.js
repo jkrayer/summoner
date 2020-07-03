@@ -1,32 +1,44 @@
-export function getXp(cr) {
-  return parseInt(/\([,\d]*/g.exec(cr)[0].slice(1).replace(',', ''), 10);
-}
+// String -> String
+export const bookCase = (string) => {
+  return string.replace(/^[a-z]|_[a-z]/g, (a) =>
+    a.toUpperCase().replace("_", " ")
+  );
+};
 
-export function partialApply(func) {
-  var args = [].slice.call(arguments, 1);
-  return function part() {
-    func.apply(null, args.concat( [].slice.call(arguments) ));
-  };
-}
-
-export function loadState() {
-  try {
-    const savedState = localStorage.getItem('summoner');
-    if (savedState === null) {
-      return undefined;
+export const kvStrings = (obj) => {
+  return Object.keys(obj).map((key) => {
+    if (obj[key] === true) {
+      return `(${key})`;
     }
-    return JSON.parse(savedState);
-  } catch (err) {
-    console.error('Error retrieving saved state: ' + err);
-    return undefined;
-  }
-}
+    return `${key}: ${obj[key]}`;
+  });
+};
 
-export function saveState(state) {
-  try {
-    const saveState = JSON.stringify(state);
-    localStorage.setItem('summoner', saveState);
-  } catch (err) {
-    console.error('Error saving state: ' + err);
-  }
-}
+// Number => Number
+export const calculateMod = (score) => {
+  return Math.floor((score - 10) / 2);
+};
+
+// Num -> String
+export const symbol = (num) => {
+  return num > 0 ? "+" : "";
+};
+
+// Object => Array
+export const getSaves = (obj) => {
+  return [
+    "strength_save",
+    "dexterity_save",
+    "constitution_save",
+    "intelligence_save",
+    "wisdom_save",
+    "charisma_save",
+  ].reduce((acc, key) => {
+    if (obj[key] !== null) {
+      const mod = obj[key];
+      acc.push(`${key.substring(0, 3)} ${symbol(mod)}${mod}`);
+    }
+
+    return acc;
+  }, []);
+};
