@@ -1,11 +1,5 @@
 import React from "react";
-
-// String -> String
-const bookCase = (string) => {
-  return string.replace(/^[a-z]|_[a-z]/g, (a) =>
-    a.toUpperCase().replace("_", " ")
-  );
-};
+import { bookCase } from "../utilities/helpers";
 
 const Ability = (props) => {
   const { data } = props;
