@@ -7,7 +7,7 @@ import {
   TableHead,
   TableRow,
 } from "@material-ui/core";
-import { calculateMod } from "../utilities/helpers";
+import { calculateMod, symbol } from "../utilities/helpers";
 
 const useStyles = makeStyles((theme) => ({
   cell: {
@@ -68,7 +68,7 @@ const Scores = (props) => {
           {cells.map((cell, ind) => (
             <TableCell key={ind} align="center" className={classes.cell}>{`${
               cell.score
-            } (${cell.mod > 0 ? "+" : ""}${cell.mod})`}</TableCell>
+            } (${symbol(cell.mod)}${cell.mod})`}</TableCell>
           ))}
         </TableRow>
       </TableBody>

@@ -38,6 +38,7 @@ const Ability = (props) => {
   return (
     <section>
       {heading}
+      {props.children}
       <dl>
         {val.reduce((acc, ability, ind) => {
           const { name } = ability;

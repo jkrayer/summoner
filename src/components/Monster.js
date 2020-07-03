@@ -1,5 +1,4 @@
 import React from "react";
-import fetch from "cross-fetch";
 import { Box, Container, Modal } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import MonsterView from "./MonsterView";
@@ -21,25 +20,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Monster = (props) => {
-  let lastPath = null;
-  const { path } = props;
+  const { data } = props;
   const classes = useStyles();
   const [open, setOpen] = React.useState(false);
-  const [monster, setMonster] = React.useState({});
-  const handleClose = () => setOpen(false);
 
   React.useEffect(() => {
-    if (path !== "" && path !== lastPath) {
-      lastPath = path;
-
-      (async () => {
-        const response = await fetch(`https://www.dnd5eapi.co${path}`);
-        const result = await response.json();
-        setMonster(result);
-        setOpen(true);
-      })();
+    if (Object.keys(data).length > 0) {
+      setOpen(true);
     }
-  }, [path]);
+  }, [data]);
 
   return (
     <div>
@@ -48,10 +37,10 @@ const Monster = (props) => {
         aria-describedby="monster-description"
         className={classes.modal}
         open={open}
-        onClose={handleClose}
+        onClose={() => setOpen(false)}
       >
         <Container maxWidth="sm" className={classes.paper}>
-          <MonsterView data={monster} />
+          <MonsterView data={data} />
         </Container>
       </Modal>
     </div>

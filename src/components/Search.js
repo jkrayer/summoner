@@ -17,7 +17,9 @@ const Search = (props) => {
     }
 
     (async () => {
-      const response = await fetch("https://www.dnd5eapi.co/api/monsters/");
+      const response = await fetch(
+        "https://api.open5e.com/monsters/?limit=3000"
+      );
       const { results } = await response.json();
 
       if (active) {
@@ -40,7 +42,7 @@ const Search = (props) => {
       onClose={() => {
         setOpen(false);
       }}
-      onChange={(event, value) => change(value.url)}
+      onChange={(event, value) => change(value || {})}
       getOptionSelected={(option, value) => option.name === value.name}
       getOptionLabel={(option) => option.name}
       options={options}

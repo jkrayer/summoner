@@ -4,7 +4,7 @@ import Search from "./Search";
 import Monster from "./Monster";
 
 const Home = () => {
-  const [modal, setModal] = React.useState("");
+  const [monsterData, setMonsterData] = React.useState({});
 
   return (
     <Container component="main" maxWidth="sm">
@@ -16,16 +16,16 @@ const Home = () => {
       </Box>
       <Box p={{ xs: 1 }}>
         <form noValidate>
-          <Search change={setModal} />
+          <Search change={setMonsterData} />
         </form>
       </Box>
       <Box p={{ xs: 1 }} textAlign="center">
         <Typography variant="subtitle2" component="p">
-          Search the <a href="http://www.dnd5eapi.co/">D&D 5e API</a> for
+          Search the <a href="https://api.open5e.com/">Open 5e API</a> for
           monsters.
         </Typography>
       </Box>
-      <Monster path={modal} />
+      <Monster data={monsterData} />
     </Container>
   );
 };

@@ -1,12 +1,10 @@
 import React from "react";
 import { Box, Container, Modal, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import { speedStrings } from "../utilities/helpers";
+import { kvStrings, getSaves } from "../utilities/helpers";
 import Scores from "./Scores";
 import Stat from "./Stat";
-import Proficiencies from "./Proficiencies";
 import Ability from "./Ability";
-import Senses from "./Senses";
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -25,24 +23,30 @@ const MonsterView = (props) => {
   const classes = useStyles();
   const {
     actions,
+    alignment,
     armor_class,
+    armor_desc,
     challenge_rating,
+    condition_immunities,
     damage_immunities,
     damage_resistances,
     damage_vulnerabilities,
     hit_dice,
     hit_points,
     languages,
-    proficiencies,
+    legendary_actions,
+    legendary_desc,
+    name,
     reactions,
     senses,
     special_abilities,
-    legendary_actions,
+    size,
+    type,
   } = data;
-  const speed = speedStrings(data.speed);
-  const condition_immunities = data.condition_immunities.map(
-    (cond) => cond.name
-  );
+
+  const speed = kvStrings(data.speed);
+  const saving_throws = getSaves(data);
+  const skills = kvStrings(data.skills);
 
   console.log(data);
 
@@ -55,15 +59,15 @@ const MonsterView = (props) => {
           variant="h5"
           component="h1"
         >
-          {data.name}
+          {name}
         </Typography>
         <Box component="p" mt={0} fontStyle="oblique" id="monster-description">
-          {`${data.size} ${data.type}, ${data.alignment}`}
+          {`${size} ${type}, ${alignment}`}
         </Box>
       </Box>
       <Box component="section" className={classes.divider}>
         <dl>
-          <Stat data={{ armor_class: [armor_class] }} />
+          <Stat data={{ armor_class: [`${armor_class} (${armor_desc})`] }} />
           <Stat data={{ hit_points: [`${hit_points} (${hit_dice})`] }} />
           <Stat data={{ speed }} />
         </dl>
@@ -73,19 +77,22 @@ const MonsterView = (props) => {
       </Box>
       <Box component="section" className={classes.divider}>
         <dl>
-          <Proficiencies data={{ proficiencies }} />
+          <Stat data={{ saving_throws }} />
+          <Stat data={{ skills }} />
           <Stat data={{ damage_vulnerabilities }} />
           <Stat data={{ damage_resistances }} />
           <Stat data={{ damage_immunities }} />
           <Stat data={{ condition_immunities }} />
-          <Senses data={senses} />
-          <Stat data={{ languages: [languages] }} />
-          <Stat data={{ challenge_rating: [challenge_rating] }} />
+          <Stat data={{ senses }} />
+          <Stat data={{ languages }} />
+          <Stat data={{ challenge_rating }} />
         </dl>
       </Box>
       <Ability data={{ special_abilities }} hide={true} />
       <Ability data={{ actions }} />
-      <Ability data={{ legendary_actions }} />
+      <Ability data={{ legendary_actions }}>
+        <p>{legendary_desc}</p>
+      </Ability>
       <Ability data={{ reactions }} />
     </article>
   );
